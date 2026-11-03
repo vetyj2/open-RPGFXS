@@ -1,0 +1,127 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-06-0004",
+  "name_ko": "연속 빗줄기 · 천둥 없이 떨어지는 빗방울",
+  "file": "audio/06/ORFXS-06-0004.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 87840
+  },
+  "sha256": "4a7ad6dd7f9ab9b8751231530c1b8c340e0ed66777a57c49ef3a056291c81747",
+  "pcm_sha256": "803d2bc24a3b3cbe5bb829e4ed26ac43fabb16d0c845e3dd69cb30bb7eace614",
+  "metrics": {
+    "duration_ms": 1830.0,
+    "sample_peak_dbfs": -19.7487,
+    "sample_peak_ms": 660.604167,
+    "active_rms_dbfs": -39.6949,
+    "first_activity_ms": 0,
+    "last_activity_ms": 1810,
+    "main_onset_candidate_ms": 120,
+    "transient_candidates_ms": [
+      142.5,
+      277.5,
+      452.5,
+      662.5,
+      762.5,
+      897.5,
+      1017.5,
+      1147.5,
+      1252.5,
+      1352.5,
+      1477.5,
+      1582.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "MATCH-RAIN-01"
+  ],
+  "sources": [
+    {
+      "source_id": "MATCH-RAIN-01",
+      "source_sha256": "d9378db47db8d147a4e9161bd4fd2c40fb4a32c28b408bdabeec2cdded4fc4d1",
+      "start_sample": 0,
+      "end_sample_exclusive": 87840,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 425.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-06-003-01-P01"
+  ],
+  "usage_levels": [
+    1
+  ],
+  "concepts": [
+    "continuous",
+    "rain"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "unreviewed",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "MATCH-RAIN-01"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-06-003-01-P01",
+      "source_id": "rpg-30-l01",
+      "name_ko": "환경 · 빗줄기",
+      "level": 1
+    }
+  ],
+  "best_use": [
+    "환경 · 빗줄기"
+  ],
+  "usage_patterns": [
+    "continuous"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "continuous",
+      "event_count": 0,
+      "intervals_ms": [],
+      "confidence": "not-applicable / continuous"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      1
+    ],
+    "sample_peak_dbfs": -19.7487,
+    "active_rms_dbfs": -39.6949,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "continuous",
+      "rain"
+    ],
+    "temporal_patterns": [
+      "continuous"
+    ],
+    "duration_ms": 1830.0,
+    "main_onset_candidate_ms": 120,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

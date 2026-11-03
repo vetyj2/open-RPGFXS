@@ -1,0 +1,145 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-01-0030",
+  "name_ko": "젖은 관통 접촉 3 · 신규 단발",
+  "file": "audio/01/ORFXS-01-0030.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 12000
+  },
+  "sha256": "c33c0f3d8bc318a394a738ad4f8f6dc6b508ee698f7c15c5ffc81fc5af9e9284",
+  "pcm_sha256": "c33ffbe93c31cdc32e9ddbbc6d077472bc2d6c40525da82e6d57537244d7baf5",
+  "metrics": {
+    "duration_ms": 250.0,
+    "sample_peak_dbfs": -3.0643,
+    "sample_peak_ms": 7.208333,
+    "active_rms_dbfs": -22.4396,
+    "first_activity_ms": 0,
+    "last_activity_ms": 245,
+    "main_onset_candidate_ms": 0,
+    "transient_candidates_ms": [
+      52.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "REM-WET-03"
+  ],
+  "sources": [
+    {
+      "source_id": "REM-WET-03",
+      "source_sha256": "82691032e6d7fc4be7b3e4c6f6739d02af005773a36f014e7eed1758f0aaa466",
+      "start_sample": 1920,
+      "end_sample_exclusive": 13920,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 90.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-01-017-03-P01",
+    "ORFX-01-018-05-P01",
+    "ORFX-01-019-04-P01",
+    "ORFX-01-019-05-P01"
+  ],
+  "usage_levels": [
+    50,
+    75,
+    99
+  ],
+  "concepts": [
+    "arrow",
+    "blood",
+    "projectile"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "unreviewed",
+      "reuse_blocked": false,
+      "source_id": "REM-WET-03"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-01-017-03-P01",
+      "source_id": "rpg-83-l50",
+      "name_ko": "화살 · 1발 · 출혈",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-01-018-05-P01",
+      "source_id": "rpg-84-l99",
+      "name_ko": "화살 · 2발 · 출혈",
+      "level": 99
+    },
+    {
+      "pairing": "ORFX-01-019-04-P01",
+      "source_id": "rpg-85-l75",
+      "name_ko": "화살 · 3발 · 출혈",
+      "level": 75
+    },
+    {
+      "pairing": "ORFX-01-019-05-P01",
+      "source_id": "rpg-85-l99",
+      "name_ko": "화살 · 3발 · 출혈",
+      "level": 99
+    }
+  ],
+  "best_use": [
+    "화살 · 1발 · 출혈",
+    "화살 · 2발 · 출혈",
+    "화살 · 3발 · 출혈"
+  ],
+  "usage_patterns": [
+    "one-shot",
+    "sequence"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "route-level hypothesis; listen for intrinsic secondary events"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      50,
+      75,
+      99
+    ],
+    "sample_peak_dbfs": -3.0643,
+    "active_rms_dbfs": -22.4396,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "arrow",
+      "blood",
+      "projectile"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 250.0,
+    "main_onset_candidate_ms": 0,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "schema": "open-rpgfxs.animation/1",
+  "code": "ORFX-03-006-05",
+  "name_ko": "다형 혼합 탐색",
+  "category": "03",
+  "category_name": "검격",
+  "intensity_stage": 5,
+  "game_level": 99,
+  "intensity_note": "00/null is unspecified, not inferred from generation order",
+  "file": "spritesheets/03/ORFX-03-006-05.png",
+  "thumbnail": "thumbnails/03/ORFX-03-006-05.png",
+  "frame_size": [
+    384,
+    384
+  ],
+  "source_native_frame_size": [
+    128,
+    128
+  ],
+  "filter": "nearest",
+  "alpha": "straight RGBA; transparent background",
+  "pivot_px": [
+    192,
+    192
+  ],
+  "focus_coordinate_space": "local centered effect; place pivot at runtime target/caster",
+  "fps": 24,
+  "recommended_frame_ms": 41.666667,
+  "frame_durations_ms": null,
+  "recommended_duration_ms": 750.0,
+  "frame_count": 18,
+  "columns": 5,
+  "rows": 4,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 0.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 1,
+      "x": 384,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 41.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 2,
+      "x": 768,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 83.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 3,
+      "x": 1152,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 125.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 4,
+      "x": 1536,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 166.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 5,
+      "x": 0,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 208.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 6,
+      "x": 384,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 250.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 7,
+      "x": 768,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 291.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 8,
+      "x": 1152,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 333.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 9,
+      "x": 1536,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 375.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 10,
+      "x": 0,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 416.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 11,
+      "x": 384,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 458.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 12,
+      "x": 768,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 500.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 13,
+      "x": 1152,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 541.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 14,
+      "x": 1536,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 583.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 15,
+      "x": 0,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 625.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 16,
+      "x": 384,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 666.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 17,
+      "x": 768,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 708.333333,
+      "duration_ms": 41.666667
+    }
+  ],
+  "playback": "one-shot reviewed; source loop is not a certified seamless loop",
+  "sequence_sha256": "a8c2d3a952a90414f0c8a36b0ad5dcf5c36d751201f9b92d82e9d1da77b2e0cd",
+  "file_sha256": "ca366f1b0a25ad1f2f02b042f6c53a5e908bd9bdb69ac28033027c72530de439",
+  "source_native_hashes": [
+    "81e2ef48873143e3d10d4225e317221e695ee5a75ca06cf04096bece00753516"
+  ],
+  "source_ids": [
+    "rpg-17-l99"
+  ],
+  "pairings": [
+    "ORFX-03-006-05-P01"
+  ],
+  "concepts": [
+    "slash"
+  ],
+  "thumbnail_frame": 2,
+  "visible_first_ms": 41.666667,
+  "visible_end_ms": 625.0,
+  "pairing_metadata": [
+    "pairings/ORFX-03-006-05-P01.json"
+  ],
+  "timing_by_pairing": {
+    "ORFX-03-006-05-P01": {
+      "impact_events": [
+        {
+          "time_ms": 41.666667,
+          "kind": "attack_candidate",
+          "confidence": "candidate",
+          "basis": "working/candidates/rpg-17-l99/pixel-grids/128/effect.json의 검궤 진행 50% (접촉 가설)",
+          "frame_fraction": 1.0,
+          "sample_48k": 2000,
+          "local_point_px": [
+            192,
+            192
+          ],
+          "position_basis": "package pivot / target focus; contact surface pixels not independently measured"
+        }
+      ],
+      "impact_intervals_ms": [],
+      "temporal_pattern": "one-shot",
+      "review_anchor_ms": 41.66666664999978,
+      "review_anchor_basis": "원본 동작 시계 · 접촉 가설"
+    }
+  }
+}

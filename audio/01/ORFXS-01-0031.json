@@ -1,0 +1,149 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-01-0031",
+  "name_ko": "화살 · 2발 · 출혈 · 음원 후보",
+  "file": "audio/01/ORFXS-01-0031.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 43200
+  },
+  "sha256": "0bea5f17c1ddbfac0053c4fd2b54f128357303f92853dce605fd8c2ccf9bfc8e",
+  "pcm_sha256": "74000aa6e02c8364c0a51ecfc6da81f2bd4b0338f1c129b9f678a9e98c6539d3",
+  "metrics": {
+    "duration_ms": 900.0,
+    "sample_peak_dbfs": -3.4172,
+    "sample_peak_ms": 191.666667,
+    "active_rms_dbfs": -22.9836,
+    "first_activity_ms": 0,
+    "last_activity_ms": 875,
+    "main_onset_candidate_ms": 90,
+    "transient_candidates_ms": [
+      62.5,
+      192.5,
+      297.5,
+      397.5,
+      522.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "100"
+  ],
+  "sources": [
+    {
+      "source_id": "100",
+      "source_sha256": "804029e00308a2480731fa9ae1f35bd7ceb80b8b53aeb42b610b35e7a9883cd9",
+      "start_sample": 48213,
+      "end_sample_exclusive": 91413,
+      "fade_in_ms": 155.0,
+      "fade_out_ms": 441.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-01-018-01-P01"
+  ],
+  "usage_levels": [
+    1
+  ],
+  "concepts": [
+    "arrow",
+    "blood",
+    "projectile"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "extra-foley-rpg-83-20261028",
+      "prompt": "Six-second photorealistic single continuous shot; the visible physical action must generate a clear close, bold, realistic synchronized sound with onset, body and natural decay. No background music, singing, speech, narration, chiptune, 8-bit, synthetic game effects, cartoons, edits, subtitles, digital clipping, or unrelated sound. Avoid unnecessary mechanical hum. Make the action audibly strong enough for dramatic Foley without inventing an inaudible or offscreen cause. A real arrow already in flight strikes and penetrates the center of a synthetic ballistic gel archery target near the start of the shot. A short, sharp aerodynamic pass immediately precedes one convincing close wet-dense piercing thud; retain only its natural brief decay, no second impact or rattling, and no graphic blood. One distinct impact component for later repetition.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-83",
+      "prompt": "Six-second photorealistic single continuous shot; the visible physical action must generate a clear close, bold, realistic synchronized sound with onset, body and natural decay. No background music, singing, speech, narration, chiptune, 8-bit, synthetic game effects, cartoons, edits, subtitles, digital clipping, or unrelated sound. Avoid unnecessary mechanical hum. Make the action audibly strong enough for dramatic Foley without inventing an inaudible or offscreen cause. A real arrow already in flight strikes and penetrates the center of a synthetic ballistic gel archery target near the start of the shot. A short, sharp aerodynamic pass immediately precedes one convincing close wet-dense piercing thud; retain only its natural brief decay, no second impact or rattling, and no graphic blood. One distinct impact component for later repetition.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-84",
+      "prompt": "Six-second photorealistic single continuous shot; the visible physical action must generate a clear close, bold, realistic synchronized sound with onset, body and natural decay. No background music, singing, speech, narration, chiptune, 8-bit, synthetic game effects, cartoons, edits, subtitles, digital clipping, or unrelated sound. Avoid unnecessary mechanical hum. Make the action audibly strong enough for dramatic Foley without inventing an inaudible or offscreen cause. A real arrow already in flight strikes and penetrates the center of a synthetic ballistic gel archery target near the start of the shot. A short, sharp aerodynamic pass immediately precedes one convincing close wet-dense piercing thud; retain only its natural brief decay, no second impact or rattling, and no graphic blood. One distinct impact component for later repetition.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-85",
+      "prompt": "Six-second photorealistic single continuous shot; the visible physical action must generate a clear close, bold, realistic synchronized sound with onset, body and natural decay. No background music, singing, speech, narration, chiptune, 8-bit, synthetic game effects, cartoons, edits, subtitles, digital clipping, or unrelated sound. Avoid unnecessary mechanical hum. Make the action audibly strong enough for dramatic Foley without inventing an inaudible or offscreen cause. A real arrow already in flight strikes and penetrates the center of a synthetic ballistic gel archery target near the start of the shot. A short, sharp aerodynamic pass immediately precedes one convincing close wet-dense piercing thud; retain only its natural brief decay, no second impact or rattling, and no graphic blood. One distinct impact component for later repetition.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "100"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-01-018-01-P01",
+      "source_id": "rpg-84-l01",
+      "name_ko": "화살 · 2발 · 출혈",
+      "level": 1
+    }
+  ],
+  "best_use": [
+    "화살 · 2발 · 출혈"
+  ],
+  "usage_patterns": [
+    "sequence"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "sequence",
+      "event_count": 2,
+      "intervals_ms": [
+        66.666666
+      ],
+      "confidence": "authored"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      1
+    ],
+    "sample_peak_dbfs": -3.4172,
+    "active_rms_dbfs": -22.9836,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "arrow",
+      "blood",
+      "projectile"
+    ],
+    "temporal_patterns": [
+      "sequence"
+    ],
+    "duration_ms": 900.0,
+    "main_onset_candidate_ms": 90,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "schema": "open-rpgfxs.animation/1",
+  "code": "ORFX-06-001-04",
+  "name_ko": "바람 · 접선 탈락 뒤 작은 수렴 나선",
+  "category": "06",
+  "category_name": "환경·구름",
+  "intensity_stage": 4,
+  "game_level": 75,
+  "intensity_note": "00/null is unspecified, not inferred from generation order",
+  "file": "spritesheets/06/ORFX-06-001-04.png",
+  "thumbnail": "thumbnails/06/ORFX-06-001-04.png",
+  "frame_size": [
+    384,
+    384
+  ],
+  "source_native_frame_size": [
+    384,
+    384
+  ],
+  "filter": "nearest",
+  "alpha": "straight RGBA; transparent background",
+  "pivot_px": [
+    192,
+    192
+  ],
+  "focus_coordinate_space": "local centered effect; place pivot at runtime target/caster",
+  "fps": 24.0,
+  "recommended_frame_ms": 41.666667,
+  "frame_durations_ms": null,
+  "recommended_duration_ms": 541.666667,
+  "frame_count": 13,
+  "columns": 4,
+  "rows": 4,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 0.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 1,
+      "x": 384,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 41.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 2,
+      "x": 768,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 83.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 3,
+      "x": 1152,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 125.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 4,
+      "x": 0,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 166.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 5,
+      "x": 384,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 208.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 6,
+      "x": 768,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 250.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 7,
+      "x": 1152,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 291.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 8,
+      "x": 0,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 333.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 9,
+      "x": 384,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 375.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 10,
+      "x": 768,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 416.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 11,
+      "x": 1152,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 458.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 12,
+      "x": 0,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 500.0,
+      "duration_ms": 41.666667
+    }
+  ],
+  "playback": "one-shot reviewed; source loop is not a certified seamless loop",
+  "sequence_sha256": "54e7d34643d0f83ba0a482a9d5df217c8d4ce9eeca37a26f5006794e83ca3172",
+  "file_sha256": "b11a4cb7a75355d1d28d252a700e0583e36608691add8fe16aff3a1127eca769",
+  "source_native_hashes": [
+    "8b937e39d4ea2808676e274c3d1c183958c77c362d354ab23783920ef6abf9d9"
+  ],
+  "source_ids": [
+    "rpg-20-l75"
+  ],
+  "pairings": [
+    "ORFX-06-001-04-P01"
+  ],
+  "concepts": [
+    "wind"
+  ],
+  "thumbnail_frame": 2,
+  "visible_first_ms": 41.666667,
+  "visible_end_ms": 416.666667,
+  "pairing_metadata": [
+    "pairings/ORFX-06-001-04-P01.json"
+  ],
+  "timing_by_pairing": {
+    "ORFX-06-001-04-P01": {
+      "impact_events": [
+        {
+          "time_ms": 83.333333,
+          "kind": "attack_candidate",
+          "confidence": "candidate",
+          "basis": "시각 피크 추정",
+          "frame_fraction": 2.0,
+          "sample_48k": 4000,
+          "local_point_px": [
+            192,
+            192
+          ],
+          "position_basis": "package pivot / target focus; contact surface pixels not independently measured"
+        }
+      ],
+      "impact_intervals_ms": [],
+      "temporal_pattern": "one-shot",
+      "review_anchor_ms": 83.33333333333333,
+      "review_anchor_basis": "시각 피크 추정"
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-04-0051",
+  "name_ko": "전기 · 연속 플라즈마 기둥 · 음원 후보",
+  "file": "audio/04/ORFXS-04-0051.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 145200
+  },
+  "sha256": "97176cc3bc9876dd14a2b6c07cd5d166c105e46c2a652f1662af5c725c0d0056",
+  "pcm_sha256": "9fb7aa01885641a38182307cfabf9be337f7b278c96e6a1f7f19dec6a1ed4557",
+  "metrics": {
+    "duration_ms": 3025.0,
+    "sample_peak_dbfs": -7.0625,
+    "sample_peak_ms": 1908.333333,
+    "active_rms_dbfs": -24.9786,
+    "first_activity_ms": 5,
+    "last_activity_ms": 2885,
+    "main_onset_candidate_ms": 385,
+    "transient_candidates_ms": [
+      467.5,
+      667.5,
+      782.5,
+      947.5,
+      1047.5,
+      1162.5,
+      1372.5,
+      1472.5,
+      1647.5,
+      1747.5,
+      1907.5,
+      2072.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "063"
+  ],
+  "sources": [
+    {
+      "source_id": "063",
+      "source_sha256": "ff6628c11c25c5b07b8f5ad88df94777670b32a608346cc7ee664818e84af762",
+      "start_sample": 112202,
+      "end_sample_exclusive": 257402,
+      "fade_in_ms": 1000.0,
+      "fade_out_ms": 1482.25,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-04-012-01-P01",
+    "ORFX-04-012-02-P01",
+    "ORFX-04-012-03-P01",
+    "ORFX-04-012-04-P01",
+    "ORFX-04-012-05-P01"
+  ],
+  "usage_levels": [
+    1,
+    25,
+    50,
+    75,
+    99
+  ],
+  "concepts": [
+    "continuous",
+    "electric"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "ingame-foley-rpg-68-through45-20261028",
+      "prompt": "Six-second top-down pixel-art RPG gameplay footage based on this supplied current studio action frame. Fixed camera centered on the target, no montage or cuts. Play action in normal fast real time without slow motion, stretched impact, slow buildup or speed ramp. Produce clear bold realistic close physical Foley, carefully synchronized to the visual event. No background music, score, singing, speech, narration, chiptune, 8-bit, cartoon or synthetic game sounds. A continuous electrical discharge surrounds the target, with forceful real high-voltage arcing and electrical crackle, naturally subsiding. The reference image uses actual animation frame 1 at 24 FPS, video time 0 equals animation 0.042s. First visible frame is 0.042s; greatest visible nonzero-alpha pixel count at animation 1.708s = video 1.667s (visual measure only, not an audio peak). No verified impact time is available; do not invent a specific sound impact timestamp. The visible effect ends at animation 2.917s = video 2.875s. The full animation timeline ends at 3.000s. Times are targets for generation, not proof of model compliance.\n\nShow all motion and sound in natural real time at plausible physical speed, with decisive, fast action appropriate to the event. No slow motion, speed ramp, exaggerated suspended particles or stretched impact. Maintain the explicitly requested event timing and natural sound decay; keep audio synchronized to the visible action.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "063"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-04-012-01-P01",
+      "source_id": "rpg-68-l01",
+      "name_ko": "전기 · 연속 플라즈마 기둥",
+      "level": 1
+    },
+    {
+      "pairing": "ORFX-04-012-02-P01",
+      "source_id": "rpg-68-l25",
+      "name_ko": "전기 · 연속 플라즈마 기둥",
+      "level": 25
+    },
+    {
+      "pairing": "ORFX-04-012-03-P01",
+      "source_id": "rpg-68-l50",
+      "name_ko": "전기 · 연속 플라즈마 기둥",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-04-012-04-P01",
+      "source_id": "rpg-68-l75",
+      "name_ko": "전기 · 연속 플라즈마 기둥",
+      "level": 75
+    },
+    {
+      "pairing": "ORFX-04-012-05-P01",
+      "source_id": "rpg-68-l99",
+      "name_ko": "전기 · 연속 플라즈마 기둥",
+      "level": 99
+    }
+  ],
+  "best_use": [
+    "전기 · 연속 플라즈마 기둥"
+  ],
+  "usage_patterns": [
+    "continuous"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "continuous",
+      "event_count": 0,
+      "intervals_ms": [],
+      "confidence": "not-applicable / continuous"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      1,
+      25,
+      50,
+      75,
+      99
+    ],
+    "sample_peak_dbfs": -7.0625,
+    "active_rms_dbfs": -24.9786,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "continuous",
+      "electric"
+    ],
+    "temporal_patterns": [
+      "continuous"
+    ],
+    "duration_ms": 3025.0,
+    "main_onset_candidate_ms": 385,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

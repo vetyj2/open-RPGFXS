@@ -1,0 +1,315 @@
+{
+  "schema": "open-rpgfxs.animation/1",
+  "code": "ORFX-07-003-05",
+  "name_ko": "보호 · 다중 실드 파동",
+  "category": "07",
+  "category_name": "회복·보호",
+  "intensity_stage": 5,
+  "game_level": 99,
+  "intensity_note": "00/null is unspecified, not inferred from generation order",
+  "file": "spritesheets/07/ORFX-07-003-05.png",
+  "thumbnail": "thumbnails/07/ORFX-07-003-05.png",
+  "frame_size": [
+    384,
+    384
+  ],
+  "source_native_frame_size": [
+    384,
+    384
+  ],
+  "filter": "nearest",
+  "alpha": "straight RGBA; transparent background",
+  "pivot_px": [
+    192,
+    192
+  ],
+  "focus_coordinate_space": "local centered effect; place pivot at runtime target/caster",
+  "fps": 24.0,
+  "recommended_frame_ms": 41.666667,
+  "frame_durations_ms": null,
+  "recommended_duration_ms": 1083.333333,
+  "frame_count": 26,
+  "columns": 6,
+  "rows": 5,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 0.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 1,
+      "x": 384,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 41.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 2,
+      "x": 768,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 83.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 3,
+      "x": 1152,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 125.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 4,
+      "x": 1536,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 166.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 5,
+      "x": 1920,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 208.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 6,
+      "x": 0,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 250.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 7,
+      "x": 384,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 291.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 8,
+      "x": 768,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 333.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 9,
+      "x": 1152,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 375.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 10,
+      "x": 1536,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 416.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 11,
+      "x": 1920,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 458.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 12,
+      "x": 0,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 500.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 13,
+      "x": 384,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 541.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 14,
+      "x": 768,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 583.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 15,
+      "x": 1152,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 625.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 16,
+      "x": 1536,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 666.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 17,
+      "x": 1920,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 708.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 18,
+      "x": 0,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 750.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 19,
+      "x": 384,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 791.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 20,
+      "x": 768,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 833.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 21,
+      "x": 1152,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 875.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 22,
+      "x": 1536,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 916.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 23,
+      "x": 1920,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 958.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 24,
+      "x": 0,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 1000.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 25,
+      "x": 384,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 1041.666667,
+      "duration_ms": 41.666667
+    }
+  ],
+  "playback": "one-shot reviewed; source loop is not a certified seamless loop",
+  "sequence_sha256": "8491977ab472139891390c27a2ae2935e8ad40db4963ce39b2a2e1abc822cc02",
+  "file_sha256": "e8482d9c93e7d915d68f5781af6f3b4c835bbb37027f8748515598851822c28b",
+  "source_native_hashes": [
+    "aab580860ae9085038a6513565c2eec0a7b2209ade16923fa030aeed8b928fe8"
+  ],
+  "source_ids": [
+    "rpg-80-l99"
+  ],
+  "pairings": [
+    "ORFX-07-003-05-P01"
+  ],
+  "concepts": [
+    "buff",
+    "shield"
+  ],
+  "thumbnail_frame": 7,
+  "visible_first_ms": 41.666667,
+  "visible_end_ms": 708.3333339999999,
+  "pairing_metadata": [
+    "pairings/ORFX-07-003-05-P01.json"
+  ],
+  "timing_by_pairing": {
+    "ORFX-07-003-05-P01": {
+      "impact_events": [
+        {
+          "time_ms": 291.666667,
+          "kind": "attack_candidate",
+          "confidence": "candidate",
+          "basis": "시각 피크 추정",
+          "frame_fraction": 7.0,
+          "sample_48k": 14000,
+          "local_point_px": [
+            192,
+            192
+          ],
+          "position_basis": "package pivot / target focus; contact surface pixels not independently measured"
+        }
+      ],
+      "impact_intervals_ms": [],
+      "temporal_pattern": "one-shot",
+      "review_anchor_ms": 291.66666666666663,
+      "review_anchor_basis": "시각 피크 추정"
+    }
+  }
+}

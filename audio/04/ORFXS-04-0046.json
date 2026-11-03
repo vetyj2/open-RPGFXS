@@ -1,0 +1,117 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-04-0046",
+  "name_ko": "작은 얼음 ICE01-V1 · 강도1 검수",
+  "file": "audio/04/ORFXS-04-0046.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 67440
+  },
+  "sha256": "0155b6ac30948a9a443359fdd6341ab40add93ff1f15146ea1b13e7ce96581be",
+  "pcm_sha256": "c471b61ba9a2253328c76094f7cd8caf5b0e6b3d608e1a0c63d64287f5bc14d5",
+  "metrics": {
+    "duration_ms": 1405.0,
+    "sample_peak_dbfs": -18.5324,
+    "sample_peak_ms": 157.479167,
+    "active_rms_dbfs": -41.5616,
+    "first_activity_ms": 0,
+    "last_activity_ms": 1265,
+    "main_onset_candidate_ms": 130,
+    "transient_candidates_ms": [
+      157.5,
+      1167.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "ICE01-V1"
+  ],
+  "sources": [
+    {
+      "source_id": "ICE01-V1",
+      "source_sha256": "7252edda92157c9ad577ff7ed2ab8868c22ecfdd2be85ae8774bcc5b4a315925",
+      "start_sample": 0,
+      "end_sample_exclusive": 67440,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 688.45,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-01-014-01-P01"
+  ],
+  "usage_levels": [
+    1
+  ],
+  "concepts": [
+    "ice",
+    "projectile"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "ICE01-V1"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-01-014-01-P01",
+      "source_id": "rpg-56-l01",
+      "name_ko": "얼음 첨탄 · 직선 · 오른쪽 진입",
+      "level": 1
+    }
+  ],
+  "best_use": [
+    "얼음 첨탄 · 직선 · 오른쪽 진입"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "authored"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      1
+    ],
+    "sample_peak_dbfs": -18.5324,
+    "active_rms_dbfs": -41.5616,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "ice",
+      "projectile"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 1405.0,
+    "main_onset_candidate_ms": 130,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

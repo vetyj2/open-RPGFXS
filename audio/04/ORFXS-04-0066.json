@@ -1,0 +1,141 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-04-0066",
+  "name_ko": "원본 · 전기 피격 · 단발 방전 원형 · 선행음 단축안",
+  "file": "audio/04/ORFXS-04-0066.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 15206
+  },
+  "sha256": "f72c97eaa3fc2d5086741b90c64618c1d8991ec29d2ed9a7a31db14d947d135a",
+  "pcm_sha256": "a4c83508cddf1d512de5041567d84845b37cb69f76ee37fa1214e158f9a31dc8",
+  "metrics": {
+    "duration_ms": 316.791667,
+    "sample_peak_dbfs": -3.839,
+    "sample_peak_ms": 83.333333,
+    "active_rms_dbfs": -29.202,
+    "first_activity_ms": 0,
+    "last_activity_ms": 315,
+    "main_onset_candidate_ms": 0,
+    "transient_candidates_ms": [
+      82.5,
+      182.5,
+      297.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "EXA-EX-013-S",
+    "EXA-EX-044-S"
+  ],
+  "sources": [
+    {
+      "source_id": "EXA-EX-044-S",
+      "source_sha256": "d70333acb39a4d3668e576160d1ea8c382daa65e2f59eecf9986ac15abbe4e78",
+      "start_sample": 0,
+      "end_sample_exclusive": 15206,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    },
+    {
+      "source_id": "EXA-EX-013-S",
+      "source_sha256": "d70333acb39a4d3668e576160d1ea8c382daa65e2f59eecf9986ac15abbe4e78",
+      "start_sample": 0,
+      "end_sample_exclusive": 15206,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-04-007-03-P04",
+    "ORFX-04-007-03-P05"
+  ],
+  "usage_levels": [],
+  "concepts": [
+    "debuff",
+    "electric",
+    "impact"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "EXA-EX-044-S"
+    },
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "EXA-EX-013-S"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-04-007-03-P04",
+      "source_id": "EX-044-S",
+      "name_ko": "전기 피격 · 단발 방전 원형 · 선행음 단축안",
+      "level": null
+    },
+    {
+      "pairing": "ORFX-04-007-03-P05",
+      "source_id": "EX-013-S",
+      "name_ko": "감전 표식 · 정전기 방전 원형 · 선행음 단축안",
+      "level": null
+    }
+  ],
+  "best_use": [
+    "전기 피격 · 단발 방전 원형 · 선행음 단축안",
+    "감전 표식 · 정전기 방전 원형 · 선행음 단축안"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "candidate"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [],
+    "sample_peak_dbfs": -3.839,
+    "active_rms_dbfs": -29.202,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "debuff",
+      "electric",
+      "impact"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 316.791667,
+    "main_onset_candidate_ms": 0,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

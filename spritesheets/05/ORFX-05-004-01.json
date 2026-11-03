@@ -1,0 +1,279 @@
+{
+  "schema": "open-rpgfxs.animation/1",
+  "code": "ORFX-05-004-01",
+  "name_ko": "얼음가시 · 전체 유지 후 복귀 · native 재질",
+  "category": "05",
+  "category_name": "지면·파쇄",
+  "intensity_stage": 1,
+  "game_level": 1,
+  "intensity_note": "00/null is unspecified, not inferred from generation order",
+  "file": "spritesheets/05/ORFX-05-004-01.png",
+  "thumbnail": "thumbnails/05/ORFX-05-004-01.png",
+  "frame_size": [
+    384,
+    384
+  ],
+  "source_native_frame_size": [
+    128,
+    128
+  ],
+  "filter": "nearest",
+  "alpha": "straight RGBA; transparent background",
+  "pivot_px": [
+    192,
+    192
+  ],
+  "focus_coordinate_space": "local centered effect; place pivot at runtime target/caster",
+  "fps": 24,
+  "recommended_frame_ms": 41.666667,
+  "frame_durations_ms": null,
+  "recommended_duration_ms": 916.666667,
+  "frame_count": 22,
+  "columns": 5,
+  "rows": 5,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 0.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 1,
+      "x": 384,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 41.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 2,
+      "x": 768,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 83.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 3,
+      "x": 1152,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 125.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 4,
+      "x": 1536,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 166.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 5,
+      "x": 0,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 208.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 6,
+      "x": 384,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 250.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 7,
+      "x": 768,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 291.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 8,
+      "x": 1152,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 333.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 9,
+      "x": 1536,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 375.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 10,
+      "x": 0,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 416.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 11,
+      "x": 384,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 458.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 12,
+      "x": 768,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 500.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 13,
+      "x": 1152,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 541.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 14,
+      "x": 1536,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 583.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 15,
+      "x": 0,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 625.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 16,
+      "x": 384,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 666.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 17,
+      "x": 768,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 708.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 18,
+      "x": 1152,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 750.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 19,
+      "x": 1536,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 791.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 20,
+      "x": 0,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 833.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 21,
+      "x": 384,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 875.0,
+      "duration_ms": 41.666667
+    }
+  ],
+  "playback": "one-shot reviewed; source loop is not a certified seamless loop",
+  "sequence_sha256": "8b277c5e7395a6a6cabfe5155590290a13f0d40ebf26d7c3f7b7893de2b7098a",
+  "file_sha256": "6f330bed8fe78d2047727e5a32b2b1d2e5e92717fc622f9e6e4fe76bb22c1076",
+  "source_native_hashes": [
+    "59bf3c9c8badf9190bde982b44add9b47cf147227053fb9bab9ecd269e9c9e26"
+  ],
+  "source_ids": [
+    "rpg-71-l01"
+  ],
+  "pairings": [
+    "ORFX-05-004-01-P01"
+  ],
+  "concepts": [
+    "ground",
+    "ice"
+  ],
+  "thumbnail_frame": 6,
+  "visible_first_ms": 83.333333,
+  "visible_end_ms": 750.0,
+  "pairing_metadata": [
+    "pairings/ORFX-05-004-01-P01.json"
+  ],
+  "timing_by_pairing": {
+    "ORFX-05-004-01-P01": {
+      "impact_events": [
+        {
+          "time_ms": 41.666625,
+          "kind": "attack_candidate",
+          "confidence": "candidate",
+          "basis": "원본 y곡선의 개별 솟음 시작",
+          "frame_fraction": 0.999999,
+          "sample_48k": 2000,
+          "local_point_px": [
+            192,
+            192
+          ],
+          "position_basis": "package pivot / target focus; contact surface pixels not independently measured"
+        }
+      ],
+      "impact_intervals_ms": [],
+      "temporal_pattern": "one-shot",
+      "review_anchor_ms": 41.666624999999996,
+      "review_anchor_basis": "원본 y곡선의 개별 솟음 시작"
+    }
+  }
+}

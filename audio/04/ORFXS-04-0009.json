@@ -1,0 +1,130 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-04-0009",
+  "name_ko": "거대 얼음 · 저음 파쇄 01",
+  "file": "audio/04/ORFXS-04-0009.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 27200
+  },
+  "sha256": "5d8121b200e78f010f8491bc90ad7e415013c622e20e258125994e6daaac7733",
+  "pcm_sha256": "9d16c9c093c5e2fa2929801f96871c3e8a7ba0a0d0e7dc215a9e9f0df3791596",
+  "metrics": {
+    "duration_ms": 566.666667,
+    "sample_peak_dbfs": -4.7816,
+    "sample_peak_ms": 84.895833,
+    "active_rms_dbfs": -16.6311,
+    "first_activity_ms": 0,
+    "last_activity_ms": 560,
+    "main_onset_candidate_ms": 50,
+    "transient_candidates_ms": [
+      82.5,
+      187.5,
+      287.5,
+      392.5,
+      512.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "FBR-ICE-01"
+  ],
+  "sources": [
+    {
+      "source_id": "FBR-ICE-01",
+      "source_sha256": "4f2d038364a0a43ded02c36b282d01f0e53f42ab80ecc6c73cc84d5b254c0995",
+      "start_sample": 5040,
+      "end_sample_exclusive": 32240,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 198.333333,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-01-022-00-P01",
+    "ORFX-04-003-05-P01"
+  ],
+  "usage_levels": [
+    99
+  ],
+  "concepts": [
+    "burst",
+    "ice",
+    "projectile"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "FBR-ICE-01"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-01-022-00-P01",
+      "source_id": "EX-010",
+      "name_ko": "거대 빙창 단발 · 대형 얼음투척 원형",
+      "level": null
+    },
+    {
+      "pairing": "ORFX-04-003-05-P01",
+      "source_id": "rpg-06-l99",
+      "name_ko": "얼음 직선탄 · 입체 결정",
+      "level": 99
+    }
+  ],
+  "best_use": [
+    "거대 빙창 단발 · 대형 얼음투척 원형",
+    "얼음 직선탄 · 입체 결정"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "authored"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      99
+    ],
+    "sample_peak_dbfs": -4.7816,
+    "active_rms_dbfs": -16.6311,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "burst",
+      "ice",
+      "projectile"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 566.666667,
+    "main_onset_candidate_ms": 50,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

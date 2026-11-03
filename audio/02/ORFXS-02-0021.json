@@ -1,0 +1,119 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-02-0021",
+  "name_ko": "물리 타격 · 방향성 강타 · 신규 타격 원음 구간 1 · 미검수",
+  "file": "audio/02/ORFXS-02-0021.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 29721
+  },
+  "sha256": "99d365f4c3c5b22b966374ac7913d2981fa1638c7411ee0b42f24fcbe0db53b0",
+  "pcm_sha256": "74ea519701c1020d639a1007f35911ef98dedcad0a4a4510a62adbb488bec3d5",
+  "metrics": {
+    "duration_ms": 619.1875,
+    "sample_peak_dbfs": -3.0941,
+    "sample_peak_ms": 244.1875,
+    "active_rms_dbfs": -19.9592,
+    "first_activity_ms": 0,
+    "last_activity_ms": 610,
+    "main_onset_candidate_ms": 235,
+    "transient_candidates_ms": [
+      242.5,
+      367.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "Q04"
+  ],
+  "sources": [
+    {
+      "source_id": "Q04",
+      "source_sha256": "f33535045e8e1aab6c936c45ff9fec7f0693b8eb570a7abd1177db6cf02855bf",
+      "start_sample": 0,
+      "end_sample_exclusive": 29721,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 303.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-02-002-03-P08"
+  ],
+  "usage_levels": [
+    50
+  ],
+  "concepts": [
+    "blunt",
+    "impact"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [
+        "rpg-08-l50"
+      ],
+      "source_id": "Q04"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-02-002-03-P08",
+      "source_id": "SYNC-Q04",
+      "name_ko": "물리 타격 · 방향성 강타 · Q04",
+      "level": 50
+    }
+  ],
+  "best_use": [
+    "물리 타격 · 방향성 강타 · Q04"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "candidate"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      50
+    ],
+    "sample_peak_dbfs": -3.0941,
+    "active_rms_dbfs": -19.9592,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "blunt",
+      "impact"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 619.1875,
+    "main_onset_candidate_ms": 235,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

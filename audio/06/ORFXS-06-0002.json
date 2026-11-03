@@ -1,0 +1,144 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-06-0002",
+  "name_ko": "바람 · 접선 탈락 뒤 작은 수렴 나선 · 음원 후보",
+  "file": "audio/06/ORFXS-06-0002.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 64800
+  },
+  "sha256": "f03a66420f0ebb105e0736f8bd15d59fc2b42d2b30ca39b945c7d8868ec1187a",
+  "pcm_sha256": "b2f3fa8a5c2b040e0a9c53072ea39d05c68c8849799ff55052af42fe2a1da011",
+  "metrics": {
+    "duration_ms": 1350.0,
+    "sample_peak_dbfs": -7.0243,
+    "sample_peak_ms": 495.666667,
+    "active_rms_dbfs": -21.2884,
+    "first_activity_ms": 0,
+    "last_activity_ms": 1310,
+    "main_onset_candidate_ms": 575,
+    "transient_candidates_ms": [
+      42.5,
+      157.5,
+      337.5,
+      497.5,
+      642.5,
+      787.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "003"
+  ],
+  "sources": [
+    {
+      "source_id": "003",
+      "source_sha256": "673120ad07284e500fdd28d76a7a72f7d607660fd64e7a74a9c7ff59c92853ab",
+      "start_sample": 99557,
+      "end_sample_exclusive": 164357,
+      "fade_in_ms": 45.0,
+      "fade_out_ms": 500.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-06-001-02-P01",
+    "ORFX-06-001-03-P01",
+    "ORFX-06-001-05-P01"
+  ],
+  "usage_levels": [
+    25,
+    50,
+    99
+  ],
+  "concepts": [
+    "wind"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "regen-rpg-20-representative-20261028",
+      "prompt": "Six-second photorealistic single continuous shot, fixed camera, physical cause and target visible. Capture close, detailed, realistic sound synchronized with the visible action, strong enough to suit a dramatic game effect without clipping. No music, speech, voice, chiptune, synthesizers, artificial cinematic risers, cartoon effects, montage, edits or captions. Do not impose three takes: perform one complete event, with a clean natural onset and decay, and leave quiet when the event finishes. One powerful real gust sweeps quickly across tall dry grasses and dust in an outdoor effects area, rises and naturally fades within roughly 0.583 seconds. Record the close air-pressure movement and natural gust, keeping steady fan motor, leaf rustle, speech and unrelated background below audibility. One fluid onset and fade, not three impacts.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "003"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-06-001-02-P01",
+      "source_id": "rpg-20-l25",
+      "name_ko": "바람 · 접선 탈락 뒤 작은 수렴 나선",
+      "level": 25
+    },
+    {
+      "pairing": "ORFX-06-001-03-P01",
+      "source_id": "rpg-20-l50",
+      "name_ko": "바람 · 접선 탈락 뒤 작은 수렴 나선",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-06-001-05-P01",
+      "source_id": "rpg-20-l99",
+      "name_ko": "바람 · 접선 탈락 뒤 작은 수렴 나선",
+      "level": 99
+    }
+  ],
+  "best_use": [
+    "바람 · 접선 탈락 뒤 작은 수렴 나선"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "candidate"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      25,
+      50,
+      99
+    ],
+    "sample_peak_dbfs": -7.0243,
+    "active_rms_dbfs": -21.2884,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "wind"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 1350.0,
+    "main_onset_candidate_ms": 575,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

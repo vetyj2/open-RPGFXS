@@ -1,0 +1,283 @@
+{
+  "schema": "open-rpgfxs.animation/1",
+  "code": "ORFX-04-006-05",
+  "name_ko": "물 · 빠른 연속 분사",
+  "category": "04",
+  "category_name": "속성 충격",
+  "intensity_stage": 5,
+  "game_level": 99,
+  "intensity_note": "00/null is unspecified, not inferred from generation order",
+  "file": "spritesheets/04/ORFX-04-006-05.png",
+  "thumbnail": "thumbnails/04/ORFX-04-006-05.png",
+  "frame_size": [
+    384,
+    384
+  ],
+  "source_native_frame_size": [
+    384,
+    384
+  ],
+  "filter": "nearest",
+  "alpha": "straight RGBA; transparent background",
+  "pivot_px": [
+    192,
+    192
+  ],
+  "focus_coordinate_space": "local centered effect; place pivot at runtime target/caster",
+  "fps": 24,
+  "recommended_frame_ms": 41.666667,
+  "frame_durations_ms": null,
+  "recommended_duration_ms": 1000.0,
+  "frame_count": 24,
+  "columns": 5,
+  "rows": 5,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 0.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 1,
+      "x": 384,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 41.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 2,
+      "x": 768,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 83.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 3,
+      "x": 1152,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 125.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 4,
+      "x": 1536,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 166.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 5,
+      "x": 0,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 208.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 6,
+      "x": 384,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 250.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 7,
+      "x": 768,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 291.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 8,
+      "x": 1152,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 333.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 9,
+      "x": 1536,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 375.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 10,
+      "x": 0,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 416.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 11,
+      "x": 384,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 458.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 12,
+      "x": 768,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 500.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 13,
+      "x": 1152,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 541.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 14,
+      "x": 1536,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 583.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 15,
+      "x": 0,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 625.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 16,
+      "x": 384,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 666.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 17,
+      "x": 768,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 708.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 18,
+      "x": 1152,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 750.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 19,
+      "x": 1536,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 791.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 20,
+      "x": 0,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 833.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 21,
+      "x": 384,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 875.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 22,
+      "x": 768,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 916.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 23,
+      "x": 1152,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 958.333333,
+      "duration_ms": 41.666667
+    }
+  ],
+  "playback": "one-shot reviewed; source loop is not a certified seamless loop",
+  "sequence_sha256": "6e738664ddaccbec9e5881f2e7f5e827d1cc926a991e4cdd0b281a91e160be6b",
+  "file_sha256": "72d157dd2a38bc54390b7df76ee8e5e1e4fb1d3f178c8380c5033cd951ba642d",
+  "source_native_hashes": [
+    "c5dce8e3a9c0c3591f5ffbe64d968aac172c7ee8b03b6955ac85410ed210ebc0"
+  ],
+  "source_ids": [
+    "rpg-18-l99"
+  ],
+  "pairings": [
+    "ORFX-04-006-05-P01"
+  ],
+  "concepts": [
+    "continuous",
+    "water"
+  ],
+  "thumbnail_frame": 6,
+  "visible_first_ms": 41.666667,
+  "visible_end_ms": 708.3333339999999,
+  "pairing_metadata": [
+    "pairings/ORFX-04-006-05-P01.json"
+  ],
+  "timing_by_pairing": {
+    "ORFX-04-006-05-P01": {
+      "impact_events": [],
+      "impact_intervals_ms": [],
+      "temporal_pattern": "continuous",
+      "review_anchor_ms": 41.666666666666664,
+      "review_anchor_basis": "가시 시작 · 연속음 · 충돌 피크 아님"
+    }
+  }
+}

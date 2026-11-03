@@ -1,0 +1,234 @@
+{
+  "schema": "open-rpgfxs.animation/1",
+  "code": "ORFX-05-001-01",
+  "name_ko": "얼음가시 · 완전 복귀 후 다음 · native 재질",
+  "category": "05",
+  "category_name": "지면·파쇄",
+  "intensity_stage": 1,
+  "game_level": 1,
+  "intensity_note": "00/null is unspecified, not inferred from generation order",
+  "file": "spritesheets/05/ORFX-05-001-01.png",
+  "thumbnail": "thumbnails/05/ORFX-05-001-01.png",
+  "frame_size": [
+    384,
+    384
+  ],
+  "source_native_frame_size": [
+    128,
+    128
+  ],
+  "filter": "nearest",
+  "alpha": "straight RGBA; transparent background",
+  "pivot_px": [
+    192,
+    192
+  ],
+  "focus_coordinate_space": "local centered effect; place pivot at runtime target/caster",
+  "fps": 24,
+  "recommended_frame_ms": 41.666667,
+  "frame_durations_ms": null,
+  "recommended_duration_ms": 708.333333,
+  "frame_count": 17,
+  "columns": 5,
+  "rows": 4,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 0.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 1,
+      "x": 384,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 41.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 2,
+      "x": 768,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 83.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 3,
+      "x": 1152,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 125.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 4,
+      "x": 1536,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 166.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 5,
+      "x": 0,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 208.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 6,
+      "x": 384,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 250.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 7,
+      "x": 768,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 291.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 8,
+      "x": 1152,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 333.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 9,
+      "x": 1536,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 375.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 10,
+      "x": 0,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 416.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 11,
+      "x": 384,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 458.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 12,
+      "x": 768,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 500.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 13,
+      "x": 1152,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 541.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 14,
+      "x": 1536,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 583.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 15,
+      "x": 0,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 625.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 16,
+      "x": 384,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 666.666667,
+      "duration_ms": 41.666667
+    }
+  ],
+  "playback": "one-shot reviewed; source loop is not a certified seamless loop",
+  "sequence_sha256": "31f78d9337dcc466416641532b90008642688699eecc339013f7ede79868094b",
+  "file_sha256": "9401499c501510d27f4787506ad1a9024aa978025bcd24d536412cee507720a0",
+  "source_native_hashes": [
+    "ef858386c192603cc14abe277c6bbe0fc37d652f2439d9f8158caf28dde97f6a"
+  ],
+  "source_ids": [
+    "rpg-32-l01"
+  ],
+  "pairings": [
+    "ORFX-05-001-01-P01"
+  ],
+  "concepts": [
+    "ground",
+    "ice"
+  ],
+  "thumbnail_frame": 6,
+  "visible_first_ms": 83.333333,
+  "visible_end_ms": 583.3333339999999,
+  "pairing_metadata": [
+    "pairings/ORFX-05-001-01-P01.json"
+  ],
+  "timing_by_pairing": {
+    "ORFX-05-001-01-P01": {
+      "impact_events": [
+        {
+          "time_ms": 41.666646,
+          "kind": "attack_candidate",
+          "confidence": "candidate",
+          "basis": "working/candidates/rpg-32-l01/batch-32-34/128/effect.json의 y곡선 솟음 시작",
+          "frame_fraction": 1.0,
+          "sample_48k": 2000,
+          "local_point_px": [
+            192,
+            192
+          ],
+          "position_basis": "package pivot / target focus; contact surface pixels not independently measured"
+        }
+      ],
+      "impact_intervals_ms": [],
+      "temporal_pattern": "one-shot",
+      "review_anchor_ms": 41.666645833333334,
+      "review_anchor_basis": "원본 동작 시계 · 접촉 가설"
+    }
+  }
+}

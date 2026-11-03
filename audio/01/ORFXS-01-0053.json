@@ -1,0 +1,152 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-01-0053",
+  "name_ko": "화살 1 · 명중",
+  "file": "audio/01/ORFXS-01-0053.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 20640
+  },
+  "sha256": "ea6716cf9db004c506a0336730427c86615f8d82ce08d6c3a667ae46eef5732e",
+  "pcm_sha256": "440d63f323e6c145dfe579362764b85d305fdcf04e311b0eb09f443dc2836ab6",
+  "metrics": {
+    "duration_ms": 430.0,
+    "sample_peak_dbfs": -3.6304,
+    "sample_peak_ms": 57.791667,
+    "active_rms_dbfs": -22.793,
+    "first_activity_ms": 45,
+    "last_activity_ms": 290,
+    "main_onset_candidate_ms": 45,
+    "transient_candidates_ms": [
+      57.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "P001"
+  ],
+  "sources": [
+    {
+      "source_id": "P001",
+      "source_sha256": "4321559e8da1bbc3050c06c5911aa290e991c1d00c8fdc809966ddd10840ca11",
+      "start_sample": 4320,
+      "end_sample_exclusive": 24960,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 150.5,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-01-027-03-P01"
+  ],
+  "usage_levels": [
+    50
+  ],
+  "concepts": [
+    "arrow",
+    "impact",
+    "poison",
+    "projectile"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "foley-01-s1",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. At an outdoor archery practice range, a real bow shoots an arrow across the frame into a dense straw target. Capture the taut string release, brief air pass and dry fibrous target impact. Use a light recurve bow and a thin arrow: soft short string twang, fine fast air pass, delicate fibrous tick on the straw target.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-46",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. At an outdoor archery practice range, a real bow shoots an arrow across the frame into a dense straw target. Capture the taut string release, brief air pass and dry fibrous target impact. Use a light recurve bow and a thin arrow: soft short string twang, fine fast air pass, delicate fibrous tick on the straw target.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-81",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. At an outdoor archery practice range, a real bow shoots an arrow across the frame into a dense straw target. Capture the taut string release, brief air pass and dry fibrous target impact. Use a light recurve bow and a thin arrow: soft short string twang, fine fast air pass, delicate fibrous tick on the straw target.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-82",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. At an outdoor archery practice range, a real bow shoots an arrow across the frame into a dense straw target. Capture the taut string release, brief air pass and dry fibrous target impact. Use a light recurve bow and a thin arrow: soft short string twang, fine fast air pass, delicate fibrous tick on the straw target.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [
+        "rpg-81-l01",
+        "rpg-81-l25",
+        "rpg-82-l01",
+        "rpg-82-l25",
+        "rpg-82-l50",
+        "rpg-83-l01"
+      ],
+      "source_id": "P001"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-01-027-03-P01",
+      "source_id": "MX05",
+      "name_ko": "독화살 · 직선 · 화살+속성 혼합 MX05",
+      "level": 50
+    }
+  ],
+  "best_use": [
+    "독화살 · 직선 · 화살+속성 혼합 MX05"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "route-level hypothesis; listen for intrinsic secondary events"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      50
+    ],
+    "sample_peak_dbfs": -3.6304,
+    "active_rms_dbfs": -22.793,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "arrow",
+      "impact",
+      "poison",
+      "projectile"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 430.0,
+    "main_onset_candidate_ms": 45,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

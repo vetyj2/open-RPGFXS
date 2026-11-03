@@ -1,0 +1,112 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-07-0020",
+  "name_ko": "원본 · 시전자 마력 충전 · 마나 수렴 원형",
+  "file": "audio/07/ORFXS-07-0020.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 102400
+  },
+  "sha256": "9b1bb36a44eb3d02328ad6e4d8a220e56046c0b3fdfcfb43148581631ae43a60",
+  "pcm_sha256": "3f29759c9deafc0568c3efe5f9ca436d3126423cafd47883c8efb081c32c0933",
+  "metrics": {
+    "duration_ms": 2133.333333,
+    "sample_peak_dbfs": -32.3126,
+    "sample_peak_ms": 508.25,
+    "active_rms_dbfs": -47.9062,
+    "first_activity_ms": 30,
+    "last_activity_ms": 2015,
+    "main_onset_candidate_ms": 470,
+    "transient_candidates_ms": [
+      507.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "EXA-EX-032"
+  ],
+  "sources": [
+    {
+      "source_id": "EXA-EX-032",
+      "source_sha256": "659b1062c8f62b51490a49f442d89663785ddfe879170cbc6dd099282b563c66",
+      "start_sample": 0,
+      "end_sample_exclusive": 102400,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 1045.333333,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-09-008-00-P02"
+  ],
+  "usage_levels": [],
+  "concepts": [
+    "buff",
+    "magic"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "EXA-EX-032"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-09-008-00-P02",
+      "source_id": "EX-032",
+      "name_ko": "시전자 마력 충전 · 마나 수렴 원형",
+      "level": null
+    }
+  ],
+  "best_use": [
+    "시전자 마력 충전 · 마나 수렴 원형"
+  ],
+  "usage_patterns": [
+    "continuous"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "continuous",
+      "event_count": 0,
+      "intervals_ms": [],
+      "confidence": "not-applicable / continuous"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [],
+    "sample_peak_dbfs": -32.3126,
+    "active_rms_dbfs": -47.9062,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "buff",
+      "magic"
+    ],
+    "temporal_patterns": [
+      "continuous"
+    ],
+    "duration_ms": 2133.333333,
+    "main_onset_candidate_ms": 470,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

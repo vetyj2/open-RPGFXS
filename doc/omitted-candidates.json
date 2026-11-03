@@ -1,0 +1,2736 @@
+{
+  "reason": "Not current-source good in the supplied final feedback; no rejected or stale assets copied.",
+  "counts": {
+    "needs-work": 12,
+    "rejected": 2,
+    "unreviewed": 242,
+    "changed": 180,
+    "excluded": 18
+  },
+  "items": [
+    {
+      "source_id": "rpg-33-l25",
+      "name_ko": "얼음가시 · 모두 솟아 유지 후 복귀 · native 재질",
+      "level": 25,
+      "status": "needs-work"
+    },
+    {
+      "source_id": "rpg-33-l50",
+      "name_ko": "얼음가시 · 모두 솟아 유지 후 복귀 · native 재질",
+      "level": 50,
+      "status": "needs-work"
+    },
+    {
+      "source_id": "rpg-33-l75",
+      "name_ko": "얼음가시 · 모두 솟아 유지 후 복귀 · native 재질",
+      "level": 75,
+      "status": "needs-work"
+    },
+    {
+      "source_id": "rpg-33-l99",
+      "name_ko": "얼음가시 · 모두 솟아 유지 후 복귀 · native 재질",
+      "level": 99,
+      "status": "needs-work"
+    },
+    {
+      "source_id": "rpg-35-l01",
+      "name_ko": "물 분수",
+      "level": 1,
+      "status": "rejected"
+    },
+    {
+      "source_id": "rpg-35-l50",
+      "name_ko": "물 분수",
+      "level": 50,
+      "status": "rejected"
+    },
+    {
+      "source_id": "rpg-36-l01",
+      "name_ko": "용암 균열 · 부글거림",
+      "level": 1,
+      "status": "needs-work"
+    },
+    {
+      "source_id": "rpg-36-l25",
+      "name_ko": "용암 균열 · 부글거림",
+      "level": 25,
+      "status": "needs-work"
+    },
+    {
+      "source_id": "rpg-36-l50",
+      "name_ko": "용암 균열 · 부글거림",
+      "level": 50,
+      "status": "needs-work"
+    },
+    {
+      "source_id": "rpg-36-l75",
+      "name_ko": "용암 균열 · 부글거림",
+      "level": 75,
+      "status": "needs-work"
+    },
+    {
+      "source_id": "rpg-36-l99",
+      "name_ko": "용암 균열 · 부글거림",
+      "level": 99,
+      "status": "needs-work"
+    },
+    {
+      "source_id": "rpg-37-l01",
+      "name_ko": "자갈 쏟아짐",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-37-l25",
+      "name_ko": "자갈 쏟아짐",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-37-l50",
+      "name_ko": "자갈 쏟아짐",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-37-l75",
+      "name_ko": "자갈 쏟아짐",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-37-l99",
+      "name_ko": "자갈 쏟아짐",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-38-l01",
+      "name_ko": "먹구름 · 연속 낙뢰",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-38-l25",
+      "name_ko": "먹구름 · 연속 낙뢰",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-38-l75",
+      "name_ko": "먹구름 · 연속 낙뢰",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-41-l01",
+      "name_ko": "화살 · 연속 사격",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-41-l25",
+      "name_ko": "화살 · 연속 사격",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-41-l50",
+      "name_ko": "화살 · 연속 사격",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-41-l75",
+      "name_ko": "화살 · 연속 사격",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-41-l99",
+      "name_ko": "화살 · 연속 사격",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-43-l01",
+      "name_ko": "불화살 · 직선",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-43-l25",
+      "name_ko": "불화살 · 직선",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-43-l50",
+      "name_ko": "불화살 · 직선",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-43-l75",
+      "name_ko": "불화살 · 직선",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-43-l99",
+      "name_ko": "불화살 · 직선",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-44-l01",
+      "name_ko": "불화살 · 포물선",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-44-l25",
+      "name_ko": "불화살 · 포물선",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-44-l50",
+      "name_ko": "불화살 · 포물선",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-44-l75",
+      "name_ko": "불화살 · 포물선",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-44-l99",
+      "name_ko": "불화살 · 포물선",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-45-l01",
+      "name_ko": "독화살 · 직선",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-45-l25",
+      "name_ko": "독화살 · 직선",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-45-l50",
+      "name_ko": "독화살 · 직선",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-45-l75",
+      "name_ko": "독화살 · 직선",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-45-l99",
+      "name_ko": "독화살 · 직선",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-46-l01",
+      "name_ko": "독화살 · 포물선",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-46-l25",
+      "name_ko": "독화살 · 포물선",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-46-l50",
+      "name_ko": "독화살 · 포물선",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-46-l75",
+      "name_ko": "독화살 · 포물선",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-46-l99",
+      "name_ko": "독화살 · 포물선",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-49-l01",
+      "name_ko": "화염구 · 직선 · 왼쪽 진입",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-49-l25",
+      "name_ko": "화염구 · 직선 · 왼쪽 진입",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-49-l50",
+      "name_ko": "화염구 · 직선 · 왼쪽 진입",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-49-l75",
+      "name_ko": "화염구 · 직선 · 왼쪽 진입",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-49-l99",
+      "name_ko": "화염구 · 직선 · 왼쪽 진입",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-50-l01",
+      "name_ko": "화염구 · 직선 · 오른쪽 진입",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-50-l25",
+      "name_ko": "화염구 · 직선 · 오른쪽 진입",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-50-l50",
+      "name_ko": "화염구 · 직선 · 오른쪽 진입",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-50-l75",
+      "name_ko": "화염구 · 직선 · 오른쪽 진입",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-50-l99",
+      "name_ko": "화염구 · 직선 · 오른쪽 진입",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "rpg-51-l01",
+      "name_ko": "물 구체 · 직선",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-51-l25",
+      "name_ko": "물 구체 · 직선",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-51-l99",
+      "name_ko": "물 구체 · 직선",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-53-l75",
+      "name_ko": "바위 탄체 · 직선",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-54-l75",
+      "name_ko": "바위 탄체 · 포물선",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-55-l25",
+      "name_ko": "얼음 첨탄 · 직선 · 왼쪽 진입",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-55-l50",
+      "name_ko": "얼음 첨탄 · 직선 · 왼쪽 진입",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-55-l75",
+      "name_ko": "얼음 첨탄 · 직선 · 왼쪽 진입",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-56-l25",
+      "name_ko": "얼음 첨탄 · 직선 · 오른쪽 진입",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-56-l50",
+      "name_ko": "얼음 첨탄 · 직선 · 오른쪽 진입",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-57-l50",
+      "name_ko": "물리 · 얕은 곡선 베기",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-58-l01",
+      "name_ko": "물리 · 얕은 곡선 교차 베기",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-58-l25",
+      "name_ko": "물리 · 얕은 곡선 교차 베기",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-58-l75",
+      "name_ko": "물리 · 얕은 곡선 교차 베기",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-58-l99",
+      "name_ko": "물리 · 얕은 곡선 교차 베기",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-59-l01",
+      "name_ko": "물리 · 얕은 곡선 마구 베기",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-59-l25",
+      "name_ko": "물리 · 얕은 곡선 마구 베기",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-59-l50",
+      "name_ko": "물리 · 얕은 곡선 마구 베기",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-59-l75",
+      "name_ko": "물리 · 얕은 곡선 마구 베기",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-59-l99",
+      "name_ko": "물리 · 얕은 곡선 마구 베기",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-60-l50",
+      "name_ko": "불 · 얕은 곡선 베기",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-61-l01",
+      "name_ko": "불 · 얕은 곡선 교차 베기",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-61-l25",
+      "name_ko": "불 · 얕은 곡선 교차 베기",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-61-l75",
+      "name_ko": "불 · 얕은 곡선 교차 베기",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-61-l99",
+      "name_ko": "불 · 얕은 곡선 교차 베기",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-62-l01",
+      "name_ko": "불 · 얕은 곡선 마구 베기",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-62-l25",
+      "name_ko": "불 · 얕은 곡선 마구 베기",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-62-l50",
+      "name_ko": "불 · 얕은 곡선 마구 베기",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-62-l75",
+      "name_ko": "불 · 얕은 곡선 마구 베기",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-62-l99",
+      "name_ko": "불 · 얕은 곡선 마구 베기",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-63-l50",
+      "name_ko": "얼음 · 얕은 곡선 베기",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-64-l01",
+      "name_ko": "얼음 · 얕은 곡선 교차 베기",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-64-l25",
+      "name_ko": "얼음 · 얕은 곡선 교차 베기",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-64-l75",
+      "name_ko": "얼음 · 얕은 곡선 교차 베기",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-64-l99",
+      "name_ko": "얼음 · 얕은 곡선 교차 베기",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-65-l01",
+      "name_ko": "얼음 · 얕은 곡선 마구 베기",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-65-l25",
+      "name_ko": "얼음 · 얕은 곡선 마구 베기",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-65-l50",
+      "name_ko": "얼음 · 얕은 곡선 마구 베기",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-65-l75",
+      "name_ko": "얼음 · 얕은 곡선 마구 베기",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-65-l99",
+      "name_ko": "얼음 · 얕은 곡선 마구 베기",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-70-l25",
+      "name_ko": "얼음가시 · 완전 복귀 후 다음 · native 재질",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-70-l50",
+      "name_ko": "얼음가시 · 완전 복귀 후 다음 · native 재질",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-70-l75",
+      "name_ko": "얼음가시 · 완전 복귀 후 다음 · native 재질",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-70-l99",
+      "name_ko": "얼음가시 · 완전 복귀 후 다음 · native 재질",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-71-l25",
+      "name_ko": "얼음가시 · 전체 유지 후 복귀 · native 재질",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-71-l50",
+      "name_ko": "얼음가시 · 전체 유지 후 복귀 · native 재질",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-71-l75",
+      "name_ko": "얼음가시 · 전체 유지 후 복귀 · native 재질",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-71-l99",
+      "name_ko": "얼음가시 · 전체 유지 후 복귀 · native 재질",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-72-l01",
+      "name_ko": "얼음가시 · 겹침 파동 · 밑면 보완",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-72-l25",
+      "name_ko": "얼음가시 · 겹침 파동 · 밑면 보완",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-72-l50",
+      "name_ko": "얼음가시 · 겹침 파동 · 밑면 보완",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-72-l75",
+      "name_ko": "얼음가시 · 겹침 파동 · 밑면 보완",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-72-l99",
+      "name_ko": "얼음가시 · 겹침 파동 · 밑면 보완",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-73-l25",
+      "name_ko": "독가스 · 낮고 응집된 연속 분출",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-73-l50",
+      "name_ko": "독가스 · 낮고 응집된 연속 분출",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-73-l75",
+      "name_ko": "독가스 · 낮고 응집된 연속 분출",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-74-l25",
+      "name_ko": "연기 · 높은 상승 후 느슨한 발산",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-74-l50",
+      "name_ko": "연기 · 높은 상승 후 느슨한 발산",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-74-l75",
+      "name_ko": "연기 · 높은 상승 후 느슨한 발산",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-75-l25",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-75-l50",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-75-l75",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-81-l01",
+      "name_ko": "화살 · 2발 · 일반 명중",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-81-l25",
+      "name_ko": "화살 · 2발 · 일반 명중",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-81-l75",
+      "name_ko": "화살 · 2발 · 일반 명중",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-81-l99",
+      "name_ko": "화살 · 2발 · 일반 명중",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-82-l01",
+      "name_ko": "화살 · 3발 · 일반 명중",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-82-l25",
+      "name_ko": "화살 · 3발 · 일반 명중",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-82-l75",
+      "name_ko": "화살 · 3발 · 일반 명중",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-82-l99",
+      "name_ko": "화살 · 3발 · 일반 명중",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-86-l01",
+      "name_ko": "일반 검격",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-86-l25",
+      "name_ko": "일반 검격",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-86-l50",
+      "name_ko": "일반 검격",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-86-l75",
+      "name_ko": "일반 검격",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "rpg-86-l99",
+      "name_ko": "일반 검격",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "EX-043",
+      "name_ko": "물 충돌 후 방울 · 물기둥 원형",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-017",
+      "name_ko": "침묵 봉쇄 · 수렴 원형",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-026",
+      "name_ko": "수면 충돌 · 단일 물기둥 원형",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-039",
+      "name_ko": "마법 차단 · 얼음탄 방패 도탄 원형",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-041-A",
+      "name_ko": "얼음 파쇄 후 냉기 · 파쇄 단독",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-041-B",
+      "name_ko": "얼음 파쇄 후 냉기 · 냉기 후속 음원 조합",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-001",
+      "name_ko": "단검 회수 · R12 전진 구간 역재생",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-023",
+      "name_ko": "흙먼지 충격 · 둔격과 최신 먼지 C 조합",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-040-A",
+      "name_ko": "보호막 파열 · 승인 얼음파쇄 원음",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-040-B",
+      "name_ko": "보호막 파열 · 미검수 금속 충돌 원음",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-048-A",
+      "name_ko": "낙뢰 후 빗방울 · 단발과 천둥 여운",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-049",
+      "name_ko": "땅 균열 후 미세 파편 · 지진+먼지 C",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-009",
+      "name_ko": "마력 구체 응축 발사 · 두 구간 편집",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "EX-002",
+      "name_ko": "돌 튕김 · 투척 원형 역방향 실험",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-033",
+      "name_ko": "소형 마력 방출 · 마력구 후반 원형",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-037",
+      "name_ko": "생명력 흡수 · 그림자 수렴과 회복",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-024",
+      "name_ko": "눈가루 확산 · 차가운 구름과 작은 얼음편",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-027",
+      "name_ko": "진흙 튀김 · 신규 원음",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "EX-028",
+      "name_ko": "화산재 분출 · 신규 원음",
+      "level": null,
+      "status": "excluded"
+    },
+    {
+      "source_id": "PF2-01",
+      "name_ko": "정면 방사형 2연타 · 강도 1",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "PF2-25",
+      "name_ko": "정면 방사형 2연타 · 강도 25",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "PF2-75",
+      "name_ko": "정면 방사형 2연타 · 강도 75",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "PF2-99",
+      "name_ko": "정면 방사형 2연타 · 강도 99",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "PF3-01",
+      "name_ko": "정면 방사형 3연타 · 강도 1",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "PF3-25",
+      "name_ko": "정면 방사형 3연타 · 강도 25",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "PF3-75",
+      "name_ko": "정면 방사형 3연타 · 강도 75",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "PF3-99",
+      "name_ko": "정면 방사형 3연타 · 강도 99",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "PF5-01",
+      "name_ko": "정면 방사형 5연타 · 강도 1",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "PF5-25",
+      "name_ko": "정면 방사형 5연타 · 강도 25",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "PF5-75",
+      "name_ko": "정면 방사형 5연타 · 강도 75",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "PF5-99",
+      "name_ko": "정면 방사형 5연타 · 강도 99",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "PS2-01",
+      "name_ko": "측면 방향형 2연타 · 강도 1",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "PS2-25",
+      "name_ko": "측면 방향형 2연타 · 강도 25",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "PS2-75",
+      "name_ko": "측면 방향형 2연타 · 강도 75",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "PS2-99",
+      "name_ko": "측면 방향형 2연타 · 강도 99",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "PS3-01",
+      "name_ko": "측면 방향형 3연타 · 강도 1",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "PS3-25",
+      "name_ko": "측면 방향형 3연타 · 강도 25",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "PS3-75",
+      "name_ko": "측면 방향형 3연타 · 강도 75",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "PS3-99",
+      "name_ko": "측면 방향형 3연타 · 강도 99",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "PS5-01",
+      "name_ko": "측면 방향형 5연타 · 강도 1",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "PS5-25",
+      "name_ko": "측면 방향형 5연타 · 강도 25",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "PS5-75",
+      "name_ko": "측면 방향형 5연타 · 강도 75",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "PS5-99",
+      "name_ko": "측면 방향형 5연타 · 강도 99",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-ice-quake-rpg-32-l01",
+      "name_ko": "얼음가시 바닥 입체감",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-rpg-32-l25",
+      "name_ko": "얼음가시 바닥 입체감",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-rpg-32-l50",
+      "name_ko": "얼음가시 바닥 입체감",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-rpg-32-l75",
+      "name_ko": "얼음가시 바닥 입체감",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-rpg-32-l99",
+      "name_ko": "얼음가시 바닥 입체감",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-rpg-33-l01",
+      "name_ko": "얼음가시 바닥 입체감",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-rpg-33-l25",
+      "name_ko": "얼음가시 바닥 입체감",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-rpg-33-l50",
+      "name_ko": "얼음가시 바닥 입체감",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-rpg-33-l75",
+      "name_ko": "얼음가시 바닥 입체감",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-rpg-33-l99",
+      "name_ko": "얼음가시 바닥 입체감",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-zamu-l01",
+      "name_ko": "지진+얼음가시 (자무주)",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-zamu-l25",
+      "name_ko": "지진+얼음가시 (자무주)",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-zamu-l50",
+      "name_ko": "지진+얼음가시 (자무주)",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-zamu-l75",
+      "name_ko": "지진+얼음가시 (자무주)",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ice-quake-zamu-l99",
+      "name_ko": "지진+얼음가시 (자무주)",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-57-l01",
+      "name_ko": "rpg-57-l01",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-57-l25",
+      "name_ko": "rpg-57-l25",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-57-l50",
+      "name_ko": "rpg-57-l50",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-57-l75",
+      "name_ko": "rpg-57-l75",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-57-l99",
+      "name_ko": "rpg-57-l99",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-58-l01",
+      "name_ko": "rpg-58-l01",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-58-l25",
+      "name_ko": "rpg-58-l25",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-58-l50",
+      "name_ko": "rpg-58-l50",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-58-l75",
+      "name_ko": "rpg-58-l75",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-58-l99",
+      "name_ko": "rpg-58-l99",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-59-l01",
+      "name_ko": "rpg-59-l01",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-59-l25",
+      "name_ko": "rpg-59-l25",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-59-l50",
+      "name_ko": "rpg-59-l50",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-59-l75",
+      "name_ko": "rpg-59-l75",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-59-l99",
+      "name_ko": "rpg-59-l99",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-60-l01",
+      "name_ko": "rpg-60-l01",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-60-l25",
+      "name_ko": "rpg-60-l25",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-60-l50",
+      "name_ko": "rpg-60-l50",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-60-l75",
+      "name_ko": "rpg-60-l75",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-60-l99",
+      "name_ko": "rpg-60-l99",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-61-l01",
+      "name_ko": "rpg-61-l01",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-61-l25",
+      "name_ko": "rpg-61-l25",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-61-l50",
+      "name_ko": "rpg-61-l50",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-61-l75",
+      "name_ko": "rpg-61-l75",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-61-l99",
+      "name_ko": "rpg-61-l99",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-62-l01",
+      "name_ko": "rpg-62-l01",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-62-l25",
+      "name_ko": "rpg-62-l25",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-62-l50",
+      "name_ko": "rpg-62-l50",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-62-l75",
+      "name_ko": "rpg-62-l75",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-62-l99",
+      "name_ko": "rpg-62-l99",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-63-l01",
+      "name_ko": "rpg-63-l01",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-63-l25",
+      "name_ko": "rpg-63-l25",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-63-l50",
+      "name_ko": "rpg-63-l50",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-63-l75",
+      "name_ko": "rpg-63-l75",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-63-l99",
+      "name_ko": "rpg-63-l99",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-64-l01",
+      "name_ko": "rpg-64-l01",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-64-l25",
+      "name_ko": "rpg-64-l25",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-64-l50",
+      "name_ko": "rpg-64-l50",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-64-l75",
+      "name_ko": "rpg-64-l75",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-64-l99",
+      "name_ko": "rpg-64-l99",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-65-l01",
+      "name_ko": "rpg-65-l01",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-65-l25",
+      "name_ko": "rpg-65-l25",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-65-l50",
+      "name_ko": "rpg-65-l50",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-65-l75",
+      "name_ko": "rpg-65-l75",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-slash-recommended-rpg-65-l99",
+      "name_ko": "rpg-65-l99",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "W-rotation-sword-ROT270-CW",
+      "name_ko": "ROT270-CW",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-rotation-sword-ROT300-CCW",
+      "name_ko": "ROT300-CCW",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-rotation-sword-ROT360-CW",
+      "name_ko": "ROT360-CW",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-rotation-sword-ROT360-CCW",
+      "name_ko": "ROT360-CCW",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-fire-l01",
+      "name_ko": "불 보호 · 색상 시안",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-ice-l01",
+      "name_ko": "얼음 보호 · 색상 시안",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-water-l01",
+      "name_ko": "물 보호 · 색상 시안",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-electric-l01",
+      "name_ko": "전기 보호 · 색상 시안",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-holy-l01",
+      "name_ko": "빛 보호 · 색상 시안",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-shadow-l01",
+      "name_ko": "그림자 보호 · 색상 시안",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-fire-l25",
+      "name_ko": "불 보호 · 색상 시안",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-ice-l25",
+      "name_ko": "얼음 보호 · 색상 시안",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-water-l25",
+      "name_ko": "물 보호 · 색상 시안",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-electric-l25",
+      "name_ko": "전기 보호 · 색상 시안",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-holy-l25",
+      "name_ko": "빛 보호 · 색상 시안",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-shadow-l25",
+      "name_ko": "그림자 보호 · 색상 시안",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-fire-l50",
+      "name_ko": "불 보호 · 색상 시안",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-ice-l50",
+      "name_ko": "얼음 보호 · 색상 시안",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-water-l50",
+      "name_ko": "물 보호 · 색상 시안",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-electric-l50",
+      "name_ko": "전기 보호 · 색상 시안",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-holy-l50",
+      "name_ko": "빛 보호 · 색상 시안",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-shadow-l50",
+      "name_ko": "그림자 보호 · 색상 시안",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-fire-l75",
+      "name_ko": "불 보호 · 색상 시안",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-ice-l75",
+      "name_ko": "얼음 보호 · 색상 시안",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-water-l75",
+      "name_ko": "물 보호 · 색상 시안",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-electric-l75",
+      "name_ko": "전기 보호 · 색상 시안",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-holy-l75",
+      "name_ko": "빛 보호 · 색상 시안",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-shadow-l75",
+      "name_ko": "그림자 보호 · 색상 시안",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-fire-l99",
+      "name_ko": "불 보호 · 색상 시안",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-ice-l99",
+      "name_ko": "얼음 보호 · 색상 시안",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-water-l99",
+      "name_ko": "물 보호 · 색상 시안",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-electric-l99",
+      "name_ko": "전기 보호 · 색상 시안",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-holy-l99",
+      "name_ko": "빛 보호 · 색상 시안",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-protection-colors-protect-shadow-l99",
+      "name_ko": "그림자 보호 · 색상 시안",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-support-candidates-meditation-l01",
+      "name_ko": "마나 명상 · 푸른 수렴",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-support-candidates-meditation-l25",
+      "name_ko": "마나 명상 · 푸른 수렴",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-support-candidates-meditation-l50",
+      "name_ko": "마나 명상 · 푸른 수렴",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-support-candidates-meditation-l75",
+      "name_ko": "마나 명상 · 푸른 수렴",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-support-candidates-meditation-l99",
+      "name_ko": "마나 명상 · 푸른 수렴",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-support-candidates-prayer-l01",
+      "name_ko": "기도 · 빛 마법진",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-support-candidates-prayer-l25",
+      "name_ko": "기도 · 빛 마법진",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-support-candidates-prayer-l50",
+      "name_ko": "기도 · 빛 마법진",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-support-candidates-prayer-l75",
+      "name_ko": "기도 · 빛 마법진",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-support-candidates-prayer-l99",
+      "name_ko": "기도 · 빛 마법진",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-armor-buff-l01",
+      "name_ko": "무장 · 물리방어 강화 파동",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-curse-l01",
+      "name_ko": "저주 · 어둠 수렴",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-heal-l01",
+      "name_ko": "힐 · 십자 치유",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-armor-buff-l25",
+      "name_ko": "무장 · 물리방어 강화 파동",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-curse-l25",
+      "name_ko": "저주 · 어둠 수렴",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-heal-l25",
+      "name_ko": "힐 · 십자 치유",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-armor-buff-l50",
+      "name_ko": "무장 · 물리방어 강화 파동",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-curse-l50",
+      "name_ko": "저주 · 어둠 수렴",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-heal-l50",
+      "name_ko": "힐 · 십자 치유",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-armor-buff-l75",
+      "name_ko": "무장 · 물리방어 강화 파동",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-curse-l75",
+      "name_ko": "저주 · 어둠 수렴",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-heal-l75",
+      "name_ko": "힐 · 십자 치유",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-armor-buff-l99",
+      "name_ko": "무장 · 물리방어 강화 파동",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-curse-l99",
+      "name_ko": "저주 · 어둠 수렴",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-armor-curse-heal-heal-l99",
+      "name_ko": "힐 · 십자 치유",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ICE-01",
+      "name_ko": "얼음 투척 · 강도 1",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ICE-25",
+      "name_ko": "얼음 투척 · 강도 25",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ICE-50",
+      "name_ko": "얼음 투척 · 강도 50",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ICE-75",
+      "name_ko": "얼음 투척 · 강도 75",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "W-ICE-99",
+      "name_ko": "얼음 투척 · 강도 99",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-73-l01-interior-bright-96",
+      "name_ko": "rpg-73-l01-interior-bright-96 · interior-bright",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-73-l25-interior-bright-96",
+      "name_ko": "rpg-73-l25-interior-bright-96 · interior-bright",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-73-l50-interior-bright-96",
+      "name_ko": "rpg-73-l50-interior-bright-96 · interior-bright",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-73-l75-interior-bright-96",
+      "name_ko": "rpg-73-l75-interior-bright-96 · interior-bright",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-73-l99-interior-bright-96",
+      "name_ko": "rpg-73-l99-interior-bright-96 · interior-bright",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-73-l01-interior-bright-128",
+      "name_ko": "rpg-73-l01-interior-bright-128 · interior-bright",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-73-l25-interior-bright-128",
+      "name_ko": "rpg-73-l25-interior-bright-128 · interior-bright",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-73-l50-interior-bright-128",
+      "name_ko": "rpg-73-l50-interior-bright-128 · interior-bright",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-73-l75-interior-bright-128",
+      "name_ko": "rpg-73-l75-interior-bright-128 · interior-bright",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-73-l99-interior-bright-128",
+      "name_ko": "rpg-73-l99-interior-bright-128 · interior-bright",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-74-l01-interior-bright-96",
+      "name_ko": "rpg-74-l01-interior-bright-96 · interior-bright",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-74-l25-interior-bright-96",
+      "name_ko": "rpg-74-l25-interior-bright-96 · interior-bright",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-74-l50-interior-bright-96",
+      "name_ko": "rpg-74-l50-interior-bright-96 · interior-bright",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-74-l75-interior-bright-96",
+      "name_ko": "rpg-74-l75-interior-bright-96 · interior-bright",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-74-l99-interior-bright-96",
+      "name_ko": "rpg-74-l99-interior-bright-96 · interior-bright",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-74-l01-interior-bright-128",
+      "name_ko": "rpg-74-l01-interior-bright-128 · interior-bright",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-74-l25-interior-bright-128",
+      "name_ko": "rpg-74-l25-interior-bright-128 · interior-bright",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-74-l50-interior-bright-128",
+      "name_ko": "rpg-74-l50-interior-bright-128 · interior-bright",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-74-l75-interior-bright-128",
+      "name_ko": "rpg-74-l75-interior-bright-128 · interior-bright",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-74-l99-interior-bright-128",
+      "name_ko": "rpg-74-l99-interior-bright-128 · interior-bright",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l01-electric-384",
+      "name_ko": "rpg-75-l01-electric-384 · electric",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l25-electric-384",
+      "name_ko": "rpg-75-l25-electric-384 · electric",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l50-electric-384",
+      "name_ko": "rpg-75-l50-electric-384 · electric",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l75-electric-384",
+      "name_ko": "rpg-75-l75-electric-384 · electric",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l99-electric-384",
+      "name_ko": "rpg-75-l99-electric-384 · electric",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l01-smoke-384",
+      "name_ko": "rpg-75-l01-smoke-384 · smoke",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l25-smoke-384",
+      "name_ko": "rpg-75-l25-smoke-384 · smoke",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l50-smoke-384",
+      "name_ko": "rpg-75-l50-smoke-384 · smoke",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l75-smoke-384",
+      "name_ko": "rpg-75-l75-smoke-384 · smoke",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l99-smoke-384",
+      "name_ko": "rpg-75-l99-smoke-384 · smoke",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l01-smoke-bright-384",
+      "name_ko": "rpg-75-l01-smoke-bright-384 · smoke-bright",
+      "level": 1,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l25-smoke-bright-384",
+      "name_ko": "rpg-75-l25-smoke-bright-384 · smoke-bright",
+      "level": 25,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l50-smoke-bright-384",
+      "name_ko": "rpg-75-l50-smoke-bright-384 · smoke-bright",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l75-smoke-bright-384",
+      "name_ko": "rpg-75-l75-smoke-bright-384 · smoke-bright",
+      "level": 75,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "CLOUD-rpg-75-l99-smoke-bright-384",
+      "name_ko": "rpg-75-l99-smoke-bright-384 · smoke-bright",
+      "level": 99,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "PAIR-SH-water-A",
+      "name_ko": "물 보호 · 시작 보존",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "PAIR-SH-water-B",
+      "name_ko": "물 보호 · 피크 접근 크롭",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "PAIR-SH-electric-A",
+      "name_ko": "전기 보호 · 시작 보존",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "PAIR-SH-electric-B",
+      "name_ko": "전기 보호 · 피크 접근 크롭",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "PAIR-ZQ01",
+      "name_ko": "자무주 · 강도 1 (Lv1) · 단일 가시",
+      "level": 1,
+      "status": "changed"
+    },
+    {
+      "source_id": "PAIR-ZQ02",
+      "name_ko": "자무주 · 강도 2 (Lv25) · 단일 가시",
+      "level": 25,
+      "status": "changed"
+    },
+    {
+      "source_id": "PAIR-ZQ03",
+      "name_ko": "자무주 · 강도 3 (Lv50) · 단일 가시",
+      "level": 50,
+      "status": "changed"
+    },
+    {
+      "source_id": "PAIR-ZQ04",
+      "name_ko": "자무주 · 강도 4 (Lv75) · 단일 가시",
+      "level": 75,
+      "status": "changed"
+    },
+    {
+      "source_id": "PAIR-ZQ05",
+      "name_ko": "자무주 · 강도 5 (Lv99) · 단일 가시",
+      "level": 99,
+      "status": "changed"
+    },
+    {
+      "source_id": "PAIR-SF01",
+      "name_ko": "5연타 · 서로 다른 칼소리 편집 조립",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "PAIR-SF02",
+      "name_ko": "불 마구베기 · 일반 칼소리 비교",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "PAIR-SF03",
+      "name_ko": "얼음 마구베기 · 일반 칼소리 비교",
+      "level": null,
+      "status": "changed"
+    },
+    {
+      "source_id": "SYNC-X18",
+      "name_ko": "얼음 첨탄 · 직선 · 오른쪽 진입 · 폴리 11 후보 2 · 통과 · X18",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-001",
+      "name_ko": "04 · 물 탄체 · 긴 포물선 · 001",
+      "level": 50,
+      "status": "needs-work"
+    },
+    {
+      "source_id": "BULK-002",
+      "name_ko": "05 · 돌 투척 · 충격 파쇄 · 002",
+      "level": 50,
+      "status": "needs-work"
+    },
+    {
+      "source_id": "BULK-006",
+      "name_ko": "먹구름 · 연속 낙뢰 · 006",
+      "level": 50,
+      "status": "needs-work"
+    },
+    {
+      "source_id": "BULK-007",
+      "name_ko": "독화살 · 포물선 · 007",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-008",
+      "name_ko": "독화살 · 포물선 · 008",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-009",
+      "name_ko": "독화살 · 포물선 · 009",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-010",
+      "name_ko": "독화살 · 포물선 · 010",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-011",
+      "name_ko": "투척 칼 · 직선 · 011",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-012",
+      "name_ko": "투척 칼 · 직선 · 012",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-013",
+      "name_ko": "투척 칼 · 직선 · 013",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-014",
+      "name_ko": "투척 칼 · 직선 · 014",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-015",
+      "name_ko": "투척 칼 · 포물선 · 015",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-016",
+      "name_ko": "투척 칼 · 포물선 · 016",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-017",
+      "name_ko": "투척 칼 · 포물선 · 017",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-018",
+      "name_ko": "화염구 · 직선 · 왼쪽 진입 · 018",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-019",
+      "name_ko": "화염구 · 직선 · 왼쪽 진입 · 019",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-020",
+      "name_ko": "화염구 · 직선 · 왼쪽 진입 · 020",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-021",
+      "name_ko": "화염구 · 직선 · 오른쪽 진입 · 021",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-022",
+      "name_ko": "화염구 · 직선 · 오른쪽 진입 · 022",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-023",
+      "name_ko": "물 구체 · 직선 · 023",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-024",
+      "name_ko": "물 구체 · 직선 · 024",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-025",
+      "name_ko": "물 구체 · 직선 · 025",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-026",
+      "name_ko": "물 구체 · 직선 · 026",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-027",
+      "name_ko": "물 구체 · 포물선 · 027",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-028",
+      "name_ko": "물 구체 · 포물선 · 028",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-029",
+      "name_ko": "바위 탄체 · 직선 · 029",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-030",
+      "name_ko": "바위 탄체 · 직선 · 030",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-031",
+      "name_ko": "바위 탄체 · 직선 · 031",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-032",
+      "name_ko": "바위 탄체 · 포물선 · 032",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-033",
+      "name_ko": "바위 탄체 · 포물선 · 033",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-034",
+      "name_ko": "얼음 첨탄 · 직선 · 왼쪽 진입 · 034",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-035",
+      "name_ko": "얼음 첨탄 · 직선 · 왼쪽 진입 · 035",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-036",
+      "name_ko": "얼음 첨탄 · 직선 · 왼쪽 진입 · 036",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-037",
+      "name_ko": "얼음 첨탄 · 직선 · 오른쪽 진입 · 037",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-038",
+      "name_ko": "물리 · 얕은 곡선 베기 · 038",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-039",
+      "name_ko": "물리 · 얕은 곡선 베기 · 039",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-040",
+      "name_ko": "물리 · 얕은 곡선 베기 · 040",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-041",
+      "name_ko": "물리 · 얕은 곡선 교차 베기 · 041",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-042",
+      "name_ko": "물리 · 얕은 곡선 마구 베기 · 042",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-043",
+      "name_ko": "물리 · 얕은 곡선 마구 베기 · 043",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-044",
+      "name_ko": "불 · 얕은 곡선 베기 · 044",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-045",
+      "name_ko": "불 · 얕은 곡선 베기 · 045",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-046",
+      "name_ko": "불 · 얕은 곡선 베기 · 046",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-047",
+      "name_ko": "불 · 얕은 곡선 교차 베기 · 047",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-048",
+      "name_ko": "불 · 얕은 곡선 교차 베기 · 048",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-049",
+      "name_ko": "불 · 얕은 곡선 마구 베기 · 049",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-050",
+      "name_ko": "불 · 얕은 곡선 마구 베기 · 050",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-051",
+      "name_ko": "얼음 · 얕은 곡선 베기 · 051",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-052",
+      "name_ko": "얼음 · 얕은 곡선 베기 · 052",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-053",
+      "name_ko": "얼음 · 얕은 곡선 베기 · 053",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-054",
+      "name_ko": "얼음 · 얕은 곡선 교차 베기 · 054",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-055",
+      "name_ko": "얼음 · 얕은 곡선 교차 베기 · 055",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-056",
+      "name_ko": "얼음 · 얕은 곡선 마구 베기 · 056",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-057",
+      "name_ko": "얼음 · 얕은 곡선 마구 베기 · 057",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-058",
+      "name_ko": "물 · 직선 압력 분사 · 058",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-059",
+      "name_ko": "물 · 직선 압력 분사 · 059",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-062",
+      "name_ko": "전기 · 연속 플라즈마 기둥 · 062",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-063",
+      "name_ko": "전기 · 연속 플라즈마 기둥 · 063",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-064",
+      "name_ko": "마력 · 연속 에너지 기둥 · 064",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-065",
+      "name_ko": "마력 · 연속 에너지 기둥 · 065",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-066",
+      "name_ko": "얼음가시 · 완전 복귀 후 다음 · native 재질 · 066",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-067",
+      "name_ko": "얼음가시 · 완전 복귀 후 다음 · native 재질 · 067",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-068",
+      "name_ko": "얼음가시 · 전체 유지 후 복귀 · native 재질 · 068",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-069",
+      "name_ko": "얼음가시 · 전체 유지 후 복귀 · native 재질 · 069",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-070",
+      "name_ko": "얼음가시 · 겹침 파동 · native 재질 · 070",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-071",
+      "name_ko": "얼음가시 · 겹침 파동 · native 재질 · 071",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-072-interior-bright-96",
+      "name_ko": "독가스 · 낮고 응집된 연속 분출 · 072 · 최신 구름 interior-bright-96",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-073-interior-bright-96",
+      "name_ko": "독가스 · 낮고 응집된 연속 분출 · 073 · 최신 구름 interior-bright-96",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-074-interior-bright-96",
+      "name_ko": "연기 · 높은 상승 후 느슨한 발산 · 074 · 최신 구름 interior-bright-96",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-075-interior-bright-96",
+      "name_ko": "연기 · 높은 상승 후 느슨한 발산 · 075 · 최신 구름 interior-bright-96",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-076-electric-384",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰 · 076 · 최신 구름 electric-384",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-076-smoke-bright-384",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰 · 076 · 최신 구름 smoke-bright-384",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-077-electric-384",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰 · 077 · 최신 구름 electric-384",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-077-smoke-bright-384",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰 · 077 · 최신 구름 smoke-bright-384",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-078-electric-384",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰 · 078 · 최신 구름 electric-384",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-078-smoke-bright-384",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰 · 078 · 최신 구름 smoke-bright-384",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-079",
+      "name_ko": "바위 · 직선 충격과 운동량 파쇄 복합 · 079",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-080",
+      "name_ko": "바위 · 직선 충격과 운동량 파쇄 복합 · 080",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-081",
+      "name_ko": "바위 · 직선 충격과 운동량 파쇄 복합 · 081",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-082",
+      "name_ko": "바위 · 직선 충격과 운동량 파쇄 복합 · 082",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-083",
+      "name_ko": "얼음 · 직선 충격과 운동량 파쇄 복합 · 083",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-084",
+      "name_ko": "얼음 · 직선 충격과 운동량 파쇄 복합 · 084",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-085",
+      "name_ko": "얼음 · 직선 충격과 운동량 파쇄 복합 · 085",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-086",
+      "name_ko": "얼음 · 직선 충격과 운동량 파쇄 복합 · 086",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-087",
+      "name_ko": "낙엽 · 채택 A 원형의 넓은 회오리 · 087",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-088",
+      "name_ko": "낙엽 · 채택 A 원형의 넓은 회오리 · 088",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-089",
+      "name_ko": "회복 · 십자 표식과 상승 입자 · 089",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-090",
+      "name_ko": "회복 · 십자 표식과 상승 입자 · 090",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-091",
+      "name_ko": "보호 · 다중 실드 파동 · 091",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-092",
+      "name_ko": "보호 · 다중 실드 파동 · 092",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-093",
+      "name_ko": "화살 · 2발 · 일반 명중 · 093",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-094",
+      "name_ko": "화살 · 2발 · 일반 명중 · 094",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-095",
+      "name_ko": "화살 · 2발 · 일반 명중 · 095",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-096",
+      "name_ko": "화살 · 3발 · 일반 명중 · 096",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-097",
+      "name_ko": "화살 · 3발 · 일반 명중 · 097",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-098",
+      "name_ko": "화살 · 1발 · 출혈 · 098",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-099",
+      "name_ko": "화살 · 1발 · 출혈 · 099",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-100",
+      "name_ko": "화살 · 2발 · 출혈 · 100",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-101",
+      "name_ko": "화살 · 2발 · 출혈 · 101",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-102",
+      "name_ko": "화살 · 3발 · 출혈 · 102",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-103",
+      "name_ko": "화살 · 3발 · 출혈 · 103",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-104",
+      "name_ko": "일반 검격 · 104",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-C001",
+      "name_ko": "독가스 · 낮고 응집된 연속 분출 · C001",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-C002",
+      "name_ko": "독가스 · 낮고 응집된 연속 분출 · C002",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-C003",
+      "name_ko": "연기 · 높은 상승 후 느슨한 발산 · C003",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-C004",
+      "name_ko": "연기 · 높은 상승 후 느슨한 발산 · C004",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-C005",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰 · C005",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-C006",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰 · C006",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-C007",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰 · C007",
+      "level": 50,
+      "status": "unreviewed"
+    },
+    {
+      "source_id": "BULK-C008",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰 · C008",
+      "level": 50,
+      "status": "unreviewed"
+    }
+  ]
+}

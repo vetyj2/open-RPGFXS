@@ -1,0 +1,198 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-04-0019",
+  "name_ko": "전기 방전 · 폴리19 후보 3",
+  "file": "audio/04/ORFXS-04-0019.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 26400
+  },
+  "sha256": "910b40ebd7f3f29f2d6503f581b21eb0357b3a9d2ec28b642c3c03470c702172",
+  "pcm_sha256": "e56614fa94a25be1e38757cb63077ad77fd1004ba6968d38f92941f5ff0eca7b",
+  "metrics": {
+    "duration_ms": 550.0,
+    "sample_peak_dbfs": -5.3648,
+    "sample_peak_ms": 147.75,
+    "active_rms_dbfs": -29.4716,
+    "first_activity_ms": 0,
+    "last_activity_ms": 550,
+    "main_onset_candidate_ms": 0,
+    "transient_candidates_ms": [
+      7.5,
+      147.5,
+      342.5,
+      502.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "P034"
+  ],
+  "sources": [
+    {
+      "source_id": "P034",
+      "source_sha256": "14936b06ffc36f31e5f8b1c4d0c541812d52a14651f40ee794f7a0fc453122d6",
+      "start_sample": 0,
+      "end_sample_exclusive": 26400,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-04-007-01-P01",
+    "ORFX-04-007-02-P01",
+    "ORFX-04-007-03-P01",
+    "ORFX-04-007-03-P07",
+    "ORFX-06-005-03-P03",
+    "ORFX-06-005-03-P05",
+    "ORFX-09-019-03-P01",
+    "ORFX-09-020-03-P01"
+  ],
+  "usage_levels": [
+    1,
+    25,
+    50
+  ],
+  "concepts": [
+    "electric",
+    "impact"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "foley-19-reviewed",
+      "prompt": "Six-second photorealistic single continuous live-action scene, fixed close camera with a believable physical sound source visibly moving in sync. Capture bold, physical, close-miked sound with assertive attack, convincing mass and clear texture: fast pressure movement, a decisive sharp transient, weighty mid/low body and a natural short decay appropriate to the material. Strong impact and realistic dynamic range without digital clipping, harsh distortion, cartoon exaggeration or synthetic tones. Three short separated takes of the SAME physical event, with varying force and texture, not copies: weak at about 0.80 seconds, medium at 2.50 seconds, strong at 4.20 seconds. Each take has its own explicit duration below; keep the gaps genuinely quiet and never overlap adjacent tails. Sounds must match what is visible and stop naturally before the next take. No background music, score, singing, voices, narration, chiptune, 8-bit sounds, UI sounds, artificial whooshes, cinematic risers, titles, edits or montage. In a real electrical-effects test chamber, a visible short arc snaps between electrodes. Capture its dry electrical crackle and a brief close snap, with no electronic tone. The physical transient peaks at 0.80 / 2.50 / 4.20 seconds, and the complete incoming movement and natural tail last approximately 250 / 380 / 550 milliseconds, respectively. Preserve quiet separation and material realism.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-75",
+      "prompt": "Six-second photorealistic single continuous live-action scene, fixed close camera with a believable physical sound source visibly moving in sync. Capture bold, physical, close-miked sound with assertive attack, convincing mass and clear texture: fast pressure movement, a decisive sharp transient, weighty mid/low body and a natural short decay appropriate to the material. Strong impact and realistic dynamic range without digital clipping, harsh distortion, cartoon exaggeration or synthetic tones. Three short separated takes of the SAME physical event, with varying force and texture, not copies: weak at about 0.80 seconds, medium at 2.50 seconds, strong at 4.20 seconds. Each take has its own explicit duration below; keep the gaps genuinely quiet and never overlap adjacent tails. Sounds must match what is visible and stop naturally before the next take. No background music, score, singing, voices, narration, chiptune, 8-bit sounds, UI sounds, artificial whooshes, cinematic risers, titles, edits or montage. In a real electrical-effects test chamber, a visible short arc snaps between electrodes. Capture its dry electrical crackle and a brief close snap, with no electronic tone. The physical transient peaks at 0.80 / 2.50 / 4.20 seconds, and the complete incoming movement and natural tail last approximately 250 / 380 / 550 milliseconds, respectively. Preserve quiet separation and material realism.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "P034"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-04-007-01-P01",
+      "source_id": "rpg-19-l01",
+      "name_ko": "번개 · 짧은 단발 방전",
+      "level": 1
+    },
+    {
+      "pairing": "ORFX-04-007-02-P01",
+      "source_id": "rpg-19-l25",
+      "name_ko": "번개 · 짧은 단발 방전",
+      "level": 25
+    },
+    {
+      "pairing": "ORFX-04-007-03-P01",
+      "source_id": "rpg-19-l50",
+      "name_ko": "번개 · 짧은 단발 방전",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-04-007-03-P07",
+      "source_id": "SYNC-N12",
+      "name_ko": "번개 · 짧은 단발 방전 · N12",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-06-005-03-P03",
+      "source_id": "SYNC-L002",
+      "name_ko": "기존 스파크 · 승인음 3 반복 · L002",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-06-005-03-P05",
+      "source_id": "SYNC-B001",
+      "name_ko": "낙뢰 3회 · 음원 조합 · B001",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-09-019-03-P01",
+      "source_id": "SYNC-L004",
+      "name_ko": "최신 피격입자 추가 · 승인음 2·3·2 · L004",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-09-020-03-P01",
+      "source_id": "SYNC-L005",
+      "name_ko": "최신 피격입자로 교체 · 승인음 2·3·2 · L005",
+      "level": 50
+    }
+  ],
+  "best_use": [
+    "번개 · 짧은 단발 방전",
+    "번개 · 짧은 단발 방전 · N12",
+    "기존 스파크 · 승인음 3 반복 · L002",
+    "낙뢰 3회 · 음원 조합 · B001",
+    "최신 피격입자 추가 · 승인음 2·3·2 · L004",
+    "최신 피격입자로 교체 · 승인음 2·3·2 · L005"
+  ],
+  "usage_patterns": [
+    "one-shot",
+    "sequence"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "candidate"
+    },
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "route-level hypothesis; listen for intrinsic secondary events"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      1,
+      25,
+      50
+    ],
+    "sample_peak_dbfs": -5.3648,
+    "active_rms_dbfs": -29.4716,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "electric",
+      "impact"
+    ],
+    "temporal_patterns": [
+      "one-shot",
+      "one-shot"
+    ],
+    "duration_ms": 550.0,
+    "main_onset_candidate_ms": 0,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

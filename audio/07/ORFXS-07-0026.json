@@ -1,0 +1,117 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-07-0026",
+  "name_ko": "빛 보호 · 피크 접근 크롭",
+  "file": "audio/07/ORFXS-07-0026.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 62400
+  },
+  "sha256": "14db8d5bbb96dd29f8b3581cfcfcc1dad0f667122f547541148016e2233d572d",
+  "pcm_sha256": "5407d1202fea538c3573ede4b71c7fc8298be08f5c9fb41fd1eda38b56d6659e",
+  "metrics": {
+    "duration_ms": 1300.0,
+    "sample_peak_dbfs": -28.0368,
+    "sample_peak_ms": 569.645833,
+    "active_rms_dbfs": -43.6395,
+    "first_activity_ms": 25,
+    "last_activity_ms": 1200,
+    "main_onset_candidate_ms": 80,
+    "transient_candidates_ms": [
+      342.5,
+      457.5,
+      567.5,
+      697.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "PAIR-SH-holy-B"
+  ],
+  "sources": [
+    {
+      "source_id": "PAIR-SH-holy-B",
+      "source_sha256": "cd62c1a245cd57cdb5d8597a894322c992ed1532573346ee82fff5f8d8e37d4b",
+      "start_sample": 400,
+      "end_sample_exclusive": 62800,
+      "fade_in_ms": 500.0,
+      "fade_out_ms": 637.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-07-009-00-P02"
+  ],
+  "usage_levels": [],
+  "concepts": [
+    "buff",
+    "light",
+    "shield"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "PAIR-SH-holy-B"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-07-009-00-P02",
+      "source_id": "PAIR-SH-holy-B",
+      "name_ko": "빛 보호 · 피크 접근 크롭",
+      "level": null
+    }
+  ],
+  "best_use": [
+    "빛 보호 · 피크 접근 크롭"
+  ],
+  "usage_patterns": [
+    "continuous"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "continuous",
+      "event_count": 0,
+      "intervals_ms": [],
+      "confidence": "not-applicable / continuous"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [],
+    "sample_peak_dbfs": -28.0368,
+    "active_rms_dbfs": -43.6395,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "buff",
+      "light",
+      "shield"
+    ],
+    "temporal_patterns": [
+      "continuous"
+    ],
+    "duration_ms": 1300.0,
+    "main_onset_candidate_ms": 80,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

@@ -1,0 +1,785 @@
+{
+  "schema": "open-rpgfxs.pairing/1",
+  "code": "ORFX-06-001-05-P01",
+  "source_id": "rpg-20-l99",
+  "name_ko": "바람 · 접선 탈락 뒤 작은 수렴 나선",
+  "animation": "ORFX-06-001-05",
+  "sheet": "spritesheets/06/ORFX-06-001-05.png",
+  "thumbnail": "thumbnails/06/ORFX-06-001-05.png",
+  "category": "06",
+  "group": "rpg-20",
+  "level": 99,
+  "stage": 5,
+  "role": "primary",
+  "review": {
+    "decision": "좋음",
+    "reviewed_at": "2026-11-03T20:41:14.085Z",
+    "source_bound": true,
+    "record_sha256": "b47a27887c0c72eb51595b5ba2febcf4c6c20f2e1c3dea3a6402fee06ad94df0",
+    "final_feedback_sha256": "2d8c0baf8e85c83232324d80e2cf910f1ef4f5109b572ed55e0778fda792e4a7",
+    "memo": ""
+  },
+  "timing": {
+    "unit": "milliseconds from animation start; negative audio start is pre-roll",
+    "duration_ms": 500.0,
+    "fps": 24.0,
+    "recommended_frame_ms": 41.666667,
+    "frame_durations_ms": null,
+    "impact_events": [
+      {
+        "time_ms": 83.333333,
+        "kind": "attack_candidate",
+        "confidence": "candidate",
+        "basis": "시각 피크 추정",
+        "frame_fraction": 2.0,
+        "sample_48k": 4000,
+        "local_point_px": [
+          192,
+          192
+        ],
+        "position_basis": "package pivot / target focus; contact surface pixels not independently measured"
+      }
+    ],
+    "impact_intervals_ms": [],
+    "review_anchor_ms": 83.33333333333333,
+    "review_anchor_basis": "시각 피크 추정",
+    "causal_evidence_mode": "matched_effect_receipt",
+    "visual_peaks_separate": [
+      {
+        "kind": "visual_peak",
+        "ms": 83.33,
+        "metric": "alpha_mass"
+      },
+      {
+        "kind": "visual_peak",
+        "ms": 83.33,
+        "metric": "brightness_proxy"
+      }
+    ],
+    "visible_start_ms": 41.666667,
+    "visible_end_ms": 375.0,
+    "recommended_total_playback_ms": 1350.0,
+    "pre_roll_ms": 175.0,
+    "audio_tail_after_animation_ms": 675.0,
+    "temporal_pattern": "one-shot",
+    "legacy_source_document": {
+      "document": "sync-cues.json",
+      "sha256": "2dfe8a0e971d9ae3f33576dd58bd6363f040c6e49e3c889a23476ba3c42a6f37",
+      "data": {
+        "highlights": [
+          {
+            "frame": 0,
+            "t_ms": 0.0,
+            "label": "시작",
+            "source": "source_frame",
+            "audio_sample_48khz": 0,
+            "t_ms_fraction": [
+              0,
+              24
+            ]
+          },
+          {
+            "frame": 2,
+            "t_ms": 83.333333,
+            "label": "최대 가시 면적",
+            "source": "rendered_alpha_area_peak",
+            "audio_sample_48khz": 4000,
+            "t_ms_fraction": [
+              2000,
+              24
+            ]
+          },
+          {
+            "frame": 2,
+            "t_ms": 83.333333,
+            "label": "최대 밝기",
+            "source": "rendered_premultiplied_luminance_peak",
+            "audio_sample_48khz": 4000,
+            "t_ms_fraction": [
+              2000,
+              24
+            ]
+          },
+          {
+            "frame": 8,
+            "t_ms": 333.333333,
+            "label": "마지막 가시 프레임",
+            "source": "rendered_alpha_presence",
+            "audio_sample_48khz": 16000,
+            "t_ms_fraction": [
+              8000,
+              24
+            ]
+          }
+        ],
+        "duration_ms": 500.0,
+        "clock": "actual authored source seconds and atlas FPS; visual sample spacing remains explicit",
+        "loop": false,
+        "audio_sync": "pending",
+        "playback": {
+          "mode": "once",
+          "loopable": false,
+          "loop_start": 0.3,
+          "loop_end": 0.7,
+          "loop_blend": 0.0,
+          "opacity": 255,
+          "frame_opacity": {},
+          "frame_count": 12,
+          "fps": 24.0,
+          "cell_opacities": [
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          "alpha_rule": "pixel_alpha * cell_opacity /255, applied once at playback",
+          "sequence": [
+            "full"
+          ],
+          "release_rule": "play creation, peak and release once, then stop",
+          "range_convention": "start-inclusive/end-exclusive",
+          "warnings": [],
+          "recommended_window": null,
+          "segments": {
+            "full": {
+              "start": 0,
+              "end": 12,
+              "count": 12,
+              "duration_ms": 500,
+              "repeat": false,
+              "files": {
+                "frames": "frames/",
+                "sheet": "sheet.png",
+                "atlas": "sheet.json",
+                "gif": "preview.gif",
+                "output_space": "output-space.json"
+              },
+              "frames_sha256": "e4ee5151ff622f372d24d9bfefb1e383a8165a3da5689be049525880d02f57d0"
+            },
+            "intro": {
+              "start": 0,
+              "end": 0,
+              "count": 0,
+              "duration_ms": 0,
+              "repeat": false
+            },
+            "loop": {
+              "start": 0,
+              "end": 12,
+              "count": 12,
+              "duration_ms": 500,
+              "repeat": false
+            },
+            "outro": {
+              "start": 12,
+              "end": 12,
+              "count": 0,
+              "duration_ms": 0,
+              "repeat": false
+            }
+          },
+          "export_alpha": {
+            "sheet": "straight RGBA; cell opacity not baked",
+            "preview_cell_opacity_baked": true,
+            "apng": "full RGBA",
+            "gif": "binary alpha with native-grid dither",
+            "preview_scale": 1
+          },
+          "seam": {
+            "from_frame": 11,
+            "to_frame": 0,
+            "identical": true,
+            "changed_pixel_ratio": 0.0,
+            "visible_changed_ratio": 0.0,
+            "alpha_xor_ratio": 0.0,
+            "visible_rgb_mean_abs_diff": 0.0,
+            "adjacent_changed_ratio_mean": 0.06444511028251264,
+            "boundary_to_adjacent_ratio": 0.0,
+            "note": "Endpoint differences compared with normal frame changes; this does not certify a seamless loop."
+          },
+          "transitions": {}
+        },
+        "measurements": {
+          "alpha_peak_frame": 2,
+          "luminance_peak_frame": 2,
+          "last_visible_frame": 8
+        },
+        "active_start_ms": 41.666666666666664,
+        "active_end_ms": 375.0,
+        "final_animation_confirmation": "pending",
+        "sync_cue_revision": "r7_actual_source_events",
+        "visual_sample_spacing_ms": 41.666666666666664,
+        "audio_sample_reference_hz": 48000
+      }
+    },
+    "semantic_event_count": 1,
+    "event_count_confidence": "candidate"
+  },
+  "routes": [
+    {
+      "event": 1,
+      "audio": "ORFXS-06-0002",
+      "file": "audio/06/ORFXS-06-0002.wav",
+      "start_ms": -175.0,
+      "start_sample_48k": -8400,
+      "gain": 1,
+      "duration_ms": 1350.0,
+      "end_ms": 1175.0,
+      "main_onset_local_ms": 575.0,
+      "main_onset_timeline_ms": 400.0,
+      "onset_basis": "waveform_candidate",
+      "sample_peak_local_ms": 495.666667,
+      "sample_peak_timeline_ms": 320.666667,
+      "target_event_ms": 83.333333,
+      "main_onset_delta_ms": 316.666667,
+      "source_id": "003",
+      "crop_sha256": "b2f3fa8a5c2b040e0a9c53072ea39d05c68c8849799ff55052af42fe2a1da011",
+      "replace_rule": "new_start_ms = target_event_ms + retained_main_onset_delta_ms - new_main_onset_local_ms; for sustained sound use the approved start anchor"
+    }
+  ],
+  "signal": {
+    "duration_ms": 1350.041667,
+    "sample_peak_dbfs": -7.0243,
+    "sample_peak_ms": 495.666667,
+    "active_rms_dbfs": -21.2884,
+    "first_activity_ms": 0,
+    "last_activity_ms": 1310,
+    "main_onset_candidate_ms": 575,
+    "transient_candidates_ms": [
+      42.5,
+      157.5,
+      337.5,
+      497.5,
+      642.5,
+      787.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "concepts": [
+    "wind"
+  ],
+  "best_use": [
+    "바람 · 접선 탈락 뒤 작은 수렴 나선"
+  ],
+  "alternate_use": [],
+  "avoid_when": [
+    "Do not stretch sound to visual peak width or trim natural tails automatically.",
+    "Do not align a replacement by maximum amplitude alone."
+  ],
+  "compatibility": {
+    "reviewed_alternatives": [],
+    "same_sound_gain_alternatives": [],
+    "recommendations": [
+      {
+        "audio": "ORFXS-06-0002",
+        "score": 169.0,
+        "review_status": "reviewed exact use",
+        "reasons": [
+          {
+            "factor": "wind",
+            "points": 12
+          },
+          {
+            "factor": "reviewed exact pairing",
+            "points": 100
+          },
+          {
+            "factor": "temporal use pattern per audio slot",
+            "points": 15
+          },
+          {
+            "factor": "reviewed event count (not waveform peak count)",
+            "points": 10
+          },
+          {
+            "factor": "reviewed usage level proximity",
+            "points": 12.0
+          },
+          {
+            "factor": "duration proximity (tail allowed)",
+            "points": 8.0
+          },
+          {
+            "factor": "sample_peak_dbfs proximity at reviewed gains",
+            "delta_db": 0.0,
+            "points": 6.0
+          },
+          {
+            "factor": "active_rms_dbfs proximity at reviewed gains",
+            "delta_db": 0.0,
+            "points": 6.0
+          }
+        ],
+        "replacement_draft": {
+          "status": "reviewed exact route",
+          "route": {
+            "event": 1,
+            "audio": "ORFXS-06-0002",
+            "file": "audio/06/ORFXS-06-0002.wav",
+            "start_ms": -175.0,
+            "start_sample_48k": -8400,
+            "gain": 1,
+            "duration_ms": 1350.0,
+            "end_ms": 1175.0,
+            "main_onset_local_ms": 575.0,
+            "main_onset_timeline_ms": 400.0,
+            "onset_basis": "waveform_candidate",
+            "sample_peak_local_ms": 495.666667,
+            "sample_peak_timeline_ms": 320.666667,
+            "target_event_ms": 83.333333,
+            "main_onset_delta_ms": 316.666667,
+            "source_id": "003",
+            "crop_sha256": "b2f3fa8a5c2b040e0a9c53072ea39d05c68c8849799ff55052af42fe2a1da011",
+            "replace_rule": "new_start_ms = target_event_ms + retained_main_onset_delta_ms - new_main_onset_local_ms; for sustained sound use the approved start anchor"
+          }
+        }
+      },
+      {
+        "audio": "ORFXS-06-0001",
+        "score": 66.045,
+        "review_status": "recommendation only",
+        "reasons": [
+          {
+            "factor": "wind",
+            "points": 12
+          },
+          {
+            "factor": "temporal use pattern per audio slot",
+            "points": 15
+          },
+          {
+            "factor": "reviewed event count (not waveform peak count)",
+            "points": 10
+          },
+          {
+            "factor": "reviewed usage level proximity",
+            "points": 9.06
+          },
+          {
+            "factor": "duration proximity (tail allowed)",
+            "points": 8.0
+          },
+          {
+            "factor": "sample_peak_dbfs proximity at reviewed gains",
+            "delta_db": 0.0,
+            "points": 6.0
+          },
+          {
+            "factor": "active_rms_dbfs proximity at reviewed gains",
+            "delta_db": -0.047,
+            "points": 5.98
+          }
+        ],
+        "replacement_draft": {
+          "replace_event": 1,
+          "audio": "ORFXS-06-0001",
+          "start_ms": -175.0,
+          "gain_suggestion": 1.00546,
+          "new_main_onset_candidate_ms": 575,
+          "anchor_event_ms": 83.333333,
+          "preserved_reviewed_main_onset_delta_ms": 316.666667,
+          "status": "heuristic; audition onset, material and mixture headroom; do not apply automatically",
+          "audio_end_ms": 1175.0,
+          "tail_after_visual_ms": 675.0
+        }
+      },
+      {
+        "audio": "ORFXS-06-0015",
+        "score": 63.0,
+        "review_status": "recommendation only",
+        "reasons": [
+          {
+            "factor": "wind",
+            "points": 12
+          },
+          {
+            "factor": "temporal use pattern per audio slot",
+            "points": 15
+          },
+          {
+            "factor": "reviewed event count (not waveform peak count)",
+            "points": 10
+          },
+          {
+            "factor": "reviewed usage level proximity",
+            "points": 6.0
+          },
+          {
+            "factor": "duration proximity (tail allowed)",
+            "points": 8.0
+          },
+          {
+            "factor": "sample_peak_dbfs proximity at reviewed gains",
+            "delta_db": 0.0,
+            "points": 6.0
+          },
+          {
+            "factor": "active_rms_dbfs proximity at reviewed gains",
+            "delta_db": -0.0,
+            "points": 6.0
+          }
+        ],
+        "replacement_draft": {
+          "replace_event": 1,
+          "audio": "ORFXS-06-0015",
+          "start_ms": -175.0,
+          "gain_suggestion": 1.000023,
+          "new_main_onset_candidate_ms": 575,
+          "anchor_event_ms": 83.333333,
+          "preserved_reviewed_main_onset_delta_ms": 316.666667,
+          "status": "heuristic; audition onset, material and mixture headroom; do not apply automatically",
+          "audio_end_ms": 1175.0,
+          "tail_after_visual_ms": 675.0
+        }
+      },
+      {
+        "audio": "ORFXS-06-0011",
+        "score": 61.959,
+        "review_status": "recommendation only",
+        "reasons": [
+          {
+            "factor": "wind",
+            "points": 12
+          },
+          {
+            "factor": "temporal use pattern per audio slot",
+            "points": 15
+          },
+          {
+            "factor": "reviewed event count (not waveform peak count)",
+            "points": 10
+          },
+          {
+            "factor": "reviewed usage level proximity",
+            "points": 12.0
+          },
+          {
+            "factor": "duration proximity (tail allowed)",
+            "points": 2.79
+          },
+          {
+            "factor": "sample_peak_dbfs proximity at reviewed gains",
+            "delta_db": -4.386,
+            "points": 4.54
+          },
+          {
+            "factor": "active_rms_dbfs proximity at reviewed gains",
+            "delta_db": -1.117,
+            "points": 5.63
+          }
+        ],
+        "replacement_draft": {
+          "replace_event": 1,
+          "audio": "ORFXS-06-0011",
+          "start_ms": -560.0,
+          "gain_suggestion": 1.421559,
+          "new_main_onset_candidate_ms": 960,
+          "anchor_event_ms": 83.333333,
+          "preserved_reviewed_main_onset_delta_ms": 316.666667,
+          "status": "heuristic; audition onset, material and mixture headroom; do not apply automatically",
+          "audio_end_ms": 2028.208,
+          "tail_after_visual_ms": 1528.208
+        }
+      },
+      {
+        "audio": "ORFXS-06-0003",
+        "score": 59.063,
+        "review_status": "recommendation only",
+        "reasons": [
+          {
+            "factor": "wind",
+            "points": 12
+          },
+          {
+            "factor": "temporal use pattern per audio slot",
+            "points": 15
+          },
+          {
+            "factor": "reviewed event count (not waveform peak count)",
+            "points": 10
+          },
+          {
+            "factor": "reviewed usage level proximity",
+            "points": 12.0
+          },
+          {
+            "factor": "duration proximity (tail allowed)",
+            "points": 1.42
+          },
+          {
+            "factor": "sample_peak_dbfs proximity at reviewed gains",
+            "delta_db": -6.325,
+            "points": 3.89
+          },
+          {
+            "factor": "active_rms_dbfs proximity at reviewed gains",
+            "delta_db": -3.755,
+            "points": 4.75
+          }
+        ],
+        "replacement_draft": {
+          "replace_event": 1,
+          "audio": "ORFXS-06-0003",
+          "start_ms": -560.0,
+          "gain_suggestion": 1.540866,
+          "new_main_onset_candidate_ms": 960,
+          "anchor_event_ms": 83.333333,
+          "preserved_reviewed_main_onset_delta_ms": 316.666667,
+          "status": "heuristic; audition onset, material and mixture headroom; do not apply automatically",
+          "audio_end_ms": 2511.542,
+          "tail_after_visual_ms": 2011.542
+        }
+      },
+      {
+        "audio": "ORFXS-02-0005",
+        "score": 53.65,
+        "review_status": "recommendation only",
+        "reasons": [
+          {
+            "factor": "temporal use pattern per audio slot",
+            "points": 15
+          },
+          {
+            "factor": "reviewed event count (not waveform peak count)",
+            "points": 10
+          },
+          {
+            "factor": "reviewed usage level proximity",
+            "points": 12.0
+          },
+          {
+            "factor": "duration proximity (tail allowed)",
+            "points": 7.19
+          },
+          {
+            "factor": "sample_peak_dbfs proximity at reviewed gains",
+            "delta_db": 4.129,
+            "points": 4.62
+          },
+          {
+            "factor": "active_rms_dbfs proximity at reviewed gains",
+            "delta_db": 3.491,
+            "points": 4.84
+          }
+        ],
+        "replacement_draft": {
+          "replace_event": 1,
+          "audio": "ORFXS-02-0005",
+          "start_ms": 230.0,
+          "gain_suggestion": 0.669021,
+          "new_main_onset_candidate_ms": 170,
+          "anchor_event_ms": 83.333333,
+          "preserved_reviewed_main_onset_delta_ms": 316.666667,
+          "status": "heuristic; audition onset, material and mixture headroom; do not apply automatically",
+          "audio_end_ms": 1450.0,
+          "tail_after_visual_ms": 950.0
+        }
+      },
+      {
+        "audio": "ORFXS-03-0024",
+        "score": 52.739,
+        "review_status": "recommendation only",
+        "reasons": [
+          {
+            "factor": "temporal use pattern per audio slot",
+            "points": 15
+          },
+          {
+            "factor": "reviewed event count (not waveform peak count)",
+            "points": 10
+          },
+          {
+            "factor": "reviewed usage level proximity",
+            "points": 12.0
+          },
+          {
+            "factor": "duration proximity (tail allowed)",
+            "points": 7.82
+          },
+          {
+            "factor": "sample_peak_dbfs proximity at reviewed gains",
+            "delta_db": -3.158,
+            "points": 4.95
+          },
+          {
+            "factor": "active_rms_dbfs proximity at reviewed gains",
+            "delta_db": -9.096,
+            "points": 2.97
+          }
+        ],
+        "replacement_draft": {
+          "replace_event": 1,
+          "audio": "ORFXS-03-0024",
+          "start_ms": 185.0,
+          "gain_suggestion": 2.286178,
+          "new_main_onset_candidate_ms": 215,
+          "anchor_event_ms": 83.333333,
+          "preserved_reviewed_main_onset_delta_ms": 316.666667,
+          "status": "heuristic; audition onset, material and mixture headroom; do not apply automatically",
+          "audio_end_ms": 1565.0,
+          "tail_after_visual_ms": 1065.0
+        }
+      },
+      {
+        "audio": "ORFXS-06-0010",
+        "score": 52.115,
+        "review_status": "recommendation only",
+        "reasons": [
+          {
+            "factor": "wind",
+            "points": 12
+          },
+          {
+            "factor": "temporal use pattern per audio slot",
+            "points": 15
+          },
+          {
+            "factor": "reviewed event count (not waveform peak count)",
+            "points": 10
+          },
+          {
+            "factor": "reviewed usage level proximity",
+            "points": 2.94
+          },
+          {
+            "factor": "duration proximity (tail allowed)",
+            "points": 3.35
+          },
+          {
+            "factor": "sample_peak_dbfs proximity at reviewed gains",
+            "delta_db": -6.325,
+            "points": 3.89
+          },
+          {
+            "factor": "active_rms_dbfs proximity at reviewed gains",
+            "delta_db": -3.201,
+            "points": 4.93
+          }
+        ],
+        "replacement_draft": {
+          "replace_event": 1,
+          "audio": "ORFXS-06-0010",
+          "start_ms": -560.0,
+          "gain_suggestion": 1.445689,
+          "new_main_onset_candidate_ms": 960,
+          "anchor_event_ms": 83.333333,
+          "preserved_reviewed_main_onset_delta_ms": 316.666667,
+          "status": "heuristic; audition onset, material and mixture headroom; do not apply automatically",
+          "audio_end_ms": 1853.542,
+          "tail_after_visual_ms": 1353.542
+        }
+      },
+      {
+        "audio": "ORFXS-02-0004",
+        "score": 50.613,
+        "review_status": "recommendation only",
+        "reasons": [
+          {
+            "factor": "temporal use pattern per audio slot",
+            "points": 15
+          },
+          {
+            "factor": "reviewed event count (not waveform peak count)",
+            "points": 10
+          },
+          {
+            "factor": "reviewed usage level proximity",
+            "points": 9.06
+          },
+          {
+            "factor": "duration proximity (tail allowed)",
+            "points": 6.33
+          },
+          {
+            "factor": "sample_peak_dbfs proximity at reviewed gains",
+            "delta_db": 2.865,
+            "points": 5.04
+          },
+          {
+            "factor": "active_rms_dbfs proximity at reviewed gains",
+            "delta_db": 2.477,
+            "points": 5.17
+          }
+        ],
+        "replacement_draft": {
+          "replace_event": 1,
+          "audio": "ORFXS-02-0004",
+          "start_ms": 210.0,
+          "gain_suggestion": 0.69927,
+          "new_main_onset_candidate_ms": 190,
+          "anchor_event_ms": 83.333333,
+          "preserved_reviewed_main_onset_delta_ms": 316.666667,
+          "status": "heuristic; audition onset, material and mixture headroom; do not apply automatically",
+          "audio_end_ms": 1306.0,
+          "tail_after_visual_ms": 806.0
+        }
+      },
+      {
+        "audio": "ORFXS-02-0009",
+        "score": 50.535,
+        "review_status": "recommendation only",
+        "reasons": [
+          {
+            "factor": "temporal use pattern per audio slot",
+            "points": 15
+          },
+          {
+            "factor": "reviewed event count (not waveform peak count)",
+            "points": 10
+          },
+          {
+            "factor": "reviewed usage level proximity",
+            "points": 9.06
+          },
+          {
+            "factor": "duration proximity (tail allowed)",
+            "points": 5.99
+          },
+          {
+            "factor": "sample_peak_dbfs proximity at reviewed gains",
+            "delta_db": 4.072,
+            "points": 4.64
+          },
+          {
+            "factor": "active_rms_dbfs proximity at reviewed gains",
+            "delta_db": 0.474,
+            "points": 5.84
+          }
+        ],
+        "replacement_draft": {
+          "replace_event": 1,
+          "audio": "ORFXS-02-0009",
+          "start_ms": 185.0,
+          "gain_suggestion": 0.946902,
+          "new_main_onset_candidate_ms": 215,
+          "anchor_event_ms": 83.333333,
+          "preserved_reviewed_main_onset_delta_ms": 316.666667,
+          "status": "heuristic; audition onset, material and mixture headroom; do not apply automatically",
+          "audio_end_ms": 1235.0,
+          "tail_after_visual_ms": 735.0
+        }
+      }
+    ],
+    "higher_level_reviewed_pairings": [],
+    "higher_level_note": "These are independently reviewed whole pairings. Moving their audio to this animation is a new heuristic combination, not automatically approved."
+  },
+  "review_crop_recipe": {
+    "offset_ms": -1000,
+    "audio_front_timeline_ms": -175,
+    "audio_head_crop_ms": 0,
+    "audio_end_timeline_ms": 1175,
+    "audio_front_fade_ms": 45,
+    "audio_end_fade_setting_ms": 500,
+    "fade_auto_in": false,
+    "fade_auto_out": false
+  },
+  "source_native_hash": "e4ee5151ff622f372d24d9bfefb1e383a8165a3da5689be049525880d02f57d0"
+}

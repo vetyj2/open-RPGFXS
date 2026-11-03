@@ -1,0 +1,123 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-04-0055",
+  "name_ko": "얼음 · 직선 충격과 운동량 파쇄 복합 · 음원 후보",
+  "file": "audio/04/ORFXS-04-0055.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 33600
+  },
+  "sha256": "fcecf82b75577cf39e7d3c156cb253e40549afba9d8cc9561911811c56dbaaa5",
+  "pcm_sha256": "1a653f50f085fad7cff951eb8eea80c885e2b1c07b269015f35dd700cb93589d",
+  "metrics": {
+    "duration_ms": 700.0,
+    "sample_peak_dbfs": -9.7408,
+    "sample_peak_ms": 241.458333,
+    "active_rms_dbfs": -25.8331,
+    "first_activity_ms": 5,
+    "last_activity_ms": 475,
+    "main_onset_candidate_ms": 180,
+    "transient_candidates_ms": [
+      257.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "085"
+  ],
+  "sources": [
+    {
+      "source_id": "085",
+      "source_sha256": "675bad6485c4eab885d8d637580c203424c76cf7c7745e7d07fd10b2062b81f2",
+      "start_sample": 0,
+      "end_sample_exclusive": 33600,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-04-015-01-P01"
+  ],
+  "usage_levels": [
+    1
+  ],
+  "concepts": [
+    "burst",
+    "ice"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "ingame-foley-rpg-77-next-20261028",
+      "prompt": "Six-second top-down pixel-art RPG gameplay footage based on this supplied current studio action frame. Fixed camera centered on the target, no montage or cuts. Play action in normal fast real time without slow motion, stretched impact, slow buildup or speed ramp. Produce clear bold realistic close physical Foley, carefully synchronized to the visual event. No background music, score, singing, speech, narration, chiptune, 8-bit, cartoon or synthetic game sounds. A sharp ice projectile travels rapidly point-first and impacts the central target once, producing a forceful short air slice and a sharp realistic brittle fracture with a short ice-chip tail. The reference image uses actual animation frame 0 at 24 FPS, video time 0 equals animation 0.000s. First visible frame is 0.000s; greatest visible nonzero-alpha pixel count at animation 0.458s = video 0.458s (visual measure only, not an audio peak). Authored event timing: cast1 착탄 at animation 0.208s / video 0.208s (authored contact event); 명중 · cast1 at animation 0.208s / video 0.208s (authored contact event). The visible effect ends at animation 0.542s = video 0.542s. The full animation timeline ends at 1.500s. Times are targets for generation, not proof of model compliance. Use the pinned early action, intermediate keyframes and blank last frame as timing anchors. Do not delay the visual action until later in the clip; follow the physical-action timing in the first seconds.\n\nShow all motion and sound in natural real time at plausible physical speed, with decisive, fast action appropriate to the event. No slow motion, speed ramp, exaggerated suspended particles or stretched impact. Maintain the explicitly requested event timing and natural sound decay; keep audio synchronized to the visible action.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "085"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-04-015-01-P01",
+      "source_id": "rpg-77-l01",
+      "name_ko": "얼음 · 직선 충격과 운동량 파쇄 복합",
+      "level": 1
+    }
+  ],
+  "best_use": [
+    "얼음 · 직선 충격과 운동량 파쇄 복합"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "authored"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      1
+    ],
+    "sample_peak_dbfs": -9.7408,
+    "active_rms_dbfs": -25.8331,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "burst",
+      "ice"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 700.0,
+    "main_onset_candidate_ms": 180,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

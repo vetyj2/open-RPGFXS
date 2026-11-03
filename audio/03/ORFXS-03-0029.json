@@ -1,0 +1,124 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-03-0029",
+  "name_ko": "불 · 얕은 곡선 베기 · 음원 후보",
+  "file": "audio/03/ORFXS-03-0029.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 27769
+  },
+  "sha256": "99a6d564acbe492e0c1d2fca5972e59aea9d9d26ddc87bd4ac4c2ea475012fcb",
+  "pcm_sha256": "8dd49e83187f1db434f6830c5fd8b5e8f559dfd90ad4ee361805ec6e9bbe0c76",
+  "metrics": {
+    "duration_ms": 578.520833,
+    "sample_peak_dbfs": -12.8078,
+    "sample_peak_ms": 320.854167,
+    "active_rms_dbfs": -29.9378,
+    "first_activity_ms": 95,
+    "last_activity_ms": 565,
+    "main_onset_candidate_ms": 140,
+    "transient_candidates_ms": [
+      222.5,
+      322.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "045"
+  ],
+  "sources": [
+    {
+      "source_id": "045",
+      "source_sha256": "6b0218771f131f77f6b65433f914b2cc86bd4f981d4fcec9b19b0cd0e03f953e",
+      "start_sample": 0,
+      "end_sample_exclusive": 27769,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 283.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-03-009-05-P01"
+  ],
+  "usage_levels": [
+    99
+  ],
+  "concepts": [
+    "fire",
+    "slash"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "ingame-foley-rpg-60-through45-20261028",
+      "prompt": "Six-second top-down pixel-art RPG gameplay footage based on this supplied current studio action frame. Fixed camera centered on the target, no montage or cuts. Play action in normal fast real time without slow motion, stretched impact, slow buildup or speed ramp. Produce clear bold realistic close physical Foley, carefully synchronized to the visual event. No background music, score, singing, speech, narration, chiptune, 8-bit, cartoon or synthetic game sounds. One swift physical sword cut through a target combined with a short realistic flame rush and ember crackle. The reference image uses actual animation frame 1 at 24 FPS, video time 0 equals animation 0.042s. First visible frame is 0.042s; greatest visible nonzero-alpha pixel count at animation 0.125s = video 0.083s (visual measure only, not an audio peak). Authored event timing: cut-1-blade 베기 시작 at animation 0.000s / video -0.042s (blade formation start, not measured contact). The visible effect ends at animation 0.250s = video 0.208s. The full animation timeline ends at 0.958s. Times are targets for generation, not proof of model compliance.\n\nShow all motion and sound in natural real time at plausible physical speed, with decisive, fast action appropriate to the event. No slow motion, speed ramp, frozen tableau, exaggerated suspended particles or stretched impact. Maintain the explicitly requested event timing and natural sound decay; keep audio synchronized to the visible action.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "045"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-03-009-05-P01",
+      "source_id": "rpg-60-l99",
+      "name_ko": "불 · 얕은 곡선 베기",
+      "level": 99
+    }
+  ],
+  "best_use": [
+    "불 · 얕은 곡선 베기"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "candidate"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      99
+    ],
+    "sample_peak_dbfs": -12.8078,
+    "active_rms_dbfs": -29.9378,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "fire",
+      "slash"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 578.520833,
+    "main_onset_candidate_ms": 140,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

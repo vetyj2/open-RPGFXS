@@ -1,0 +1,260 @@
+{
+  "schema": "open-rpgfxs.animation/1",
+  "code": "ORFX-04-004-04",
+  "name_ko": "폭발",
+  "category": "04",
+  "category_name": "속성 충격",
+  "intensity_stage": 4,
+  "game_level": 75,
+  "intensity_note": "00/null is unspecified, not inferred from generation order",
+  "file": "spritesheets/04/ORFX-04-004-04.png",
+  "thumbnail": "thumbnails/04/ORFX-04-004-04.png",
+  "frame_size": [
+    384,
+    384
+  ],
+  "source_native_frame_size": [
+    384,
+    384
+  ],
+  "filter": "nearest",
+  "alpha": "straight RGBA; transparent background",
+  "pivot_px": [
+    192,
+    192
+  ],
+  "focus_coordinate_space": "local centered effect; place pivot at runtime target/caster",
+  "fps": 24.0,
+  "recommended_frame_ms": 41.666667,
+  "frame_durations_ms": null,
+  "recommended_duration_ms": 833.333333,
+  "frame_count": 20,
+  "columns": 5,
+  "rows": 4,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 0.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 1,
+      "x": 384,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 41.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 2,
+      "x": 768,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 83.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 3,
+      "x": 1152,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 125.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 4,
+      "x": 1536,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 166.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 5,
+      "x": 0,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 208.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 6,
+      "x": 384,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 250.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 7,
+      "x": 768,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 291.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 8,
+      "x": 1152,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 333.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 9,
+      "x": 1536,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 375.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 10,
+      "x": 0,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 416.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 11,
+      "x": 384,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 458.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 12,
+      "x": 768,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 500.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 13,
+      "x": 1152,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 541.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 14,
+      "x": 1536,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 583.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 15,
+      "x": 0,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 625.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 16,
+      "x": 384,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 666.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 17,
+      "x": 768,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 708.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 18,
+      "x": 1152,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 750.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 19,
+      "x": 1536,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 791.666667,
+      "duration_ms": 41.666667
+    }
+  ],
+  "playback": "one-shot reviewed; source loop is not a certified seamless loop",
+  "sequence_sha256": "c736951abcc352abf7cba9b29dfc1f201b87ed99ba98a98d56b6607d9e79e797",
+  "file_sha256": "b3db931c85eacdab2932d2a573a46d5bee732929c00fbb4cca7b823abcca1d86",
+  "source_native_hashes": [
+    "1f11c511eb3e3c17a18a7dc874d9869a59a78eb445ddb32acf1b68044ba836e2"
+  ],
+  "source_ids": [
+    "rpg-07-l75"
+  ],
+  "pairings": [
+    "ORFX-04-004-04-P01"
+  ],
+  "concepts": [
+    "burst"
+  ],
+  "thumbnail_frame": 1,
+  "visible_first_ms": 0.0,
+  "visible_end_ms": 583.3333339999999,
+  "pairing_metadata": [
+    "pairings/ORFX-04-004-04-P01.json"
+  ],
+  "timing_by_pairing": {
+    "ORFX-04-004-04-P01": {
+      "impact_events": [
+        {
+          "time_ms": 41.666667,
+          "kind": "attack_candidate",
+          "confidence": "candidate",
+          "basis": "시각 피크 추정",
+          "frame_fraction": 1.0,
+          "sample_48k": 2000,
+          "local_point_px": [
+            192,
+            192
+          ],
+          "position_basis": "package pivot / target focus; contact surface pixels not independently measured"
+        }
+      ],
+      "impact_intervals_ms": [],
+      "temporal_pattern": "one-shot",
+      "review_anchor_ms": 41.666666666666664,
+      "review_anchor_basis": "시각 피크 추정"
+    }
+  }
+}

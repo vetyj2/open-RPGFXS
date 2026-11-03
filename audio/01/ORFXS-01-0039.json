@@ -1,0 +1,117 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-01-0039",
+  "name_ko": "종료 맞춤 · 불 피격 후 불씨 · 불탄체 원형",
+  "file": "audio/01/ORFXS-01-0039.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 20878
+  },
+  "sha256": "5c315588ab1788a6a75d09ee68166ffd25df70d7eba05405eb24fd98a750c469",
+  "pcm_sha256": "327c88e8f1a09aeb1495b5fa3741880178c5c7e12e8f63032b88da0d0c3ea264",
+  "metrics": {
+    "duration_ms": 434.958333,
+    "sample_peak_dbfs": -4.527,
+    "sample_peak_ms": 143.291667,
+    "active_rms_dbfs": -15.7763,
+    "first_activity_ms": 0,
+    "last_activity_ms": 430,
+    "main_onset_candidate_ms": 80,
+    "transient_candidates_ms": [
+      37.5,
+      142.5,
+      257.5,
+      357.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "EXT-EX-045"
+  ],
+  "sources": [
+    {
+      "source_id": "EXT-EX-045",
+      "source_sha256": "53900b4aef0347974bf342a86fd634d5112b4060a20a951e3abb633358186106",
+      "start_sample": 0,
+      "end_sample_exclusive": 20878,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-01-020-00-P01"
+  ],
+  "usage_levels": [],
+  "concepts": [
+    "fire",
+    "impact",
+    "projectile"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "EXT-EX-045"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-01-020-00-P01",
+      "source_id": "EX-045",
+      "name_ko": "불 피격 후 불씨 · 불탄체 원형",
+      "level": null
+    }
+  ],
+  "best_use": [
+    "불 피격 후 불씨 · 불탄체 원형"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "authored"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [],
+    "sample_peak_dbfs": -4.527,
+    "active_rms_dbfs": -15.7763,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "fire",
+      "impact",
+      "projectile"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 434.958333,
+    "main_onset_candidate_ms": 80,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

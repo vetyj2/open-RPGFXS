@@ -1,0 +1,417 @@
+{
+  "schema": "open-rpgfxs.animation/1",
+  "code": "ORFX-01-008-04",
+  "name_ko": "투척 칼 · 포물선",
+  "category": "01",
+  "category_name": "투사체",
+  "intensity_stage": 4,
+  "game_level": 75,
+  "intensity_note": "00/null is unspecified, not inferred from generation order",
+  "file": "spritesheets/01/ORFX-01-008-04.png",
+  "thumbnail": "thumbnails/01/ORFX-01-008-04.png",
+  "frame_size": [
+    384,
+    384
+  ],
+  "source_native_frame_size": [
+    384,
+    384
+  ],
+  "filter": "nearest",
+  "alpha": "straight RGBA; transparent background",
+  "pivot_px": [
+    192,
+    192
+  ],
+  "focus_coordinate_space": "local centered effect; place pivot at runtime target/caster",
+  "fps": 48.0,
+  "recommended_frame_ms": 20.833333,
+  "frame_durations_ms": null,
+  "recommended_duration_ms": 770.833333,
+  "frame_count": 37,
+  "columns": 7,
+  "rows": 6,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 0.0,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 1,
+      "x": 384,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 20.833333,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 2,
+      "x": 768,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 41.666667,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 3,
+      "x": 1152,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 62.5,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 4,
+      "x": 1536,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 83.333333,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 5,
+      "x": 1920,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 104.166667,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 6,
+      "x": 2304,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 125.0,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 7,
+      "x": 0,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 145.833333,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 8,
+      "x": 384,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 166.666667,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 9,
+      "x": 768,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 187.5,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 10,
+      "x": 1152,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 208.333333,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 11,
+      "x": 1536,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 229.166667,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 12,
+      "x": 1920,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 250.0,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 13,
+      "x": 2304,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 270.833333,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 14,
+      "x": 0,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 291.666667,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 15,
+      "x": 384,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 312.5,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 16,
+      "x": 768,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 333.333333,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 17,
+      "x": 1152,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 354.166667,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 18,
+      "x": 1536,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 375.0,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 19,
+      "x": 1920,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 395.833333,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 20,
+      "x": 2304,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 416.666667,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 21,
+      "x": 0,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 437.5,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 22,
+      "x": 384,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 458.333333,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 23,
+      "x": 768,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 479.166667,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 24,
+      "x": 1152,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 500.0,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 25,
+      "x": 1536,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 520.833333,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 26,
+      "x": 1920,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 541.666667,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 27,
+      "x": 2304,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 562.5,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 28,
+      "x": 0,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 583.333333,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 29,
+      "x": 384,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 604.166667,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 30,
+      "x": 768,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 625.0,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 31,
+      "x": 1152,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 645.833333,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 32,
+      "x": 1536,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 666.666667,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 33,
+      "x": 1920,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 687.5,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 34,
+      "x": 2304,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 708.333333,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 35,
+      "x": 0,
+      "y": 1920,
+      "w": 384,
+      "h": 384,
+      "start_ms": 729.166667,
+      "duration_ms": 20.833333
+    },
+    {
+      "index": 36,
+      "x": 384,
+      "y": 1920,
+      "w": 384,
+      "h": 384,
+      "start_ms": 750.0,
+      "duration_ms": 20.833333
+    }
+  ],
+  "playback": "one-shot reviewed; source loop is not a certified seamless loop",
+  "sequence_sha256": "8d5c5c6cadcfb18478b133eb1ae9d02cb351bbd4f5cdaa20af02ab4b1193b874",
+  "file_sha256": "1c0c245a4a4143aa680384e44954bc25ab82a9d12210fd28a109c955bb2c2ce8",
+  "source_native_hashes": [
+    "c20a337997d5a80efcac4d5bf931d4de9267ea59b348dcf511a99e70bf530148"
+  ],
+  "source_ids": [
+    "rpg-48-l75"
+  ],
+  "pairings": [
+    "ORFX-01-008-04-P01"
+  ],
+  "concepts": [
+    "knife",
+    "projectile",
+    "water"
+  ],
+  "thumbnail_frame": 11,
+  "visible_first_ms": 0.0,
+  "visible_end_ms": 416.66666599999996,
+  "pairing_metadata": [
+    "pairings/ORFX-01-008-04-P01.json"
+  ],
+  "timing_by_pairing": {
+    "ORFX-01-008-04-P01": {
+      "impact_events": [
+        {
+          "time_ms": 120.0,
+          "kind": "impact",
+          "confidence": "authored",
+          "basis": "r8_actual_projectile_contact bound to native source; sync-cues.json",
+          "nearest_display_frame": 6,
+          "nearest_display_time_ms": 125.0,
+          "frame_fraction": 5.76,
+          "sample_48k": 5760,
+          "local_point_px": [
+            192,
+            192
+          ],
+          "position_basis": "package pivot / target focus; contact surface pixels not independently measured"
+        }
+      ],
+      "impact_intervals_ms": [],
+      "temporal_pattern": "one-shot",
+      "review_anchor_ms": 62.5,
+      "review_anchor_basis": "시각 피크 추정"
+    }
+  }
+}

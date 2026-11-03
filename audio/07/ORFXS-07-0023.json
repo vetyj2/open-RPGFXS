@@ -1,0 +1,119 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-07-0023",
+  "name_ko": "얼음 보호 · 시작 보존",
+  "file": "audio/07/ORFXS-07-0023.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 62400
+  },
+  "sha256": "55544268914125dd10617392701f475518ba1d0747191b500fefdb2fb330692a",
+  "pcm_sha256": "ce3de87b03ebcaf92fca8509fc24654d3108536fa6be8dfcb715e596fa26f3cf",
+  "metrics": {
+    "duration_ms": 1300.0,
+    "sample_peak_dbfs": -15.4466,
+    "sample_peak_ms": 410.583333,
+    "active_rms_dbfs": -30.849,
+    "first_activity_ms": 20,
+    "last_activity_ms": 1275,
+    "main_onset_candidate_ms": 165,
+    "transient_candidates_ms": [
+      207.5,
+      307.5,
+      412.5,
+      607.5,
+      762.5,
+      872.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "PAIR-SH-ice-A"
+  ],
+  "sources": [
+    {
+      "source_id": "PAIR-SH-ice-A",
+      "source_sha256": "070c1b80eafa45cfddc079aaa1de14cedcbc24bf0bf5f30a19925bdcc0db85b2",
+      "start_sample": 5200,
+      "end_sample_exclusive": 67600,
+      "fade_in_ms": 500.0,
+      "fade_out_ms": 637.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-07-008-00-P01"
+  ],
+  "usage_levels": [],
+  "concepts": [
+    "buff",
+    "ice",
+    "shield"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "PAIR-SH-ice-A"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-07-008-00-P01",
+      "source_id": "PAIR-SH-ice-A",
+      "name_ko": "얼음 보호 · 시작 보존",
+      "level": null
+    }
+  ],
+  "best_use": [
+    "얼음 보호 · 시작 보존"
+  ],
+  "usage_patterns": [
+    "continuous"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "continuous",
+      "event_count": 0,
+      "intervals_ms": [],
+      "confidence": "not-applicable / continuous"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [],
+    "sample_peak_dbfs": -15.4466,
+    "active_rms_dbfs": -30.849,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "buff",
+      "ice",
+      "shield"
+    ],
+    "temporal_patterns": [
+      "continuous"
+    ],
+    "duration_ms": 1300.0,
+    "main_onset_candidate_ms": 165,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

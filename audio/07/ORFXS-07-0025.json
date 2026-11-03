@@ -1,0 +1,121 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-07-0025",
+  "name_ko": "빛 보호 · 시작 보존",
+  "file": "audio/07/ORFXS-07-0025.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 62400
+  },
+  "sha256": "5e8f30ff23e8ce8007dbf812eb4c07b9122d77a893284c097927716e2b6083d7",
+  "pcm_sha256": "d6a979d8db1748cc82d59288a1965840df141292f7e9b07ca1aff309bfdcbc79",
+  "metrics": {
+    "duration_ms": 1300.0,
+    "sample_peak_dbfs": -29.1633,
+    "sample_peak_ms": 888.708333,
+    "active_rms_dbfs": -42.5968,
+    "first_activity_ms": 25,
+    "last_activity_ms": 1255,
+    "main_onset_candidate_ms": 255,
+    "transient_candidates_ms": [
+      87.5,
+      242.5,
+      347.5,
+      447.5,
+      567.5,
+      722.5,
+      842.5,
+      967.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "PAIR-SH-holy-A"
+  ],
+  "sources": [
+    {
+      "source_id": "PAIR-SH-holy-A",
+      "source_sha256": "0ae748eee307feaa707a3313711020eccdf255272512cc230a40de8c33fbc400",
+      "start_sample": 11200,
+      "end_sample_exclusive": 73600,
+      "fade_in_ms": 500.0,
+      "fade_out_ms": 637.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-07-009-00-P01"
+  ],
+  "usage_levels": [],
+  "concepts": [
+    "buff",
+    "light",
+    "shield"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "PAIR-SH-holy-A"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-07-009-00-P01",
+      "source_id": "PAIR-SH-holy-A",
+      "name_ko": "빛 보호 · 시작 보존",
+      "level": null
+    }
+  ],
+  "best_use": [
+    "빛 보호 · 시작 보존"
+  ],
+  "usage_patterns": [
+    "continuous"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "continuous",
+      "event_count": 0,
+      "intervals_ms": [],
+      "confidence": "not-applicable / continuous"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [],
+    "sample_peak_dbfs": -29.1633,
+    "active_rms_dbfs": -42.5968,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "buff",
+      "light",
+      "shield"
+    ],
+    "temporal_patterns": [
+      "continuous"
+    ],
+    "duration_ms": 1300.0,
+    "main_onset_candidate_ms": 255,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

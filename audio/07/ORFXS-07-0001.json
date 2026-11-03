@@ -1,0 +1,120 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-07-0001",
+  "name_ko": "회복 · 따뜻한 상승 기류 01",
+  "file": "audio/07/ORFXS-07-0001.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 76000
+  },
+  "sha256": "255161098d29d9e97e465df0c1a966a0cae78a391ada03e46af2aadefd1a86b8",
+  "pcm_sha256": "b6997909c8d74ca3b8c7fae193a2b5e5d2af5bc6da1e8b8ebe6a3a51dd2591a3",
+  "metrics": {
+    "duration_ms": 1583.333333,
+    "sample_peak_dbfs": -31.292,
+    "sample_peak_ms": 620.854167,
+    "active_rms_dbfs": -44.8779,
+    "first_activity_ms": 0,
+    "last_activity_ms": 1515,
+    "main_onset_candidate_ms": 250,
+    "transient_candidates_ms": [
+      262.5,
+      457.5,
+      627.5,
+      732.5,
+      857.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "FBR-HEAL-01"
+  ],
+  "sources": [
+    {
+      "source_id": "FBR-HEAL-01",
+      "source_sha256": "1069781549e37b9f20349bd8fda98f55d7e4d6efe6a4ace76cd54d63e960a1b0",
+      "start_sample": 0,
+      "end_sample_exclusive": 76000,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 495.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-07-001-01-P01"
+  ],
+  "usage_levels": [
+    1
+  ],
+  "concepts": [
+    "buff",
+    "heal"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "FBR-HEAL-01"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-07-001-01-P01",
+      "source_id": "rpg-26-l01",
+      "name_ko": "치유",
+      "level": 1
+    }
+  ],
+  "best_use": [
+    "치유"
+  ],
+  "usage_patterns": [
+    "continuous"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "continuous",
+      "event_count": 0,
+      "intervals_ms": [],
+      "confidence": "not-applicable / continuous"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      1
+    ],
+    "sample_peak_dbfs": -31.292,
+    "active_rms_dbfs": -44.8779,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "buff",
+      "heal"
+    ],
+    "temporal_patterns": [
+      "continuous"
+    ],
+    "duration_ms": 1583.333333,
+    "main_onset_candidate_ms": 250,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

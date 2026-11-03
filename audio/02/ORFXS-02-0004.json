@@ -1,0 +1,153 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-02-0004",
+  "name_ko": "물리 타격 · 둔격 · 묵직한 타격 원음 구간 3 · 미검수",
+  "file": "audio/02/ORFXS-02-0004.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 52608
+  },
+  "sha256": "fdabce00eb1d89fc8f36c38b2a9d144bb22d60a072934012835cc5033fbeae0f",
+  "pcm_sha256": "3361376abbf151b562b8160acfdbd6aca1dd6df064c3f9b5d5f0640f2b047021",
+  "metrics": {
+    "duration_ms": 1096.0,
+    "sample_peak_dbfs": -3.5287,
+    "sample_peak_ms": 200.6875,
+    "active_rms_dbfs": -18.1813,
+    "first_activity_ms": 120,
+    "last_activity_ms": 995,
+    "main_onset_candidate_ms": 190,
+    "transient_candidates_ms": [
+      202.5,
+      312.5,
+      442.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "Q13",
+    "Q16"
+  ],
+  "sources": [
+    {
+      "source_id": "Q13",
+      "source_sha256": "22208e27a27291b2a3a78d4e8df4b6cc185b8484a5cb7eaf28a936f8c4e82019",
+      "start_sample": 0,
+      "end_sample_exclusive": 52608,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    },
+    {
+      "source_id": "Q16",
+      "source_sha256": "22208e27a27291b2a3a78d4e8df4b6cc185b8484a5cb7eaf28a936f8c4e82019",
+      "start_sample": 0,
+      "end_sample_exclusive": 52608,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-02-001-03-P07",
+    "ORFX-02-001-04-P01",
+    "ORFX-02-002-03-P07"
+  ],
+  "usage_levels": [
+    50,
+    75
+  ],
+  "concepts": [
+    "blunt",
+    "impact"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "Q13"
+    },
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "Q16"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-02-001-03-P07",
+      "source_id": "SYNC-Q13",
+      "name_ko": "물리 타격 · 둔격 · Q13",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-02-001-04-P01",
+      "source_id": "rpg-08-l75",
+      "name_ko": "물리 타격 · 둔격",
+      "level": 75
+    },
+    {
+      "pairing": "ORFX-02-002-03-P07",
+      "source_id": "SYNC-Q16",
+      "name_ko": "물리 타격 · 방향성 강타 · Q16",
+      "level": 50
+    }
+  ],
+  "best_use": [
+    "물리 타격 · 둔격 · Q13",
+    "물리 타격 · 둔격",
+    "물리 타격 · 방향성 강타 · Q16"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "candidate"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      50,
+      75
+    ],
+    "sample_peak_dbfs": -3.5287,
+    "active_rms_dbfs": -18.1813,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "blunt",
+      "impact"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 1096.0,
+    "main_onset_candidate_ms": 190,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

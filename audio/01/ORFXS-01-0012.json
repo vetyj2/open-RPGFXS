@@ -1,0 +1,158 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-01-0012",
+  "name_ko": "돌투척1",
+  "file": "audio/01/ORFXS-01-0012.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 45120
+  },
+  "sha256": "cdaa7e67a12292619dd494d17702b1d0eb888f9f6834a8c7fe986e165b07a005",
+  "pcm_sha256": "4b475fcb5d433aaa81d4cd338c87d38ab59a02db7863c45f97a88ce8c52ec086",
+  "metrics": {
+    "duration_ms": 940.0,
+    "sample_peak_dbfs": -3.4345,
+    "sample_peak_ms": 144.208333,
+    "active_rms_dbfs": -28.9355,
+    "first_activity_ms": 0,
+    "last_activity_ms": 940,
+    "main_onset_candidate_ms": 135,
+    "transient_candidates_ms": [
+      142.5,
+      367.5,
+      477.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "P012"
+  ],
+  "sources": [
+    {
+      "source_id": "P012",
+      "source_sha256": "80bf36e0519ee0b239313ed2bac314ea91cf326232c6e8e385c43b98771ebef2",
+      "start_sample": 0,
+      "end_sample_exclusive": 45120,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-01-004-01-P01",
+    "ORFX-01-004-03-P03"
+  ],
+  "usage_levels": [
+    1,
+    50
+  ],
+  "concepts": [
+    "burst",
+    "projectile",
+    "rock"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "foley-05-s3",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. A real irregular stone is thrown across a small outdoor stonework area and strikes a rough slate slab, with a few chips and loose grit scattering. Capture the incoming air and natural solid impact. A fist-sized stone strikes a slate slab with a clear hard crack and a short scatter of small gravel.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-53",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. A real irregular stone is thrown across a small outdoor stonework area and strikes a rough slate slab, with a few chips and loose grit scattering. Capture the incoming air and natural solid impact. A fist-sized stone strikes a slate slab with a clear hard crack and a short scatter of small gravel.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-54",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. A real irregular stone is thrown across a small outdoor stonework area and strikes a rough slate slab, with a few chips and loose grit scattering. Capture the incoming air and natural solid impact. A fist-sized stone strikes a slate slab with a clear hard crack and a short scatter of small gravel.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-76",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. A real irregular stone is thrown across a small outdoor stonework area and strikes a rough slate slab, with a few chips and loose grit scattering. Capture the incoming air and natural solid impact. A fist-sized stone strikes a slate slab with a clear hard crack and a short scatter of small gravel.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [
+        "rpg-53-l75",
+        "rpg-54-l50"
+      ],
+      "source_id": "P012"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-01-004-01-P01",
+      "source_id": "rpg-05-l01",
+      "name_ko": "05 · 돌 투척 · 충격 파쇄",
+      "level": 1
+    },
+    {
+      "pairing": "ORFX-01-004-03-P03",
+      "source_id": "SYNC-N14",
+      "name_ko": "05 · 돌 투척 · 충격 파쇄 · N14",
+      "level": 50
+    }
+  ],
+  "best_use": [
+    "05 · 돌 투척 · 충격 파쇄",
+    "05 · 돌 투척 · 충격 파쇄 · N14"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "authored"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      1,
+      50
+    ],
+    "sample_peak_dbfs": -3.4345,
+    "active_rms_dbfs": -28.9355,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "burst",
+      "projectile",
+      "rock"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 940.0,
+    "main_onset_candidate_ms": 135,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

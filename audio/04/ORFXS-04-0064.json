@@ -1,0 +1,119 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-04-0064",
+  "name_ko": "종료 맞춤 · 번개탄 위쪽 포물선 · 시간차 3발",
+  "file": "audio/04/ORFXS-04-0064.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 60000
+  },
+  "sha256": "83e22beb913b80497e15fe05fe2c5ee5a36bd11633a40b56f27bc8a748c4fc67",
+  "pcm_sha256": "3bde8cad1d932f98cdfad42c3eb0937df49f7ce2a7d45fb3d256c310d82b5773",
+  "metrics": {
+    "duration_ms": 1250.0,
+    "sample_peak_dbfs": -8.2761,
+    "sample_peak_ms": 541.666667,
+    "active_rms_dbfs": -32.6693,
+    "first_activity_ms": 395,
+    "last_activity_ms": 1240,
+    "main_onset_candidate_ms": 390,
+    "transient_candidates_ms": [
+      437.5,
+      542.5,
+      742.5,
+      857.5,
+      987.5,
+      1137.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "EXT-EX-007"
+  ],
+  "sources": [
+    {
+      "source_id": "EXT-EX-007",
+      "source_sha256": "83e22beb913b80497e15fe05fe2c5ee5a36bd11633a40b56f27bc8a748c4fc67",
+      "start_sample": 0,
+      "end_sample_exclusive": 60000,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-04-021-00-P01"
+  ],
+  "usage_levels": [],
+  "concepts": [
+    "electric",
+    "sequence",
+    "water"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "EXT-EX-007"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-04-021-00-P01",
+      "source_id": "EX-007",
+      "name_ko": "번개탄 위쪽 포물선 · 시간차 3발",
+      "level": null
+    }
+  ],
+  "best_use": [
+    "번개탄 위쪽 포물선 · 시간차 3발"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "candidate"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [],
+    "sample_peak_dbfs": -8.2761,
+    "active_rms_dbfs": -32.6693,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "electric",
+      "sequence",
+      "water"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 1250.0,
+    "main_onset_candidate_ms": 390,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

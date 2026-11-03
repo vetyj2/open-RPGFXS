@@ -1,0 +1,57 @@
+{
+  "schema": "open-rpgfxs.preflight/1",
+  "selection_counts": {
+    "pairings": 440,
+    "spritesheets": 315,
+    "thumbnails": 315,
+    "audio_files": 246,
+    "source_audio_files": 154
+  },
+  "selected_primary": 344,
+  "selected_alternatives": 96,
+  "source_metadata_unchanged": true,
+  "alias_links_complete": true,
+  "recommender_cases": [
+    {
+      "query": "rpg-01-l50",
+      "top": "ORFXS-01-0003",
+      "status": "reviewed exact use"
+    },
+    {
+      "query": "rpg-38-l50",
+      "top": "ORFXS-04-0039",
+      "status": "reviewed exact use"
+    },
+    {
+      "query": "rpg-08-l50",
+      "top": "ORFXS-02-0003",
+      "status": "reviewed exact use"
+    },
+    {
+      "query": "rpg-26-l50",
+      "top": "ORFXS-07-0003",
+      "status": "reviewed exact use"
+    },
+    {
+      "query": "PF5-50",
+      "top": "ORFXS-02-0012",
+      "status": "reviewed exact use"
+    },
+    {
+      "query": "EX-006",
+      "top": "ORFXS-04-0063",
+      "status": "reviewed exact use"
+    }
+  ],
+  "synonym_dedup_and_ambiguous_korean_test": true,
+  "blocked_sources_excluded_from_new_recommendations": 1,
+  "exact_context_approved_exception_preserved": true,
+  "all_review_bound": true,
+  "sprite_sheet_cells_compared": 17235,
+  "timing_evidence": {
+    "authored": 305,
+    "candidate": 160
+  },
+  "browser_preview": "single arrow and three-hit lightning actual playback verified over localhost; local folder chooser implementation included",
+  "errors": []
+}

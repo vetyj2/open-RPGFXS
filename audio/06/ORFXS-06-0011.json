@@ -1,0 +1,151 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-06-0011",
+  "name_ko": "낙엽 · 채택 A 원형의 넓은 회오리 · 음원 후보",
+  "file": "audio/06/ORFXS-06-0011.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 124234
+  },
+  "sha256": "674ff545f3835ab8360968e6bad91e9d2e0ac44ff36eaa00c8e4ee77ed88b2e7",
+  "pcm_sha256": "434e46e5c76a2f48a97c4f1847d4263e9e1afcdbfa8d961654081b478d616b2c",
+  "metrics": {
+    "duration_ms": 2588.208333,
+    "sample_peak_dbfs": -13.3489,
+    "sample_peak_ms": 972.854167,
+    "active_rms_dbfs": -24.3437,
+    "first_activity_ms": 5,
+    "last_activity_ms": 2565,
+    "main_onset_candidate_ms": 960,
+    "transient_candidates_ms": [
+      377.5,
+      482.5,
+      637.5,
+      802.5,
+      972.5,
+      1137.5,
+      1247.5,
+      1367.5,
+      1467.5,
+      1627.5,
+      1797.5,
+      1962.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "087"
+  ],
+  "sources": [
+    {
+      "source_id": "087",
+      "source_sha256": "4b2be0f0f47443544b9d08b46a9e258aa4f809742c060f5cedbb916f800710c9",
+      "start_sample": 0,
+      "end_sample_exclusive": 124234,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 500.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-06-007-04-P01",
+    "ORFX-06-007-05-P01"
+  ],
+  "usage_levels": [
+    75,
+    99
+  ],
+  "concepts": [
+    "continuous",
+    "wind"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "regen-rpg-24-representative-20261028",
+      "prompt": "Six-second photorealistic single continuous shot, fixed camera, physical cause and target visible. Capture close, detailed, realistic sound synchronized with the visible action, strong enough to suit a dramatic game effect without clipping. No music, speech, voice, chiptune, synthesizers, artificial cinematic risers, cartoon effects, montage, edits or captions. Do not impose three takes: perform one complete event, with a clean natural onset and decay, and leave quiet when the event finishes. A strong local gust lifts dry leaves into one continuous visible outdoor vortex and then the leaves settle. Capture a forceful but natural moving air layer and detailed dry leaf rustle that rise and decay together over roughly 2.417 seconds. No footfalls or continuous motor; do not impose three separate takes.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-78",
+      "prompt": "Six-second photorealistic single continuous shot, fixed camera, physical cause and target visible. Capture close, detailed, realistic sound synchronized with the visible action, strong enough to suit a dramatic game effect without clipping. No music, speech, voice, chiptune, synthesizers, artificial cinematic risers, cartoon effects, montage, edits or captions. Do not impose three takes: perform one complete event, with a clean natural onset and decay, and leave quiet when the event finishes. A strong local gust lifts dry leaves into one continuous visible outdoor vortex and then the leaves settle. Capture a forceful but natural moving air layer and detailed dry leaf rustle that rise and decay together over roughly 2.417 seconds. No footfalls or continuous motor; do not impose three separate takes.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [
+        "rpg-78-l01"
+      ],
+      "source_id": "087"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-06-007-04-P01",
+      "source_id": "rpg-78-l75",
+      "name_ko": "낙엽 · 채택 A 원형의 넓은 회오리",
+      "level": 75
+    },
+    {
+      "pairing": "ORFX-06-007-05-P01",
+      "source_id": "rpg-78-l99",
+      "name_ko": "낙엽 · 채택 A 원형의 넓은 회오리",
+      "level": 99
+    }
+  ],
+  "best_use": [
+    "낙엽 · 채택 A 원형의 넓은 회오리"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "candidate"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      75,
+      99
+    ],
+    "sample_peak_dbfs": -13.3489,
+    "active_rms_dbfs": -24.3437,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "continuous",
+      "wind"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 2588.208333,
+    "main_onset_candidate_ms": 960,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

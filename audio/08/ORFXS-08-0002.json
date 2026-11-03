@@ -1,0 +1,114 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-08-0002",
+  "name_ko": "종료 맞춤 · 동상 표식 · 작은 얼음가시 원형",
+  "file": "audio/08/ORFXS-08-0002.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 23559
+  },
+  "sha256": "75794fada23052bf79359ed8f342534a449934c0d6aa292b5d9ea3d4694519dc",
+  "pcm_sha256": "ac40680a08843c0b0e164cb9b698d9b5a1d4d1f7151b6d26b2a518cd192744b8",
+  "metrics": {
+    "duration_ms": 490.8125,
+    "sample_peak_dbfs": -18.5324,
+    "sample_peak_ms": 157.479167,
+    "active_rms_dbfs": -37.7127,
+    "first_activity_ms": 0,
+    "last_activity_ms": 470,
+    "main_onset_candidate_ms": 130,
+    "transient_candidates_ms": [
+      157.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "EXT-EX-012"
+  ],
+  "sources": [
+    {
+      "source_id": "EXT-EX-012",
+      "source_sha256": "510bccf84e1348d2a30d9391b1966d293955161282438c2ccb87233993077420",
+      "start_sample": 0,
+      "end_sample_exclusive": 23559,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-05-003-01-P02"
+  ],
+  "usage_levels": [],
+  "concepts": [
+    "debuff",
+    "ground",
+    "ice"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "EXT-EX-012"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-05-003-01-P02",
+      "source_id": "EX-012",
+      "name_ko": "동상 표식 · 작은 얼음가시 원형",
+      "level": null
+    }
+  ],
+  "best_use": [
+    "동상 표식 · 작은 얼음가시 원형"
+  ],
+  "usage_patterns": [
+    "continuous"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "continuous",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "candidate"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [],
+    "sample_peak_dbfs": -18.5324,
+    "active_rms_dbfs": -37.7127,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "debuff",
+      "ground",
+      "ice"
+    ],
+    "temporal_patterns": [
+      "continuous"
+    ],
+    "duration_ms": 490.8125,
+    "main_onset_candidate_ms": 130,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

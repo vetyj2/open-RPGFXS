@@ -1,0 +1,134 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-04-0037",
+  "name_ko": "물 · 직선 압력 분사 · 음원 후보",
+  "file": "audio/04/ORFXS-04-0037.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 215840
+  },
+  "sha256": "712af8d085a8f36c4c98e956036a2ebe23acb1e767382939ce02f4b31c4758e8",
+  "pcm_sha256": "cf36e37b6cf843fac15487c97e9d1842ed0b05cf5fef41a8c4af1e14ec7f78aa",
+  "metrics": {
+    "duration_ms": 4496.666667,
+    "sample_peak_dbfs": -13.3514,
+    "sample_peak_ms": 519.041667,
+    "active_rms_dbfs": -29.8211,
+    "first_activity_ms": 60,
+    "last_activity_ms": 4465,
+    "main_onset_candidate_ms": 295,
+    "transient_candidates_ms": [
+      377.5,
+      482.5,
+      612.5,
+      777.5,
+      927.5,
+      1097.5,
+      1242.5,
+      1502.5,
+      1627.5,
+      1787.5,
+      2172.5,
+      2432.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "059"
+  ],
+  "sources": [
+    {
+      "source_id": "059",
+      "source_sha256": "f69bf4798f2a92c5e1611600d6b657d3d923b7d879c9c16c6fd4f856b1f5ef5b",
+      "start_sample": 0,
+      "end_sample_exclusive": 215840,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 400.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-04-010-04-P01"
+  ],
+  "usage_levels": [
+    75
+  ],
+  "concepts": [
+    "continuous",
+    "water"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "ingame-foley-rpg-66-20261028",
+      "prompt": "Six-second top-down pixel-art RPG gameplay footage based on this supplied exact game-scene image. Fixed camera, the target is centered, action plays in real time at normal physical speed, not slow motion; no montage or cuts. Create realistic, clear, impactful physical Foley synchronized to visible action even though visuals are game-like. No background music, score, singing, speech, narration, chiptune, 8-bit sound, cartoon or synthesized game audio. A sustained forceful jet of water starts promptly, hits and washes the center of the target, then naturally subsides. Realistic broad water pressure and splashing, not synthesized or chiptune. On the reference animation clock the first visible water is at 0.0417 s; strongest visible brightness at 0.2917 s (a visual measure, not an audio impact cue); largest visible area at 1.0417 s; visible release ends about 1.875 s and the full timeline ends 2.4167 s. Keep the sound continuous over the visible action and let the water tail end naturally. No separately invented impact beats. These exact times are target animation metadata, not proof the generated audio conforms. The supplied image shows actual animation frame 4 at 24 FPS, so the video begins at animation 0.166667 seconds; subtract that offset from the animation-clock targets above to place them relative to video start.\n\nShow all motion and sound in natural real time at plausible physical speed, with decisive, fast action appropriate to the event. No slow motion, speed ramp, frozen tableau, exaggerated suspended particles or stretched impact. Maintain the explicitly requested event timing and natural sound decay; keep audio synchronized to the visible action.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "059"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-04-010-04-P01",
+      "source_id": "rpg-35-l75",
+      "name_ko": "물 분수",
+      "level": 75
+    }
+  ],
+  "best_use": [
+    "물 분수"
+  ],
+  "usage_patterns": [
+    "continuous"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "continuous",
+      "event_count": 0,
+      "intervals_ms": [],
+      "confidence": "not-applicable / continuous"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      75
+    ],
+    "sample_peak_dbfs": -13.3514,
+    "active_rms_dbfs": -29.8211,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "continuous",
+      "water"
+    ],
+    "temporal_patterns": [
+      "continuous"
+    ],
+    "duration_ms": 4496.666667,
+    "main_onset_candidate_ms": 295,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

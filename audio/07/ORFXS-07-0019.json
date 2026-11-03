@@ -1,0 +1,123 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-07-0019",
+  "name_ko": "원본 · 정신 집중 · 마법진 원형",
+  "file": "audio/07/ORFXS-07-0019.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 105600
+  },
+  "sha256": "6c1c3197a2222678cda5c0b5a6673f809f382d79d57df44ba2d639e4bb934166",
+  "pcm_sha256": "bcb1400e635547cd7ed4b5484b789b887f736480601bf5f3fc4f37c304b96156",
+  "metrics": {
+    "duration_ms": 2200.0,
+    "sample_peak_dbfs": -17.7106,
+    "sample_peak_ms": 1386.645833,
+    "active_rms_dbfs": -34.5865,
+    "first_activity_ms": 10,
+    "last_activity_ms": 2155,
+    "main_onset_candidate_ms": 770,
+    "transient_candidates_ms": [
+      837.5,
+      1012.5,
+      1202.5,
+      1387.5,
+      1572.5,
+      1687.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "EXA-EX-038"
+  ],
+  "sources": [
+    {
+      "source_id": "EXA-EX-038",
+      "source_sha256": "0f86fd64377f0c98192813c0ac918ac5643bb0802106c02c67120793579f4dce",
+      "start_sample": 0,
+      "end_sample_exclusive": 105600,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 1078.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-09-002-03-P02"
+  ],
+  "usage_levels": [],
+  "concepts": [
+    "buff",
+    "magic"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [
+        "EX-034"
+      ],
+      "reuse_disallowed_families": [
+        "rpg-28",
+        "EX-034"
+      ],
+      "source_id": "EXA-EX-038"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-09-002-03-P02",
+      "source_id": "EX-038",
+      "name_ko": "정신 집중 · 마법진 원형",
+      "level": null
+    }
+  ],
+  "best_use": [
+    "정신 집중 · 마법진 원형"
+  ],
+  "usage_patterns": [
+    "continuous"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "continuous",
+      "event_count": 0,
+      "intervals_ms": [],
+      "confidence": "not-applicable / continuous"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [],
+    "sample_peak_dbfs": -17.7106,
+    "active_rms_dbfs": -34.5865,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "buff",
+      "magic"
+    ],
+    "temporal_patterns": [
+      "continuous"
+    ],
+    "duration_ms": 2200.0,
+    "main_onset_candidate_ms": 770,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

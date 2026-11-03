@@ -1,0 +1,126 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-04-0067",
+  "name_ko": "폭발 · 폴리7 후보 3",
+  "file": "audio/04/ORFXS-04-0067.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 52800
+  },
+  "sha256": "a1ce11430c201d2f82b232635e980580a1b364bb1d6da05f180094ca9766e084",
+  "pcm_sha256": "9932bf4e0bd94c8b48f8b756ea7b4f808ffadded461928597b0622ac6ec293fc",
+  "metrics": {
+    "duration_ms": 1100.0,
+    "sample_peak_dbfs": -2.8681,
+    "sample_peak_ms": 81.895833,
+    "active_rms_dbfs": -22.8079,
+    "first_activity_ms": 0,
+    "last_activity_ms": 1100,
+    "main_onset_candidate_ms": 65,
+    "transient_candidates_ms": [
+      82.5,
+      182.5,
+      312.5,
+      527.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "P023"
+  ],
+  "sources": [
+    {
+      "source_id": "P023",
+      "source_sha256": "23afda845ae937d6a4c6c1e261824cb6f81880bb882532beefab07f7b62351f5",
+      "start_sample": 0,
+      "end_sample_exclusive": 52800,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-04-004-03-P04"
+  ],
+  "usage_levels": [
+    50
+  ],
+  "concepts": [
+    "burst"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "foley-07-mix",
+      "prompt": "Six-second photorealistic single continuous live-action scene, fixed close camera with a believable physical sound source visibly moving in sync. Capture bold, physical, close-miked sound with assertive attack, convincing mass and clear texture: fast pressure movement, a decisive sharp transient, weighty mid/low body and a natural short decay appropriate to the material. Strong impact and realistic dynamic range without digital clipping, harsh distortion, cartoon exaggeration or synthetic tones. Three short separated takes of the SAME physical event, with varying force and texture, not copies: weak at about 0.80 seconds, medium at 2.50 seconds, strong at 4.20 seconds. Each take has its own explicit duration below; keep the gaps genuinely quiet and never overlap adjacent tails. Sounds must match what is visible and stop naturally before the next take. No background music, score, singing, voices, narration, chiptune, 8-bit sounds, UI sounds, artificial whooshes, cinematic risers, titles, edits or montage. A controlled practical-effects test in an empty exterior shows three separate real orange flame bursts, progressively larger, expanding swiftly then extinguishing. Close-miked pressure thump, sharp transient, a weighty natural low-frequency body and short crackling flame; the strong take is forceful without a cinematic bass drop. The explosive attack occurs at 0.80 / 2.50 / 4.20 s. Each sharp front lasts about 0.05–0.10 s; flame and air release decay for about 0.45 / 0.70 / 1.00 s respectively, then stop.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [
+        "rpg-07-l99"
+      ],
+      "source_id": "P023"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-04-004-03-P04",
+      "source_id": "SYNC-N03",
+      "name_ko": "폭발 · N03",
+      "level": 50
+    }
+  ],
+  "best_use": [
+    "폭발 · N03"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "candidate"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      50
+    ],
+    "sample_peak_dbfs": -2.8681,
+    "active_rms_dbfs": -22.8079,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "burst"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 1100.0,
+    "main_onset_candidate_ms": 65,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

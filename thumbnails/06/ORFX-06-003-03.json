@@ -1,0 +1,9 @@
+{
+  "schema": "open-rpgfxs.thumbnail/1",
+  "animation": "ORFX-06-003-03",
+  "file": "thumbnails/06/ORFX-06-003-03.png",
+  "frame_index": 30,
+  "frame_time_ms": 1250.0,
+  "selection": "largest visible alpha mass thumbnail only; not an impact detector",
+  "sheet_metadata": "spritesheets/06/ORFX-06-003-03.json"
+}

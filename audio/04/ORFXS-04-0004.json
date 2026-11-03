@@ -1,0 +1,163 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-04-0004",
+  "name_ko": "파이어볼2",
+  "file": "audio/04/ORFXS-04-0004.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 45120
+  },
+  "sha256": "10493af9cf05e96f2dd9fc248f3fac7688b7b2a1154ad24ed572488ec512bd52",
+  "pcm_sha256": "a35e1c6f767951eeffc66441eb9b823b462cf58a760edaf28016e9d7707527d8",
+  "metrics": {
+    "duration_ms": 940.0,
+    "sample_peak_dbfs": -4.527,
+    "sample_peak_ms": 143.291667,
+    "active_rms_dbfs": -18.034,
+    "first_activity_ms": 0,
+    "last_activity_ms": 940,
+    "main_onset_candidate_ms": 80,
+    "transient_candidates_ms": [
+      37.5,
+      142.5,
+      257.5,
+      397.5,
+      512.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "P006"
+  ],
+  "sources": [
+    {
+      "source_id": "P006",
+      "source_sha256": "31093c0610ce016fbc88ec22bc9c31fa80363d9f84c78816947365e8693e6f99",
+      "start_sample": 0,
+      "end_sample_exclusive": 45120,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-04-001-03-P04",
+    "ORFX-04-001-05-P01",
+    "ORFX-04-002-03-P04",
+    "ORFX-04-002-05-P01"
+  ],
+  "usage_levels": [
+    50,
+    99
+  ],
+  "concepts": [
+    "fire"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "foley-03-s1",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. In a practical effects studio, a controlled burst of real orange flame sweeps across a dark fireproof surface, then blossoms and recedes, leaving a few crackling embers. Capture the short air rush, ignition and natural flame tail. A small brief gas flame flares gently and dies down: a soft air puff, short ignition and faint crackle.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-49",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. In a practical effects studio, a controlled burst of real orange flame sweeps across a dark fireproof surface, then blossoms and recedes, leaving a few crackling embers. Capture the short air rush, ignition and natural flame tail. A small brief gas flame flares gently and dies down: a soft air puff, short ignition and faint crackle.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-50",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. In a practical effects studio, a controlled burst of real orange flame sweeps across a dark fireproof surface, then blossoms and recedes, leaving a few crackling embers. Capture the short air rush, ignition and natural flame tail. A small brief gas flame flares gently and dies down: a soft air puff, short ignition and faint crackle.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "P006"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-04-001-03-P04",
+      "source_id": "SYNC-V12",
+      "name_ko": "파이어볼 · ABCDF · 파이어볼2 · V12",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-04-001-05-P01",
+      "source_id": "rpg-03-l99-abcdf",
+      "name_ko": "파이어볼 · ABCDF · 강도 보완",
+      "level": 99
+    },
+    {
+      "pairing": "ORFX-04-002-03-P04",
+      "source_id": "SYNC-V16",
+      "name_ko": "파이어볼 · ACDF · 파이어볼2 · V16",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-04-002-05-P01",
+      "source_id": "rpg-03-l99-acdf",
+      "name_ko": "파이어볼 · ACDF · 강도 보완",
+      "level": 99
+    }
+  ],
+  "best_use": [
+    "파이어볼 · ABCDF · 파이어볼2 · V12",
+    "파이어볼 · ABCDF · 강도 보완",
+    "파이어볼 · ACDF · 파이어볼2 · V16",
+    "파이어볼 · ACDF · 강도 보완"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "authored"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      50,
+      99
+    ],
+    "sample_peak_dbfs": -4.527,
+    "active_rms_dbfs": -18.034,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "fire"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 940.0,
+    "main_onset_candidate_ms": 80,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-09-0016",
+  "name_ko": "폭열암석 · 접근과 착탄 굉음 01",
+  "file": "audio/09/ORFXS-09-0016.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 192400
+  },
+  "sha256": "d86d7e5ebd6f4481959d8af979deed4a507a728a511aa8af52029c1867e5a382",
+  "pcm_sha256": "3bfaddb06315d07ddbf5581970b4e061b7e49dde4c5671b92337e1e1ecd90e33",
+  "metrics": {
+    "duration_ms": 4008.333333,
+    "sample_peak_dbfs": -3.5486,
+    "sample_peak_ms": 1769.5625,
+    "active_rms_dbfs": -15.974,
+    "first_activity_ms": 0,
+    "last_activity_ms": 3985,
+    "main_onset_candidate_ms": 1760,
+    "transient_candidates_ms": [
+      1407.5,
+      1527.5,
+      1637.5,
+      1767.5,
+      1867.5,
+      2077.5,
+      2197.5,
+      2392.5,
+      2517.5,
+      2632.5,
+      2797.5,
+      3132.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "FBR-METEOR-01"
+  ],
+  "sources": [
+    {
+      "source_id": "FBR-METEOR-01",
+      "source_sha256": "cde694bffa41eb7301f14e1534e8f9cdad7c1d9e0c4acb59b0ed90ac55b2ae20",
+      "start_sample": 0,
+      "end_sample_exclusive": 192400,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 1964.083333,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-05-007-00-P01"
+  ],
+  "usage_levels": [],
+  "concepts": [
+    "ground",
+    "impact",
+    "rock"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "FBR-METEOR-01"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-05-007-00-P01",
+      "source_id": "PAIR-M01",
+      "name_ko": "폭열암석 · 균열과 돌 충돌",
+      "level": null
+    }
+  ],
+  "best_use": [
+    "폭열암석 · 균열과 돌 충돌"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "authored"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [],
+    "sample_peak_dbfs": -3.5486,
+    "active_rms_dbfs": -15.974,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "ground",
+      "impact",
+      "rock"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 4008.333333,
+    "main_onset_candidate_ms": 1760,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

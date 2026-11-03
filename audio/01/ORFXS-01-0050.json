@@ -1,0 +1,126 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-01-0050",
+  "name_ko": "불화살",
+  "file": "audio/01/ORFXS-01-0050.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 37322
+  },
+  "sha256": "68f28a88bf84d11bc886e6d454f45f6ca897ba1b5c59962bc25c66f934fbc9b3",
+  "pcm_sha256": "eaed0b2d3003edcb086bd43f3466bdb50751e798b0b61c3b392930e54c6a3cde",
+  "metrics": {
+    "duration_ms": 777.541667,
+    "sample_peak_dbfs": -6.4376,
+    "sample_peak_ms": 142.875,
+    "active_rms_dbfs": -36.2548,
+    "first_activity_ms": 0,
+    "last_activity_ms": 745,
+    "main_onset_candidate_ms": 135,
+    "transient_candidates_ms": [
+      142.5,
+      387.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "P008"
+  ],
+  "sources": [
+    {
+      "source_id": "P008",
+      "source_sha256": "1d9a74f378e32cf6dbf24febd48303c49fece123fd068fe2593bccc63bfa5628",
+      "start_sample": 0,
+      "end_sample_exclusive": 37322,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 370.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-01-025-03-P01"
+  ],
+  "usage_levels": [
+    50
+  ],
+  "concepts": [
+    "arrow",
+    "fire",
+    "projectile"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "foley-03-s3",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. In a practical effects studio, a controlled burst of real orange flame sweeps across a dark fireproof surface, then blossoms and recedes, leaving a few crackling embers. Capture the short air rush, ignition and natural flame tail. A moderate controlled fire burst blooms and recedes: firm low air rush, full natural ignition and small falling embers.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "P008"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-01-025-03-P01",
+      "source_id": "MX01",
+      "name_ko": "불화살 · 직선 · 화살+속성 혼합 MX01",
+      "level": 50
+    }
+  ],
+  "best_use": [
+    "불화살 · 직선 · 화살+속성 혼합 MX01"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "route-level hypothesis; listen for intrinsic secondary events"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      50
+    ],
+    "sample_peak_dbfs": -6.4376,
+    "active_rms_dbfs": -36.2548,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "arrow",
+      "fire",
+      "projectile"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 777.541667,
+    "main_onset_candidate_ms": 135,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

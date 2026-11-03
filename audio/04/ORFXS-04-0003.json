@@ -1,0 +1,219 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-04-0003",
+  "name_ko": "파이어볼3",
+  "file": "audio/04/ORFXS-04-0003.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 45120
+  },
+  "sha256": "e3d0ce8de41f0b9bc8ac41c1dacce95c9978d302934bc37519459d2759228053",
+  "pcm_sha256": "118072ea19d8746271603f28c07ac95900245de7e4d6d884d6c587dafe75b98a",
+  "metrics": {
+    "duration_ms": 940.0,
+    "sample_peak_dbfs": -4.983,
+    "sample_peak_ms": 230.875,
+    "active_rms_dbfs": -17.0085,
+    "first_activity_ms": 0,
+    "last_activity_ms": 940,
+    "main_onset_candidate_ms": 135,
+    "transient_candidates_ms": [
+      7.5,
+      162.5,
+      262.5,
+      372.5,
+      567.5,
+      707.5,
+      842.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "EXA-EX-045-ABCDF",
+    "EXA-EX-045-ACDF",
+    "P007"
+  ],
+  "sources": [
+    {
+      "source_id": "P007",
+      "source_sha256": "7627c04348246112a125e87acdf539fe2958a5464caa0edaff61dcb12b3b1aba",
+      "start_sample": 0,
+      "end_sample_exclusive": 45120,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    },
+    {
+      "source_id": "EXA-EX-045-ABCDF",
+      "source_sha256": "7627c04348246112a125e87acdf539fe2958a5464caa0edaff61dcb12b3b1aba",
+      "start_sample": 0,
+      "end_sample_exclusive": 45120,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    },
+    {
+      "source_id": "EXA-EX-045-ACDF",
+      "source_sha256": "7627c04348246112a125e87acdf539fe2958a5464caa0edaff61dcb12b3b1aba",
+      "start_sample": 0,
+      "end_sample_exclusive": 45120,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-04-001-03-P01",
+    "ORFX-04-001-03-P02",
+    "ORFX-04-001-03-P05",
+    "ORFX-04-001-04-P01",
+    "ORFX-04-002-03-P01",
+    "ORFX-04-002-03-P02",
+    "ORFX-04-002-03-P05",
+    "ORFX-04-002-04-P01"
+  ],
+  "usage_levels": [
+    50,
+    75
+  ],
+  "concepts": [
+    "fire",
+    "impact"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "foley-03-s3",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. In a practical effects studio, a controlled burst of real orange flame sweeps across a dark fireproof surface, then blossoms and recedes, leaving a few crackling embers. Capture the short air rush, ignition and natural flame tail. A moderate controlled fire burst blooms and recedes: firm low air rush, full natural ignition and small falling embers.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "P007"
+    },
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "EXA-EX-045-ABCDF"
+    },
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "EXA-EX-045-ACDF"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-04-001-03-P01",
+      "source_id": "rpg-03-l50-abcdf",
+      "name_ko": "파이어볼 · ABCDF · 강도 보완",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-04-001-03-P02",
+      "source_id": "EX-045-ABCDF",
+      "name_ko": "불 피격 후 불씨 · 선정 ABCDF",
+      "level": null
+    },
+    {
+      "pairing": "ORFX-04-001-03-P05",
+      "source_id": "SYNC-V13",
+      "name_ko": "파이어볼 · ABCDF · 파이어볼3 · V13",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-04-001-04-P01",
+      "source_id": "rpg-03-l75-abcdf",
+      "name_ko": "파이어볼 · ABCDF · 강도 보완",
+      "level": 75
+    },
+    {
+      "pairing": "ORFX-04-002-03-P01",
+      "source_id": "rpg-03-l50-acdf",
+      "name_ko": "파이어볼 · ACDF · 강도 보완",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-04-002-03-P02",
+      "source_id": "EX-045-ACDF",
+      "name_ko": "불 피격 후 불씨 · 선정 ACDF",
+      "level": null
+    },
+    {
+      "pairing": "ORFX-04-002-03-P05",
+      "source_id": "SYNC-V17",
+      "name_ko": "파이어볼 · ACDF · 파이어볼3 · V17",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-04-002-04-P01",
+      "source_id": "rpg-03-l75-acdf",
+      "name_ko": "파이어볼 · ACDF · 강도 보완",
+      "level": 75
+    }
+  ],
+  "best_use": [
+    "파이어볼 · ABCDF · 강도 보완",
+    "불 피격 후 불씨 · 선정 ABCDF",
+    "파이어볼 · ABCDF · 파이어볼3 · V13",
+    "파이어볼 · ACDF · 강도 보완",
+    "불 피격 후 불씨 · 선정 ACDF",
+    "파이어볼 · ACDF · 파이어볼3 · V17"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "authored"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      50,
+      75
+    ],
+    "sample_peak_dbfs": -4.983,
+    "active_rms_dbfs": -17.0085,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "fire",
+      "impact"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 940.0,
+    "main_onset_candidate_ms": 135,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

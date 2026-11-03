@@ -1,0 +1,139 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-07-0015",
+  "name_ko": "회복 · 십자 표식과 상승 입자 · 음원 후보",
+  "file": "audio/07/ORFXS-07-0015.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 76938
+  },
+  "sha256": "dede7ac50cf36265f83f845136f0dc3b097c823d3627435a5ebf0de21e00d5af",
+  "pcm_sha256": "b7eb70352cf800d31fbb6f9f89dbbf1d5afcbdd46db59f1eaeef48f3449961f5",
+  "metrics": {
+    "duration_ms": 1602.875,
+    "sample_peak_dbfs": -17.3653,
+    "sample_peak_ms": 694.875,
+    "active_rms_dbfs": -36.575,
+    "first_activity_ms": 0,
+    "last_activity_ms": 1500,
+    "main_onset_candidate_ms": 0,
+    "transient_candidates_ms": [
+      87.5,
+      267.5,
+      417.5,
+      517.5,
+      672.5,
+      857.5,
+      1017.5,
+      1137.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "090"
+  ],
+  "sources": [
+    {
+      "source_id": "090",
+      "source_sha256": "b8b4cfb369765dd88b7c21fb0a6a930fd5f8b98999306bd179b96b63478fe0d6",
+      "start_sample": 0,
+      "end_sample_exclusive": 76938,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 785.40875,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-07-002-04-P01",
+    "ORFX-07-002-05-P01"
+  ],
+  "usage_levels": [
+    75,
+    99
+  ],
+  "concepts": [
+    "buff",
+    "heal"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "ingame-foley-rpg-79-through45-20261028",
+      "prompt": "Six-second top-down pixel-art RPG gameplay footage based on this supplied current studio action frame. Fixed camera centered on the target, no montage or cuts. Play action in normal fast real time without slow motion, stretched impact, slow buildup or speed ramp. Produce clear bold realistic close physical Foley, carefully synchronized to the visual event. No background music, score, singing, speech, narration, chiptune, 8-bit, cartoon or synthetic game sounds. A healing visual rises around the character. Use a brief natural resonant glass-and-water bowl sound plus a soft moving-air swell, no melody or synthetic chime. The reference image uses actual animation frame 0 at 24 FPS, video time 0 equals animation 0.000s. First visible frame is 0.000s; greatest visible nonzero-alpha pixel count at animation 0.833s = video 0.833s (visual measure only, not an audio peak). No verified impact time is available; do not invent a specific sound impact timestamp. The visible effect ends at animation 1.583s = video 1.583s. The full animation timeline ends at 1.583s. Times are targets for generation, not proof of model compliance. Use the pinned early action, intermediate keyframes and blank last frame as timing anchors. Do not delay the visual action until later in the clip; follow the physical-action timing in the first seconds.\n\nShow all motion and sound in natural real time at plausible physical speed, with decisive, fast action appropriate to the event. No slow motion, speed ramp, exaggerated suspended particles or stretched impact. Maintain the explicitly requested event timing and natural sound decay; keep audio synchronized to the visible action.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "090"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-07-002-04-P01",
+      "source_id": "rpg-79-l75",
+      "name_ko": "회복 · 십자 표식과 상승 입자",
+      "level": 75
+    },
+    {
+      "pairing": "ORFX-07-002-05-P01",
+      "source_id": "rpg-79-l99",
+      "name_ko": "회복 · 십자 표식과 상승 입자",
+      "level": 99
+    }
+  ],
+  "best_use": [
+    "회복 · 십자 표식과 상승 입자"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "candidate"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      75,
+      99
+    ],
+    "sample_peak_dbfs": -17.3653,
+    "active_rms_dbfs": -36.575,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "buff",
+      "heal"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 1602.875,
+    "main_onset_candidate_ms": 0,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

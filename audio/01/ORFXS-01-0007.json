@@ -1,0 +1,239 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-01-0007",
+  "name_ko": "단검투척철",
+  "file": "audio/01/ORFXS-01-0007.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 45120
+  },
+  "sha256": "d36f6019741b00ec5799398b55aa8d674baf999de8d3122ca9ba586188400ff9",
+  "pcm_sha256": "640c81c844cbd21a685096acf7434b5441dbeb2fcddb9e5ac3982ad2665098b1",
+  "metrics": {
+    "duration_ms": 940.0,
+    "sample_peak_dbfs": -2.7069,
+    "sample_peak_ms": 134.541667,
+    "active_rms_dbfs": -25.6909,
+    "first_activity_ms": 0,
+    "last_activity_ms": 940,
+    "main_onset_candidate_ms": 125,
+    "transient_candidates_ms": [
+      147.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "017",
+    "P017",
+    "P018"
+  ],
+  "sources": [
+    {
+      "source_id": "P017",
+      "source_sha256": "8376dd1067a5d6fef0d268b86b0f5d9dde0bc164af29b0d65879c88451884aa8",
+      "start_sample": 0,
+      "end_sample_exclusive": 45120,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    },
+    {
+      "source_id": "017",
+      "source_sha256": "8376dd1067a5d6fef0d268b86b0f5d9dde0bc164af29b0d65879c88451884aa8",
+      "start_sample": 0,
+      "end_sample_exclusive": 45120,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    },
+    {
+      "source_id": "P018",
+      "source_sha256": "8376dd1067a5d6fef0d268b86b0f5d9dde0bc164af29b0d65879c88451884aa8",
+      "start_sample": 0,
+      "end_sample_exclusive": 45120,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-01-002-03-P03",
+    "ORFX-01-002-04-P01",
+    "ORFX-01-002-05-P01",
+    "ORFX-01-007-03-P03",
+    "ORFX-01-008-03-P03",
+    "ORFX-01-008-04-P01",
+    "ORFX-01-008-05-P01",
+    "ORFX-01-029-03-P02"
+  ],
+  "usage_levels": [
+    50,
+    75,
+    99
+  ],
+  "concepts": [
+    "blood",
+    "knife",
+    "metal",
+    "projectile",
+    "water"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [
+    {
+      "record": "foley-02-s3",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. A real steel throwing knife travels through the air and embeds in a firm wooden practice target, no person in frame. Capture the thin blade pass and short solid metal-and-wood impact. A medium steel throwing knife embeds decisively in wood: crisp air cut, short metallic bite and natural woody thock.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-47",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. A real steel throwing knife travels through the air and embeds in a firm wooden practice target, no person in frame. Capture the thin blade pass and short solid metal-and-wood impact. A medium steel throwing knife embeds decisively in wood: crisp air cut, short metallic bite and natural woody thock.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    },
+    {
+      "record": "next-rpg-48",
+      "prompt": "Six-second photorealistic live-action footage, fixed close camera with the physical cause visible. Use naturally recorded, close and detailed location/foley audio synchronized to the visible motion. Perform three short distinct occurrences at roughly 0.8, 2.5 and 4.3 seconds; each should vary slightly in force, timing and texture and then stop. Leave a quiet gap and complete the natural decay between occurrences. No background music, score, singing, voices, narration, electronic synthesizer, chiptune, 8-bit sound, UI sounds, cartoon sounds, reverb wash, or added cinematic riser. No montage, no cuts, no titles. A real steel throwing knife travels through the air and embeds in a firm wooden practice target, no person in frame. Capture the thin blade pass and short solid metal-and-wood impact. A medium steel throwing knife embeds decisively in wood: crisp air cut, short metallic bite and natural woody thock.",
+      "evidence": "generation prompt recorded with crop SHA",
+      "model": "Grok video with generated audio"
+    }
+  ],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [
+        "rpg-47-l99"
+      ],
+      "source_id": "P017"
+    },
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [
+        "rpg-47-l99"
+      ],
+      "source_id": "017"
+    },
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [
+        "rpg-47-l99"
+      ],
+      "source_id": "P018"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-01-002-03-P03",
+      "source_id": "SYNC-V08",
+      "name_ko": "단검 투척 · 출혈 · 단검투척살1 · V08",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-01-002-04-P01",
+      "source_id": "rpg-02-l75",
+      "name_ko": "단검 투척",
+      "level": 75
+    },
+    {
+      "pairing": "ORFX-01-002-05-P01",
+      "source_id": "rpg-02-l99",
+      "name_ko": "단검 투척",
+      "level": 99
+    },
+    {
+      "pairing": "ORFX-01-007-03-P03",
+      "source_id": "SYNC-W08",
+      "name_ko": "투척 칼 · 직선 · 단검투척철 · W08",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-01-008-03-P03",
+      "source_id": "SYNC-W10",
+      "name_ko": "투척 칼 · 포물선 · 단검투척철 · W10",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-01-008-04-P01",
+      "source_id": "rpg-48-l75",
+      "name_ko": "투척 칼 · 포물선",
+      "level": 75
+    },
+    {
+      "pairing": "ORFX-01-008-05-P01",
+      "source_id": "rpg-48-l99",
+      "name_ko": "투척 칼 · 포물선",
+      "level": 99
+    },
+    {
+      "pairing": "ORFX-01-029-03-P02",
+      "source_id": "SYNC-V07",
+      "name_ko": "단검 투척 · 무출혈 · 단검투척철 · V07",
+      "level": 50
+    }
+  ],
+  "best_use": [
+    "단검 투척 · 출혈 · 단검투척살1 · V08",
+    "단검 투척",
+    "투척 칼 · 직선 · 단검투척철 · W08",
+    "투척 칼 · 포물선 · 단검투척철 · W10",
+    "투척 칼 · 포물선",
+    "단검 투척 · 무출혈 · 단검투척철 · V07"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt traced by SHA",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "authored"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      50,
+      75,
+      99
+    ],
+    "sample_peak_dbfs": -2.7069,
+    "active_rms_dbfs": -25.6909,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "blood",
+      "knife",
+      "metal",
+      "projectile",
+      "water"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 940.0,
+    "main_onset_candidate_ms": 125,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

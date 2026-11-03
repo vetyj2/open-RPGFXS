@@ -1,0 +1,163 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-04-0039",
+  "name_ko": "낙뢰 원음 A001 원음 · 구간 3 (미확인)",
+  "file": "audio/04/ORFXS-04-0039.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 24480
+  },
+  "sha256": "1dfc303340a05d682c7632cf57374fc6650cc457778903633a636d7ace3a80f3",
+  "pcm_sha256": "b1c3f0f6b0c5a9d30b28d58fb2d2e39ecf4ce9ec3bfd833db6010b13d14f5b1a",
+  "metrics": {
+    "duration_ms": 510.0,
+    "sample_peak_dbfs": -12.4549,
+    "sample_peak_ms": 149.520833,
+    "active_rms_dbfs": -21.732,
+    "first_activity_ms": 0,
+    "last_activity_ms": 510,
+    "main_onset_candidate_ms": 0,
+    "transient_candidates_ms": [
+      72.5,
+      172.5,
+      307.5,
+      497.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "T003"
+  ],
+  "sources": [
+    {
+      "source_id": "T003",
+      "source_sha256": "72f4a35b96334903d159ce86cc33306a446df58bd63730d94c2f761a2fcc24d4",
+      "start_sample": 0,
+      "end_sample_exclusive": 24480,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 0.0,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-04-013-01-P01",
+    "ORFX-04-013-05-P01",
+    "ORFX-06-005-03-P01",
+    "ORFX-06-005-03-P04",
+    "ORFX-06-005-05-P01"
+  ],
+  "usage_levels": [
+    1,
+    50,
+    99
+  ],
+  "concepts": [
+    "continuous",
+    "electric",
+    "smoke"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "T003"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-04-013-01-P01",
+      "source_id": "rpg-75-l01",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰",
+      "level": 1
+    },
+    {
+      "pairing": "ORFX-04-013-05-P01",
+      "source_id": "rpg-75-l99",
+      "name_ko": "전기 · 표적 상공 구름 응집 후 낙뢰",
+      "level": 99
+    },
+    {
+      "pairing": "ORFX-06-005-03-P01",
+      "source_id": "rpg-38-l50",
+      "name_ko": "먹구름 · 연속 낙뢰",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-06-005-03-P04",
+      "source_id": "SYNC-L003",
+      "name_ko": "기존 스파크 · 신규 구간 1·2·3 · L003",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-06-005-05-P01",
+      "source_id": "rpg-38-l99",
+      "name_ko": "먹구름 · 연속 낙뢰",
+      "level": 99
+    }
+  ],
+  "best_use": [
+    "전기 · 표적 상공 구름 응집 후 낙뢰",
+    "먹구름 · 연속 낙뢰",
+    "기존 스파크 · 신규 구간 1·2·3 · L003"
+  ],
+  "usage_patterns": [
+    "one-shot",
+    "sequence"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "authored"
+    },
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "route-level hypothesis; listen for intrinsic secondary events"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      1,
+      50,
+      99
+    ],
+    "sample_peak_dbfs": -12.4549,
+    "active_rms_dbfs": -21.732,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "continuous",
+      "electric",
+      "smoke"
+    ],
+    "temporal_patterns": [
+      "one-shot",
+      "one-shot"
+    ],
+    "duration_ms": 510.0,
+    "main_onset_candidate_ms": 0,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

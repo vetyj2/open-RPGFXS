@@ -1,0 +1,657 @@
+{
+  "schema": "open-rpgfxs.animation/1",
+  "code": "ORFX-07-006-00",
+  "name_ko": "얼음탄 방패 도탄 · 전진 비행과 경사 반사",
+  "category": "07",
+  "category_name": "회복·보호",
+  "intensity_stage": 0,
+  "game_level": null,
+  "intensity_note": "00/null is unspecified, not inferred from generation order",
+  "file": "spritesheets/07/ORFX-07-006-00.png",
+  "thumbnail": "thumbnails/07/ORFX-07-006-00.png",
+  "frame_size": [
+    384,
+    384
+  ],
+  "source_native_frame_size": [
+    384,
+    384
+  ],
+  "filter": "nearest",
+  "alpha": "straight RGBA; transparent background",
+  "pivot_px": [
+    192,
+    192
+  ],
+  "focus_coordinate_space": "local centered effect; place pivot at runtime target/caster",
+  "fps": 60,
+  "recommended_frame_ms": 16.666667,
+  "frame_durations_ms": null,
+  "recommended_duration_ms": 1066.666667,
+  "frame_count": 64,
+  "columns": 8,
+  "rows": 8,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 0.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 1,
+      "x": 384,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 16.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 2,
+      "x": 768,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 33.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 3,
+      "x": 1152,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 50.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 4,
+      "x": 1536,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 66.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 5,
+      "x": 1920,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 83.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 6,
+      "x": 2304,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 100.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 7,
+      "x": 2688,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 116.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 8,
+      "x": 0,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 133.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 9,
+      "x": 384,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 150.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 10,
+      "x": 768,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 166.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 11,
+      "x": 1152,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 183.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 12,
+      "x": 1536,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 200.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 13,
+      "x": 1920,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 216.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 14,
+      "x": 2304,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 233.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 15,
+      "x": 2688,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 250.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 16,
+      "x": 0,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 266.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 17,
+      "x": 384,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 283.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 18,
+      "x": 768,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 300.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 19,
+      "x": 1152,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 316.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 20,
+      "x": 1536,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 333.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 21,
+      "x": 1920,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 350.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 22,
+      "x": 2304,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 366.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 23,
+      "x": 2688,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 383.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 24,
+      "x": 0,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 400.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 25,
+      "x": 384,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 416.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 26,
+      "x": 768,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 433.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 27,
+      "x": 1152,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 450.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 28,
+      "x": 1536,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 466.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 29,
+      "x": 1920,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 483.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 30,
+      "x": 2304,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 500.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 31,
+      "x": 2688,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 516.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 32,
+      "x": 0,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 533.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 33,
+      "x": 384,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 550.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 34,
+      "x": 768,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 566.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 35,
+      "x": 1152,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 583.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 36,
+      "x": 1536,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 600.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 37,
+      "x": 1920,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 616.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 38,
+      "x": 2304,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 633.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 39,
+      "x": 2688,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 650.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 40,
+      "x": 0,
+      "y": 1920,
+      "w": 384,
+      "h": 384,
+      "start_ms": 666.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 41,
+      "x": 384,
+      "y": 1920,
+      "w": 384,
+      "h": 384,
+      "start_ms": 683.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 42,
+      "x": 768,
+      "y": 1920,
+      "w": 384,
+      "h": 384,
+      "start_ms": 700.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 43,
+      "x": 1152,
+      "y": 1920,
+      "w": 384,
+      "h": 384,
+      "start_ms": 716.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 44,
+      "x": 1536,
+      "y": 1920,
+      "w": 384,
+      "h": 384,
+      "start_ms": 733.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 45,
+      "x": 1920,
+      "y": 1920,
+      "w": 384,
+      "h": 384,
+      "start_ms": 750.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 46,
+      "x": 2304,
+      "y": 1920,
+      "w": 384,
+      "h": 384,
+      "start_ms": 766.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 47,
+      "x": 2688,
+      "y": 1920,
+      "w": 384,
+      "h": 384,
+      "start_ms": 783.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 48,
+      "x": 0,
+      "y": 2304,
+      "w": 384,
+      "h": 384,
+      "start_ms": 800.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 49,
+      "x": 384,
+      "y": 2304,
+      "w": 384,
+      "h": 384,
+      "start_ms": 816.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 50,
+      "x": 768,
+      "y": 2304,
+      "w": 384,
+      "h": 384,
+      "start_ms": 833.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 51,
+      "x": 1152,
+      "y": 2304,
+      "w": 384,
+      "h": 384,
+      "start_ms": 850.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 52,
+      "x": 1536,
+      "y": 2304,
+      "w": 384,
+      "h": 384,
+      "start_ms": 866.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 53,
+      "x": 1920,
+      "y": 2304,
+      "w": 384,
+      "h": 384,
+      "start_ms": 883.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 54,
+      "x": 2304,
+      "y": 2304,
+      "w": 384,
+      "h": 384,
+      "start_ms": 900.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 55,
+      "x": 2688,
+      "y": 2304,
+      "w": 384,
+      "h": 384,
+      "start_ms": 916.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 56,
+      "x": 0,
+      "y": 2688,
+      "w": 384,
+      "h": 384,
+      "start_ms": 933.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 57,
+      "x": 384,
+      "y": 2688,
+      "w": 384,
+      "h": 384,
+      "start_ms": 950.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 58,
+      "x": 768,
+      "y": 2688,
+      "w": 384,
+      "h": 384,
+      "start_ms": 966.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 59,
+      "x": 1152,
+      "y": 2688,
+      "w": 384,
+      "h": 384,
+      "start_ms": 983.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 60,
+      "x": 1536,
+      "y": 2688,
+      "w": 384,
+      "h": 384,
+      "start_ms": 1000.0,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 61,
+      "x": 1920,
+      "y": 2688,
+      "w": 384,
+      "h": 384,
+      "start_ms": 1016.666667,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 62,
+      "x": 2304,
+      "y": 2688,
+      "w": 384,
+      "h": 384,
+      "start_ms": 1033.333333,
+      "duration_ms": 16.666667
+    },
+    {
+      "index": 63,
+      "x": 2688,
+      "y": 2688,
+      "w": 384,
+      "h": 384,
+      "start_ms": 1050.0,
+      "duration_ms": 16.666667
+    }
+  ],
+  "playback": "one-shot reviewed; source loop is not a certified seamless loop",
+  "sequence_sha256": "a8dfa65ba47a7809dff68cb48edb2daa74bfd677d069af1225591e0b4a1ce2b1",
+  "file_sha256": "f2d335f27729e9bddeba235fe276072e770f3d7150b1126fd98da5092469f7d2",
+  "source_native_hashes": [
+    "e05c8cfb68bd6f27c2c301b542158ac503a2242d5e7ab9ffe29bd39a162e7c70"
+  ],
+  "source_ids": [
+    "EX-004"
+  ],
+  "pairings": [
+    "ORFX-07-006-00-P01"
+  ],
+  "concepts": [
+    "ice",
+    "shield"
+  ],
+  "thumbnail_frame": 18,
+  "visible_first_ms": 16.666667,
+  "visible_end_ms": 816.666667,
+  "pairing_metadata": [
+    "pairings/ORFX-07-006-00-P01.json"
+  ],
+  "timing_by_pairing": {
+    "ORFX-07-006-00-P01": {
+      "impact_events": [
+        {
+          "time_ms": 266.666667,
+          "kind": "impact",
+          "confidence": "authored",
+          "basis": "전진 이동 끝과 반사 시작의 공통 접촉 16f / 60fps",
+          "frame_fraction": 16.0,
+          "sample_48k": 12800,
+          "local_point_px": [
+            192,
+            192
+          ],
+          "position_basis": "package pivot / target focus; contact surface pixels not independently measured"
+        }
+      ],
+      "impact_intervals_ms": [],
+      "temporal_pattern": "one-shot",
+      "review_anchor_ms": 266.6666666666667,
+      "review_anchor_basis": "전진 이동 끝과 반사 시작의 공통 접촉 16f / 60fps"
+    }
+  }
+}

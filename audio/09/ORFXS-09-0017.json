@@ -1,0 +1,132 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-09-0017",
+  "name_ko": "독가스 · 낮고 응집된 연속 분출 · 음원 후보",
+  "file": "audio/09/ORFXS-09-0017.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 21600
+  },
+  "sha256": "ffce9cb551d149fac4d6d22880b1000a225264fed52d0650fc5015607e1e9cb0",
+  "pcm_sha256": "5c02602ff5ce23243dfcb7b8eeb184cef5fa32aa83b8e04be5567e5189000875",
+  "metrics": {
+    "duration_ms": 450.0,
+    "sample_peak_dbfs": -6.0386,
+    "sample_peak_ms": 84.875,
+    "active_rms_dbfs": -20.4558,
+    "first_activity_ms": 0,
+    "last_activity_ms": 450,
+    "main_onset_candidate_ms": 0,
+    "transient_candidates_ms": [
+      82.5,
+      187.5,
+      347.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "072"
+  ],
+  "sources": [
+    {
+      "source_id": "072",
+      "source_sha256": "8ee2966ec626df932b14cc6294624aa68b306f7ed149226d97a870da80d54627",
+      "start_sample": 31200,
+      "end_sample_exclusive": 52800,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 220.5,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-01-027-03-P01",
+    "ORFX-01-028-03-P01"
+  ],
+  "usage_levels": [
+    50
+  ],
+  "concepts": [
+    "arrow",
+    "continuous",
+    "poison",
+    "projectile",
+    "water"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "072"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-01-027-03-P01",
+      "source_id": "MX05",
+      "name_ko": "독화살 · 직선 · 화살+속성 혼합 MX05",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-01-028-03-P01",
+      "source_id": "MX07",
+      "name_ko": "독화살 · 포물선 · 화살+속성 혼합 MX07",
+      "level": 50
+    }
+  ],
+  "best_use": [
+    "독화살 · 직선 · 화살+속성 혼합 MX05",
+    "독화살 · 포물선 · 화살+속성 혼합 MX07"
+  ],
+  "usage_patterns": [
+    "one-shot"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "route-level hypothesis; listen for intrinsic secondary events"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      50
+    ],
+    "sample_peak_dbfs": -6.0386,
+    "active_rms_dbfs": -20.4558,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "arrow",
+      "continuous",
+      "poison",
+      "projectile",
+      "water"
+    ],
+    "temporal_patterns": [
+      "one-shot"
+    ],
+    "duration_ms": 450.0,
+    "main_onset_candidate_ms": 0,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}

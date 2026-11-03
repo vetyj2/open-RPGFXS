@@ -1,0 +1,4216 @@
+{
+  "schema": "open-rpgfxs.code-map/1",
+  "aliases": {
+    "rpg-01-l01": {
+      "pairing": "ORFX-01-001-01-P01",
+      "animation": "ORFX-01-001-01",
+      "audio": [
+        "ORFXS-01-0001"
+      ]
+    },
+    "rpg-01-l25": {
+      "pairing": "ORFX-01-001-02-P01",
+      "animation": "ORFX-01-001-02",
+      "audio": [
+        "ORFXS-01-0002"
+      ]
+    },
+    "rpg-01-l50": {
+      "pairing": "ORFX-01-001-03-P01",
+      "animation": "ORFX-01-001-03",
+      "audio": [
+        "ORFXS-01-0003"
+      ]
+    },
+    "rpg-01-l75": {
+      "pairing": "ORFX-01-001-04-P01",
+      "animation": "ORFX-01-001-04",
+      "audio": [
+        "ORFXS-01-0003"
+      ]
+    },
+    "rpg-01-l99": {
+      "pairing": "ORFX-01-001-05-P01",
+      "animation": "ORFX-01-001-05",
+      "audio": [
+        "ORFXS-01-0004"
+      ]
+    },
+    "rpg-02-l01": {
+      "pairing": "ORFX-01-002-01-P01",
+      "animation": "ORFX-01-002-01",
+      "audio": [
+        "ORFXS-01-0005"
+      ]
+    },
+    "rpg-02-l25": {
+      "pairing": "ORFX-01-002-02-P01",
+      "animation": "ORFX-01-002-02",
+      "audio": [
+        "ORFXS-01-0005"
+      ]
+    },
+    "rpg-02-l50": {
+      "pairing": "ORFX-01-002-03-P01",
+      "animation": "ORFX-01-002-03",
+      "audio": [
+        "ORFXS-01-0006"
+      ]
+    },
+    "rpg-02-l75": {
+      "pairing": "ORFX-01-002-04-P01",
+      "animation": "ORFX-01-002-04",
+      "audio": [
+        "ORFXS-01-0007"
+      ]
+    },
+    "rpg-02-l99": {
+      "pairing": "ORFX-01-002-05-P01",
+      "animation": "ORFX-01-002-05",
+      "audio": [
+        "ORFXS-01-0007"
+      ]
+    },
+    "rpg-03-l01-abcdf": {
+      "pairing": "ORFX-04-001-01-P01",
+      "animation": "ORFX-04-001-01",
+      "audio": [
+        "ORFXS-04-0001"
+      ]
+    },
+    "rpg-03-l01-acdf": {
+      "pairing": "ORFX-04-002-01-P01",
+      "animation": "ORFX-04-002-01",
+      "audio": [
+        "ORFXS-04-0001"
+      ]
+    },
+    "rpg-03-l25-abcdf": {
+      "pairing": "ORFX-04-001-02-P01",
+      "animation": "ORFX-04-001-02",
+      "audio": [
+        "ORFXS-04-0002"
+      ]
+    },
+    "rpg-03-l25-acdf": {
+      "pairing": "ORFX-04-002-02-P01",
+      "animation": "ORFX-04-002-02",
+      "audio": [
+        "ORFXS-04-0002"
+      ]
+    },
+    "rpg-03-l50-abcdf": {
+      "pairing": "ORFX-04-001-03-P01",
+      "animation": "ORFX-04-001-03",
+      "audio": [
+        "ORFXS-04-0003"
+      ]
+    },
+    "rpg-03-l50-acdf": {
+      "pairing": "ORFX-04-002-03-P01",
+      "animation": "ORFX-04-002-03",
+      "audio": [
+        "ORFXS-04-0003"
+      ]
+    },
+    "rpg-03-l75-abcdf": {
+      "pairing": "ORFX-04-001-04-P01",
+      "animation": "ORFX-04-001-04",
+      "audio": [
+        "ORFXS-04-0003"
+      ]
+    },
+    "rpg-03-l75-acdf": {
+      "pairing": "ORFX-04-002-04-P01",
+      "animation": "ORFX-04-002-04",
+      "audio": [
+        "ORFXS-04-0003"
+      ]
+    },
+    "rpg-03-l99-abcdf": {
+      "pairing": "ORFX-04-001-05-P01",
+      "animation": "ORFX-04-001-05",
+      "audio": [
+        "ORFXS-04-0004"
+      ]
+    },
+    "rpg-03-l99-acdf": {
+      "pairing": "ORFX-04-002-05-P01",
+      "animation": "ORFX-04-002-05",
+      "audio": [
+        "ORFXS-04-0004"
+      ]
+    },
+    "rpg-04-l01": {
+      "pairing": "ORFX-01-003-01-P01",
+      "animation": "ORFX-01-003-01",
+      "audio": [
+        "ORFXS-01-0008"
+      ]
+    },
+    "rpg-04-l25": {
+      "pairing": "ORFX-01-003-02-P01",
+      "animation": "ORFX-01-003-02",
+      "audio": [
+        "ORFXS-01-0009"
+      ]
+    },
+    "rpg-04-l50": {
+      "pairing": "ORFX-01-003-03-P01",
+      "animation": "ORFX-01-003-03",
+      "audio": [
+        "ORFXS-01-0010"
+      ]
+    },
+    "rpg-04-l75": {
+      "pairing": "ORFX-01-003-04-P01",
+      "animation": "ORFX-01-003-04",
+      "audio": [
+        "ORFXS-01-0011"
+      ]
+    },
+    "rpg-04-l99": {
+      "pairing": "ORFX-01-003-05-P01",
+      "animation": "ORFX-01-003-05",
+      "audio": [
+        "ORFXS-04-0005"
+      ]
+    },
+    "rpg-05-l01": {
+      "pairing": "ORFX-01-004-01-P01",
+      "animation": "ORFX-01-004-01",
+      "audio": [
+        "ORFXS-01-0012"
+      ]
+    },
+    "rpg-05-l25": {
+      "pairing": "ORFX-01-004-02-P01",
+      "animation": "ORFX-01-004-02",
+      "audio": [
+        "ORFXS-01-0013"
+      ]
+    },
+    "rpg-05-l50": {
+      "pairing": "ORFX-01-004-03-P01",
+      "animation": "ORFX-01-004-03",
+      "audio": [
+        "ORFXS-01-0014"
+      ]
+    },
+    "rpg-05-l75": {
+      "pairing": "ORFX-01-004-04-P01",
+      "animation": "ORFX-01-004-04",
+      "audio": [
+        "ORFXS-01-0015"
+      ]
+    },
+    "rpg-05-l99": {
+      "pairing": "ORFX-01-004-05-P01",
+      "animation": "ORFX-01-004-05",
+      "audio": [
+        "ORFXS-01-0016"
+      ]
+    },
+    "rpg-06-l01": {
+      "pairing": "ORFX-04-003-01-P01",
+      "animation": "ORFX-04-003-01",
+      "audio": [
+        "ORFXS-04-0006"
+      ]
+    },
+    "rpg-06-l25": {
+      "pairing": "ORFX-04-003-02-P01",
+      "animation": "ORFX-04-003-02",
+      "audio": [
+        "ORFXS-04-0007"
+      ]
+    },
+    "rpg-06-l50": {
+      "pairing": "ORFX-04-003-03-P01",
+      "animation": "ORFX-04-003-03",
+      "audio": [
+        "ORFXS-04-0008"
+      ]
+    },
+    "rpg-06-l75": {
+      "pairing": "ORFX-04-003-04-P01",
+      "animation": "ORFX-04-003-04",
+      "audio": [
+        "ORFXS-04-0008"
+      ]
+    },
+    "rpg-06-l99": {
+      "pairing": "ORFX-04-003-05-P01",
+      "animation": "ORFX-04-003-05",
+      "audio": [
+        "ORFXS-04-0009"
+      ]
+    },
+    "rpg-07-l01": {
+      "pairing": "ORFX-04-004-01-P01",
+      "animation": "ORFX-04-004-01",
+      "audio": [
+        "ORFXS-04-0010"
+      ]
+    },
+    "rpg-07-l25": {
+      "pairing": "ORFX-04-004-02-P01",
+      "animation": "ORFX-04-004-02",
+      "audio": [
+        "ORFXS-04-0010"
+      ]
+    },
+    "rpg-07-l50": {
+      "pairing": "ORFX-04-004-03-P01",
+      "animation": "ORFX-04-004-03",
+      "audio": [
+        "ORFXS-04-0011"
+      ]
+    },
+    "rpg-07-l75": {
+      "pairing": "ORFX-04-004-04-P01",
+      "animation": "ORFX-04-004-04",
+      "audio": [
+        "ORFXS-04-0011"
+      ]
+    },
+    "rpg-07-l99": {
+      "pairing": "ORFX-04-004-05-P01",
+      "animation": "ORFX-04-004-05",
+      "audio": [
+        "ORFXS-04-0011"
+      ]
+    },
+    "rpg-08-l01": {
+      "pairing": "ORFX-02-001-01-P01",
+      "animation": "ORFX-02-001-01",
+      "audio": [
+        "ORFXS-02-0001"
+      ]
+    },
+    "rpg-08-l25": {
+      "pairing": "ORFX-02-001-02-P01",
+      "animation": "ORFX-02-001-02",
+      "audio": [
+        "ORFXS-02-0002"
+      ]
+    },
+    "rpg-08-l50": {
+      "pairing": "ORFX-02-001-03-P01",
+      "animation": "ORFX-02-001-03",
+      "audio": [
+        "ORFXS-02-0003"
+      ]
+    },
+    "rpg-08-l75": {
+      "pairing": "ORFX-02-001-04-P01",
+      "animation": "ORFX-02-001-04",
+      "audio": [
+        "ORFXS-02-0004"
+      ]
+    },
+    "rpg-08-l99": {
+      "pairing": "ORFX-02-001-05-P01",
+      "animation": "ORFX-02-001-05",
+      "audio": [
+        "ORFXS-02-0005"
+      ]
+    },
+    "rpg-09-l01": {
+      "pairing": "ORFX-02-002-01-P01",
+      "animation": "ORFX-02-002-01",
+      "audio": [
+        "ORFXS-02-0006"
+      ]
+    },
+    "rpg-09-l25": {
+      "pairing": "ORFX-02-002-02-P01",
+      "animation": "ORFX-02-002-02",
+      "audio": [
+        "ORFXS-02-0007"
+      ]
+    },
+    "rpg-09-l50": {
+      "pairing": "ORFX-02-002-03-P01",
+      "animation": "ORFX-02-002-03",
+      "audio": [
+        "ORFXS-02-0008"
+      ]
+    },
+    "rpg-09-l75": {
+      "pairing": "ORFX-02-002-04-P01",
+      "animation": "ORFX-02-002-04",
+      "audio": [
+        "ORFXS-02-0009"
+      ]
+    },
+    "rpg-09-l99": {
+      "pairing": "ORFX-02-002-05-P01",
+      "animation": "ORFX-02-002-05",
+      "audio": [
+        "ORFXS-02-0008"
+      ]
+    },
+    "rpg-11-l01": {
+      "pairing": "ORFX-04-005-01-P01",
+      "animation": "ORFX-04-005-01",
+      "audio": [
+        "ORFXS-04-0012"
+      ]
+    },
+    "rpg-11-l25": {
+      "pairing": "ORFX-04-005-02-P01",
+      "animation": "ORFX-04-005-02",
+      "audio": [
+        "ORFXS-04-0012"
+      ]
+    },
+    "rpg-11-l50": {
+      "pairing": "ORFX-04-005-03-P01",
+      "animation": "ORFX-04-005-03",
+      "audio": [
+        "ORFXS-04-0012"
+      ]
+    },
+    "rpg-11-l75": {
+      "pairing": "ORFX-04-005-04-P01",
+      "animation": "ORFX-04-005-04",
+      "audio": [
+        "ORFXS-04-0012"
+      ]
+    },
+    "rpg-11-l99": {
+      "pairing": "ORFX-04-005-05-P01",
+      "animation": "ORFX-04-005-05",
+      "audio": [
+        "ORFXS-04-0013"
+      ]
+    },
+    "rpg-12-l01": {
+      "pairing": "ORFX-03-001-01-P01",
+      "animation": "ORFX-03-001-01",
+      "audio": [
+        "ORFXS-03-0001"
+      ]
+    },
+    "rpg-12-l25": {
+      "pairing": "ORFX-03-001-02-P01",
+      "animation": "ORFX-03-001-02",
+      "audio": [
+        "ORFXS-03-0002"
+      ]
+    },
+    "rpg-12-l50": {
+      "pairing": "ORFX-03-001-03-P01",
+      "animation": "ORFX-03-001-03",
+      "audio": [
+        "ORFXS-03-0003"
+      ]
+    },
+    "rpg-12-l75": {
+      "pairing": "ORFX-03-001-04-P01",
+      "animation": "ORFX-03-001-04",
+      "audio": [
+        "ORFXS-03-0004"
+      ]
+    },
+    "rpg-12-l99": {
+      "pairing": "ORFX-03-001-05-P01",
+      "animation": "ORFX-03-001-05",
+      "audio": [
+        "ORFXS-03-0005"
+      ]
+    },
+    "rpg-13-l01": {
+      "pairing": "ORFX-03-002-01-P01",
+      "animation": "ORFX-03-002-01",
+      "audio": [
+        "ORFXS-03-0006",
+        "ORFXS-01-0017"
+      ]
+    },
+    "rpg-13-l25": {
+      "pairing": "ORFX-03-002-02-P01",
+      "animation": "ORFX-03-002-02",
+      "audio": [
+        "ORFXS-03-0007",
+        "ORFXS-01-0017"
+      ]
+    },
+    "rpg-13-l50": {
+      "pairing": "ORFX-03-002-03-P01",
+      "animation": "ORFX-03-002-03",
+      "audio": [
+        "ORFXS-03-0008",
+        "ORFXS-01-0017"
+      ]
+    },
+    "rpg-13-l75": {
+      "pairing": "ORFX-03-002-04-P01",
+      "animation": "ORFX-03-002-04",
+      "audio": [
+        "ORFXS-03-0009",
+        "ORFXS-01-0017"
+      ]
+    },
+    "rpg-13-l99": {
+      "pairing": "ORFX-03-002-05-P01",
+      "animation": "ORFX-03-002-05",
+      "audio": [
+        "ORFXS-03-0010",
+        "ORFXS-01-0017"
+      ]
+    },
+    "rpg-14-l01": {
+      "pairing": "ORFX-03-003-01-P01",
+      "animation": "ORFX-03-003-01",
+      "audio": [
+        "ORFXS-03-0006"
+      ]
+    },
+    "rpg-14-l25": {
+      "pairing": "ORFX-03-003-02-P01",
+      "animation": "ORFX-03-003-02",
+      "audio": [
+        "ORFXS-03-0007"
+      ]
+    },
+    "rpg-14-l50": {
+      "pairing": "ORFX-03-003-03-P01",
+      "animation": "ORFX-03-003-03",
+      "audio": [
+        "ORFXS-03-0008"
+      ]
+    },
+    "rpg-14-l75": {
+      "pairing": "ORFX-03-003-04-P01",
+      "animation": "ORFX-03-003-04",
+      "audio": [
+        "ORFXS-03-0009"
+      ]
+    },
+    "rpg-14-l99": {
+      "pairing": "ORFX-03-003-05-P01",
+      "animation": "ORFX-03-003-05",
+      "audio": [
+        "ORFXS-03-0010"
+      ]
+    },
+    "rpg-15-l01": {
+      "pairing": "ORFX-03-004-01-P01",
+      "animation": "ORFX-03-004-01",
+      "audio": [
+        "ORFXS-03-0011"
+      ]
+    },
+    "rpg-15-l25": {
+      "pairing": "ORFX-03-004-02-P01",
+      "animation": "ORFX-03-004-02",
+      "audio": [
+        "ORFXS-03-0012"
+      ]
+    },
+    "rpg-15-l50": {
+      "pairing": "ORFX-03-004-03-P01",
+      "animation": "ORFX-03-004-03",
+      "audio": [
+        "ORFXS-03-0013"
+      ]
+    },
+    "rpg-15-l75": {
+      "pairing": "ORFX-03-004-04-P01",
+      "animation": "ORFX-03-004-04",
+      "audio": [
+        "ORFXS-03-0014"
+      ]
+    },
+    "rpg-15-l99": {
+      "pairing": "ORFX-03-004-05-P01",
+      "animation": "ORFX-03-004-05",
+      "audio": [
+        "ORFXS-03-0015"
+      ]
+    },
+    "rpg-16-l01": {
+      "pairing": "ORFX-03-005-01-P01",
+      "animation": "ORFX-03-005-01",
+      "audio": [
+        "ORFXS-03-0011"
+      ]
+    },
+    "rpg-16-l25": {
+      "pairing": "ORFX-03-005-02-P01",
+      "animation": "ORFX-03-005-02",
+      "audio": [
+        "ORFXS-03-0016"
+      ]
+    },
+    "rpg-16-l50": {
+      "pairing": "ORFX-03-005-03-P01",
+      "animation": "ORFX-03-005-03",
+      "audio": [
+        "ORFXS-03-0017"
+      ]
+    },
+    "rpg-16-l75": {
+      "pairing": "ORFX-03-005-04-P01",
+      "animation": "ORFX-03-005-04",
+      "audio": [
+        "ORFXS-03-0018"
+      ]
+    },
+    "rpg-16-l99": {
+      "pairing": "ORFX-03-005-05-P01",
+      "animation": "ORFX-03-005-05",
+      "audio": [
+        "ORFXS-03-0019"
+      ]
+    },
+    "rpg-17-l01": {
+      "pairing": "ORFX-03-006-01-P01",
+      "animation": "ORFX-03-006-01",
+      "audio": [
+        "ORFXS-03-0020"
+      ]
+    },
+    "rpg-17-l25": {
+      "pairing": "ORFX-03-006-02-P01",
+      "animation": "ORFX-03-006-02",
+      "audio": [
+        "ORFXS-03-0020"
+      ]
+    },
+    "rpg-17-l50": {
+      "pairing": "ORFX-03-006-03-P01",
+      "animation": "ORFX-03-006-03",
+      "audio": [
+        "ORFXS-03-0021"
+      ]
+    },
+    "rpg-17-l75": {
+      "pairing": "ORFX-03-006-04-P01",
+      "animation": "ORFX-03-006-04",
+      "audio": [
+        "ORFXS-03-0021"
+      ]
+    },
+    "rpg-17-l99": {
+      "pairing": "ORFX-03-006-05-P01",
+      "animation": "ORFX-03-006-05",
+      "audio": [
+        "ORFXS-03-0022"
+      ]
+    },
+    "rpg-18-l01": {
+      "pairing": "ORFX-04-006-01-P01",
+      "animation": "ORFX-04-006-01",
+      "audio": [
+        "ORFXS-04-0014"
+      ]
+    },
+    "rpg-18-l25": {
+      "pairing": "ORFX-04-006-02-P01",
+      "animation": "ORFX-04-006-02",
+      "audio": [
+        "ORFXS-04-0015"
+      ]
+    },
+    "rpg-18-l50": {
+      "pairing": "ORFX-04-006-03-P01",
+      "animation": "ORFX-04-006-03",
+      "audio": [
+        "ORFXS-04-0016"
+      ]
+    },
+    "rpg-18-l75": {
+      "pairing": "ORFX-04-006-04-P01",
+      "animation": "ORFX-04-006-04",
+      "audio": [
+        "ORFXS-04-0017"
+      ]
+    },
+    "rpg-18-l99": {
+      "pairing": "ORFX-04-006-05-P01",
+      "animation": "ORFX-04-006-05",
+      "audio": [
+        "ORFXS-04-0018"
+      ]
+    },
+    "rpg-19-l01": {
+      "pairing": "ORFX-04-007-01-P01",
+      "animation": "ORFX-04-007-01",
+      "audio": [
+        "ORFXS-04-0019"
+      ]
+    },
+    "rpg-19-l25": {
+      "pairing": "ORFX-04-007-02-P01",
+      "animation": "ORFX-04-007-02",
+      "audio": [
+        "ORFXS-04-0019"
+      ]
+    },
+    "rpg-19-l50": {
+      "pairing": "ORFX-04-007-03-P01",
+      "animation": "ORFX-04-007-03",
+      "audio": [
+        "ORFXS-04-0019"
+      ]
+    },
+    "rpg-19-l75": {
+      "pairing": "ORFX-04-007-04-P01",
+      "animation": "ORFX-04-007-04",
+      "audio": [
+        "ORFXS-04-0020"
+      ]
+    },
+    "rpg-19-l99": {
+      "pairing": "ORFX-04-007-05-P01",
+      "animation": "ORFX-04-007-05",
+      "audio": [
+        "ORFXS-04-0020"
+      ]
+    },
+    "rpg-20-l01": {
+      "pairing": "ORFX-06-001-01-P01",
+      "animation": "ORFX-06-001-01",
+      "audio": [
+        "ORFXS-06-0001"
+      ]
+    },
+    "rpg-20-l25": {
+      "pairing": "ORFX-06-001-02-P01",
+      "animation": "ORFX-06-001-02",
+      "audio": [
+        "ORFXS-06-0002"
+      ]
+    },
+    "rpg-20-l50": {
+      "pairing": "ORFX-06-001-03-P01",
+      "animation": "ORFX-06-001-03",
+      "audio": [
+        "ORFXS-06-0002"
+      ]
+    },
+    "rpg-20-l75": {
+      "pairing": "ORFX-06-001-04-P01",
+      "animation": "ORFX-06-001-04",
+      "audio": [
+        "ORFXS-06-0001"
+      ]
+    },
+    "rpg-20-l99": {
+      "pairing": "ORFX-06-001-05-P01",
+      "animation": "ORFX-06-001-05",
+      "audio": [
+        "ORFXS-06-0002"
+      ]
+    },
+    "rpg-21-l01": {
+      "pairing": "ORFX-04-008-01-P01",
+      "animation": "ORFX-04-008-01",
+      "audio": [
+        "ORFXS-04-0021"
+      ]
+    },
+    "rpg-21-l25": {
+      "pairing": "ORFX-04-008-02-P01",
+      "animation": "ORFX-04-008-02",
+      "audio": [
+        "ORFXS-04-0022"
+      ]
+    },
+    "rpg-21-l50": {
+      "pairing": "ORFX-04-008-03-P01",
+      "animation": "ORFX-04-008-03",
+      "audio": [
+        "ORFXS-04-0023"
+      ]
+    },
+    "rpg-21-l75": {
+      "pairing": "ORFX-04-008-04-P01",
+      "animation": "ORFX-04-008-04",
+      "audio": [
+        "ORFXS-04-0024"
+      ]
+    },
+    "rpg-21-l99": {
+      "pairing": "ORFX-04-008-05-P01",
+      "animation": "ORFX-04-008-05",
+      "audio": [
+        "ORFXS-04-0025"
+      ]
+    },
+    "rpg-23-l01": {
+      "pairing": "ORFX-04-009-01-P01",
+      "animation": "ORFX-04-009-01",
+      "audio": [
+        "ORFXS-04-0026"
+      ]
+    },
+    "rpg-23-l25": {
+      "pairing": "ORFX-04-009-02-P01",
+      "animation": "ORFX-04-009-02",
+      "audio": [
+        "ORFXS-04-0020",
+        "ORFXS-04-0027"
+      ]
+    },
+    "rpg-23-l50": {
+      "pairing": "ORFX-04-009-03-P01",
+      "animation": "ORFX-04-009-03",
+      "audio": [
+        "ORFXS-04-0020",
+        "ORFXS-04-0028",
+        "ORFXS-04-0026"
+      ]
+    },
+    "rpg-23-l75": {
+      "pairing": "ORFX-04-009-04-P01",
+      "animation": "ORFX-04-009-04",
+      "audio": [
+        "ORFXS-04-0020",
+        "ORFXS-04-0028",
+        "ORFXS-04-0020",
+        "ORFXS-04-0027"
+      ]
+    },
+    "rpg-23-l99": {
+      "pairing": "ORFX-04-009-05-P01",
+      "animation": "ORFX-04-009-05",
+      "audio": [
+        "ORFXS-04-0020",
+        "ORFXS-04-0028",
+        "ORFXS-04-0020",
+        "ORFXS-04-0028",
+        "ORFXS-04-0026"
+      ]
+    },
+    "rpg-24-l01": {
+      "pairing": "ORFX-06-002-01-P01",
+      "animation": "ORFX-06-002-01",
+      "audio": [
+        "ORFXS-06-0003"
+      ]
+    },
+    "rpg-24-l25": {
+      "pairing": "ORFX-06-002-02-P01",
+      "animation": "ORFX-06-002-02",
+      "audio": [
+        "ORFXS-06-0003"
+      ]
+    },
+    "rpg-24-l50": {
+      "pairing": "ORFX-06-002-03-P01",
+      "animation": "ORFX-06-002-03",
+      "audio": [
+        "ORFXS-06-0003"
+      ]
+    },
+    "rpg-24-l75": {
+      "pairing": "ORFX-06-002-04-P01",
+      "animation": "ORFX-06-002-04",
+      "audio": [
+        "ORFXS-06-0003"
+      ]
+    },
+    "rpg-24-l99": {
+      "pairing": "ORFX-06-002-05-P01",
+      "animation": "ORFX-06-002-05",
+      "audio": [
+        "ORFXS-06-0003"
+      ]
+    },
+    "rpg-25-l01": {
+      "pairing": "ORFX-09-001-01-P01",
+      "animation": "ORFX-09-001-01",
+      "audio": [
+        "ORFXS-09-0001"
+      ]
+    },
+    "rpg-25-l25": {
+      "pairing": "ORFX-09-001-02-P01",
+      "animation": "ORFX-09-001-02",
+      "audio": [
+        "ORFXS-09-0001"
+      ]
+    },
+    "rpg-25-l50": {
+      "pairing": "ORFX-09-001-03-P01",
+      "animation": "ORFX-09-001-03",
+      "audio": [
+        "ORFXS-09-0001"
+      ]
+    },
+    "rpg-25-l75": {
+      "pairing": "ORFX-09-001-04-P01",
+      "animation": "ORFX-09-001-04",
+      "audio": [
+        "ORFXS-09-0001"
+      ]
+    },
+    "rpg-25-l99": {
+      "pairing": "ORFX-09-001-05-P01",
+      "animation": "ORFX-09-001-05",
+      "audio": [
+        "ORFXS-09-0001"
+      ]
+    },
+    "rpg-26-l01": {
+      "pairing": "ORFX-07-001-01-P01",
+      "animation": "ORFX-07-001-01",
+      "audio": [
+        "ORFXS-07-0001"
+      ]
+    },
+    "rpg-26-l25": {
+      "pairing": "ORFX-07-001-02-P01",
+      "animation": "ORFX-07-001-02",
+      "audio": [
+        "ORFXS-07-0002"
+      ]
+    },
+    "rpg-26-l50": {
+      "pairing": "ORFX-07-001-03-P01",
+      "animation": "ORFX-07-001-03",
+      "audio": [
+        "ORFXS-07-0003"
+      ]
+    },
+    "rpg-26-l75": {
+      "pairing": "ORFX-07-001-04-P01",
+      "animation": "ORFX-07-001-04",
+      "audio": [
+        "ORFXS-07-0004"
+      ]
+    },
+    "rpg-26-l99": {
+      "pairing": "ORFX-07-001-05-P01",
+      "animation": "ORFX-07-001-05",
+      "audio": [
+        "ORFXS-07-0005"
+      ]
+    },
+    "rpg-27-l01": {
+      "pairing": "ORFX-09-002-01-P01",
+      "animation": "ORFX-09-002-01",
+      "audio": [
+        "ORFXS-07-0006"
+      ]
+    },
+    "rpg-27-l25": {
+      "pairing": "ORFX-09-002-02-P01",
+      "animation": "ORFX-09-002-02",
+      "audio": [
+        "ORFXS-07-0007"
+      ]
+    },
+    "rpg-27-l50": {
+      "pairing": "ORFX-09-002-03-P01",
+      "animation": "ORFX-09-002-03",
+      "audio": [
+        "ORFXS-07-0008"
+      ]
+    },
+    "rpg-27-l75": {
+      "pairing": "ORFX-09-002-04-P01",
+      "animation": "ORFX-09-002-04",
+      "audio": [
+        "ORFXS-07-0009"
+      ]
+    },
+    "rpg-27-l99": {
+      "pairing": "ORFX-09-002-05-P01",
+      "animation": "ORFX-09-002-05",
+      "audio": [
+        "ORFXS-07-0010"
+      ]
+    },
+    "rpg-28-l01": {
+      "pairing": "ORFX-09-003-01-P01",
+      "animation": "ORFX-09-003-01",
+      "audio": [
+        "ORFXS-07-0011"
+      ]
+    },
+    "rpg-28-l25": {
+      "pairing": "ORFX-09-003-02-P01",
+      "animation": "ORFX-09-003-02",
+      "audio": [
+        "ORFXS-07-0012"
+      ]
+    },
+    "rpg-28-l50": {
+      "pairing": "ORFX-09-003-03-P01",
+      "animation": "ORFX-09-003-03",
+      "audio": [
+        "ORFXS-07-0012"
+      ]
+    },
+    "rpg-28-l75": {
+      "pairing": "ORFX-09-003-04-P01",
+      "animation": "ORFX-09-003-04",
+      "audio": [
+        "ORFXS-07-0012"
+      ]
+    },
+    "rpg-28-l99": {
+      "pairing": "ORFX-09-003-05-P01",
+      "animation": "ORFX-09-003-05",
+      "audio": [
+        "ORFXS-07-0012"
+      ]
+    },
+    "rpg-29-l01": {
+      "pairing": "ORFX-09-004-01-P01",
+      "animation": "ORFX-09-004-01",
+      "audio": [
+        "ORFXS-02-0010"
+      ]
+    },
+    "rpg-29-l25": {
+      "pairing": "ORFX-09-004-02-P01",
+      "animation": "ORFX-09-004-02",
+      "audio": [
+        "ORFXS-02-0011"
+      ]
+    },
+    "rpg-29-l50": {
+      "pairing": "ORFX-09-004-03-P01",
+      "animation": "ORFX-09-004-03",
+      "audio": [
+        "ORFXS-02-0010"
+      ]
+    },
+    "rpg-29-l75": {
+      "pairing": "ORFX-09-004-04-P01",
+      "animation": "ORFX-09-004-04",
+      "audio": [
+        "ORFXS-02-0011"
+      ]
+    },
+    "rpg-29-l99": {
+      "pairing": "ORFX-09-004-05-P01",
+      "animation": "ORFX-09-004-05",
+      "audio": [
+        "ORFXS-02-0010"
+      ]
+    },
+    "rpg-30-l01": {
+      "pairing": "ORFX-06-003-01-P01",
+      "animation": "ORFX-06-003-01",
+      "audio": [
+        "ORFXS-06-0004"
+      ]
+    },
+    "rpg-30-l25": {
+      "pairing": "ORFX-06-003-02-P01",
+      "animation": "ORFX-06-003-02",
+      "audio": [
+        "ORFXS-06-0005"
+      ]
+    },
+    "rpg-30-l50": {
+      "pairing": "ORFX-06-003-03-P01",
+      "animation": "ORFX-06-003-03",
+      "audio": [
+        "ORFXS-06-0006"
+      ]
+    },
+    "rpg-30-l75": {
+      "pairing": "ORFX-06-003-04-P01",
+      "animation": "ORFX-06-003-04",
+      "audio": [
+        "ORFXS-06-0007"
+      ]
+    },
+    "rpg-30-l99": {
+      "pairing": "ORFX-06-003-05-P01",
+      "animation": "ORFX-06-003-05",
+      "audio": [
+        "ORFXS-06-0008"
+      ]
+    },
+    "rpg-31-l01": {
+      "pairing": "ORFX-06-004-01-P01",
+      "animation": "ORFX-06-004-01",
+      "audio": [
+        "ORFXS-09-0002"
+      ]
+    },
+    "rpg-31-l25": {
+      "pairing": "ORFX-06-004-02-P01",
+      "animation": "ORFX-06-004-02",
+      "audio": [
+        "ORFXS-09-0003"
+      ]
+    },
+    "rpg-31-l50": {
+      "pairing": "ORFX-06-004-03-P01",
+      "animation": "ORFX-06-004-03",
+      "audio": [
+        "ORFXS-09-0004"
+      ]
+    },
+    "rpg-31-l75": {
+      "pairing": "ORFX-06-004-04-P01",
+      "animation": "ORFX-06-004-04",
+      "audio": [
+        "ORFXS-09-0005"
+      ]
+    },
+    "rpg-31-l99": {
+      "pairing": "ORFX-06-004-05-P01",
+      "animation": "ORFX-06-004-05",
+      "audio": [
+        "ORFXS-09-0006"
+      ]
+    },
+    "rpg-32-l01": {
+      "pairing": "ORFX-05-001-01-P01",
+      "animation": "ORFX-05-001-01",
+      "audio": [
+        "ORFXS-04-0029"
+      ]
+    },
+    "rpg-32-l25": {
+      "pairing": "ORFX-05-001-02-P01",
+      "animation": "ORFX-05-001-02",
+      "audio": [
+        "ORFXS-04-0029",
+        "ORFXS-04-0030"
+      ]
+    },
+    "rpg-32-l50": {
+      "pairing": "ORFX-05-001-03-P01",
+      "animation": "ORFX-05-001-03",
+      "audio": [
+        "ORFXS-04-0029",
+        "ORFXS-04-0030",
+        "ORFXS-04-0031"
+      ]
+    },
+    "rpg-32-l75": {
+      "pairing": "ORFX-05-001-04-P01",
+      "animation": "ORFX-05-001-04",
+      "audio": [
+        "ORFXS-04-0029",
+        "ORFXS-04-0030",
+        "ORFXS-04-0031",
+        "ORFXS-04-0032"
+      ]
+    },
+    "rpg-32-l99": {
+      "pairing": "ORFX-05-001-05-P01",
+      "animation": "ORFX-05-001-05",
+      "audio": [
+        "ORFXS-04-0033",
+        "ORFXS-04-0030",
+        "ORFXS-04-0030",
+        "ORFXS-04-0032",
+        "ORFXS-04-0030"
+      ]
+    },
+    "rpg-33-l01": {
+      "pairing": "ORFX-05-002-01-P01",
+      "animation": "ORFX-05-002-01",
+      "audio": [
+        "ORFXS-04-0029"
+      ]
+    },
+    "rpg-34-l01": {
+      "pairing": "ORFX-01-005-01-P01",
+      "animation": "ORFX-01-005-01",
+      "audio": [
+        "ORFXS-04-0034"
+      ]
+    },
+    "rpg-34-l25": {
+      "pairing": "ORFX-01-005-02-P01",
+      "animation": "ORFX-01-005-02",
+      "audio": [
+        "ORFXS-04-0020",
+        "ORFXS-04-0035"
+      ]
+    },
+    "rpg-34-l50": {
+      "pairing": "ORFX-01-005-03-P01",
+      "animation": "ORFX-01-005-03",
+      "audio": [
+        "ORFXS-04-0020",
+        "ORFXS-04-0028",
+        "ORFXS-04-0034"
+      ]
+    },
+    "rpg-34-l75": {
+      "pairing": "ORFX-01-005-04-P01",
+      "animation": "ORFX-01-005-04",
+      "audio": [
+        "ORFXS-04-0020",
+        "ORFXS-04-0028",
+        "ORFXS-04-0020",
+        "ORFXS-04-0035"
+      ]
+    },
+    "rpg-34-l99": {
+      "pairing": "ORFX-01-005-05-P01",
+      "animation": "ORFX-01-005-05",
+      "audio": [
+        "ORFXS-04-0020",
+        "ORFXS-04-0028",
+        "ORFXS-04-0020",
+        "ORFXS-04-0028",
+        "ORFXS-04-0034"
+      ]
+    },
+    "rpg-35-l25": {
+      "pairing": "ORFX-04-010-02-P01",
+      "animation": "ORFX-04-010-02",
+      "audio": [
+        "ORFXS-04-0036"
+      ]
+    },
+    "rpg-35-l75": {
+      "pairing": "ORFX-04-010-04-P01",
+      "animation": "ORFX-04-010-04",
+      "audio": [
+        "ORFXS-04-0037"
+      ]
+    },
+    "rpg-35-l99": {
+      "pairing": "ORFX-04-010-05-P01",
+      "animation": "ORFX-04-010-05",
+      "audio": [
+        "ORFXS-04-0038"
+      ]
+    },
+    "rpg-38-l50": {
+      "pairing": "ORFX-06-005-03-P01",
+      "animation": "ORFX-06-005-03",
+      "audio": [
+        "ORFXS-04-0039",
+        "ORFXS-04-0040",
+        "ORFXS-04-0041"
+      ]
+    },
+    "rpg-38-l99": {
+      "pairing": "ORFX-06-005-05-P01",
+      "animation": "ORFX-06-005-05",
+      "audio": [
+        "ORFXS-04-0039",
+        "ORFXS-04-0040",
+        "ORFXS-04-0041",
+        "ORFXS-04-0039",
+        "ORFXS-04-0040"
+      ]
+    },
+    "rpg-42-l01": {
+      "pairing": "ORFX-01-006-01-P01",
+      "animation": "ORFX-01-006-01",
+      "audio": [
+        "ORFXS-01-0001"
+      ]
+    },
+    "rpg-42-l25": {
+      "pairing": "ORFX-01-006-02-P01",
+      "animation": "ORFX-01-006-02",
+      "audio": [
+        "ORFXS-01-0001"
+      ]
+    },
+    "rpg-42-l50": {
+      "pairing": "ORFX-01-006-03-P01",
+      "animation": "ORFX-01-006-03",
+      "audio": [
+        "ORFXS-01-0001"
+      ]
+    },
+    "rpg-42-l75": {
+      "pairing": "ORFX-01-006-04-P01",
+      "animation": "ORFX-01-006-04",
+      "audio": [
+        "ORFXS-01-0002"
+      ]
+    },
+    "rpg-42-l99": {
+      "pairing": "ORFX-01-006-05-P01",
+      "animation": "ORFX-01-006-05",
+      "audio": [
+        "ORFXS-01-0002"
+      ]
+    },
+    "rpg-47-l01": {
+      "pairing": "ORFX-01-007-01-P01",
+      "animation": "ORFX-01-007-01",
+      "audio": [
+        "ORFXS-01-0005"
+      ]
+    },
+    "rpg-47-l25": {
+      "pairing": "ORFX-01-007-02-P01",
+      "animation": "ORFX-01-007-02",
+      "audio": [
+        "ORFXS-01-0018"
+      ]
+    },
+    "rpg-47-l50": {
+      "pairing": "ORFX-01-007-03-P01",
+      "animation": "ORFX-01-007-03",
+      "audio": [
+        "ORFXS-01-0006"
+      ]
+    },
+    "rpg-47-l75": {
+      "pairing": "ORFX-01-007-04-P01",
+      "animation": "ORFX-01-007-04",
+      "audio": [
+        "ORFXS-01-0006"
+      ]
+    },
+    "rpg-47-l99": {
+      "pairing": "ORFX-01-007-05-P01",
+      "animation": "ORFX-01-007-05",
+      "audio": [
+        "ORFXS-01-0019"
+      ]
+    },
+    "rpg-48-l01": {
+      "pairing": "ORFX-01-008-01-P01",
+      "animation": "ORFX-01-008-01",
+      "audio": [
+        "ORFXS-01-0005"
+      ]
+    },
+    "rpg-48-l25": {
+      "pairing": "ORFX-01-008-02-P01",
+      "animation": "ORFX-01-008-02",
+      "audio": [
+        "ORFXS-01-0005"
+      ]
+    },
+    "rpg-48-l50": {
+      "pairing": "ORFX-01-008-03-P01",
+      "animation": "ORFX-01-008-03",
+      "audio": [
+        "ORFXS-01-0006"
+      ]
+    },
+    "rpg-48-l75": {
+      "pairing": "ORFX-01-008-04-P01",
+      "animation": "ORFX-01-008-04",
+      "audio": [
+        "ORFXS-01-0007"
+      ]
+    },
+    "rpg-48-l99": {
+      "pairing": "ORFX-01-008-05-P01",
+      "animation": "ORFX-01-008-05",
+      "audio": [
+        "ORFXS-01-0007"
+      ]
+    },
+    "rpg-51-l50": {
+      "pairing": "ORFX-01-009-03-P01",
+      "animation": "ORFX-01-009-03",
+      "audio": [
+        "ORFXS-01-0010"
+      ]
+    },
+    "rpg-51-l75": {
+      "pairing": "ORFX-01-009-04-P01",
+      "animation": "ORFX-01-009-04",
+      "audio": [
+        "ORFXS-01-0011"
+      ]
+    },
+    "rpg-52-l01": {
+      "pairing": "ORFX-01-010-01-P01",
+      "animation": "ORFX-01-010-01",
+      "audio": [
+        "ORFXS-01-0008"
+      ]
+    },
+    "rpg-52-l25": {
+      "pairing": "ORFX-01-010-02-P01",
+      "animation": "ORFX-01-010-02",
+      "audio": [
+        "ORFXS-01-0008"
+      ]
+    },
+    "rpg-52-l50": {
+      "pairing": "ORFX-01-010-03-P01",
+      "animation": "ORFX-01-010-03",
+      "audio": [
+        "ORFXS-01-0008"
+      ]
+    },
+    "rpg-52-l75": {
+      "pairing": "ORFX-01-010-04-P01",
+      "animation": "ORFX-01-010-04",
+      "audio": [
+        "ORFXS-04-0042"
+      ]
+    },
+    "rpg-52-l99": {
+      "pairing": "ORFX-01-010-05-P01",
+      "animation": "ORFX-01-010-05",
+      "audio": [
+        "ORFXS-04-0043"
+      ]
+    },
+    "rpg-53-l01": {
+      "pairing": "ORFX-01-011-01-P01",
+      "animation": "ORFX-01-011-01",
+      "audio": [
+        "ORFXS-01-0015"
+      ]
+    },
+    "rpg-53-l25": {
+      "pairing": "ORFX-01-011-02-P01",
+      "animation": "ORFX-01-011-02",
+      "audio": [
+        "ORFXS-01-0020"
+      ]
+    },
+    "rpg-53-l50": {
+      "pairing": "ORFX-01-011-03-P01",
+      "animation": "ORFX-01-011-03",
+      "audio": [
+        "ORFXS-01-0021"
+      ]
+    },
+    "rpg-53-l99": {
+      "pairing": "ORFX-01-011-05-P01",
+      "animation": "ORFX-01-011-05",
+      "audio": [
+        "ORFXS-01-0022"
+      ]
+    },
+    "rpg-54-l01": {
+      "pairing": "ORFX-01-012-01-P01",
+      "animation": "ORFX-01-012-01",
+      "audio": [
+        "ORFXS-01-0023"
+      ]
+    },
+    "rpg-54-l25": {
+      "pairing": "ORFX-01-012-02-P01",
+      "animation": "ORFX-01-012-02",
+      "audio": [
+        "ORFXS-01-0020"
+      ]
+    },
+    "rpg-54-l50": {
+      "pairing": "ORFX-01-012-03-P01",
+      "animation": "ORFX-01-012-03",
+      "audio": [
+        "ORFXS-01-0016"
+      ]
+    },
+    "rpg-54-l99": {
+      "pairing": "ORFX-01-012-05-P01",
+      "animation": "ORFX-01-012-05",
+      "audio": [
+        "ORFXS-01-0022"
+      ]
+    },
+    "rpg-55-l01": {
+      "pairing": "ORFX-01-013-01-P01",
+      "animation": "ORFX-01-013-01",
+      "audio": [
+        "ORFXS-04-0044"
+      ]
+    },
+    "rpg-55-l99": {
+      "pairing": "ORFX-01-013-05-P01",
+      "animation": "ORFX-01-013-05",
+      "audio": [
+        "ORFXS-04-0045"
+      ]
+    },
+    "rpg-56-l01": {
+      "pairing": "ORFX-01-014-01-P01",
+      "animation": "ORFX-01-014-01",
+      "audio": [
+        "ORFXS-04-0046"
+      ]
+    },
+    "rpg-56-l75": {
+      "pairing": "ORFX-01-014-04-P01",
+      "animation": "ORFX-01-014-04",
+      "audio": [
+        "ORFXS-04-0047"
+      ]
+    },
+    "rpg-56-l99": {
+      "pairing": "ORFX-01-014-05-P01",
+      "animation": "ORFX-01-014-05",
+      "audio": [
+        "ORFXS-04-0048"
+      ]
+    },
+    "rpg-57-l01": {
+      "pairing": "ORFX-03-007-01-P01",
+      "animation": "ORFX-03-007-01",
+      "audio": [
+        "ORFXS-03-0023"
+      ]
+    },
+    "rpg-57-l25": {
+      "pairing": "ORFX-03-007-02-P01",
+      "animation": "ORFX-03-007-02",
+      "audio": [
+        "ORFXS-03-0023"
+      ]
+    },
+    "rpg-57-l75": {
+      "pairing": "ORFX-03-007-04-P01",
+      "animation": "ORFX-03-007-04",
+      "audio": [
+        "ORFXS-03-0024"
+      ]
+    },
+    "rpg-57-l99": {
+      "pairing": "ORFX-03-007-05-P01",
+      "animation": "ORFX-03-007-05",
+      "audio": [
+        "ORFXS-03-0024"
+      ]
+    },
+    "rpg-58-l50": {
+      "pairing": "ORFX-03-008-03-P01",
+      "animation": "ORFX-03-008-03",
+      "audio": [
+        "ORFXS-03-0025",
+        "ORFXS-03-0026"
+      ]
+    },
+    "rpg-60-l01": {
+      "pairing": "ORFX-03-009-01-P01",
+      "animation": "ORFX-03-009-01",
+      "audio": [
+        "ORFXS-03-0027"
+      ]
+    },
+    "rpg-60-l25": {
+      "pairing": "ORFX-03-009-02-P01",
+      "animation": "ORFX-03-009-02",
+      "audio": [
+        "ORFXS-03-0027"
+      ]
+    },
+    "rpg-60-l75": {
+      "pairing": "ORFX-03-009-04-P01",
+      "animation": "ORFX-03-009-04",
+      "audio": [
+        "ORFXS-03-0028"
+      ]
+    },
+    "rpg-60-l99": {
+      "pairing": "ORFX-03-009-05-P01",
+      "animation": "ORFX-03-009-05",
+      "audio": [
+        "ORFXS-03-0029"
+      ]
+    },
+    "rpg-61-l50": {
+      "pairing": "ORFX-03-010-03-P01",
+      "animation": "ORFX-03-010-03",
+      "audio": [
+        "ORFXS-03-0025",
+        "ORFXS-03-0026"
+      ]
+    },
+    "rpg-63-l01": {
+      "pairing": "ORFX-03-011-01-P01",
+      "animation": "ORFX-03-011-01",
+      "audio": [
+        "ORFXS-03-0030"
+      ]
+    },
+    "rpg-63-l25": {
+      "pairing": "ORFX-03-011-02-P01",
+      "animation": "ORFX-03-011-02",
+      "audio": [
+        "ORFXS-03-0030"
+      ]
+    },
+    "rpg-63-l75": {
+      "pairing": "ORFX-03-011-04-P01",
+      "animation": "ORFX-03-011-04",
+      "audio": [
+        "ORFXS-03-0031"
+      ]
+    },
+    "rpg-63-l99": {
+      "pairing": "ORFX-03-011-05-P01",
+      "animation": "ORFX-03-011-05",
+      "audio": [
+        "ORFXS-03-0032"
+      ]
+    },
+    "rpg-64-l50": {
+      "pairing": "ORFX-03-012-03-P01",
+      "animation": "ORFX-03-012-03",
+      "audio": [
+        "ORFXS-03-0025",
+        "ORFXS-03-0026"
+      ]
+    },
+    "rpg-66-l01": {
+      "pairing": "ORFX-04-011-01-P01",
+      "animation": "ORFX-04-011-01",
+      "audio": [
+        "ORFXS-04-0049"
+      ]
+    },
+    "rpg-66-l25": {
+      "pairing": "ORFX-04-011-02-P01",
+      "animation": "ORFX-04-011-02",
+      "audio": [
+        "ORFXS-04-0049"
+      ]
+    },
+    "rpg-66-l50": {
+      "pairing": "ORFX-04-011-03-P01",
+      "animation": "ORFX-04-011-03",
+      "audio": [
+        "ORFXS-04-0049"
+      ]
+    },
+    "rpg-66-l75": {
+      "pairing": "ORFX-04-011-04-P01",
+      "animation": "ORFX-04-011-04",
+      "audio": [
+        "ORFXS-04-0050"
+      ]
+    },
+    "rpg-66-l99": {
+      "pairing": "ORFX-04-011-05-P01",
+      "animation": "ORFX-04-011-05",
+      "audio": [
+        "ORFXS-04-0050"
+      ]
+    },
+    "rpg-68-l01": {
+      "pairing": "ORFX-04-012-01-P01",
+      "animation": "ORFX-04-012-01",
+      "audio": [
+        "ORFXS-04-0051"
+      ]
+    },
+    "rpg-68-l25": {
+      "pairing": "ORFX-04-012-02-P01",
+      "animation": "ORFX-04-012-02",
+      "audio": [
+        "ORFXS-04-0051"
+      ]
+    },
+    "rpg-68-l50": {
+      "pairing": "ORFX-04-012-03-P01",
+      "animation": "ORFX-04-012-03",
+      "audio": [
+        "ORFXS-04-0051"
+      ]
+    },
+    "rpg-68-l75": {
+      "pairing": "ORFX-04-012-04-P01",
+      "animation": "ORFX-04-012-04",
+      "audio": [
+        "ORFXS-04-0051"
+      ]
+    },
+    "rpg-68-l99": {
+      "pairing": "ORFX-04-012-05-P01",
+      "animation": "ORFX-04-012-05",
+      "audio": [
+        "ORFXS-04-0051"
+      ]
+    },
+    "rpg-69-l01": {
+      "pairing": "ORFX-09-005-01-P01",
+      "animation": "ORFX-09-005-01",
+      "audio": [
+        "ORFXS-09-0007"
+      ]
+    },
+    "rpg-69-l25": {
+      "pairing": "ORFX-09-005-02-P01",
+      "animation": "ORFX-09-005-02",
+      "audio": [
+        "ORFXS-09-0008"
+      ]
+    },
+    "rpg-69-l50": {
+      "pairing": "ORFX-09-005-03-P01",
+      "animation": "ORFX-09-005-03",
+      "audio": [
+        "ORFXS-09-0009"
+      ]
+    },
+    "rpg-69-l75": {
+      "pairing": "ORFX-09-005-04-P01",
+      "animation": "ORFX-09-005-04",
+      "audio": [
+        "ORFXS-09-0010"
+      ]
+    },
+    "rpg-69-l99": {
+      "pairing": "ORFX-09-005-05-P01",
+      "animation": "ORFX-09-005-05",
+      "audio": [
+        "ORFXS-09-0011"
+      ]
+    },
+    "rpg-70-l01": {
+      "pairing": "ORFX-05-003-01-P01",
+      "animation": "ORFX-05-003-01",
+      "audio": [
+        "ORFXS-04-0052"
+      ]
+    },
+    "rpg-71-l01": {
+      "pairing": "ORFX-05-004-01-P01",
+      "animation": "ORFX-05-004-01",
+      "audio": [
+        "ORFXS-04-0052"
+      ]
+    },
+    "rpg-73-l01": {
+      "pairing": "ORFX-09-006-01-P01",
+      "animation": "ORFX-09-006-01",
+      "audio": [
+        "ORFXS-09-0004"
+      ]
+    },
+    "rpg-73-l99": {
+      "pairing": "ORFX-09-006-05-P01",
+      "animation": "ORFX-09-006-05",
+      "audio": [
+        "ORFXS-09-0012"
+      ]
+    },
+    "rpg-74-l01": {
+      "pairing": "ORFX-06-006-01-P01",
+      "animation": "ORFX-06-006-01",
+      "audio": [
+        "ORFXS-09-0004"
+      ]
+    },
+    "rpg-74-l99": {
+      "pairing": "ORFX-06-006-05-P01",
+      "animation": "ORFX-06-006-05",
+      "audio": [
+        "ORFXS-09-0012"
+      ]
+    },
+    "rpg-75-l01": {
+      "pairing": "ORFX-04-013-01-P01",
+      "animation": "ORFX-04-013-01",
+      "audio": [
+        "ORFXS-04-0039"
+      ]
+    },
+    "rpg-75-l99": {
+      "pairing": "ORFX-04-013-05-P01",
+      "animation": "ORFX-04-013-05",
+      "audio": [
+        "ORFXS-04-0039"
+      ]
+    },
+    "rpg-76-l01": {
+      "pairing": "ORFX-04-014-01-P01",
+      "animation": "ORFX-04-014-01",
+      "audio": [
+        "ORFXS-01-0023"
+      ]
+    },
+    "rpg-76-l25": {
+      "pairing": "ORFX-04-014-02-P01",
+      "animation": "ORFX-04-014-02",
+      "audio": [
+        "ORFXS-01-0021"
+      ]
+    },
+    "rpg-76-l50": {
+      "pairing": "ORFX-04-014-03-P01",
+      "animation": "ORFX-04-014-03",
+      "audio": [
+        "ORFXS-01-0015"
+      ]
+    },
+    "rpg-76-l75": {
+      "pairing": "ORFX-04-014-04-P01",
+      "animation": "ORFX-04-014-04",
+      "audio": [
+        "ORFXS-04-0053"
+      ]
+    },
+    "rpg-76-l99": {
+      "pairing": "ORFX-04-014-05-P01",
+      "animation": "ORFX-04-014-05",
+      "audio": [
+        "ORFXS-04-0054"
+      ]
+    },
+    "rpg-77-l01": {
+      "pairing": "ORFX-04-015-01-P01",
+      "animation": "ORFX-04-015-01",
+      "audio": [
+        "ORFXS-04-0055"
+      ]
+    },
+    "rpg-77-l25": {
+      "pairing": "ORFX-04-015-02-P01",
+      "animation": "ORFX-04-015-02",
+      "audio": [
+        "ORFXS-04-0056"
+      ]
+    },
+    "rpg-77-l50": {
+      "pairing": "ORFX-04-015-03-P01",
+      "animation": "ORFX-04-015-03",
+      "audio": [
+        "ORFXS-04-0057"
+      ]
+    },
+    "rpg-77-l75": {
+      "pairing": "ORFX-04-015-04-P01",
+      "animation": "ORFX-04-015-04",
+      "audio": [
+        "ORFXS-04-0058"
+      ]
+    },
+    "rpg-77-l99": {
+      "pairing": "ORFX-04-015-05-P01",
+      "animation": "ORFX-04-015-05",
+      "audio": [
+        "ORFXS-04-0059"
+      ]
+    },
+    "rpg-78-l01": {
+      "pairing": "ORFX-06-007-01-P01",
+      "animation": "ORFX-06-007-01",
+      "audio": [
+        "ORFXS-06-0009"
+      ]
+    },
+    "rpg-78-l25": {
+      "pairing": "ORFX-06-007-02-P01",
+      "animation": "ORFX-06-007-02",
+      "audio": [
+        "ORFXS-06-0010"
+      ]
+    },
+    "rpg-78-l50": {
+      "pairing": "ORFX-06-007-03-P01",
+      "animation": "ORFX-06-007-03",
+      "audio": [
+        "ORFXS-06-0003"
+      ]
+    },
+    "rpg-78-l75": {
+      "pairing": "ORFX-06-007-04-P01",
+      "animation": "ORFX-06-007-04",
+      "audio": [
+        "ORFXS-06-0011"
+      ]
+    },
+    "rpg-78-l99": {
+      "pairing": "ORFX-06-007-05-P01",
+      "animation": "ORFX-06-007-05",
+      "audio": [
+        "ORFXS-06-0011"
+      ]
+    },
+    "rpg-79-l01": {
+      "pairing": "ORFX-07-002-01-P01",
+      "animation": "ORFX-07-002-01",
+      "audio": [
+        "ORFXS-07-0013"
+      ]
+    },
+    "rpg-79-l25": {
+      "pairing": "ORFX-07-002-02-P01",
+      "animation": "ORFX-07-002-02",
+      "audio": [
+        "ORFXS-07-0014"
+      ]
+    },
+    "rpg-79-l50": {
+      "pairing": "ORFX-07-002-03-P01",
+      "animation": "ORFX-07-002-03",
+      "audio": [
+        "ORFXS-07-0014"
+      ]
+    },
+    "rpg-79-l75": {
+      "pairing": "ORFX-07-002-04-P01",
+      "animation": "ORFX-07-002-04",
+      "audio": [
+        "ORFXS-07-0015"
+      ]
+    },
+    "rpg-79-l99": {
+      "pairing": "ORFX-07-002-05-P01",
+      "animation": "ORFX-07-002-05",
+      "audio": [
+        "ORFXS-07-0015"
+      ]
+    },
+    "rpg-80-l01": {
+      "pairing": "ORFX-07-003-01-P01",
+      "animation": "ORFX-07-003-01",
+      "audio": [
+        "ORFXS-07-0016"
+      ]
+    },
+    "rpg-80-l25": {
+      "pairing": "ORFX-07-003-02-P01",
+      "animation": "ORFX-07-003-02",
+      "audio": [
+        "ORFXS-07-0016"
+      ]
+    },
+    "rpg-80-l50": {
+      "pairing": "ORFX-07-003-03-P01",
+      "animation": "ORFX-07-003-03",
+      "audio": [
+        "ORFXS-07-0017"
+      ]
+    },
+    "rpg-80-l75": {
+      "pairing": "ORFX-07-003-04-P01",
+      "animation": "ORFX-07-003-04",
+      "audio": [
+        "ORFXS-07-0018"
+      ]
+    },
+    "rpg-80-l99": {
+      "pairing": "ORFX-07-003-05-P01",
+      "animation": "ORFX-07-003-05",
+      "audio": [
+        "ORFXS-07-0018"
+      ]
+    },
+    "rpg-81-l50": {
+      "pairing": "ORFX-01-015-03-P01",
+      "animation": "ORFX-01-015-03",
+      "audio": [
+        "ORFXS-01-0024",
+        "ORFXS-01-0025"
+      ]
+    },
+    "rpg-82-l50": {
+      "pairing": "ORFX-01-016-03-P01",
+      "animation": "ORFX-01-016-03",
+      "audio": [
+        "ORFXS-01-0024",
+        "ORFXS-01-0025",
+        "ORFXS-01-0026"
+      ]
+    },
+    "rpg-83-l01": {
+      "pairing": "ORFX-01-017-01-P01",
+      "animation": "ORFX-01-017-01",
+      "audio": [
+        "ORFXS-01-0027",
+        "ORFXS-01-0028"
+      ]
+    },
+    "rpg-83-l25": {
+      "pairing": "ORFX-01-017-02-P01",
+      "animation": "ORFX-01-017-02",
+      "audio": [
+        "ORFXS-01-0027",
+        "ORFXS-01-0029"
+      ]
+    },
+    "rpg-83-l50": {
+      "pairing": "ORFX-01-017-03-P01",
+      "animation": "ORFX-01-017-03",
+      "audio": [
+        "ORFXS-01-0027",
+        "ORFXS-01-0030"
+      ]
+    },
+    "rpg-83-l75": {
+      "pairing": "ORFX-01-017-04-P01",
+      "animation": "ORFX-01-017-04",
+      "audio": [
+        "ORFXS-01-0027",
+        "ORFXS-01-0028"
+      ]
+    },
+    "rpg-83-l99": {
+      "pairing": "ORFX-01-017-05-P01",
+      "animation": "ORFX-01-017-05",
+      "audio": [
+        "ORFXS-01-0027",
+        "ORFXS-01-0029"
+      ]
+    },
+    "rpg-84-l01": {
+      "pairing": "ORFX-01-018-01-P01",
+      "animation": "ORFX-01-018-01",
+      "audio": [
+        "ORFXS-01-0031"
+      ]
+    },
+    "rpg-84-l25": {
+      "pairing": "ORFX-01-018-02-P01",
+      "animation": "ORFX-01-018-02",
+      "audio": [
+        "ORFXS-01-0032"
+      ]
+    },
+    "rpg-84-l50": {
+      "pairing": "ORFX-01-018-03-P01",
+      "animation": "ORFX-01-018-03",
+      "audio": [
+        "ORFXS-01-0033"
+      ]
+    },
+    "rpg-84-l75": {
+      "pairing": "ORFX-01-018-04-P01",
+      "animation": "ORFX-01-018-04",
+      "audio": [
+        "ORFXS-01-0027",
+        "ORFXS-01-0034",
+        "ORFXS-01-0028",
+        "ORFXS-01-0029"
+      ]
+    },
+    "rpg-84-l99": {
+      "pairing": "ORFX-01-018-05-P01",
+      "animation": "ORFX-01-018-05",
+      "audio": [
+        "ORFXS-01-0027",
+        "ORFXS-01-0034",
+        "ORFXS-01-0029",
+        "ORFXS-01-0030"
+      ]
+    },
+    "rpg-85-l01": {
+      "pairing": "ORFX-01-019-01-P01",
+      "animation": "ORFX-01-019-01",
+      "audio": [
+        "ORFXS-01-0035"
+      ]
+    },
+    "rpg-85-l25": {
+      "pairing": "ORFX-01-019-02-P01",
+      "animation": "ORFX-01-019-02",
+      "audio": [
+        "ORFXS-01-0036"
+      ]
+    },
+    "rpg-85-l50": {
+      "pairing": "ORFX-01-019-03-P01",
+      "animation": "ORFX-01-019-03",
+      "audio": [
+        "ORFXS-01-0037"
+      ]
+    },
+    "rpg-85-l75": {
+      "pairing": "ORFX-01-019-04-P01",
+      "animation": "ORFX-01-019-04",
+      "audio": [
+        "ORFXS-01-0027",
+        "ORFXS-01-0034",
+        "ORFXS-01-0038",
+        "ORFXS-01-0028",
+        "ORFXS-01-0029",
+        "ORFXS-01-0030"
+      ]
+    },
+    "rpg-85-l99": {
+      "pairing": "ORFX-01-019-05-P01",
+      "animation": "ORFX-01-019-05",
+      "audio": [
+        "ORFXS-01-0027",
+        "ORFXS-01-0034",
+        "ORFXS-01-0038",
+        "ORFXS-01-0029",
+        "ORFXS-01-0030",
+        "ORFXS-01-0028"
+      ]
+    },
+    "EX-011": {
+      "pairing": "ORFX-08-001-00-P01",
+      "animation": "ORFX-08-001-00",
+      "audio": [
+        "ORFXS-08-0001"
+      ]
+    },
+    "EX-021": {
+      "pairing": "ORFX-04-005-03-P02",
+      "animation": "ORFX-04-005-03",
+      "audio": [
+        "ORFXS-04-0060"
+      ]
+    },
+    "EX-044": {
+      "pairing": "ORFX-04-007-03-P02",
+      "animation": "ORFX-04-007-03",
+      "audio": [
+        "ORFXS-04-0020"
+      ]
+    },
+    "EX-045": {
+      "pairing": "ORFX-01-020-00-P01",
+      "animation": "ORFX-01-020-00",
+      "audio": [
+        "ORFXS-01-0039"
+      ]
+    },
+    "EX-047": {
+      "pairing": "ORFX-06-008-00-P01",
+      "animation": "ORFX-06-008-00",
+      "audio": [
+        "ORFXS-06-0012"
+      ]
+    },
+    "EX-030": {
+      "pairing": "ORFX-06-002-03-P02",
+      "animation": "ORFX-06-002-03",
+      "audio": [
+        "ORFXS-06-0013"
+      ]
+    },
+    "EX-042": {
+      "pairing": "ORFX-04-014-03-P02",
+      "animation": "ORFX-04-014-03",
+      "audio": [
+        "ORFXS-09-0013"
+      ]
+    },
+    "EX-046": {
+      "pairing": "ORFX-01-021-00-P01",
+      "animation": "ORFX-01-021-00",
+      "audio": [
+        "ORFXS-01-0040"
+      ]
+    },
+    "EX-050": {
+      "pairing": "ORFX-04-005-03-P03",
+      "animation": "ORFX-04-005-03",
+      "audio": [
+        "ORFXS-04-0060"
+      ]
+    },
+    "EX-031": {
+      "pairing": "ORFX-09-008-00-P01",
+      "animation": "ORFX-09-008-00",
+      "audio": [
+        "ORFXS-09-0014"
+      ]
+    },
+    "EX-013": {
+      "pairing": "ORFX-04-007-03-P03",
+      "animation": "ORFX-04-007-03",
+      "audio": [
+        "ORFXS-04-0020"
+      ]
+    },
+    "EX-018": {
+      "pairing": "ORFX-09-004-03-P02",
+      "animation": "ORFX-09-004-03",
+      "audio": [
+        "ORFXS-02-0001"
+      ]
+    },
+    "EX-020": {
+      "pairing": "ORFX-09-001-03-P02",
+      "animation": "ORFX-09-001-03",
+      "audio": [
+        "ORFXS-09-0001"
+      ]
+    },
+    "EX-022": {
+      "pairing": "ORFX-05-006-00-P01",
+      "animation": "ORFX-05-006-00",
+      "audio": [
+        "ORFXS-05-0001"
+      ]
+    },
+    "EX-015": {
+      "pairing": "ORFX-09-001-03-P03",
+      "animation": "ORFX-09-001-03",
+      "audio": [
+        "ORFXS-09-0001"
+      ]
+    },
+    "EX-025": {
+      "pairing": "ORFX-06-008-00-P02",
+      "animation": "ORFX-06-008-00",
+      "audio": [
+        "ORFXS-06-0014"
+      ]
+    },
+    "EX-029": {
+      "pairing": "ORFX-06-004-03-P02",
+      "animation": "ORFX-06-004-03",
+      "audio": [
+        "ORFXS-09-0015"
+      ]
+    },
+    "EX-034": {
+      "pairing": "ORFX-09-003-03-P02",
+      "animation": "ORFX-09-003-03",
+      "audio": [
+        "ORFXS-07-0012"
+      ]
+    },
+    "EX-036": {
+      "pairing": "ORFX-09-003-03-P03",
+      "animation": "ORFX-09-003-03",
+      "audio": [
+        "ORFXS-07-0012"
+      ]
+    },
+    "EX-010": {
+      "pairing": "ORFX-01-022-00-P01",
+      "animation": "ORFX-01-022-00",
+      "audio": [
+        "ORFXS-04-0009"
+      ]
+    },
+    "EX-012": {
+      "pairing": "ORFX-05-003-01-P02",
+      "animation": "ORFX-05-003-01",
+      "audio": [
+        "ORFXS-08-0002"
+      ]
+    },
+    "EX-014": {
+      "pairing": "ORFX-04-008-03-P02",
+      "animation": "ORFX-04-008-03",
+      "audio": [
+        "ORFXS-04-0061"
+      ]
+    },
+    "EX-035": {
+      "pairing": "ORFX-09-001-03-P04",
+      "animation": "ORFX-09-001-03",
+      "audio": [
+        "ORFXS-09-0001"
+      ]
+    },
+    "EX-038": {
+      "pairing": "ORFX-09-002-03-P02",
+      "animation": "ORFX-09-002-03",
+      "audio": [
+        "ORFXS-07-0019"
+      ]
+    },
+    "EX-016": {
+      "pairing": "ORFX-09-002-03-P03",
+      "animation": "ORFX-09-002-03",
+      "audio": [
+        "ORFXS-08-0003"
+      ]
+    },
+    "EX-019": {
+      "pairing": "ORFX-07-003-03-P02",
+      "animation": "ORFX-07-003-03",
+      "audio": [
+        "ORFXS-08-0004"
+      ]
+    },
+    "EX-032": {
+      "pairing": "ORFX-09-008-00-P02",
+      "animation": "ORFX-09-008-00",
+      "audio": [
+        "ORFXS-07-0020"
+      ]
+    },
+    "EX-005": {
+      "pairing": "ORFX-04-019-00-P01",
+      "animation": "ORFX-04-019-00",
+      "audio": [
+        "ORFXS-04-0062"
+      ]
+    },
+    "EX-006": {
+      "pairing": "ORFX-04-020-00-P01",
+      "animation": "ORFX-04-020-00",
+      "audio": [
+        "ORFXS-04-0063"
+      ]
+    },
+    "EX-008": {
+      "pairing": "ORFX-09-012-00-P01",
+      "animation": "ORFX-09-012-00",
+      "audio": [
+        "ORFXS-01-0041",
+        "ORFXS-01-0042",
+        "ORFXS-01-0043",
+        "ORFXS-01-0044",
+        "ORFXS-01-0041"
+      ]
+    },
+    "EX-003": {
+      "pairing": "ORFX-01-023-00-P01",
+      "animation": "ORFX-01-023-00",
+      "audio": [
+        "ORFXS-01-0045",
+        "ORFXS-01-0046"
+      ]
+    },
+    "EX-004": {
+      "pairing": "ORFX-07-006-00-P01",
+      "animation": "ORFX-07-006-00",
+      "audio": [
+        "ORFXS-01-0045",
+        "ORFXS-01-0046"
+      ]
+    },
+    "EX-007": {
+      "pairing": "ORFX-04-021-00-P01",
+      "animation": "ORFX-04-021-00",
+      "audio": [
+        "ORFXS-04-0064"
+      ]
+    },
+    "EX-026-B": {
+      "pairing": "ORFX-01-003-03-P02",
+      "animation": "ORFX-01-003-03",
+      "audio": [
+        "ORFXS-04-0065"
+      ]
+    },
+    "EX-045-ABCDF": {
+      "pairing": "ORFX-04-001-03-P02",
+      "animation": "ORFX-04-001-03",
+      "audio": [
+        "ORFXS-04-0003"
+      ]
+    },
+    "EX-045-ACDF": {
+      "pairing": "ORFX-04-002-03-P02",
+      "animation": "ORFX-04-002-03",
+      "audio": [
+        "ORFXS-04-0003"
+      ]
+    },
+    "EX-044-S": {
+      "pairing": "ORFX-04-007-03-P04",
+      "animation": "ORFX-04-007-03",
+      "audio": [
+        "ORFXS-04-0066"
+      ]
+    },
+    "EX-013-S": {
+      "pairing": "ORFX-04-007-03-P05",
+      "animation": "ORFX-04-007-03",
+      "audio": [
+        "ORFXS-04-0066"
+      ]
+    },
+    "PF2-50": {
+      "pairing": "ORFX-02-003-03-P01",
+      "animation": "ORFX-02-003-03",
+      "audio": [
+        "ORFXS-02-0012",
+        "ORFXS-02-0013"
+      ]
+    },
+    "PF3-50": {
+      "pairing": "ORFX-02-004-03-P01",
+      "animation": "ORFX-02-004-03",
+      "audio": [
+        "ORFXS-02-0012",
+        "ORFXS-02-0013",
+        "ORFXS-02-0010"
+      ]
+    },
+    "PF5-50": {
+      "pairing": "ORFX-02-005-03-P01",
+      "animation": "ORFX-02-005-03",
+      "audio": [
+        "ORFXS-02-0012",
+        "ORFXS-02-0013",
+        "ORFXS-02-0010",
+        "ORFXS-02-0014",
+        "ORFXS-02-0011"
+      ]
+    },
+    "PS2-50": {
+      "pairing": "ORFX-02-006-03-P01",
+      "animation": "ORFX-02-006-03",
+      "audio": [
+        "ORFXS-02-0013",
+        "ORFXS-02-0012"
+      ]
+    },
+    "PS3-50": {
+      "pairing": "ORFX-02-007-03-P01",
+      "animation": "ORFX-02-007-03",
+      "audio": [
+        "ORFXS-02-0013",
+        "ORFXS-02-0012",
+        "ORFXS-02-0014"
+      ]
+    },
+    "PS5-50": {
+      "pairing": "ORFX-02-008-03-P01",
+      "animation": "ORFX-02-008-03",
+      "audio": [
+        "ORFXS-02-0013",
+        "ORFXS-02-0012",
+        "ORFXS-02-0014",
+        "ORFXS-02-0010",
+        "ORFXS-02-0015"
+      ]
+    },
+    "PAIR-SH-fire-A": {
+      "pairing": "ORFX-07-007-00-P01",
+      "animation": "ORFX-07-007-00",
+      "audio": [
+        "ORFXS-07-0021"
+      ]
+    },
+    "PAIR-SH-fire-B": {
+      "pairing": "ORFX-07-007-00-P02",
+      "animation": "ORFX-07-007-00",
+      "audio": [
+        "ORFXS-07-0022"
+      ]
+    },
+    "PAIR-SH-ice-A": {
+      "pairing": "ORFX-07-008-00-P01",
+      "animation": "ORFX-07-008-00",
+      "audio": [
+        "ORFXS-07-0023"
+      ]
+    },
+    "PAIR-SH-ice-B": {
+      "pairing": "ORFX-07-008-00-P02",
+      "animation": "ORFX-07-008-00",
+      "audio": [
+        "ORFXS-07-0024"
+      ]
+    },
+    "PAIR-SH-holy-A": {
+      "pairing": "ORFX-07-009-00-P01",
+      "animation": "ORFX-07-009-00",
+      "audio": [
+        "ORFXS-07-0025"
+      ]
+    },
+    "PAIR-SH-holy-B": {
+      "pairing": "ORFX-07-009-00-P02",
+      "animation": "ORFX-07-009-00",
+      "audio": [
+        "ORFXS-07-0026"
+      ]
+    },
+    "PAIR-SH-shadow-A": {
+      "pairing": "ORFX-07-010-00-P01",
+      "animation": "ORFX-07-010-00",
+      "audio": [
+        "ORFXS-07-0027"
+      ]
+    },
+    "PAIR-SH-shadow-B": {
+      "pairing": "ORFX-07-010-00-P02",
+      "animation": "ORFX-07-010-00",
+      "audio": [
+        "ORFXS-07-0028"
+      ]
+    },
+    "PAIR-M01": {
+      "pairing": "ORFX-05-007-00-P01",
+      "animation": "ORFX-05-007-00",
+      "audio": [
+        "ORFXS-09-0016"
+      ]
+    },
+    "PAIR-ST75-1": {
+      "pairing": "ORFX-01-004-04-P02",
+      "animation": "ORFX-01-004-04",
+      "audio": [
+        "ORFXS-01-0047"
+      ]
+    },
+    "PAIR-ST99-1": {
+      "pairing": "ORFX-01-004-05-P02",
+      "animation": "ORFX-01-004-05",
+      "audio": [
+        "ORFXS-01-0048"
+      ]
+    },
+    "MX01": {
+      "pairing": "ORFX-01-025-03-P01",
+      "animation": "ORFX-01-025-03",
+      "audio": [
+        "ORFXS-01-0049",
+        "ORFXS-01-0050"
+      ]
+    },
+    "MX02": {
+      "pairing": "ORFX-01-025-03-P02",
+      "animation": "ORFX-01-025-03",
+      "audio": [
+        "ORFXS-01-0002",
+        "ORFXS-01-0051"
+      ]
+    },
+    "MX03": {
+      "pairing": "ORFX-01-026-03-P01",
+      "animation": "ORFX-01-026-03",
+      "audio": [
+        "ORFXS-01-0004",
+        "ORFXS-01-0052"
+      ]
+    },
+    "MX04": {
+      "pairing": "ORFX-01-026-03-P02",
+      "animation": "ORFX-01-026-03",
+      "audio": [
+        "ORFXS-01-0003",
+        "ORFXS-01-0051"
+      ]
+    },
+    "MX05": {
+      "pairing": "ORFX-01-027-03-P01",
+      "animation": "ORFX-01-027-03",
+      "audio": [
+        "ORFXS-01-0053",
+        "ORFXS-09-0017"
+      ]
+    },
+    "MX06": {
+      "pairing": "ORFX-01-027-03-P02",
+      "animation": "ORFX-01-027-03",
+      "audio": [
+        "ORFXS-01-0002",
+        "ORFXS-09-0018"
+      ]
+    },
+    "MX07": {
+      "pairing": "ORFX-01-028-03-P01",
+      "animation": "ORFX-01-028-03",
+      "audio": [
+        "ORFXS-01-0054",
+        "ORFXS-09-0017"
+      ]
+    },
+    "MX08": {
+      "pairing": "ORFX-01-028-03-P02",
+      "animation": "ORFX-01-028-03",
+      "audio": [
+        "ORFXS-01-0055",
+        "ORFXS-09-0019"
+      ]
+    },
+    "SYNC-N01": {
+      "pairing": "ORFX-04-004-03-P02",
+      "animation": "ORFX-04-004-03",
+      "audio": [
+        "ORFXS-04-0011"
+      ]
+    },
+    "SYNC-N02": {
+      "pairing": "ORFX-04-004-03-P03",
+      "animation": "ORFX-04-004-03",
+      "audio": [
+        "ORFXS-04-0010"
+      ]
+    },
+    "SYNC-N03": {
+      "pairing": "ORFX-04-004-03-P04",
+      "animation": "ORFX-04-004-03",
+      "audio": [
+        "ORFXS-04-0067"
+      ]
+    },
+    "SYNC-N04": {
+      "pairing": "ORFX-02-001-03-P02",
+      "animation": "ORFX-02-001-03",
+      "audio": [
+        "ORFXS-02-0001"
+      ]
+    },
+    "SYNC-N05": {
+      "pairing": "ORFX-02-001-03-P03",
+      "animation": "ORFX-02-001-03",
+      "audio": [
+        "ORFXS-02-0003"
+      ]
+    },
+    "SYNC-N06": {
+      "pairing": "ORFX-02-001-03-P04",
+      "animation": "ORFX-02-001-03",
+      "audio": [
+        "ORFXS-02-0002"
+      ]
+    },
+    "SYNC-N07": {
+      "pairing": "ORFX-02-002-03-P02",
+      "animation": "ORFX-02-002-03",
+      "audio": [
+        "ORFXS-02-0016"
+      ]
+    },
+    "SYNC-N08": {
+      "pairing": "ORFX-02-002-03-P03",
+      "animation": "ORFX-02-002-03",
+      "audio": [
+        "ORFXS-02-0017"
+      ]
+    },
+    "SYNC-N09": {
+      "pairing": "ORFX-02-002-03-P04",
+      "animation": "ORFX-02-002-03",
+      "audio": [
+        "ORFXS-02-0008"
+      ]
+    },
+    "SYNC-N10": {
+      "pairing": "ORFX-04-005-03-P04",
+      "animation": "ORFX-04-005-03",
+      "audio": [
+        "ORFXS-04-0012"
+      ]
+    },
+    "SYNC-N11": {
+      "pairing": "ORFX-04-007-03-P06",
+      "animation": "ORFX-04-007-03",
+      "audio": [
+        "ORFXS-04-0020"
+      ]
+    },
+    "SYNC-N12": {
+      "pairing": "ORFX-04-007-03-P07",
+      "animation": "ORFX-04-007-03",
+      "audio": [
+        "ORFXS-04-0019"
+      ]
+    },
+    "SYNC-N13": {
+      "pairing": "ORFX-01-004-03-P02",
+      "animation": "ORFX-01-004-03",
+      "audio": [
+        "ORFXS-01-0015"
+      ]
+    },
+    "SYNC-N14": {
+      "pairing": "ORFX-01-004-03-P03",
+      "animation": "ORFX-01-004-03",
+      "audio": [
+        "ORFXS-01-0012"
+      ]
+    },
+    "SYNC-N15": {
+      "pairing": "ORFX-01-004-03-P04",
+      "animation": "ORFX-01-004-03",
+      "audio": [
+        "ORFXS-01-0023"
+      ]
+    },
+    "SYNC-N16": {
+      "pairing": "ORFX-01-004-03-P05",
+      "animation": "ORFX-01-004-03",
+      "audio": [
+        "ORFXS-01-0016"
+      ]
+    },
+    "SYNC-Q11": {
+      "pairing": "ORFX-02-001-03-P05",
+      "animation": "ORFX-02-001-03",
+      "audio": [
+        "ORFXS-02-0018"
+      ]
+    },
+    "SYNC-Q12": {
+      "pairing": "ORFX-02-001-03-P06",
+      "animation": "ORFX-02-001-03",
+      "audio": [
+        "ORFXS-02-0007"
+      ]
+    },
+    "SYNC-Q13": {
+      "pairing": "ORFX-02-001-03-P07",
+      "animation": "ORFX-02-001-03",
+      "audio": [
+        "ORFXS-02-0004"
+      ]
+    },
+    "SYNC-Q14": {
+      "pairing": "ORFX-02-002-03-P05",
+      "animation": "ORFX-02-002-03",
+      "audio": [
+        "ORFXS-02-0005"
+      ]
+    },
+    "SYNC-Q15": {
+      "pairing": "ORFX-02-002-03-P06",
+      "animation": "ORFX-02-002-03",
+      "audio": [
+        "ORFXS-02-0007"
+      ]
+    },
+    "SYNC-Q16": {
+      "pairing": "ORFX-02-002-03-P07",
+      "animation": "ORFX-02-002-03",
+      "audio": [
+        "ORFXS-02-0004"
+      ]
+    },
+    "SYNC-Q01": {
+      "pairing": "ORFX-02-001-03-P08",
+      "animation": "ORFX-02-001-03",
+      "audio": [
+        "ORFXS-02-0019"
+      ]
+    },
+    "SYNC-Q02": {
+      "pairing": "ORFX-02-001-03-P09",
+      "animation": "ORFX-02-001-03",
+      "audio": [
+        "ORFXS-02-0009"
+      ]
+    },
+    "SYNC-Q03": {
+      "pairing": "ORFX-02-001-03-P10",
+      "animation": "ORFX-02-001-03",
+      "audio": [
+        "ORFXS-02-0020"
+      ]
+    },
+    "SYNC-Q04": {
+      "pairing": "ORFX-02-002-03-P08",
+      "animation": "ORFX-02-002-03",
+      "audio": [
+        "ORFXS-02-0021"
+      ]
+    },
+    "SYNC-Q05": {
+      "pairing": "ORFX-02-002-03-P09",
+      "animation": "ORFX-02-002-03",
+      "audio": [
+        "ORFXS-02-0009"
+      ]
+    },
+    "SYNC-Q06": {
+      "pairing": "ORFX-02-002-03-P10",
+      "animation": "ORFX-02-002-03",
+      "audio": [
+        "ORFXS-02-0022"
+      ]
+    },
+    "SYNC-Q07": {
+      "pairing": "ORFX-02-001-03-P11",
+      "animation": "ORFX-02-001-03",
+      "audio": [
+        "ORFXS-02-0023"
+      ]
+    },
+    "SYNC-Q08": {
+      "pairing": "ORFX-02-001-03-P12",
+      "animation": "ORFX-02-001-03",
+      "audio": [
+        "ORFXS-02-0024"
+      ]
+    },
+    "SYNC-Q09": {
+      "pairing": "ORFX-02-002-03-P11",
+      "animation": "ORFX-02-002-03",
+      "audio": [
+        "ORFXS-02-0025"
+      ]
+    },
+    "SYNC-Q10": {
+      "pairing": "ORFX-02-002-03-P12",
+      "animation": "ORFX-02-002-03",
+      "audio": [
+        "ORFXS-02-0024"
+      ]
+    },
+    "SYNC-V01": {
+      "pairing": "ORFX-01-001-03-P02",
+      "animation": "ORFX-01-001-03",
+      "audio": [
+        "ORFXS-01-0001"
+      ]
+    },
+    "SYNC-V02": {
+      "pairing": "ORFX-01-001-03-P03",
+      "animation": "ORFX-01-001-03",
+      "audio": [
+        "ORFXS-01-0002"
+      ]
+    },
+    "SYNC-V03": {
+      "pairing": "ORFX-01-001-03-P04",
+      "animation": "ORFX-01-001-03",
+      "audio": [
+        "ORFXS-01-0004"
+      ]
+    },
+    "SYNC-V04": {
+      "pairing": "ORFX-01-001-03-P05",
+      "animation": "ORFX-01-001-03",
+      "audio": [
+        "ORFXS-01-0003"
+      ]
+    },
+    "SYNC-V05": {
+      "pairing": "ORFX-01-002-03-P02",
+      "animation": "ORFX-01-002-03",
+      "audio": [
+        "ORFXS-01-0005"
+      ]
+    },
+    "SYNC-V06": {
+      "pairing": "ORFX-01-029-03-P01",
+      "animation": "ORFX-01-029-03",
+      "audio": [
+        "ORFXS-01-0006"
+      ]
+    },
+    "SYNC-V07": {
+      "pairing": "ORFX-01-029-03-P02",
+      "animation": "ORFX-01-029-03",
+      "audio": [
+        "ORFXS-01-0007"
+      ]
+    },
+    "SYNC-V08": {
+      "pairing": "ORFX-01-002-03-P03",
+      "animation": "ORFX-01-002-03",
+      "audio": [
+        "ORFXS-01-0007"
+      ]
+    },
+    "SYNC-V09": {
+      "pairing": "ORFX-01-002-03-P04",
+      "animation": "ORFX-01-002-03",
+      "audio": [
+        "ORFXS-01-0006"
+      ]
+    },
+    "SYNC-V10": {
+      "pairing": "ORFX-01-002-03-P05",
+      "animation": "ORFX-01-002-03",
+      "audio": [
+        "ORFXS-01-0005"
+      ]
+    },
+    "SYNC-V11": {
+      "pairing": "ORFX-04-001-03-P03",
+      "animation": "ORFX-04-001-03",
+      "audio": [
+        "ORFXS-04-0001"
+      ]
+    },
+    "SYNC-V12": {
+      "pairing": "ORFX-04-001-03-P04",
+      "animation": "ORFX-04-001-03",
+      "audio": [
+        "ORFXS-04-0004"
+      ]
+    },
+    "SYNC-V13": {
+      "pairing": "ORFX-04-001-03-P05",
+      "animation": "ORFX-04-001-03",
+      "audio": [
+        "ORFXS-04-0003"
+      ]
+    },
+    "SYNC-V14": {
+      "pairing": "ORFX-04-001-03-P06",
+      "animation": "ORFX-04-001-03",
+      "audio": [
+        "ORFXS-04-0002"
+      ]
+    },
+    "SYNC-V15": {
+      "pairing": "ORFX-04-002-03-P03",
+      "animation": "ORFX-04-002-03",
+      "audio": [
+        "ORFXS-04-0001"
+      ]
+    },
+    "SYNC-V16": {
+      "pairing": "ORFX-04-002-03-P04",
+      "animation": "ORFX-04-002-03",
+      "audio": [
+        "ORFXS-04-0004"
+      ]
+    },
+    "SYNC-V17": {
+      "pairing": "ORFX-04-002-03-P05",
+      "animation": "ORFX-04-002-03",
+      "audio": [
+        "ORFXS-04-0003"
+      ]
+    },
+    "SYNC-V18": {
+      "pairing": "ORFX-04-002-03-P06",
+      "animation": "ORFX-04-002-03",
+      "audio": [
+        "ORFXS-04-0002"
+      ]
+    },
+    "SYNC-W01": {
+      "pairing": "ORFX-01-006-03-P02",
+      "animation": "ORFX-01-006-03",
+      "audio": [
+        "ORFXS-01-0001"
+      ]
+    },
+    "SYNC-W02": {
+      "pairing": "ORFX-01-006-03-P03",
+      "animation": "ORFX-01-006-03",
+      "audio": [
+        "ORFXS-01-0002"
+      ]
+    },
+    "SYNC-W03": {
+      "pairing": "ORFX-01-025-03-P03",
+      "animation": "ORFX-01-025-03",
+      "audio": [
+        "ORFXS-01-0052"
+      ]
+    },
+    "SYNC-W04": {
+      "pairing": "ORFX-01-025-03-P04",
+      "animation": "ORFX-01-025-03",
+      "audio": [
+        "ORFXS-01-0051"
+      ]
+    },
+    "SYNC-W05": {
+      "pairing": "ORFX-01-026-03-P03",
+      "animation": "ORFX-01-026-03",
+      "audio": [
+        "ORFXS-01-0052"
+      ]
+    },
+    "SYNC-W06": {
+      "pairing": "ORFX-01-026-03-P04",
+      "animation": "ORFX-01-026-03",
+      "audio": [
+        "ORFXS-01-0051"
+      ]
+    },
+    "SYNC-W07": {
+      "pairing": "ORFX-01-007-03-P02",
+      "animation": "ORFX-01-007-03",
+      "audio": [
+        "ORFXS-01-0006"
+      ]
+    },
+    "SYNC-W08": {
+      "pairing": "ORFX-01-007-03-P03",
+      "animation": "ORFX-01-007-03",
+      "audio": [
+        "ORFXS-01-0007"
+      ]
+    },
+    "SYNC-W09": {
+      "pairing": "ORFX-01-008-03-P02",
+      "animation": "ORFX-01-008-03",
+      "audio": [
+        "ORFXS-01-0006"
+      ]
+    },
+    "SYNC-W10": {
+      "pairing": "ORFX-01-008-03-P03",
+      "animation": "ORFX-01-008-03",
+      "audio": [
+        "ORFXS-01-0007"
+      ]
+    },
+    "SYNC-W11": {
+      "pairing": "ORFX-01-020-00-P02",
+      "animation": "ORFX-01-020-00",
+      "audio": [
+        "ORFXS-04-0001"
+      ]
+    },
+    "SYNC-W12": {
+      "pairing": "ORFX-01-020-00-P03",
+      "animation": "ORFX-01-020-00",
+      "audio": [
+        "ORFXS-04-0002"
+      ]
+    },
+    "SYNC-W13": {
+      "pairing": "ORFX-01-031-03-P01",
+      "animation": "ORFX-01-031-03",
+      "audio": [
+        "ORFXS-04-0001"
+      ]
+    },
+    "SYNC-W14": {
+      "pairing": "ORFX-01-031-03-P02",
+      "animation": "ORFX-01-031-03",
+      "audio": [
+        "ORFXS-04-0002"
+      ]
+    },
+    "SYNC-W15": {
+      "pairing": "ORFX-01-011-03-P02",
+      "animation": "ORFX-01-011-03",
+      "audio": [
+        "ORFXS-01-0015"
+      ]
+    },
+    "SYNC-W16": {
+      "pairing": "ORFX-01-011-03-P03",
+      "animation": "ORFX-01-011-03",
+      "audio": [
+        "ORFXS-01-0020"
+      ]
+    },
+    "SYNC-W17": {
+      "pairing": "ORFX-01-012-03-P02",
+      "animation": "ORFX-01-012-03",
+      "audio": [
+        "ORFXS-01-0015"
+      ]
+    },
+    "SYNC-W18": {
+      "pairing": "ORFX-01-012-03-P03",
+      "animation": "ORFX-01-012-03",
+      "audio": [
+        "ORFXS-01-0020"
+      ]
+    },
+    "SYNC-X01": {
+      "pairing": "ORFX-01-015-03-P02",
+      "animation": "ORFX-01-015-03",
+      "audio": [
+        "ORFXS-01-0001",
+        "ORFXS-01-0001"
+      ]
+    },
+    "SYNC-X02": {
+      "pairing": "ORFX-01-015-03-P03",
+      "animation": "ORFX-01-015-03",
+      "audio": [
+        "ORFXS-01-0002",
+        "ORFXS-01-0002"
+      ]
+    },
+    "SYNC-X03": {
+      "pairing": "ORFX-01-016-03-P02",
+      "animation": "ORFX-01-016-03",
+      "audio": [
+        "ORFXS-01-0001",
+        "ORFXS-01-0001",
+        "ORFXS-01-0001"
+      ]
+    },
+    "SYNC-X04": {
+      "pairing": "ORFX-01-016-03-P03",
+      "animation": "ORFX-01-016-03",
+      "audio": [
+        "ORFXS-01-0002",
+        "ORFXS-01-0002",
+        "ORFXS-01-0002"
+      ]
+    },
+    "SYNC-X05": {
+      "pairing": "ORFX-01-032-03-P01",
+      "animation": "ORFX-01-032-03",
+      "audio": [
+        "ORFXS-01-0001",
+        "ORFXS-01-0001",
+        "ORFXS-01-0001"
+      ]
+    },
+    "SYNC-X06": {
+      "pairing": "ORFX-01-032-03-P02",
+      "animation": "ORFX-01-032-03",
+      "audio": [
+        "ORFXS-01-0002",
+        "ORFXS-01-0002",
+        "ORFXS-01-0002"
+      ]
+    },
+    "SYNC-X07": {
+      "pairing": "ORFX-01-018-03-P02",
+      "animation": "ORFX-01-018-03",
+      "audio": [
+        "ORFXS-01-0001",
+        "ORFXS-01-0001"
+      ]
+    },
+    "SYNC-X08": {
+      "pairing": "ORFX-01-018-03-P03",
+      "animation": "ORFX-01-018-03",
+      "audio": [
+        "ORFXS-01-0002",
+        "ORFXS-01-0002"
+      ]
+    },
+    "SYNC-X09": {
+      "pairing": "ORFX-01-019-03-P02",
+      "animation": "ORFX-01-019-03",
+      "audio": [
+        "ORFXS-01-0001",
+        "ORFXS-01-0001",
+        "ORFXS-01-0001"
+      ]
+    },
+    "SYNC-X10": {
+      "pairing": "ORFX-01-019-03-P03",
+      "animation": "ORFX-01-019-03",
+      "audio": [
+        "ORFXS-01-0002",
+        "ORFXS-01-0002",
+        "ORFXS-01-0002"
+      ]
+    },
+    "SYNC-X11": {
+      "pairing": "ORFX-01-017-03-P02",
+      "animation": "ORFX-01-017-03",
+      "audio": [
+        "ORFXS-01-0001"
+      ]
+    },
+    "SYNC-X12": {
+      "pairing": "ORFX-01-017-03-P03",
+      "animation": "ORFX-01-017-03",
+      "audio": [
+        "ORFXS-01-0002"
+      ]
+    },
+    "SYNC-X13": {
+      "pairing": "ORFX-01-027-03-P03",
+      "animation": "ORFX-01-027-03",
+      "audio": [
+        "ORFXS-01-0001"
+      ]
+    },
+    "SYNC-X14": {
+      "pairing": "ORFX-01-027-03-P04",
+      "animation": "ORFX-01-027-03",
+      "audio": [
+        "ORFXS-01-0002"
+      ]
+    },
+    "SYNC-X15": {
+      "pairing": "ORFX-01-028-03-P03",
+      "animation": "ORFX-01-028-03",
+      "audio": [
+        "ORFXS-01-0001"
+      ]
+    },
+    "SYNC-X16": {
+      "pairing": "ORFX-01-028-03-P04",
+      "animation": "ORFX-01-028-03",
+      "audio": [
+        "ORFXS-01-0002"
+      ]
+    },
+    "SYNC-X17": {
+      "pairing": "ORFX-01-013-03-P01",
+      "animation": "ORFX-01-013-03",
+      "audio": [
+        "ORFXS-04-0012"
+      ]
+    },
+    "SYNC-X19": {
+      "pairing": "ORFX-04-015-03-P02",
+      "animation": "ORFX-04-015-03",
+      "audio": [
+        "ORFXS-04-0012"
+      ]
+    },
+    "SYNC-X20": {
+      "pairing": "ORFX-04-014-03-P03",
+      "animation": "ORFX-04-014-03",
+      "audio": [
+        "ORFXS-01-0015"
+      ]
+    },
+    "SYNC-X21": {
+      "pairing": "ORFX-04-014-03-P04",
+      "animation": "ORFX-04-014-03",
+      "audio": [
+        "ORFXS-01-0020"
+      ]
+    },
+    "SYNC-L001": {
+      "pairing": "ORFX-06-005-03-P02",
+      "animation": "ORFX-06-005-03",
+      "audio": [
+        "ORFXS-04-0020",
+        "ORFXS-04-0020",
+        "ORFXS-04-0020"
+      ]
+    },
+    "SYNC-L002": {
+      "pairing": "ORFX-06-005-03-P03",
+      "animation": "ORFX-06-005-03",
+      "audio": [
+        "ORFXS-04-0019",
+        "ORFXS-04-0019",
+        "ORFXS-04-0019"
+      ]
+    },
+    "SYNC-L003": {
+      "pairing": "ORFX-06-005-03-P04",
+      "animation": "ORFX-06-005-03",
+      "audio": [
+        "ORFXS-04-0040",
+        "ORFXS-04-0041",
+        "ORFXS-04-0039"
+      ]
+    },
+    "SYNC-L004": {
+      "pairing": "ORFX-09-019-03-P01",
+      "animation": "ORFX-09-019-03",
+      "audio": [
+        "ORFXS-04-0020",
+        "ORFXS-04-0019",
+        "ORFXS-04-0020"
+      ]
+    },
+    "SYNC-L005": {
+      "pairing": "ORFX-09-020-03-P01",
+      "animation": "ORFX-09-020-03",
+      "audio": [
+        "ORFXS-04-0020",
+        "ORFXS-04-0019",
+        "ORFXS-04-0020"
+      ]
+    },
+    "SYNC-B001": {
+      "pairing": "ORFX-06-005-03-P05",
+      "animation": "ORFX-06-005-03",
+      "audio": [
+        "ORFXS-04-0020",
+        "ORFXS-04-0019",
+        "ORFXS-04-0020"
+      ]
+    },
+    "BULK-003": {
+      "pairing": "ORFX-06-001-03-P02",
+      "animation": "ORFX-06-001-03",
+      "audio": [
+        "ORFXS-06-0015"
+      ]
+    },
+    "BULK-005": {
+      "pairing": "ORFX-06-002-03-P03",
+      "animation": "ORFX-06-002-03",
+      "audio": [
+        "ORFXS-06-0003"
+      ]
+    }
+  },
+  "animations": {
+    "ORFX-01-001-01": "spritesheets/01/ORFX-01-001-01.json",
+    "ORFX-01-001-02": "spritesheets/01/ORFX-01-001-02.json",
+    "ORFX-01-001-03": "spritesheets/01/ORFX-01-001-03.json",
+    "ORFX-01-001-04": "spritesheets/01/ORFX-01-001-04.json",
+    "ORFX-01-001-05": "spritesheets/01/ORFX-01-001-05.json",
+    "ORFX-01-002-01": "spritesheets/01/ORFX-01-002-01.json",
+    "ORFX-01-002-02": "spritesheets/01/ORFX-01-002-02.json",
+    "ORFX-01-002-03": "spritesheets/01/ORFX-01-002-03.json",
+    "ORFX-01-002-04": "spritesheets/01/ORFX-01-002-04.json",
+    "ORFX-01-002-05": "spritesheets/01/ORFX-01-002-05.json",
+    "ORFX-04-001-01": "spritesheets/04/ORFX-04-001-01.json",
+    "ORFX-04-002-01": "spritesheets/04/ORFX-04-002-01.json",
+    "ORFX-04-001-02": "spritesheets/04/ORFX-04-001-02.json",
+    "ORFX-04-002-02": "spritesheets/04/ORFX-04-002-02.json",
+    "ORFX-04-001-03": "spritesheets/04/ORFX-04-001-03.json",
+    "ORFX-04-002-03": "spritesheets/04/ORFX-04-002-03.json",
+    "ORFX-04-001-04": "spritesheets/04/ORFX-04-001-04.json",
+    "ORFX-04-002-04": "spritesheets/04/ORFX-04-002-04.json",
+    "ORFX-04-001-05": "spritesheets/04/ORFX-04-001-05.json",
+    "ORFX-04-002-05": "spritesheets/04/ORFX-04-002-05.json",
+    "ORFX-01-003-01": "spritesheets/01/ORFX-01-003-01.json",
+    "ORFX-01-003-02": "spritesheets/01/ORFX-01-003-02.json",
+    "ORFX-01-003-03": "spritesheets/01/ORFX-01-003-03.json",
+    "ORFX-01-003-04": "spritesheets/01/ORFX-01-003-04.json",
+    "ORFX-01-003-05": "spritesheets/01/ORFX-01-003-05.json",
+    "ORFX-01-004-01": "spritesheets/01/ORFX-01-004-01.json",
+    "ORFX-01-004-02": "spritesheets/01/ORFX-01-004-02.json",
+    "ORFX-01-004-03": "spritesheets/01/ORFX-01-004-03.json",
+    "ORFX-01-004-04": "spritesheets/01/ORFX-01-004-04.json",
+    "ORFX-01-004-05": "spritesheets/01/ORFX-01-004-05.json",
+    "ORFX-04-003-01": "spritesheets/04/ORFX-04-003-01.json",
+    "ORFX-04-003-02": "spritesheets/04/ORFX-04-003-02.json",
+    "ORFX-04-003-03": "spritesheets/04/ORFX-04-003-03.json",
+    "ORFX-04-003-04": "spritesheets/04/ORFX-04-003-04.json",
+    "ORFX-04-003-05": "spritesheets/04/ORFX-04-003-05.json",
+    "ORFX-04-004-01": "spritesheets/04/ORFX-04-004-01.json",
+    "ORFX-04-004-02": "spritesheets/04/ORFX-04-004-02.json",
+    "ORFX-04-004-03": "spritesheets/04/ORFX-04-004-03.json",
+    "ORFX-04-004-04": "spritesheets/04/ORFX-04-004-04.json",
+    "ORFX-04-004-05": "spritesheets/04/ORFX-04-004-05.json",
+    "ORFX-02-001-01": "spritesheets/02/ORFX-02-001-01.json",
+    "ORFX-02-001-02": "spritesheets/02/ORFX-02-001-02.json",
+    "ORFX-02-001-03": "spritesheets/02/ORFX-02-001-03.json",
+    "ORFX-02-001-04": "spritesheets/02/ORFX-02-001-04.json",
+    "ORFX-02-001-05": "spritesheets/02/ORFX-02-001-05.json",
+    "ORFX-02-002-01": "spritesheets/02/ORFX-02-002-01.json",
+    "ORFX-02-002-02": "spritesheets/02/ORFX-02-002-02.json",
+    "ORFX-02-002-03": "spritesheets/02/ORFX-02-002-03.json",
+    "ORFX-02-002-04": "spritesheets/02/ORFX-02-002-04.json",
+    "ORFX-02-002-05": "spritesheets/02/ORFX-02-002-05.json",
+    "ORFX-04-005-01": "spritesheets/04/ORFX-04-005-01.json",
+    "ORFX-04-005-02": "spritesheets/04/ORFX-04-005-02.json",
+    "ORFX-04-005-03": "spritesheets/04/ORFX-04-005-03.json",
+    "ORFX-04-005-04": "spritesheets/04/ORFX-04-005-04.json",
+    "ORFX-04-005-05": "spritesheets/04/ORFX-04-005-05.json",
+    "ORFX-03-001-01": "spritesheets/03/ORFX-03-001-01.json",
+    "ORFX-03-001-02": "spritesheets/03/ORFX-03-001-02.json",
+    "ORFX-03-001-03": "spritesheets/03/ORFX-03-001-03.json",
+    "ORFX-03-001-04": "spritesheets/03/ORFX-03-001-04.json",
+    "ORFX-03-001-05": "spritesheets/03/ORFX-03-001-05.json",
+    "ORFX-03-002-01": "spritesheets/03/ORFX-03-002-01.json",
+    "ORFX-03-002-02": "spritesheets/03/ORFX-03-002-02.json",
+    "ORFX-03-002-03": "spritesheets/03/ORFX-03-002-03.json",
+    "ORFX-03-002-04": "spritesheets/03/ORFX-03-002-04.json",
+    "ORFX-03-002-05": "spritesheets/03/ORFX-03-002-05.json",
+    "ORFX-03-003-01": "spritesheets/03/ORFX-03-003-01.json",
+    "ORFX-03-003-02": "spritesheets/03/ORFX-03-003-02.json",
+    "ORFX-03-003-03": "spritesheets/03/ORFX-03-003-03.json",
+    "ORFX-03-003-04": "spritesheets/03/ORFX-03-003-04.json",
+    "ORFX-03-003-05": "spritesheets/03/ORFX-03-003-05.json",
+    "ORFX-03-004-01": "spritesheets/03/ORFX-03-004-01.json",
+    "ORFX-03-004-02": "spritesheets/03/ORFX-03-004-02.json",
+    "ORFX-03-004-03": "spritesheets/03/ORFX-03-004-03.json",
+    "ORFX-03-004-04": "spritesheets/03/ORFX-03-004-04.json",
+    "ORFX-03-004-05": "spritesheets/03/ORFX-03-004-05.json",
+    "ORFX-03-005-01": "spritesheets/03/ORFX-03-005-01.json",
+    "ORFX-03-005-02": "spritesheets/03/ORFX-03-005-02.json",
+    "ORFX-03-005-03": "spritesheets/03/ORFX-03-005-03.json",
+    "ORFX-03-005-04": "spritesheets/03/ORFX-03-005-04.json",
+    "ORFX-03-005-05": "spritesheets/03/ORFX-03-005-05.json",
+    "ORFX-03-006-01": "spritesheets/03/ORFX-03-006-01.json",
+    "ORFX-03-006-02": "spritesheets/03/ORFX-03-006-02.json",
+    "ORFX-03-006-03": "spritesheets/03/ORFX-03-006-03.json",
+    "ORFX-03-006-04": "spritesheets/03/ORFX-03-006-04.json",
+    "ORFX-03-006-05": "spritesheets/03/ORFX-03-006-05.json",
+    "ORFX-04-006-01": "spritesheets/04/ORFX-04-006-01.json",
+    "ORFX-04-006-02": "spritesheets/04/ORFX-04-006-02.json",
+    "ORFX-04-006-03": "spritesheets/04/ORFX-04-006-03.json",
+    "ORFX-04-006-04": "spritesheets/04/ORFX-04-006-04.json",
+    "ORFX-04-006-05": "spritesheets/04/ORFX-04-006-05.json",
+    "ORFX-04-007-01": "spritesheets/04/ORFX-04-007-01.json",
+    "ORFX-04-007-02": "spritesheets/04/ORFX-04-007-02.json",
+    "ORFX-04-007-03": "spritesheets/04/ORFX-04-007-03.json",
+    "ORFX-04-007-04": "spritesheets/04/ORFX-04-007-04.json",
+    "ORFX-04-007-05": "spritesheets/04/ORFX-04-007-05.json",
+    "ORFX-06-001-01": "spritesheets/06/ORFX-06-001-01.json",
+    "ORFX-06-001-02": "spritesheets/06/ORFX-06-001-02.json",
+    "ORFX-06-001-03": "spritesheets/06/ORFX-06-001-03.json",
+    "ORFX-06-001-04": "spritesheets/06/ORFX-06-001-04.json",
+    "ORFX-06-001-05": "spritesheets/06/ORFX-06-001-05.json",
+    "ORFX-04-008-01": "spritesheets/04/ORFX-04-008-01.json",
+    "ORFX-04-008-02": "spritesheets/04/ORFX-04-008-02.json",
+    "ORFX-04-008-03": "spritesheets/04/ORFX-04-008-03.json",
+    "ORFX-04-008-04": "spritesheets/04/ORFX-04-008-04.json",
+    "ORFX-04-008-05": "spritesheets/04/ORFX-04-008-05.json",
+    "ORFX-04-009-01": "spritesheets/04/ORFX-04-009-01.json",
+    "ORFX-04-009-02": "spritesheets/04/ORFX-04-009-02.json",
+    "ORFX-04-009-03": "spritesheets/04/ORFX-04-009-03.json",
+    "ORFX-04-009-04": "spritesheets/04/ORFX-04-009-04.json",
+    "ORFX-04-009-05": "spritesheets/04/ORFX-04-009-05.json",
+    "ORFX-06-002-01": "spritesheets/06/ORFX-06-002-01.json",
+    "ORFX-06-002-02": "spritesheets/06/ORFX-06-002-02.json",
+    "ORFX-06-002-03": "spritesheets/06/ORFX-06-002-03.json",
+    "ORFX-06-002-04": "spritesheets/06/ORFX-06-002-04.json",
+    "ORFX-06-002-05": "spritesheets/06/ORFX-06-002-05.json",
+    "ORFX-09-001-01": "spritesheets/09/ORFX-09-001-01.json",
+    "ORFX-09-001-02": "spritesheets/09/ORFX-09-001-02.json",
+    "ORFX-09-001-03": "spritesheets/09/ORFX-09-001-03.json",
+    "ORFX-09-001-04": "spritesheets/09/ORFX-09-001-04.json",
+    "ORFX-09-001-05": "spritesheets/09/ORFX-09-001-05.json",
+    "ORFX-07-001-01": "spritesheets/07/ORFX-07-001-01.json",
+    "ORFX-07-001-02": "spritesheets/07/ORFX-07-001-02.json",
+    "ORFX-07-001-03": "spritesheets/07/ORFX-07-001-03.json",
+    "ORFX-07-001-04": "spritesheets/07/ORFX-07-001-04.json",
+    "ORFX-07-001-05": "spritesheets/07/ORFX-07-001-05.json",
+    "ORFX-09-002-01": "spritesheets/09/ORFX-09-002-01.json",
+    "ORFX-09-002-02": "spritesheets/09/ORFX-09-002-02.json",
+    "ORFX-09-002-03": "spritesheets/09/ORFX-09-002-03.json",
+    "ORFX-09-002-04": "spritesheets/09/ORFX-09-002-04.json",
+    "ORFX-09-002-05": "spritesheets/09/ORFX-09-002-05.json",
+    "ORFX-09-003-01": "spritesheets/09/ORFX-09-003-01.json",
+    "ORFX-09-003-02": "spritesheets/09/ORFX-09-003-02.json",
+    "ORFX-09-003-03": "spritesheets/09/ORFX-09-003-03.json",
+    "ORFX-09-003-04": "spritesheets/09/ORFX-09-003-04.json",
+    "ORFX-09-003-05": "spritesheets/09/ORFX-09-003-05.json",
+    "ORFX-09-004-01": "spritesheets/09/ORFX-09-004-01.json",
+    "ORFX-09-004-02": "spritesheets/09/ORFX-09-004-02.json",
+    "ORFX-09-004-03": "spritesheets/09/ORFX-09-004-03.json",
+    "ORFX-09-004-04": "spritesheets/09/ORFX-09-004-04.json",
+    "ORFX-09-004-05": "spritesheets/09/ORFX-09-004-05.json",
+    "ORFX-06-003-01": "spritesheets/06/ORFX-06-003-01.json",
+    "ORFX-06-003-02": "spritesheets/06/ORFX-06-003-02.json",
+    "ORFX-06-003-03": "spritesheets/06/ORFX-06-003-03.json",
+    "ORFX-06-003-04": "spritesheets/06/ORFX-06-003-04.json",
+    "ORFX-06-003-05": "spritesheets/06/ORFX-06-003-05.json",
+    "ORFX-06-004-01": "spritesheets/06/ORFX-06-004-01.json",
+    "ORFX-06-004-02": "spritesheets/06/ORFX-06-004-02.json",
+    "ORFX-06-004-03": "spritesheets/06/ORFX-06-004-03.json",
+    "ORFX-06-004-04": "spritesheets/06/ORFX-06-004-04.json",
+    "ORFX-06-004-05": "spritesheets/06/ORFX-06-004-05.json",
+    "ORFX-05-001-01": "spritesheets/05/ORFX-05-001-01.json",
+    "ORFX-05-001-02": "spritesheets/05/ORFX-05-001-02.json",
+    "ORFX-05-001-03": "spritesheets/05/ORFX-05-001-03.json",
+    "ORFX-05-001-04": "spritesheets/05/ORFX-05-001-04.json",
+    "ORFX-05-001-05": "spritesheets/05/ORFX-05-001-05.json",
+    "ORFX-05-002-01": "spritesheets/05/ORFX-05-002-01.json",
+    "ORFX-01-005-01": "spritesheets/01/ORFX-01-005-01.json",
+    "ORFX-01-005-02": "spritesheets/01/ORFX-01-005-02.json",
+    "ORFX-01-005-03": "spritesheets/01/ORFX-01-005-03.json",
+    "ORFX-01-005-04": "spritesheets/01/ORFX-01-005-04.json",
+    "ORFX-01-005-05": "spritesheets/01/ORFX-01-005-05.json",
+    "ORFX-04-010-02": "spritesheets/04/ORFX-04-010-02.json",
+    "ORFX-04-010-04": "spritesheets/04/ORFX-04-010-04.json",
+    "ORFX-04-010-05": "spritesheets/04/ORFX-04-010-05.json",
+    "ORFX-06-005-03": "spritesheets/06/ORFX-06-005-03.json",
+    "ORFX-06-005-05": "spritesheets/06/ORFX-06-005-05.json",
+    "ORFX-01-006-01": "spritesheets/01/ORFX-01-006-01.json",
+    "ORFX-01-006-02": "spritesheets/01/ORFX-01-006-02.json",
+    "ORFX-01-006-03": "spritesheets/01/ORFX-01-006-03.json",
+    "ORFX-01-006-04": "spritesheets/01/ORFX-01-006-04.json",
+    "ORFX-01-006-05": "spritesheets/01/ORFX-01-006-05.json",
+    "ORFX-01-007-01": "spritesheets/01/ORFX-01-007-01.json",
+    "ORFX-01-007-02": "spritesheets/01/ORFX-01-007-02.json",
+    "ORFX-01-007-03": "spritesheets/01/ORFX-01-007-03.json",
+    "ORFX-01-007-04": "spritesheets/01/ORFX-01-007-04.json",
+    "ORFX-01-007-05": "spritesheets/01/ORFX-01-007-05.json",
+    "ORFX-01-008-01": "spritesheets/01/ORFX-01-008-01.json",
+    "ORFX-01-008-02": "spritesheets/01/ORFX-01-008-02.json",
+    "ORFX-01-008-03": "spritesheets/01/ORFX-01-008-03.json",
+    "ORFX-01-008-04": "spritesheets/01/ORFX-01-008-04.json",
+    "ORFX-01-008-05": "spritesheets/01/ORFX-01-008-05.json",
+    "ORFX-01-009-03": "spritesheets/01/ORFX-01-009-03.json",
+    "ORFX-01-009-04": "spritesheets/01/ORFX-01-009-04.json",
+    "ORFX-01-010-01": "spritesheets/01/ORFX-01-010-01.json",
+    "ORFX-01-010-02": "spritesheets/01/ORFX-01-010-02.json",
+    "ORFX-01-010-03": "spritesheets/01/ORFX-01-010-03.json",
+    "ORFX-01-010-04": "spritesheets/01/ORFX-01-010-04.json",
+    "ORFX-01-010-05": "spritesheets/01/ORFX-01-010-05.json",
+    "ORFX-01-011-01": "spritesheets/01/ORFX-01-011-01.json",
+    "ORFX-01-011-02": "spritesheets/01/ORFX-01-011-02.json",
+    "ORFX-01-011-03": "spritesheets/01/ORFX-01-011-03.json",
+    "ORFX-01-011-05": "spritesheets/01/ORFX-01-011-05.json",
+    "ORFX-01-012-01": "spritesheets/01/ORFX-01-012-01.json",
+    "ORFX-01-012-02": "spritesheets/01/ORFX-01-012-02.json",
+    "ORFX-01-012-03": "spritesheets/01/ORFX-01-012-03.json",
+    "ORFX-01-012-05": "spritesheets/01/ORFX-01-012-05.json",
+    "ORFX-01-013-01": "spritesheets/01/ORFX-01-013-01.json",
+    "ORFX-01-013-05": "spritesheets/01/ORFX-01-013-05.json",
+    "ORFX-01-014-01": "spritesheets/01/ORFX-01-014-01.json",
+    "ORFX-01-014-04": "spritesheets/01/ORFX-01-014-04.json",
+    "ORFX-01-014-05": "spritesheets/01/ORFX-01-014-05.json",
+    "ORFX-03-007-01": "spritesheets/03/ORFX-03-007-01.json",
+    "ORFX-03-007-02": "spritesheets/03/ORFX-03-007-02.json",
+    "ORFX-03-007-04": "spritesheets/03/ORFX-03-007-04.json",
+    "ORFX-03-007-05": "spritesheets/03/ORFX-03-007-05.json",
+    "ORFX-03-008-03": "spritesheets/03/ORFX-03-008-03.json",
+    "ORFX-03-009-01": "spritesheets/03/ORFX-03-009-01.json",
+    "ORFX-03-009-02": "spritesheets/03/ORFX-03-009-02.json",
+    "ORFX-03-009-04": "spritesheets/03/ORFX-03-009-04.json",
+    "ORFX-03-009-05": "spritesheets/03/ORFX-03-009-05.json",
+    "ORFX-03-010-03": "spritesheets/03/ORFX-03-010-03.json",
+    "ORFX-03-011-01": "spritesheets/03/ORFX-03-011-01.json",
+    "ORFX-03-011-02": "spritesheets/03/ORFX-03-011-02.json",
+    "ORFX-03-011-04": "spritesheets/03/ORFX-03-011-04.json",
+    "ORFX-03-011-05": "spritesheets/03/ORFX-03-011-05.json",
+    "ORFX-03-012-03": "spritesheets/03/ORFX-03-012-03.json",
+    "ORFX-04-011-01": "spritesheets/04/ORFX-04-011-01.json",
+    "ORFX-04-011-02": "spritesheets/04/ORFX-04-011-02.json",
+    "ORFX-04-011-03": "spritesheets/04/ORFX-04-011-03.json",
+    "ORFX-04-011-04": "spritesheets/04/ORFX-04-011-04.json",
+    "ORFX-04-011-05": "spritesheets/04/ORFX-04-011-05.json",
+    "ORFX-04-012-01": "spritesheets/04/ORFX-04-012-01.json",
+    "ORFX-04-012-02": "spritesheets/04/ORFX-04-012-02.json",
+    "ORFX-04-012-03": "spritesheets/04/ORFX-04-012-03.json",
+    "ORFX-04-012-04": "spritesheets/04/ORFX-04-012-04.json",
+    "ORFX-04-012-05": "spritesheets/04/ORFX-04-012-05.json",
+    "ORFX-09-005-01": "spritesheets/09/ORFX-09-005-01.json",
+    "ORFX-09-005-02": "spritesheets/09/ORFX-09-005-02.json",
+    "ORFX-09-005-03": "spritesheets/09/ORFX-09-005-03.json",
+    "ORFX-09-005-04": "spritesheets/09/ORFX-09-005-04.json",
+    "ORFX-09-005-05": "spritesheets/09/ORFX-09-005-05.json",
+    "ORFX-05-003-01": "spritesheets/05/ORFX-05-003-01.json",
+    "ORFX-05-004-01": "spritesheets/05/ORFX-05-004-01.json",
+    "ORFX-09-006-01": "spritesheets/09/ORFX-09-006-01.json",
+    "ORFX-09-006-05": "spritesheets/09/ORFX-09-006-05.json",
+    "ORFX-06-006-01": "spritesheets/06/ORFX-06-006-01.json",
+    "ORFX-06-006-05": "spritesheets/06/ORFX-06-006-05.json",
+    "ORFX-04-013-01": "spritesheets/04/ORFX-04-013-01.json",
+    "ORFX-04-013-05": "spritesheets/04/ORFX-04-013-05.json",
+    "ORFX-04-014-01": "spritesheets/04/ORFX-04-014-01.json",
+    "ORFX-04-014-02": "spritesheets/04/ORFX-04-014-02.json",
+    "ORFX-04-014-03": "spritesheets/04/ORFX-04-014-03.json",
+    "ORFX-04-014-04": "spritesheets/04/ORFX-04-014-04.json",
+    "ORFX-04-014-05": "spritesheets/04/ORFX-04-014-05.json",
+    "ORFX-04-015-01": "spritesheets/04/ORFX-04-015-01.json",
+    "ORFX-04-015-02": "spritesheets/04/ORFX-04-015-02.json",
+    "ORFX-04-015-03": "spritesheets/04/ORFX-04-015-03.json",
+    "ORFX-04-015-04": "spritesheets/04/ORFX-04-015-04.json",
+    "ORFX-04-015-05": "spritesheets/04/ORFX-04-015-05.json",
+    "ORFX-06-007-01": "spritesheets/06/ORFX-06-007-01.json",
+    "ORFX-06-007-02": "spritesheets/06/ORFX-06-007-02.json",
+    "ORFX-06-007-03": "spritesheets/06/ORFX-06-007-03.json",
+    "ORFX-06-007-04": "spritesheets/06/ORFX-06-007-04.json",
+    "ORFX-06-007-05": "spritesheets/06/ORFX-06-007-05.json",
+    "ORFX-07-002-01": "spritesheets/07/ORFX-07-002-01.json",
+    "ORFX-07-002-02": "spritesheets/07/ORFX-07-002-02.json",
+    "ORFX-07-002-03": "spritesheets/07/ORFX-07-002-03.json",
+    "ORFX-07-002-04": "spritesheets/07/ORFX-07-002-04.json",
+    "ORFX-07-002-05": "spritesheets/07/ORFX-07-002-05.json",
+    "ORFX-07-003-01": "spritesheets/07/ORFX-07-003-01.json",
+    "ORFX-07-003-02": "spritesheets/07/ORFX-07-003-02.json",
+    "ORFX-07-003-03": "spritesheets/07/ORFX-07-003-03.json",
+    "ORFX-07-003-04": "spritesheets/07/ORFX-07-003-04.json",
+    "ORFX-07-003-05": "spritesheets/07/ORFX-07-003-05.json",
+    "ORFX-01-015-03": "spritesheets/01/ORFX-01-015-03.json",
+    "ORFX-01-016-03": "spritesheets/01/ORFX-01-016-03.json",
+    "ORFX-01-017-01": "spritesheets/01/ORFX-01-017-01.json",
+    "ORFX-01-017-02": "spritesheets/01/ORFX-01-017-02.json",
+    "ORFX-01-017-03": "spritesheets/01/ORFX-01-017-03.json",
+    "ORFX-01-017-04": "spritesheets/01/ORFX-01-017-04.json",
+    "ORFX-01-017-05": "spritesheets/01/ORFX-01-017-05.json",
+    "ORFX-01-018-01": "spritesheets/01/ORFX-01-018-01.json",
+    "ORFX-01-018-02": "spritesheets/01/ORFX-01-018-02.json",
+    "ORFX-01-018-03": "spritesheets/01/ORFX-01-018-03.json",
+    "ORFX-01-018-04": "spritesheets/01/ORFX-01-018-04.json",
+    "ORFX-01-018-05": "spritesheets/01/ORFX-01-018-05.json",
+    "ORFX-01-019-01": "spritesheets/01/ORFX-01-019-01.json",
+    "ORFX-01-019-02": "spritesheets/01/ORFX-01-019-02.json",
+    "ORFX-01-019-03": "spritesheets/01/ORFX-01-019-03.json",
+    "ORFX-01-019-04": "spritesheets/01/ORFX-01-019-04.json",
+    "ORFX-01-019-05": "spritesheets/01/ORFX-01-019-05.json",
+    "ORFX-08-001-00": "spritesheets/08/ORFX-08-001-00.json",
+    "ORFX-01-020-00": "spritesheets/01/ORFX-01-020-00.json",
+    "ORFX-06-008-00": "spritesheets/06/ORFX-06-008-00.json",
+    "ORFX-01-021-00": "spritesheets/01/ORFX-01-021-00.json",
+    "ORFX-09-008-00": "spritesheets/09/ORFX-09-008-00.json",
+    "ORFX-05-006-00": "spritesheets/05/ORFX-05-006-00.json",
+    "ORFX-01-022-00": "spritesheets/01/ORFX-01-022-00.json",
+    "ORFX-04-019-00": "spritesheets/04/ORFX-04-019-00.json",
+    "ORFX-04-020-00": "spritesheets/04/ORFX-04-020-00.json",
+    "ORFX-09-012-00": "spritesheets/09/ORFX-09-012-00.json",
+    "ORFX-01-023-00": "spritesheets/01/ORFX-01-023-00.json",
+    "ORFX-07-006-00": "spritesheets/07/ORFX-07-006-00.json",
+    "ORFX-04-021-00": "spritesheets/04/ORFX-04-021-00.json",
+    "ORFX-02-003-03": "spritesheets/02/ORFX-02-003-03.json",
+    "ORFX-02-004-03": "spritesheets/02/ORFX-02-004-03.json",
+    "ORFX-02-005-03": "spritesheets/02/ORFX-02-005-03.json",
+    "ORFX-02-006-03": "spritesheets/02/ORFX-02-006-03.json",
+    "ORFX-02-007-03": "spritesheets/02/ORFX-02-007-03.json",
+    "ORFX-02-008-03": "spritesheets/02/ORFX-02-008-03.json",
+    "ORFX-07-007-00": "spritesheets/07/ORFX-07-007-00.json",
+    "ORFX-07-008-00": "spritesheets/07/ORFX-07-008-00.json",
+    "ORFX-07-009-00": "spritesheets/07/ORFX-07-009-00.json",
+    "ORFX-07-010-00": "spritesheets/07/ORFX-07-010-00.json",
+    "ORFX-05-007-00": "spritesheets/05/ORFX-05-007-00.json",
+    "ORFX-01-025-03": "spritesheets/01/ORFX-01-025-03.json",
+    "ORFX-01-026-03": "spritesheets/01/ORFX-01-026-03.json",
+    "ORFX-01-027-03": "spritesheets/01/ORFX-01-027-03.json",
+    "ORFX-01-028-03": "spritesheets/01/ORFX-01-028-03.json",
+    "ORFX-01-029-03": "spritesheets/01/ORFX-01-029-03.json",
+    "ORFX-01-031-03": "spritesheets/01/ORFX-01-031-03.json",
+    "ORFX-01-032-03": "spritesheets/01/ORFX-01-032-03.json",
+    "ORFX-01-013-03": "spritesheets/01/ORFX-01-013-03.json",
+    "ORFX-09-019-03": "spritesheets/09/ORFX-09-019-03.json",
+    "ORFX-09-020-03": "spritesheets/09/ORFX-09-020-03.json"
+  },
+  "sounds": {
+    "ORFXS-01-0001": "audio/01/ORFXS-01-0001.json",
+    "ORFXS-01-0002": "audio/01/ORFXS-01-0002.json",
+    "ORFXS-01-0003": "audio/01/ORFXS-01-0003.json",
+    "ORFXS-01-0004": "audio/01/ORFXS-01-0004.json",
+    "ORFXS-01-0005": "audio/01/ORFXS-01-0005.json",
+    "ORFXS-01-0006": "audio/01/ORFXS-01-0006.json",
+    "ORFXS-01-0007": "audio/01/ORFXS-01-0007.json",
+    "ORFXS-04-0001": "audio/04/ORFXS-04-0001.json",
+    "ORFXS-04-0002": "audio/04/ORFXS-04-0002.json",
+    "ORFXS-04-0003": "audio/04/ORFXS-04-0003.json",
+    "ORFXS-04-0004": "audio/04/ORFXS-04-0004.json",
+    "ORFXS-01-0008": "audio/01/ORFXS-01-0008.json",
+    "ORFXS-01-0009": "audio/01/ORFXS-01-0009.json",
+    "ORFXS-01-0010": "audio/01/ORFXS-01-0010.json",
+    "ORFXS-01-0011": "audio/01/ORFXS-01-0011.json",
+    "ORFXS-04-0005": "audio/04/ORFXS-04-0005.json",
+    "ORFXS-01-0012": "audio/01/ORFXS-01-0012.json",
+    "ORFXS-01-0013": "audio/01/ORFXS-01-0013.json",
+    "ORFXS-01-0014": "audio/01/ORFXS-01-0014.json",
+    "ORFXS-01-0015": "audio/01/ORFXS-01-0015.json",
+    "ORFXS-01-0016": "audio/01/ORFXS-01-0016.json",
+    "ORFXS-04-0006": "audio/04/ORFXS-04-0006.json",
+    "ORFXS-04-0007": "audio/04/ORFXS-04-0007.json",
+    "ORFXS-04-0008": "audio/04/ORFXS-04-0008.json",
+    "ORFXS-04-0009": "audio/04/ORFXS-04-0009.json",
+    "ORFXS-04-0010": "audio/04/ORFXS-04-0010.json",
+    "ORFXS-04-0011": "audio/04/ORFXS-04-0011.json",
+    "ORFXS-02-0001": "audio/02/ORFXS-02-0001.json",
+    "ORFXS-02-0002": "audio/02/ORFXS-02-0002.json",
+    "ORFXS-02-0003": "audio/02/ORFXS-02-0003.json",
+    "ORFXS-02-0004": "audio/02/ORFXS-02-0004.json",
+    "ORFXS-02-0005": "audio/02/ORFXS-02-0005.json",
+    "ORFXS-02-0006": "audio/02/ORFXS-02-0006.json",
+    "ORFXS-02-0007": "audio/02/ORFXS-02-0007.json",
+    "ORFXS-02-0008": "audio/02/ORFXS-02-0008.json",
+    "ORFXS-02-0009": "audio/02/ORFXS-02-0009.json",
+    "ORFXS-04-0012": "audio/04/ORFXS-04-0012.json",
+    "ORFXS-04-0013": "audio/04/ORFXS-04-0013.json",
+    "ORFXS-03-0001": "audio/03/ORFXS-03-0001.json",
+    "ORFXS-03-0002": "audio/03/ORFXS-03-0002.json",
+    "ORFXS-03-0003": "audio/03/ORFXS-03-0003.json",
+    "ORFXS-03-0004": "audio/03/ORFXS-03-0004.json",
+    "ORFXS-03-0005": "audio/03/ORFXS-03-0005.json",
+    "ORFXS-03-0006": "audio/03/ORFXS-03-0006.json",
+    "ORFXS-01-0017": "audio/01/ORFXS-01-0017.json",
+    "ORFXS-03-0007": "audio/03/ORFXS-03-0007.json",
+    "ORFXS-03-0008": "audio/03/ORFXS-03-0008.json",
+    "ORFXS-03-0009": "audio/03/ORFXS-03-0009.json",
+    "ORFXS-03-0010": "audio/03/ORFXS-03-0010.json",
+    "ORFXS-03-0011": "audio/03/ORFXS-03-0011.json",
+    "ORFXS-03-0012": "audio/03/ORFXS-03-0012.json",
+    "ORFXS-03-0013": "audio/03/ORFXS-03-0013.json",
+    "ORFXS-03-0014": "audio/03/ORFXS-03-0014.json",
+    "ORFXS-03-0015": "audio/03/ORFXS-03-0015.json",
+    "ORFXS-03-0016": "audio/03/ORFXS-03-0016.json",
+    "ORFXS-03-0017": "audio/03/ORFXS-03-0017.json",
+    "ORFXS-03-0018": "audio/03/ORFXS-03-0018.json",
+    "ORFXS-03-0019": "audio/03/ORFXS-03-0019.json",
+    "ORFXS-03-0020": "audio/03/ORFXS-03-0020.json",
+    "ORFXS-03-0021": "audio/03/ORFXS-03-0021.json",
+    "ORFXS-03-0022": "audio/03/ORFXS-03-0022.json",
+    "ORFXS-04-0014": "audio/04/ORFXS-04-0014.json",
+    "ORFXS-04-0015": "audio/04/ORFXS-04-0015.json",
+    "ORFXS-04-0016": "audio/04/ORFXS-04-0016.json",
+    "ORFXS-04-0017": "audio/04/ORFXS-04-0017.json",
+    "ORFXS-04-0018": "audio/04/ORFXS-04-0018.json",
+    "ORFXS-04-0019": "audio/04/ORFXS-04-0019.json",
+    "ORFXS-04-0020": "audio/04/ORFXS-04-0020.json",
+    "ORFXS-06-0001": "audio/06/ORFXS-06-0001.json",
+    "ORFXS-06-0002": "audio/06/ORFXS-06-0002.json",
+    "ORFXS-04-0021": "audio/04/ORFXS-04-0021.json",
+    "ORFXS-04-0022": "audio/04/ORFXS-04-0022.json",
+    "ORFXS-04-0023": "audio/04/ORFXS-04-0023.json",
+    "ORFXS-04-0024": "audio/04/ORFXS-04-0024.json",
+    "ORFXS-04-0025": "audio/04/ORFXS-04-0025.json",
+    "ORFXS-04-0026": "audio/04/ORFXS-04-0026.json",
+    "ORFXS-04-0027": "audio/04/ORFXS-04-0027.json",
+    "ORFXS-04-0028": "audio/04/ORFXS-04-0028.json",
+    "ORFXS-06-0003": "audio/06/ORFXS-06-0003.json",
+    "ORFXS-09-0001": "audio/09/ORFXS-09-0001.json",
+    "ORFXS-07-0001": "audio/07/ORFXS-07-0001.json",
+    "ORFXS-07-0002": "audio/07/ORFXS-07-0002.json",
+    "ORFXS-07-0003": "audio/07/ORFXS-07-0003.json",
+    "ORFXS-07-0004": "audio/07/ORFXS-07-0004.json",
+    "ORFXS-07-0005": "audio/07/ORFXS-07-0005.json",
+    "ORFXS-07-0006": "audio/07/ORFXS-07-0006.json",
+    "ORFXS-07-0007": "audio/07/ORFXS-07-0007.json",
+    "ORFXS-07-0008": "audio/07/ORFXS-07-0008.json",
+    "ORFXS-07-0009": "audio/07/ORFXS-07-0009.json",
+    "ORFXS-07-0010": "audio/07/ORFXS-07-0010.json",
+    "ORFXS-07-0011": "audio/07/ORFXS-07-0011.json",
+    "ORFXS-07-0012": "audio/07/ORFXS-07-0012.json",
+    "ORFXS-02-0010": "audio/02/ORFXS-02-0010.json",
+    "ORFXS-02-0011": "audio/02/ORFXS-02-0011.json",
+    "ORFXS-06-0004": "audio/06/ORFXS-06-0004.json",
+    "ORFXS-06-0005": "audio/06/ORFXS-06-0005.json",
+    "ORFXS-06-0006": "audio/06/ORFXS-06-0006.json",
+    "ORFXS-06-0007": "audio/06/ORFXS-06-0007.json",
+    "ORFXS-06-0008": "audio/06/ORFXS-06-0008.json",
+    "ORFXS-09-0002": "audio/09/ORFXS-09-0002.json",
+    "ORFXS-09-0003": "audio/09/ORFXS-09-0003.json",
+    "ORFXS-09-0004": "audio/09/ORFXS-09-0004.json",
+    "ORFXS-09-0005": "audio/09/ORFXS-09-0005.json",
+    "ORFXS-09-0006": "audio/09/ORFXS-09-0006.json",
+    "ORFXS-04-0029": "audio/04/ORFXS-04-0029.json",
+    "ORFXS-04-0030": "audio/04/ORFXS-04-0030.json",
+    "ORFXS-04-0031": "audio/04/ORFXS-04-0031.json",
+    "ORFXS-04-0032": "audio/04/ORFXS-04-0032.json",
+    "ORFXS-04-0033": "audio/04/ORFXS-04-0033.json",
+    "ORFXS-04-0034": "audio/04/ORFXS-04-0034.json",
+    "ORFXS-04-0035": "audio/04/ORFXS-04-0035.json",
+    "ORFXS-04-0036": "audio/04/ORFXS-04-0036.json",
+    "ORFXS-04-0037": "audio/04/ORFXS-04-0037.json",
+    "ORFXS-04-0038": "audio/04/ORFXS-04-0038.json",
+    "ORFXS-04-0039": "audio/04/ORFXS-04-0039.json",
+    "ORFXS-04-0040": "audio/04/ORFXS-04-0040.json",
+    "ORFXS-04-0041": "audio/04/ORFXS-04-0041.json",
+    "ORFXS-01-0018": "audio/01/ORFXS-01-0018.json",
+    "ORFXS-01-0019": "audio/01/ORFXS-01-0019.json",
+    "ORFXS-04-0042": "audio/04/ORFXS-04-0042.json",
+    "ORFXS-04-0043": "audio/04/ORFXS-04-0043.json",
+    "ORFXS-01-0020": "audio/01/ORFXS-01-0020.json",
+    "ORFXS-01-0021": "audio/01/ORFXS-01-0021.json",
+    "ORFXS-01-0022": "audio/01/ORFXS-01-0022.json",
+    "ORFXS-01-0023": "audio/01/ORFXS-01-0023.json",
+    "ORFXS-04-0044": "audio/04/ORFXS-04-0044.json",
+    "ORFXS-04-0045": "audio/04/ORFXS-04-0045.json",
+    "ORFXS-04-0046": "audio/04/ORFXS-04-0046.json",
+    "ORFXS-04-0047": "audio/04/ORFXS-04-0047.json",
+    "ORFXS-04-0048": "audio/04/ORFXS-04-0048.json",
+    "ORFXS-03-0023": "audio/03/ORFXS-03-0023.json",
+    "ORFXS-03-0024": "audio/03/ORFXS-03-0024.json",
+    "ORFXS-03-0025": "audio/03/ORFXS-03-0025.json",
+    "ORFXS-03-0026": "audio/03/ORFXS-03-0026.json",
+    "ORFXS-03-0027": "audio/03/ORFXS-03-0027.json",
+    "ORFXS-03-0028": "audio/03/ORFXS-03-0028.json",
+    "ORFXS-03-0029": "audio/03/ORFXS-03-0029.json",
+    "ORFXS-03-0030": "audio/03/ORFXS-03-0030.json",
+    "ORFXS-03-0031": "audio/03/ORFXS-03-0031.json",
+    "ORFXS-03-0032": "audio/03/ORFXS-03-0032.json",
+    "ORFXS-04-0049": "audio/04/ORFXS-04-0049.json",
+    "ORFXS-04-0050": "audio/04/ORFXS-04-0050.json",
+    "ORFXS-04-0051": "audio/04/ORFXS-04-0051.json",
+    "ORFXS-09-0007": "audio/09/ORFXS-09-0007.json",
+    "ORFXS-09-0008": "audio/09/ORFXS-09-0008.json",
+    "ORFXS-09-0009": "audio/09/ORFXS-09-0009.json",
+    "ORFXS-09-0010": "audio/09/ORFXS-09-0010.json",
+    "ORFXS-09-0011": "audio/09/ORFXS-09-0011.json",
+    "ORFXS-04-0052": "audio/04/ORFXS-04-0052.json",
+    "ORFXS-09-0012": "audio/09/ORFXS-09-0012.json",
+    "ORFXS-04-0053": "audio/04/ORFXS-04-0053.json",
+    "ORFXS-04-0054": "audio/04/ORFXS-04-0054.json",
+    "ORFXS-04-0055": "audio/04/ORFXS-04-0055.json",
+    "ORFXS-04-0056": "audio/04/ORFXS-04-0056.json",
+    "ORFXS-04-0057": "audio/04/ORFXS-04-0057.json",
+    "ORFXS-04-0058": "audio/04/ORFXS-04-0058.json",
+    "ORFXS-04-0059": "audio/04/ORFXS-04-0059.json",
+    "ORFXS-06-0009": "audio/06/ORFXS-06-0009.json",
+    "ORFXS-06-0010": "audio/06/ORFXS-06-0010.json",
+    "ORFXS-06-0011": "audio/06/ORFXS-06-0011.json",
+    "ORFXS-07-0013": "audio/07/ORFXS-07-0013.json",
+    "ORFXS-07-0014": "audio/07/ORFXS-07-0014.json",
+    "ORFXS-07-0015": "audio/07/ORFXS-07-0015.json",
+    "ORFXS-07-0016": "audio/07/ORFXS-07-0016.json",
+    "ORFXS-07-0017": "audio/07/ORFXS-07-0017.json",
+    "ORFXS-07-0018": "audio/07/ORFXS-07-0018.json",
+    "ORFXS-01-0024": "audio/01/ORFXS-01-0024.json",
+    "ORFXS-01-0025": "audio/01/ORFXS-01-0025.json",
+    "ORFXS-01-0026": "audio/01/ORFXS-01-0026.json",
+    "ORFXS-01-0027": "audio/01/ORFXS-01-0027.json",
+    "ORFXS-01-0028": "audio/01/ORFXS-01-0028.json",
+    "ORFXS-01-0029": "audio/01/ORFXS-01-0029.json",
+    "ORFXS-01-0030": "audio/01/ORFXS-01-0030.json",
+    "ORFXS-01-0031": "audio/01/ORFXS-01-0031.json",
+    "ORFXS-01-0032": "audio/01/ORFXS-01-0032.json",
+    "ORFXS-01-0033": "audio/01/ORFXS-01-0033.json",
+    "ORFXS-01-0034": "audio/01/ORFXS-01-0034.json",
+    "ORFXS-01-0035": "audio/01/ORFXS-01-0035.json",
+    "ORFXS-01-0036": "audio/01/ORFXS-01-0036.json",
+    "ORFXS-01-0037": "audio/01/ORFXS-01-0037.json",
+    "ORFXS-01-0038": "audio/01/ORFXS-01-0038.json",
+    "ORFXS-08-0001": "audio/08/ORFXS-08-0001.json",
+    "ORFXS-04-0060": "audio/04/ORFXS-04-0060.json",
+    "ORFXS-01-0039": "audio/01/ORFXS-01-0039.json",
+    "ORFXS-06-0012": "audio/06/ORFXS-06-0012.json",
+    "ORFXS-06-0013": "audio/06/ORFXS-06-0013.json",
+    "ORFXS-09-0013": "audio/09/ORFXS-09-0013.json",
+    "ORFXS-01-0040": "audio/01/ORFXS-01-0040.json",
+    "ORFXS-09-0014": "audio/09/ORFXS-09-0014.json",
+    "ORFXS-05-0001": "audio/05/ORFXS-05-0001.json",
+    "ORFXS-06-0014": "audio/06/ORFXS-06-0014.json",
+    "ORFXS-09-0015": "audio/09/ORFXS-09-0015.json",
+    "ORFXS-08-0002": "audio/08/ORFXS-08-0002.json",
+    "ORFXS-04-0061": "audio/04/ORFXS-04-0061.json",
+    "ORFXS-07-0019": "audio/07/ORFXS-07-0019.json",
+    "ORFXS-08-0003": "audio/08/ORFXS-08-0003.json",
+    "ORFXS-08-0004": "audio/08/ORFXS-08-0004.json",
+    "ORFXS-07-0020": "audio/07/ORFXS-07-0020.json",
+    "ORFXS-04-0062": "audio/04/ORFXS-04-0062.json",
+    "ORFXS-04-0063": "audio/04/ORFXS-04-0063.json",
+    "ORFXS-01-0041": "audio/01/ORFXS-01-0041.json",
+    "ORFXS-01-0042": "audio/01/ORFXS-01-0042.json",
+    "ORFXS-01-0043": "audio/01/ORFXS-01-0043.json",
+    "ORFXS-01-0044": "audio/01/ORFXS-01-0044.json",
+    "ORFXS-01-0045": "audio/01/ORFXS-01-0045.json",
+    "ORFXS-01-0046": "audio/01/ORFXS-01-0046.json",
+    "ORFXS-04-0064": "audio/04/ORFXS-04-0064.json",
+    "ORFXS-04-0065": "audio/04/ORFXS-04-0065.json",
+    "ORFXS-04-0066": "audio/04/ORFXS-04-0066.json",
+    "ORFXS-02-0012": "audio/02/ORFXS-02-0012.json",
+    "ORFXS-02-0013": "audio/02/ORFXS-02-0013.json",
+    "ORFXS-02-0014": "audio/02/ORFXS-02-0014.json",
+    "ORFXS-02-0015": "audio/02/ORFXS-02-0015.json",
+    "ORFXS-07-0021": "audio/07/ORFXS-07-0021.json",
+    "ORFXS-07-0022": "audio/07/ORFXS-07-0022.json",
+    "ORFXS-07-0023": "audio/07/ORFXS-07-0023.json",
+    "ORFXS-07-0024": "audio/07/ORFXS-07-0024.json",
+    "ORFXS-07-0025": "audio/07/ORFXS-07-0025.json",
+    "ORFXS-07-0026": "audio/07/ORFXS-07-0026.json",
+    "ORFXS-07-0027": "audio/07/ORFXS-07-0027.json",
+    "ORFXS-07-0028": "audio/07/ORFXS-07-0028.json",
+    "ORFXS-09-0016": "audio/09/ORFXS-09-0016.json",
+    "ORFXS-01-0047": "audio/01/ORFXS-01-0047.json",
+    "ORFXS-01-0048": "audio/01/ORFXS-01-0048.json",
+    "ORFXS-01-0049": "audio/01/ORFXS-01-0049.json",
+    "ORFXS-01-0050": "audio/01/ORFXS-01-0050.json",
+    "ORFXS-01-0051": "audio/01/ORFXS-01-0051.json",
+    "ORFXS-01-0052": "audio/01/ORFXS-01-0052.json",
+    "ORFXS-01-0053": "audio/01/ORFXS-01-0053.json",
+    "ORFXS-09-0017": "audio/09/ORFXS-09-0017.json",
+    "ORFXS-09-0018": "audio/09/ORFXS-09-0018.json",
+    "ORFXS-01-0054": "audio/01/ORFXS-01-0054.json",
+    "ORFXS-01-0055": "audio/01/ORFXS-01-0055.json",
+    "ORFXS-09-0019": "audio/09/ORFXS-09-0019.json",
+    "ORFXS-04-0067": "audio/04/ORFXS-04-0067.json",
+    "ORFXS-02-0016": "audio/02/ORFXS-02-0016.json",
+    "ORFXS-02-0017": "audio/02/ORFXS-02-0017.json",
+    "ORFXS-02-0018": "audio/02/ORFXS-02-0018.json",
+    "ORFXS-02-0019": "audio/02/ORFXS-02-0019.json",
+    "ORFXS-02-0020": "audio/02/ORFXS-02-0020.json",
+    "ORFXS-02-0021": "audio/02/ORFXS-02-0021.json",
+    "ORFXS-02-0022": "audio/02/ORFXS-02-0022.json",
+    "ORFXS-02-0023": "audio/02/ORFXS-02-0023.json",
+    "ORFXS-02-0024": "audio/02/ORFXS-02-0024.json",
+    "ORFXS-02-0025": "audio/02/ORFXS-02-0025.json",
+    "ORFXS-06-0015": "audio/06/ORFXS-06-0015.json"
+  },
+  "pairings": {
+    "ORFX-01-001-01-P01": "pairings/ORFX-01-001-01-P01.json",
+    "ORFX-01-001-02-P01": "pairings/ORFX-01-001-02-P01.json",
+    "ORFX-01-001-03-P01": "pairings/ORFX-01-001-03-P01.json",
+    "ORFX-01-001-04-P01": "pairings/ORFX-01-001-04-P01.json",
+    "ORFX-01-001-05-P01": "pairings/ORFX-01-001-05-P01.json",
+    "ORFX-01-002-01-P01": "pairings/ORFX-01-002-01-P01.json",
+    "ORFX-01-002-02-P01": "pairings/ORFX-01-002-02-P01.json",
+    "ORFX-01-002-03-P01": "pairings/ORFX-01-002-03-P01.json",
+    "ORFX-01-002-04-P01": "pairings/ORFX-01-002-04-P01.json",
+    "ORFX-01-002-05-P01": "pairings/ORFX-01-002-05-P01.json",
+    "ORFX-04-001-01-P01": "pairings/ORFX-04-001-01-P01.json",
+    "ORFX-04-002-01-P01": "pairings/ORFX-04-002-01-P01.json",
+    "ORFX-04-001-02-P01": "pairings/ORFX-04-001-02-P01.json",
+    "ORFX-04-002-02-P01": "pairings/ORFX-04-002-02-P01.json",
+    "ORFX-04-001-03-P01": "pairings/ORFX-04-001-03-P01.json",
+    "ORFX-04-002-03-P01": "pairings/ORFX-04-002-03-P01.json",
+    "ORFX-04-001-04-P01": "pairings/ORFX-04-001-04-P01.json",
+    "ORFX-04-002-04-P01": "pairings/ORFX-04-002-04-P01.json",
+    "ORFX-04-001-05-P01": "pairings/ORFX-04-001-05-P01.json",
+    "ORFX-04-002-05-P01": "pairings/ORFX-04-002-05-P01.json",
+    "ORFX-01-003-01-P01": "pairings/ORFX-01-003-01-P01.json",
+    "ORFX-01-003-02-P01": "pairings/ORFX-01-003-02-P01.json",
+    "ORFX-01-003-03-P01": "pairings/ORFX-01-003-03-P01.json",
+    "ORFX-01-003-04-P01": "pairings/ORFX-01-003-04-P01.json",
+    "ORFX-01-003-05-P01": "pairings/ORFX-01-003-05-P01.json",
+    "ORFX-01-004-01-P01": "pairings/ORFX-01-004-01-P01.json",
+    "ORFX-01-004-02-P01": "pairings/ORFX-01-004-02-P01.json",
+    "ORFX-01-004-03-P01": "pairings/ORFX-01-004-03-P01.json",
+    "ORFX-01-004-04-P01": "pairings/ORFX-01-004-04-P01.json",
+    "ORFX-01-004-05-P01": "pairings/ORFX-01-004-05-P01.json",
+    "ORFX-04-003-01-P01": "pairings/ORFX-04-003-01-P01.json",
+    "ORFX-04-003-02-P01": "pairings/ORFX-04-003-02-P01.json",
+    "ORFX-04-003-03-P01": "pairings/ORFX-04-003-03-P01.json",
+    "ORFX-04-003-04-P01": "pairings/ORFX-04-003-04-P01.json",
+    "ORFX-04-003-05-P01": "pairings/ORFX-04-003-05-P01.json",
+    "ORFX-04-004-01-P01": "pairings/ORFX-04-004-01-P01.json",
+    "ORFX-04-004-02-P01": "pairings/ORFX-04-004-02-P01.json",
+    "ORFX-04-004-03-P01": "pairings/ORFX-04-004-03-P01.json",
+    "ORFX-04-004-04-P01": "pairings/ORFX-04-004-04-P01.json",
+    "ORFX-04-004-05-P01": "pairings/ORFX-04-004-05-P01.json",
+    "ORFX-02-001-01-P01": "pairings/ORFX-02-001-01-P01.json",
+    "ORFX-02-001-02-P01": "pairings/ORFX-02-001-02-P01.json",
+    "ORFX-02-001-03-P01": "pairings/ORFX-02-001-03-P01.json",
+    "ORFX-02-001-04-P01": "pairings/ORFX-02-001-04-P01.json",
+    "ORFX-02-001-05-P01": "pairings/ORFX-02-001-05-P01.json",
+    "ORFX-02-002-01-P01": "pairings/ORFX-02-002-01-P01.json",
+    "ORFX-02-002-02-P01": "pairings/ORFX-02-002-02-P01.json",
+    "ORFX-02-002-03-P01": "pairings/ORFX-02-002-03-P01.json",
+    "ORFX-02-002-04-P01": "pairings/ORFX-02-002-04-P01.json",
+    "ORFX-02-002-05-P01": "pairings/ORFX-02-002-05-P01.json",
+    "ORFX-04-005-01-P01": "pairings/ORFX-04-005-01-P01.json",
+    "ORFX-04-005-02-P01": "pairings/ORFX-04-005-02-P01.json",
+    "ORFX-04-005-03-P01": "pairings/ORFX-04-005-03-P01.json",
+    "ORFX-04-005-04-P01": "pairings/ORFX-04-005-04-P01.json",
+    "ORFX-04-005-05-P01": "pairings/ORFX-04-005-05-P01.json",
+    "ORFX-03-001-01-P01": "pairings/ORFX-03-001-01-P01.json",
+    "ORFX-03-001-02-P01": "pairings/ORFX-03-001-02-P01.json",
+    "ORFX-03-001-03-P01": "pairings/ORFX-03-001-03-P01.json",
+    "ORFX-03-001-04-P01": "pairings/ORFX-03-001-04-P01.json",
+    "ORFX-03-001-05-P01": "pairings/ORFX-03-001-05-P01.json",
+    "ORFX-03-002-01-P01": "pairings/ORFX-03-002-01-P01.json",
+    "ORFX-03-002-02-P01": "pairings/ORFX-03-002-02-P01.json",
+    "ORFX-03-002-03-P01": "pairings/ORFX-03-002-03-P01.json",
+    "ORFX-03-002-04-P01": "pairings/ORFX-03-002-04-P01.json",
+    "ORFX-03-002-05-P01": "pairings/ORFX-03-002-05-P01.json",
+    "ORFX-03-003-01-P01": "pairings/ORFX-03-003-01-P01.json",
+    "ORFX-03-003-02-P01": "pairings/ORFX-03-003-02-P01.json",
+    "ORFX-03-003-03-P01": "pairings/ORFX-03-003-03-P01.json",
+    "ORFX-03-003-04-P01": "pairings/ORFX-03-003-04-P01.json",
+    "ORFX-03-003-05-P01": "pairings/ORFX-03-003-05-P01.json",
+    "ORFX-03-004-01-P01": "pairings/ORFX-03-004-01-P01.json",
+    "ORFX-03-004-02-P01": "pairings/ORFX-03-004-02-P01.json",
+    "ORFX-03-004-03-P01": "pairings/ORFX-03-004-03-P01.json",
+    "ORFX-03-004-04-P01": "pairings/ORFX-03-004-04-P01.json",
+    "ORFX-03-004-05-P01": "pairings/ORFX-03-004-05-P01.json",
+    "ORFX-03-005-01-P01": "pairings/ORFX-03-005-01-P01.json",
+    "ORFX-03-005-02-P01": "pairings/ORFX-03-005-02-P01.json",
+    "ORFX-03-005-03-P01": "pairings/ORFX-03-005-03-P01.json",
+    "ORFX-03-005-04-P01": "pairings/ORFX-03-005-04-P01.json",
+    "ORFX-03-005-05-P01": "pairings/ORFX-03-005-05-P01.json",
+    "ORFX-03-006-01-P01": "pairings/ORFX-03-006-01-P01.json",
+    "ORFX-03-006-02-P01": "pairings/ORFX-03-006-02-P01.json",
+    "ORFX-03-006-03-P01": "pairings/ORFX-03-006-03-P01.json",
+    "ORFX-03-006-04-P01": "pairings/ORFX-03-006-04-P01.json",
+    "ORFX-03-006-05-P01": "pairings/ORFX-03-006-05-P01.json",
+    "ORFX-04-006-01-P01": "pairings/ORFX-04-006-01-P01.json",
+    "ORFX-04-006-02-P01": "pairings/ORFX-04-006-02-P01.json",
+    "ORFX-04-006-03-P01": "pairings/ORFX-04-006-03-P01.json",
+    "ORFX-04-006-04-P01": "pairings/ORFX-04-006-04-P01.json",
+    "ORFX-04-006-05-P01": "pairings/ORFX-04-006-05-P01.json",
+    "ORFX-04-007-01-P01": "pairings/ORFX-04-007-01-P01.json",
+    "ORFX-04-007-02-P01": "pairings/ORFX-04-007-02-P01.json",
+    "ORFX-04-007-03-P01": "pairings/ORFX-04-007-03-P01.json",
+    "ORFX-04-007-04-P01": "pairings/ORFX-04-007-04-P01.json",
+    "ORFX-04-007-05-P01": "pairings/ORFX-04-007-05-P01.json",
+    "ORFX-06-001-01-P01": "pairings/ORFX-06-001-01-P01.json",
+    "ORFX-06-001-02-P01": "pairings/ORFX-06-001-02-P01.json",
+    "ORFX-06-001-03-P01": "pairings/ORFX-06-001-03-P01.json",
+    "ORFX-06-001-04-P01": "pairings/ORFX-06-001-04-P01.json",
+    "ORFX-06-001-05-P01": "pairings/ORFX-06-001-05-P01.json",
+    "ORFX-04-008-01-P01": "pairings/ORFX-04-008-01-P01.json",
+    "ORFX-04-008-02-P01": "pairings/ORFX-04-008-02-P01.json",
+    "ORFX-04-008-03-P01": "pairings/ORFX-04-008-03-P01.json",
+    "ORFX-04-008-04-P01": "pairings/ORFX-04-008-04-P01.json",
+    "ORFX-04-008-05-P01": "pairings/ORFX-04-008-05-P01.json",
+    "ORFX-04-009-01-P01": "pairings/ORFX-04-009-01-P01.json",
+    "ORFX-04-009-02-P01": "pairings/ORFX-04-009-02-P01.json",
+    "ORFX-04-009-03-P01": "pairings/ORFX-04-009-03-P01.json",
+    "ORFX-04-009-04-P01": "pairings/ORFX-04-009-04-P01.json",
+    "ORFX-04-009-05-P01": "pairings/ORFX-04-009-05-P01.json",
+    "ORFX-06-002-01-P01": "pairings/ORFX-06-002-01-P01.json",
+    "ORFX-06-002-02-P01": "pairings/ORFX-06-002-02-P01.json",
+    "ORFX-06-002-03-P01": "pairings/ORFX-06-002-03-P01.json",
+    "ORFX-06-002-04-P01": "pairings/ORFX-06-002-04-P01.json",
+    "ORFX-06-002-05-P01": "pairings/ORFX-06-002-05-P01.json",
+    "ORFX-09-001-01-P01": "pairings/ORFX-09-001-01-P01.json",
+    "ORFX-09-001-02-P01": "pairings/ORFX-09-001-02-P01.json",
+    "ORFX-09-001-03-P01": "pairings/ORFX-09-001-03-P01.json",
+    "ORFX-09-001-04-P01": "pairings/ORFX-09-001-04-P01.json",
+    "ORFX-09-001-05-P01": "pairings/ORFX-09-001-05-P01.json",
+    "ORFX-07-001-01-P01": "pairings/ORFX-07-001-01-P01.json",
+    "ORFX-07-001-02-P01": "pairings/ORFX-07-001-02-P01.json",
+    "ORFX-07-001-03-P01": "pairings/ORFX-07-001-03-P01.json",
+    "ORFX-07-001-04-P01": "pairings/ORFX-07-001-04-P01.json",
+    "ORFX-07-001-05-P01": "pairings/ORFX-07-001-05-P01.json",
+    "ORFX-09-002-01-P01": "pairings/ORFX-09-002-01-P01.json",
+    "ORFX-09-002-02-P01": "pairings/ORFX-09-002-02-P01.json",
+    "ORFX-09-002-03-P01": "pairings/ORFX-09-002-03-P01.json",
+    "ORFX-09-002-04-P01": "pairings/ORFX-09-002-04-P01.json",
+    "ORFX-09-002-05-P01": "pairings/ORFX-09-002-05-P01.json",
+    "ORFX-09-003-01-P01": "pairings/ORFX-09-003-01-P01.json",
+    "ORFX-09-003-02-P01": "pairings/ORFX-09-003-02-P01.json",
+    "ORFX-09-003-03-P01": "pairings/ORFX-09-003-03-P01.json",
+    "ORFX-09-003-04-P01": "pairings/ORFX-09-003-04-P01.json",
+    "ORFX-09-003-05-P01": "pairings/ORFX-09-003-05-P01.json",
+    "ORFX-09-004-01-P01": "pairings/ORFX-09-004-01-P01.json",
+    "ORFX-09-004-02-P01": "pairings/ORFX-09-004-02-P01.json",
+    "ORFX-09-004-03-P01": "pairings/ORFX-09-004-03-P01.json",
+    "ORFX-09-004-04-P01": "pairings/ORFX-09-004-04-P01.json",
+    "ORFX-09-004-05-P01": "pairings/ORFX-09-004-05-P01.json",
+    "ORFX-06-003-01-P01": "pairings/ORFX-06-003-01-P01.json",
+    "ORFX-06-003-02-P01": "pairings/ORFX-06-003-02-P01.json",
+    "ORFX-06-003-03-P01": "pairings/ORFX-06-003-03-P01.json",
+    "ORFX-06-003-04-P01": "pairings/ORFX-06-003-04-P01.json",
+    "ORFX-06-003-05-P01": "pairings/ORFX-06-003-05-P01.json",
+    "ORFX-06-004-01-P01": "pairings/ORFX-06-004-01-P01.json",
+    "ORFX-06-004-02-P01": "pairings/ORFX-06-004-02-P01.json",
+    "ORFX-06-004-03-P01": "pairings/ORFX-06-004-03-P01.json",
+    "ORFX-06-004-04-P01": "pairings/ORFX-06-004-04-P01.json",
+    "ORFX-06-004-05-P01": "pairings/ORFX-06-004-05-P01.json",
+    "ORFX-05-001-01-P01": "pairings/ORFX-05-001-01-P01.json",
+    "ORFX-05-001-02-P01": "pairings/ORFX-05-001-02-P01.json",
+    "ORFX-05-001-03-P01": "pairings/ORFX-05-001-03-P01.json",
+    "ORFX-05-001-04-P01": "pairings/ORFX-05-001-04-P01.json",
+    "ORFX-05-001-05-P01": "pairings/ORFX-05-001-05-P01.json",
+    "ORFX-05-002-01-P01": "pairings/ORFX-05-002-01-P01.json",
+    "ORFX-01-005-01-P01": "pairings/ORFX-01-005-01-P01.json",
+    "ORFX-01-005-02-P01": "pairings/ORFX-01-005-02-P01.json",
+    "ORFX-01-005-03-P01": "pairings/ORFX-01-005-03-P01.json",
+    "ORFX-01-005-04-P01": "pairings/ORFX-01-005-04-P01.json",
+    "ORFX-01-005-05-P01": "pairings/ORFX-01-005-05-P01.json",
+    "ORFX-04-010-02-P01": "pairings/ORFX-04-010-02-P01.json",
+    "ORFX-04-010-04-P01": "pairings/ORFX-04-010-04-P01.json",
+    "ORFX-04-010-05-P01": "pairings/ORFX-04-010-05-P01.json",
+    "ORFX-06-005-03-P01": "pairings/ORFX-06-005-03-P01.json",
+    "ORFX-06-005-05-P01": "pairings/ORFX-06-005-05-P01.json",
+    "ORFX-01-006-01-P01": "pairings/ORFX-01-006-01-P01.json",
+    "ORFX-01-006-02-P01": "pairings/ORFX-01-006-02-P01.json",
+    "ORFX-01-006-03-P01": "pairings/ORFX-01-006-03-P01.json",
+    "ORFX-01-006-04-P01": "pairings/ORFX-01-006-04-P01.json",
+    "ORFX-01-006-05-P01": "pairings/ORFX-01-006-05-P01.json",
+    "ORFX-01-007-01-P01": "pairings/ORFX-01-007-01-P01.json",
+    "ORFX-01-007-02-P01": "pairings/ORFX-01-007-02-P01.json",
+    "ORFX-01-007-03-P01": "pairings/ORFX-01-007-03-P01.json",
+    "ORFX-01-007-04-P01": "pairings/ORFX-01-007-04-P01.json",
+    "ORFX-01-007-05-P01": "pairings/ORFX-01-007-05-P01.json",
+    "ORFX-01-008-01-P01": "pairings/ORFX-01-008-01-P01.json",
+    "ORFX-01-008-02-P01": "pairings/ORFX-01-008-02-P01.json",
+    "ORFX-01-008-03-P01": "pairings/ORFX-01-008-03-P01.json",
+    "ORFX-01-008-04-P01": "pairings/ORFX-01-008-04-P01.json",
+    "ORFX-01-008-05-P01": "pairings/ORFX-01-008-05-P01.json",
+    "ORFX-01-009-03-P01": "pairings/ORFX-01-009-03-P01.json",
+    "ORFX-01-009-04-P01": "pairings/ORFX-01-009-04-P01.json",
+    "ORFX-01-010-01-P01": "pairings/ORFX-01-010-01-P01.json",
+    "ORFX-01-010-02-P01": "pairings/ORFX-01-010-02-P01.json",
+    "ORFX-01-010-03-P01": "pairings/ORFX-01-010-03-P01.json",
+    "ORFX-01-010-04-P01": "pairings/ORFX-01-010-04-P01.json",
+    "ORFX-01-010-05-P01": "pairings/ORFX-01-010-05-P01.json",
+    "ORFX-01-011-01-P01": "pairings/ORFX-01-011-01-P01.json",
+    "ORFX-01-011-02-P01": "pairings/ORFX-01-011-02-P01.json",
+    "ORFX-01-011-03-P01": "pairings/ORFX-01-011-03-P01.json",
+    "ORFX-01-011-05-P01": "pairings/ORFX-01-011-05-P01.json",
+    "ORFX-01-012-01-P01": "pairings/ORFX-01-012-01-P01.json",
+    "ORFX-01-012-02-P01": "pairings/ORFX-01-012-02-P01.json",
+    "ORFX-01-012-03-P01": "pairings/ORFX-01-012-03-P01.json",
+    "ORFX-01-012-05-P01": "pairings/ORFX-01-012-05-P01.json",
+    "ORFX-01-013-01-P01": "pairings/ORFX-01-013-01-P01.json",
+    "ORFX-01-013-05-P01": "pairings/ORFX-01-013-05-P01.json",
+    "ORFX-01-014-01-P01": "pairings/ORFX-01-014-01-P01.json",
+    "ORFX-01-014-04-P01": "pairings/ORFX-01-014-04-P01.json",
+    "ORFX-01-014-05-P01": "pairings/ORFX-01-014-05-P01.json",
+    "ORFX-03-007-01-P01": "pairings/ORFX-03-007-01-P01.json",
+    "ORFX-03-007-02-P01": "pairings/ORFX-03-007-02-P01.json",
+    "ORFX-03-007-04-P01": "pairings/ORFX-03-007-04-P01.json",
+    "ORFX-03-007-05-P01": "pairings/ORFX-03-007-05-P01.json",
+    "ORFX-03-008-03-P01": "pairings/ORFX-03-008-03-P01.json",
+    "ORFX-03-009-01-P01": "pairings/ORFX-03-009-01-P01.json",
+    "ORFX-03-009-02-P01": "pairings/ORFX-03-009-02-P01.json",
+    "ORFX-03-009-04-P01": "pairings/ORFX-03-009-04-P01.json",
+    "ORFX-03-009-05-P01": "pairings/ORFX-03-009-05-P01.json",
+    "ORFX-03-010-03-P01": "pairings/ORFX-03-010-03-P01.json",
+    "ORFX-03-011-01-P01": "pairings/ORFX-03-011-01-P01.json",
+    "ORFX-03-011-02-P01": "pairings/ORFX-03-011-02-P01.json",
+    "ORFX-03-011-04-P01": "pairings/ORFX-03-011-04-P01.json",
+    "ORFX-03-011-05-P01": "pairings/ORFX-03-011-05-P01.json",
+    "ORFX-03-012-03-P01": "pairings/ORFX-03-012-03-P01.json",
+    "ORFX-04-011-01-P01": "pairings/ORFX-04-011-01-P01.json",
+    "ORFX-04-011-02-P01": "pairings/ORFX-04-011-02-P01.json",
+    "ORFX-04-011-03-P01": "pairings/ORFX-04-011-03-P01.json",
+    "ORFX-04-011-04-P01": "pairings/ORFX-04-011-04-P01.json",
+    "ORFX-04-011-05-P01": "pairings/ORFX-04-011-05-P01.json",
+    "ORFX-04-012-01-P01": "pairings/ORFX-04-012-01-P01.json",
+    "ORFX-04-012-02-P01": "pairings/ORFX-04-012-02-P01.json",
+    "ORFX-04-012-03-P01": "pairings/ORFX-04-012-03-P01.json",
+    "ORFX-04-012-04-P01": "pairings/ORFX-04-012-04-P01.json",
+    "ORFX-04-012-05-P01": "pairings/ORFX-04-012-05-P01.json",
+    "ORFX-09-005-01-P01": "pairings/ORFX-09-005-01-P01.json",
+    "ORFX-09-005-02-P01": "pairings/ORFX-09-005-02-P01.json",
+    "ORFX-09-005-03-P01": "pairings/ORFX-09-005-03-P01.json",
+    "ORFX-09-005-04-P01": "pairings/ORFX-09-005-04-P01.json",
+    "ORFX-09-005-05-P01": "pairings/ORFX-09-005-05-P01.json",
+    "ORFX-05-003-01-P01": "pairings/ORFX-05-003-01-P01.json",
+    "ORFX-05-004-01-P01": "pairings/ORFX-05-004-01-P01.json",
+    "ORFX-09-006-01-P01": "pairings/ORFX-09-006-01-P01.json",
+    "ORFX-09-006-05-P01": "pairings/ORFX-09-006-05-P01.json",
+    "ORFX-06-006-01-P01": "pairings/ORFX-06-006-01-P01.json",
+    "ORFX-06-006-05-P01": "pairings/ORFX-06-006-05-P01.json",
+    "ORFX-04-013-01-P01": "pairings/ORFX-04-013-01-P01.json",
+    "ORFX-04-013-05-P01": "pairings/ORFX-04-013-05-P01.json",
+    "ORFX-04-014-01-P01": "pairings/ORFX-04-014-01-P01.json",
+    "ORFX-04-014-02-P01": "pairings/ORFX-04-014-02-P01.json",
+    "ORFX-04-014-03-P01": "pairings/ORFX-04-014-03-P01.json",
+    "ORFX-04-014-04-P01": "pairings/ORFX-04-014-04-P01.json",
+    "ORFX-04-014-05-P01": "pairings/ORFX-04-014-05-P01.json",
+    "ORFX-04-015-01-P01": "pairings/ORFX-04-015-01-P01.json",
+    "ORFX-04-015-02-P01": "pairings/ORFX-04-015-02-P01.json",
+    "ORFX-04-015-03-P01": "pairings/ORFX-04-015-03-P01.json",
+    "ORFX-04-015-04-P01": "pairings/ORFX-04-015-04-P01.json",
+    "ORFX-04-015-05-P01": "pairings/ORFX-04-015-05-P01.json",
+    "ORFX-06-007-01-P01": "pairings/ORFX-06-007-01-P01.json",
+    "ORFX-06-007-02-P01": "pairings/ORFX-06-007-02-P01.json",
+    "ORFX-06-007-03-P01": "pairings/ORFX-06-007-03-P01.json",
+    "ORFX-06-007-04-P01": "pairings/ORFX-06-007-04-P01.json",
+    "ORFX-06-007-05-P01": "pairings/ORFX-06-007-05-P01.json",
+    "ORFX-07-002-01-P01": "pairings/ORFX-07-002-01-P01.json",
+    "ORFX-07-002-02-P01": "pairings/ORFX-07-002-02-P01.json",
+    "ORFX-07-002-03-P01": "pairings/ORFX-07-002-03-P01.json",
+    "ORFX-07-002-04-P01": "pairings/ORFX-07-002-04-P01.json",
+    "ORFX-07-002-05-P01": "pairings/ORFX-07-002-05-P01.json",
+    "ORFX-07-003-01-P01": "pairings/ORFX-07-003-01-P01.json",
+    "ORFX-07-003-02-P01": "pairings/ORFX-07-003-02-P01.json",
+    "ORFX-07-003-03-P01": "pairings/ORFX-07-003-03-P01.json",
+    "ORFX-07-003-04-P01": "pairings/ORFX-07-003-04-P01.json",
+    "ORFX-07-003-05-P01": "pairings/ORFX-07-003-05-P01.json",
+    "ORFX-01-015-03-P01": "pairings/ORFX-01-015-03-P01.json",
+    "ORFX-01-016-03-P01": "pairings/ORFX-01-016-03-P01.json",
+    "ORFX-01-017-01-P01": "pairings/ORFX-01-017-01-P01.json",
+    "ORFX-01-017-02-P01": "pairings/ORFX-01-017-02-P01.json",
+    "ORFX-01-017-03-P01": "pairings/ORFX-01-017-03-P01.json",
+    "ORFX-01-017-04-P01": "pairings/ORFX-01-017-04-P01.json",
+    "ORFX-01-017-05-P01": "pairings/ORFX-01-017-05-P01.json",
+    "ORFX-01-018-01-P01": "pairings/ORFX-01-018-01-P01.json",
+    "ORFX-01-018-02-P01": "pairings/ORFX-01-018-02-P01.json",
+    "ORFX-01-018-03-P01": "pairings/ORFX-01-018-03-P01.json",
+    "ORFX-01-018-04-P01": "pairings/ORFX-01-018-04-P01.json",
+    "ORFX-01-018-05-P01": "pairings/ORFX-01-018-05-P01.json",
+    "ORFX-01-019-01-P01": "pairings/ORFX-01-019-01-P01.json",
+    "ORFX-01-019-02-P01": "pairings/ORFX-01-019-02-P01.json",
+    "ORFX-01-019-03-P01": "pairings/ORFX-01-019-03-P01.json",
+    "ORFX-01-019-04-P01": "pairings/ORFX-01-019-04-P01.json",
+    "ORFX-01-019-05-P01": "pairings/ORFX-01-019-05-P01.json",
+    "ORFX-08-001-00-P01": "pairings/ORFX-08-001-00-P01.json",
+    "ORFX-04-005-03-P02": "pairings/ORFX-04-005-03-P02.json",
+    "ORFX-04-007-03-P02": "pairings/ORFX-04-007-03-P02.json",
+    "ORFX-01-020-00-P01": "pairings/ORFX-01-020-00-P01.json",
+    "ORFX-06-008-00-P01": "pairings/ORFX-06-008-00-P01.json",
+    "ORFX-06-002-03-P02": "pairings/ORFX-06-002-03-P02.json",
+    "ORFX-04-014-03-P02": "pairings/ORFX-04-014-03-P02.json",
+    "ORFX-01-021-00-P01": "pairings/ORFX-01-021-00-P01.json",
+    "ORFX-04-005-03-P03": "pairings/ORFX-04-005-03-P03.json",
+    "ORFX-09-008-00-P01": "pairings/ORFX-09-008-00-P01.json",
+    "ORFX-04-007-03-P03": "pairings/ORFX-04-007-03-P03.json",
+    "ORFX-09-004-03-P02": "pairings/ORFX-09-004-03-P02.json",
+    "ORFX-09-001-03-P02": "pairings/ORFX-09-001-03-P02.json",
+    "ORFX-05-006-00-P01": "pairings/ORFX-05-006-00-P01.json",
+    "ORFX-09-001-03-P03": "pairings/ORFX-09-001-03-P03.json",
+    "ORFX-06-008-00-P02": "pairings/ORFX-06-008-00-P02.json",
+    "ORFX-06-004-03-P02": "pairings/ORFX-06-004-03-P02.json",
+    "ORFX-09-003-03-P02": "pairings/ORFX-09-003-03-P02.json",
+    "ORFX-09-003-03-P03": "pairings/ORFX-09-003-03-P03.json",
+    "ORFX-01-022-00-P01": "pairings/ORFX-01-022-00-P01.json",
+    "ORFX-05-003-01-P02": "pairings/ORFX-05-003-01-P02.json",
+    "ORFX-04-008-03-P02": "pairings/ORFX-04-008-03-P02.json",
+    "ORFX-09-001-03-P04": "pairings/ORFX-09-001-03-P04.json",
+    "ORFX-09-002-03-P02": "pairings/ORFX-09-002-03-P02.json",
+    "ORFX-09-002-03-P03": "pairings/ORFX-09-002-03-P03.json",
+    "ORFX-07-003-03-P02": "pairings/ORFX-07-003-03-P02.json",
+    "ORFX-09-008-00-P02": "pairings/ORFX-09-008-00-P02.json",
+    "ORFX-04-019-00-P01": "pairings/ORFX-04-019-00-P01.json",
+    "ORFX-04-020-00-P01": "pairings/ORFX-04-020-00-P01.json",
+    "ORFX-09-012-00-P01": "pairings/ORFX-09-012-00-P01.json",
+    "ORFX-01-023-00-P01": "pairings/ORFX-01-023-00-P01.json",
+    "ORFX-07-006-00-P01": "pairings/ORFX-07-006-00-P01.json",
+    "ORFX-04-021-00-P01": "pairings/ORFX-04-021-00-P01.json",
+    "ORFX-01-003-03-P02": "pairings/ORFX-01-003-03-P02.json",
+    "ORFX-04-001-03-P02": "pairings/ORFX-04-001-03-P02.json",
+    "ORFX-04-002-03-P02": "pairings/ORFX-04-002-03-P02.json",
+    "ORFX-04-007-03-P04": "pairings/ORFX-04-007-03-P04.json",
+    "ORFX-04-007-03-P05": "pairings/ORFX-04-007-03-P05.json",
+    "ORFX-02-003-03-P01": "pairings/ORFX-02-003-03-P01.json",
+    "ORFX-02-004-03-P01": "pairings/ORFX-02-004-03-P01.json",
+    "ORFX-02-005-03-P01": "pairings/ORFX-02-005-03-P01.json",
+    "ORFX-02-006-03-P01": "pairings/ORFX-02-006-03-P01.json",
+    "ORFX-02-007-03-P01": "pairings/ORFX-02-007-03-P01.json",
+    "ORFX-02-008-03-P01": "pairings/ORFX-02-008-03-P01.json",
+    "ORFX-07-007-00-P01": "pairings/ORFX-07-007-00-P01.json",
+    "ORFX-07-007-00-P02": "pairings/ORFX-07-007-00-P02.json",
+    "ORFX-07-008-00-P01": "pairings/ORFX-07-008-00-P01.json",
+    "ORFX-07-008-00-P02": "pairings/ORFX-07-008-00-P02.json",
+    "ORFX-07-009-00-P01": "pairings/ORFX-07-009-00-P01.json",
+    "ORFX-07-009-00-P02": "pairings/ORFX-07-009-00-P02.json",
+    "ORFX-07-010-00-P01": "pairings/ORFX-07-010-00-P01.json",
+    "ORFX-07-010-00-P02": "pairings/ORFX-07-010-00-P02.json",
+    "ORFX-05-007-00-P01": "pairings/ORFX-05-007-00-P01.json",
+    "ORFX-01-004-04-P02": "pairings/ORFX-01-004-04-P02.json",
+    "ORFX-01-004-05-P02": "pairings/ORFX-01-004-05-P02.json",
+    "ORFX-01-025-03-P01": "pairings/ORFX-01-025-03-P01.json",
+    "ORFX-01-025-03-P02": "pairings/ORFX-01-025-03-P02.json",
+    "ORFX-01-026-03-P01": "pairings/ORFX-01-026-03-P01.json",
+    "ORFX-01-026-03-P02": "pairings/ORFX-01-026-03-P02.json",
+    "ORFX-01-027-03-P01": "pairings/ORFX-01-027-03-P01.json",
+    "ORFX-01-027-03-P02": "pairings/ORFX-01-027-03-P02.json",
+    "ORFX-01-028-03-P01": "pairings/ORFX-01-028-03-P01.json",
+    "ORFX-01-028-03-P02": "pairings/ORFX-01-028-03-P02.json",
+    "ORFX-04-004-03-P02": "pairings/ORFX-04-004-03-P02.json",
+    "ORFX-04-004-03-P03": "pairings/ORFX-04-004-03-P03.json",
+    "ORFX-04-004-03-P04": "pairings/ORFX-04-004-03-P04.json",
+    "ORFX-02-001-03-P02": "pairings/ORFX-02-001-03-P02.json",
+    "ORFX-02-001-03-P03": "pairings/ORFX-02-001-03-P03.json",
+    "ORFX-02-001-03-P04": "pairings/ORFX-02-001-03-P04.json",
+    "ORFX-02-002-03-P02": "pairings/ORFX-02-002-03-P02.json",
+    "ORFX-02-002-03-P03": "pairings/ORFX-02-002-03-P03.json",
+    "ORFX-02-002-03-P04": "pairings/ORFX-02-002-03-P04.json",
+    "ORFX-04-005-03-P04": "pairings/ORFX-04-005-03-P04.json",
+    "ORFX-04-007-03-P06": "pairings/ORFX-04-007-03-P06.json",
+    "ORFX-04-007-03-P07": "pairings/ORFX-04-007-03-P07.json",
+    "ORFX-01-004-03-P02": "pairings/ORFX-01-004-03-P02.json",
+    "ORFX-01-004-03-P03": "pairings/ORFX-01-004-03-P03.json",
+    "ORFX-01-004-03-P04": "pairings/ORFX-01-004-03-P04.json",
+    "ORFX-01-004-03-P05": "pairings/ORFX-01-004-03-P05.json",
+    "ORFX-02-001-03-P05": "pairings/ORFX-02-001-03-P05.json",
+    "ORFX-02-001-03-P06": "pairings/ORFX-02-001-03-P06.json",
+    "ORFX-02-001-03-P07": "pairings/ORFX-02-001-03-P07.json",
+    "ORFX-02-002-03-P05": "pairings/ORFX-02-002-03-P05.json",
+    "ORFX-02-002-03-P06": "pairings/ORFX-02-002-03-P06.json",
+    "ORFX-02-002-03-P07": "pairings/ORFX-02-002-03-P07.json",
+    "ORFX-02-001-03-P08": "pairings/ORFX-02-001-03-P08.json",
+    "ORFX-02-001-03-P09": "pairings/ORFX-02-001-03-P09.json",
+    "ORFX-02-001-03-P10": "pairings/ORFX-02-001-03-P10.json",
+    "ORFX-02-002-03-P08": "pairings/ORFX-02-002-03-P08.json",
+    "ORFX-02-002-03-P09": "pairings/ORFX-02-002-03-P09.json",
+    "ORFX-02-002-03-P10": "pairings/ORFX-02-002-03-P10.json",
+    "ORFX-02-001-03-P11": "pairings/ORFX-02-001-03-P11.json",
+    "ORFX-02-001-03-P12": "pairings/ORFX-02-001-03-P12.json",
+    "ORFX-02-002-03-P11": "pairings/ORFX-02-002-03-P11.json",
+    "ORFX-02-002-03-P12": "pairings/ORFX-02-002-03-P12.json",
+    "ORFX-01-001-03-P02": "pairings/ORFX-01-001-03-P02.json",
+    "ORFX-01-001-03-P03": "pairings/ORFX-01-001-03-P03.json",
+    "ORFX-01-001-03-P04": "pairings/ORFX-01-001-03-P04.json",
+    "ORFX-01-001-03-P05": "pairings/ORFX-01-001-03-P05.json",
+    "ORFX-01-002-03-P02": "pairings/ORFX-01-002-03-P02.json",
+    "ORFX-01-029-03-P01": "pairings/ORFX-01-029-03-P01.json",
+    "ORFX-01-029-03-P02": "pairings/ORFX-01-029-03-P02.json",
+    "ORFX-01-002-03-P03": "pairings/ORFX-01-002-03-P03.json",
+    "ORFX-01-002-03-P04": "pairings/ORFX-01-002-03-P04.json",
+    "ORFX-01-002-03-P05": "pairings/ORFX-01-002-03-P05.json",
+    "ORFX-04-001-03-P03": "pairings/ORFX-04-001-03-P03.json",
+    "ORFX-04-001-03-P04": "pairings/ORFX-04-001-03-P04.json",
+    "ORFX-04-001-03-P05": "pairings/ORFX-04-001-03-P05.json",
+    "ORFX-04-001-03-P06": "pairings/ORFX-04-001-03-P06.json",
+    "ORFX-04-002-03-P03": "pairings/ORFX-04-002-03-P03.json",
+    "ORFX-04-002-03-P04": "pairings/ORFX-04-002-03-P04.json",
+    "ORFX-04-002-03-P05": "pairings/ORFX-04-002-03-P05.json",
+    "ORFX-04-002-03-P06": "pairings/ORFX-04-002-03-P06.json",
+    "ORFX-01-006-03-P02": "pairings/ORFX-01-006-03-P02.json",
+    "ORFX-01-006-03-P03": "pairings/ORFX-01-006-03-P03.json",
+    "ORFX-01-025-03-P03": "pairings/ORFX-01-025-03-P03.json",
+    "ORFX-01-025-03-P04": "pairings/ORFX-01-025-03-P04.json",
+    "ORFX-01-026-03-P03": "pairings/ORFX-01-026-03-P03.json",
+    "ORFX-01-026-03-P04": "pairings/ORFX-01-026-03-P04.json",
+    "ORFX-01-007-03-P02": "pairings/ORFX-01-007-03-P02.json",
+    "ORFX-01-007-03-P03": "pairings/ORFX-01-007-03-P03.json",
+    "ORFX-01-008-03-P02": "pairings/ORFX-01-008-03-P02.json",
+    "ORFX-01-008-03-P03": "pairings/ORFX-01-008-03-P03.json",
+    "ORFX-01-020-00-P02": "pairings/ORFX-01-020-00-P02.json",
+    "ORFX-01-020-00-P03": "pairings/ORFX-01-020-00-P03.json",
+    "ORFX-01-031-03-P01": "pairings/ORFX-01-031-03-P01.json",
+    "ORFX-01-031-03-P02": "pairings/ORFX-01-031-03-P02.json",
+    "ORFX-01-011-03-P02": "pairings/ORFX-01-011-03-P02.json",
+    "ORFX-01-011-03-P03": "pairings/ORFX-01-011-03-P03.json",
+    "ORFX-01-012-03-P02": "pairings/ORFX-01-012-03-P02.json",
+    "ORFX-01-012-03-P03": "pairings/ORFX-01-012-03-P03.json",
+    "ORFX-01-015-03-P02": "pairings/ORFX-01-015-03-P02.json",
+    "ORFX-01-015-03-P03": "pairings/ORFX-01-015-03-P03.json",
+    "ORFX-01-016-03-P02": "pairings/ORFX-01-016-03-P02.json",
+    "ORFX-01-016-03-P03": "pairings/ORFX-01-016-03-P03.json",
+    "ORFX-01-032-03-P01": "pairings/ORFX-01-032-03-P01.json",
+    "ORFX-01-032-03-P02": "pairings/ORFX-01-032-03-P02.json",
+    "ORFX-01-018-03-P02": "pairings/ORFX-01-018-03-P02.json",
+    "ORFX-01-018-03-P03": "pairings/ORFX-01-018-03-P03.json",
+    "ORFX-01-019-03-P02": "pairings/ORFX-01-019-03-P02.json",
+    "ORFX-01-019-03-P03": "pairings/ORFX-01-019-03-P03.json",
+    "ORFX-01-017-03-P02": "pairings/ORFX-01-017-03-P02.json",
+    "ORFX-01-017-03-P03": "pairings/ORFX-01-017-03-P03.json",
+    "ORFX-01-027-03-P03": "pairings/ORFX-01-027-03-P03.json",
+    "ORFX-01-027-03-P04": "pairings/ORFX-01-027-03-P04.json",
+    "ORFX-01-028-03-P03": "pairings/ORFX-01-028-03-P03.json",
+    "ORFX-01-028-03-P04": "pairings/ORFX-01-028-03-P04.json",
+    "ORFX-01-013-03-P01": "pairings/ORFX-01-013-03-P01.json",
+    "ORFX-04-015-03-P02": "pairings/ORFX-04-015-03-P02.json",
+    "ORFX-04-014-03-P03": "pairings/ORFX-04-014-03-P03.json",
+    "ORFX-04-014-03-P04": "pairings/ORFX-04-014-03-P04.json",
+    "ORFX-06-005-03-P02": "pairings/ORFX-06-005-03-P02.json",
+    "ORFX-06-005-03-P03": "pairings/ORFX-06-005-03-P03.json",
+    "ORFX-06-005-03-P04": "pairings/ORFX-06-005-03-P04.json",
+    "ORFX-09-019-03-P01": "pairings/ORFX-09-019-03-P01.json",
+    "ORFX-09-020-03-P01": "pairings/ORFX-09-020-03-P01.json",
+    "ORFX-06-005-03-P05": "pairings/ORFX-06-005-03-P05.json",
+    "ORFX-06-001-03-P02": "pairings/ORFX-06-001-03-P02.json",
+    "ORFX-06-002-03-P03": "pairings/ORFX-06-002-03-P03.json"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "schema": "open-rpgfxs.animation/1",
+  "code": "ORFX-02-001-05",
+  "name_ko": "물리 타격 · 둔격",
+  "category": "02",
+  "category_name": "물리 타격",
+  "intensity_stage": 5,
+  "game_level": 99,
+  "intensity_note": "00/null is unspecified, not inferred from generation order",
+  "file": "spritesheets/02/ORFX-02-001-05.png",
+  "thumbnail": "thumbnails/02/ORFX-02-001-05.png",
+  "frame_size": [
+    384,
+    384
+  ],
+  "source_native_frame_size": [
+    384,
+    384
+  ],
+  "filter": "nearest",
+  "alpha": "straight RGBA; transparent background",
+  "pivot_px": [
+    192,
+    192
+  ],
+  "focus_coordinate_space": "local centered effect; place pivot at runtime target/caster",
+  "fps": 24,
+  "recommended_frame_ms": 41.666667,
+  "frame_durations_ms": null,
+  "recommended_duration_ms": 666.666667,
+  "frame_count": 16,
+  "columns": 4,
+  "rows": 4,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 0.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 1,
+      "x": 384,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 41.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 2,
+      "x": 768,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 83.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 3,
+      "x": 1152,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 125.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 4,
+      "x": 0,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 166.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 5,
+      "x": 384,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 208.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 6,
+      "x": 768,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 250.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 7,
+      "x": 1152,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 291.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 8,
+      "x": 0,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 333.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 9,
+      "x": 384,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 375.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 10,
+      "x": 768,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 416.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 11,
+      "x": 1152,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 458.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 12,
+      "x": 0,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 500.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 13,
+      "x": 384,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 541.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 14,
+      "x": 768,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 583.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 15,
+      "x": 1152,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 625.0,
+      "duration_ms": 41.666667
+    }
+  ],
+  "playback": "one-shot reviewed; source loop is not a certified seamless loop",
+  "sequence_sha256": "8aaeed4522f8a6882a27612c08bcfc1e8f542a0b9a9d419b242bdee2a9f0c2e6",
+  "file_sha256": "21c5d0b90c668509932f6ee46526d5a8b155764c8b5d3788629de87df2ed026a",
+  "source_native_hashes": [
+    "d0af15467325be97bb68ed40d2f2e4bd71aaadfd3fd3141404381bf96ffe00de"
+  ],
+  "source_ids": [
+    "rpg-08-l99"
+  ],
+  "pairings": [
+    "ORFX-02-001-05-P01"
+  ],
+  "concepts": [
+    "blunt",
+    "impact"
+  ],
+  "thumbnail_frame": 3,
+  "visible_first_ms": 41.666667,
+  "visible_end_ms": 458.33333400000004,
+  "pairing_metadata": [
+    "pairings/ORFX-02-001-05-P01.json"
+  ],
+  "timing_by_pairing": {
+    "ORFX-02-001-05-P01": {
+      "impact_events": [
+        {
+          "time_ms": 125.0,
+          "kind": "attack_candidate",
+          "confidence": "candidate",
+          "basis": "시각 피크 추정",
+          "frame_fraction": 3.0,
+          "sample_48k": 6000,
+          "local_point_px": [
+            192,
+            192
+          ],
+          "position_basis": "package pivot / target focus; contact surface pixels not independently measured"
+        }
+      ],
+      "impact_intervals_ms": [],
+      "temporal_pattern": "one-shot",
+      "review_anchor_ms": 125.0,
+      "review_anchor_basis": "시각 피크 추정"
+    }
+  }
+}

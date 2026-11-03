@@ -1,0 +1,89 @@
+{
+  "schema": "open-rpgfxs.previews/1",
+  "note": "Derived demonstrations of reviewed routes. GIFs are silent and loop; MP4s contain one performance with audio. Timing is sampled for video; refer to original sidecars for exact playback.",
+  "previews": [
+    {
+      "pairing": "ORFX-01-001-03-P01",
+      "name_ko": "화살 · 1발 · 일반 명중",
+      "animation": "ORFX-01-001-03",
+      "sound_ids": [
+        "ORFXS-01-0003"
+      ],
+      "gif": "sample/ORFX-01-001-03-P01-preview.gif",
+      "video": "sample/ORFX-01-001-03-P01-preview.mp4",
+      "background": "#141824",
+      "audio_mix_peak": 0.724396,
+      "video_fps": 60,
+      "gif_fps": 25,
+      "preroll_ms": 42.875,
+      "duration_ms": 1250.0
+    },
+    {
+      "pairing": "ORFX-03-002-03-P01",
+      "name_ko": "검격 · 불",
+      "animation": "ORFX-03-002-03",
+      "sound_ids": [
+        "ORFXS-03-0008",
+        "ORFXS-01-0017"
+      ],
+      "gif": "sample/ORFX-03-002-03-P01-preview.gif",
+      "video": "sample/ORFX-03-002-03-P01-preview.mp4",
+      "background": "#141824",
+      "audio_mix_peak": 0.225064,
+      "video_fps": 60,
+      "gif_fps": 25,
+      "preroll_ms": 0.0,
+      "duration_ms": 883.333
+    },
+    {
+      "pairing": "ORFX-04-005-03-P01",
+      "name_ko": "얼음 파쇄",
+      "animation": "ORFX-04-005-03",
+      "sound_ids": [
+        "ORFXS-04-0012"
+      ],
+      "gif": "sample/ORFX-04-005-03-P01-preview.gif",
+      "video": "sample/ORFX-04-005-03-P01-preview.mp4",
+      "background": "#141824",
+      "audio_mix_peak": 0.716034,
+      "video_fps": 60,
+      "gif_fps": 25,
+      "preroll_ms": 0.0,
+      "duration_ms": 1550.0
+    },
+    {
+      "pairing": "ORFX-04-009-03-P01",
+      "name_ko": "번개 · 오른쪽 연속 방전",
+      "animation": "ORFX-04-009-03",
+      "sound_ids": [
+        "ORFXS-04-0020",
+        "ORFXS-04-0028",
+        "ORFXS-04-0026"
+      ],
+      "gif": "sample/ORFX-04-009-03-P01-preview.gif",
+      "video": "sample/ORFX-04-009-03-P01-preview.mp4",
+      "background": "#141824",
+      "audio_mix_peak": 0.473072,
+      "video_fps": 60,
+      "gif_fps": 25,
+      "preroll_ms": 0.0,
+      "duration_ms": 2050.0
+    },
+    {
+      "pairing": "ORFX-07-002-03-P01",
+      "name_ko": "회복 · 십자 표식과 상승 입자",
+      "animation": "ORFX-07-002-03",
+      "sound_ids": [
+        "ORFXS-07-0014"
+      ],
+      "gif": "sample/ORFX-07-002-03-P01-preview.gif",
+      "video": "sample/ORFX-07-002-03-P01-preview.mp4",
+      "background": "#141824",
+      "audio_mix_peak": 0.249327,
+      "video_fps": 60,
+      "gif_fps": 25,
+      "preroll_ms": 0.0,
+      "duration_ms": 1900.0
+    }
+  ]
+}

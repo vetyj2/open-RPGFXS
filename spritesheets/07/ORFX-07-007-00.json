@@ -1,0 +1,348 @@
+{
+  "schema": "open-rpgfxs.animation/1",
+  "code": "ORFX-07-007-00",
+  "name_ko": "불 보호 · 시작 보존",
+  "category": "07",
+  "category_name": "회복·보호",
+  "intensity_stage": 0,
+  "game_level": null,
+  "intensity_note": "00/null is unspecified, not inferred from generation order",
+  "file": "spritesheets/07/ORFX-07-007-00.png",
+  "thumbnail": "thumbnails/07/ORFX-07-007-00.png",
+  "frame_size": [
+    384,
+    384
+  ],
+  "source_native_frame_size": [
+    384,
+    384
+  ],
+  "filter": "nearest",
+  "alpha": "straight RGBA; transparent background",
+  "pivot_px": [
+    192,
+    192
+  ],
+  "focus_coordinate_space": "local centered effect; place pivot at runtime target/caster",
+  "fps": 24,
+  "recommended_frame_ms": 41.666667,
+  "frame_durations_ms": null,
+  "recommended_duration_ms": 1250.0,
+  "frame_count": 30,
+  "columns": 6,
+  "rows": 5,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 0.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 1,
+      "x": 384,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 41.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 2,
+      "x": 768,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 83.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 3,
+      "x": 1152,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 125.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 4,
+      "x": 1536,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 166.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 5,
+      "x": 1920,
+      "y": 0,
+      "w": 384,
+      "h": 384,
+      "start_ms": 208.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 6,
+      "x": 0,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 250.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 7,
+      "x": 384,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 291.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 8,
+      "x": 768,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 333.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 9,
+      "x": 1152,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 375.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 10,
+      "x": 1536,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 416.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 11,
+      "x": 1920,
+      "y": 384,
+      "w": 384,
+      "h": 384,
+      "start_ms": 458.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 12,
+      "x": 0,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 500.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 13,
+      "x": 384,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 541.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 14,
+      "x": 768,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 583.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 15,
+      "x": 1152,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 625.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 16,
+      "x": 1536,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 666.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 17,
+      "x": 1920,
+      "y": 768,
+      "w": 384,
+      "h": 384,
+      "start_ms": 708.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 18,
+      "x": 0,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 750.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 19,
+      "x": 384,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 791.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 20,
+      "x": 768,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 833.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 21,
+      "x": 1152,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 875.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 22,
+      "x": 1536,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 916.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 23,
+      "x": 1920,
+      "y": 1152,
+      "w": 384,
+      "h": 384,
+      "start_ms": 958.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 24,
+      "x": 0,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 1000.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 25,
+      "x": 384,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 1041.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 26,
+      "x": 768,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 1083.333333,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 27,
+      "x": 1152,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 1125.0,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 28,
+      "x": 1536,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 1166.666667,
+      "duration_ms": 41.666667
+    },
+    {
+      "index": 29,
+      "x": 1920,
+      "y": 1536,
+      "w": 384,
+      "h": 384,
+      "start_ms": 1208.333333,
+      "duration_ms": 41.666667
+    }
+  ],
+  "playback": "one-shot reviewed; source loop is not a certified seamless loop",
+  "sequence_sha256": "dad22c4b25b540b1fe90504b5f58d2c8e298de9f18bb019fc3937d8256ada984",
+  "file_sha256": "000cd98e9f0ba2a78fa68d07acdf2239eddd12fc2f181a2a3f6b5986e60ff7c0",
+  "source_native_hashes": [
+    "c4bd1fd085a78317d897183c1cf8ba5ddcfbc74088058149c9b3b3a3db3ed37a"
+  ],
+  "source_ids": [
+    "PAIR-SH-fire-A",
+    "PAIR-SH-fire-B"
+  ],
+  "pairings": [
+    "ORFX-07-007-00-P01",
+    "ORFX-07-007-00-P02"
+  ],
+  "concepts": [
+    "buff",
+    "fire",
+    "shield"
+  ],
+  "thumbnail_frame": 8,
+  "visible_first_ms": 41.666667,
+  "visible_end_ms": 750.0,
+  "pairing_metadata": [
+    "pairings/ORFX-07-007-00-P01.json",
+    "pairings/ORFX-07-007-00-P02.json"
+  ],
+  "timing_by_pairing": {
+    "ORFX-07-007-00-P01": {
+      "impact_events": [],
+      "impact_intervals_ms": [],
+      "temporal_pattern": "continuous",
+      "review_anchor_ms": 41.6666667,
+      "review_anchor_basis": "첫 가시 프레임에 크롭 시작 정렬"
+    },
+    "ORFX-07-007-00-P02": {
+      "impact_events": [],
+      "impact_intervals_ms": [],
+      "temporal_pattern": "continuous",
+      "review_anchor_ms": 41.6666667,
+      "review_anchor_basis": "첫 가시 프레임에 크롭 시작 정렬"
+    }
+  }
+}

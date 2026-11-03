@@ -1,0 +1,353 @@
+{
+  "schema": "open-rpgfxs.keywords/1",
+  "concepts": [
+    {
+      "id": "arrow",
+      "aliases": [
+        "화살",
+        "arrow",
+        "archery"
+      ],
+      "dedupe_group": "arrow"
+    },
+    {
+      "id": "knife",
+      "aliases": [
+        "단검",
+        "투척 칼",
+        "knife",
+        "dagger"
+      ],
+      "dedupe_group": "knife"
+    },
+    {
+      "id": "slash",
+      "aliases": [
+        "검격",
+        "검궤",
+        "베기",
+        "검무",
+        "겹호",
+        "일섬",
+        "앞섬",
+        "다형",
+        "slash",
+        "sword"
+      ],
+      "dedupe_group": "slash"
+    },
+    {
+      "id": "impact",
+      "aliases": [
+        "충돌",
+        "명중",
+        "피격",
+        "타격",
+        "둔격",
+        "강타",
+        "impact",
+        "hit"
+      ],
+      "dedupe_group": "impact"
+    },
+    {
+      "id": "blunt",
+      "aliases": [
+        "물리",
+        "둔격",
+        "강타",
+        "정면 방사형",
+        "측면 방향형",
+        "physical",
+        "blunt"
+      ],
+      "dedupe_group": "blunt"
+    },
+    {
+      "id": "fire",
+      "aliases": [
+        "불",
+        "화염",
+        "파이어",
+        "고열",
+        "작열",
+        "이그나이트",
+        "화상",
+        "fire"
+      ],
+      "dedupe_group": "fire"
+    },
+    {
+      "id": "water",
+      "aliases": [
+        "물",
+        "수면",
+        "수류",
+        "밀크크라운",
+        "분수",
+        "water",
+        "splash"
+      ],
+      "dedupe_group": "water"
+    },
+    {
+      "id": "ice",
+      "aliases": [
+        "얼음",
+        "빙",
+        "동상",
+        "ice",
+        "frost"
+      ],
+      "dedupe_group": "ice"
+    },
+    {
+      "id": "rock",
+      "aliases": [
+        "돌",
+        "바위",
+        "암석",
+        "운석",
+        "자갈",
+        "낙석",
+        "rock",
+        "stone",
+        "meteor"
+      ],
+      "dedupe_group": "rock"
+    },
+    {
+      "id": "electric",
+      "aliases": [
+        "번개",
+        "낙뢰",
+        "전기",
+        "정전기",
+        "감전",
+        "방전",
+        "플라즈마",
+        "electric",
+        "lightning",
+        "thunder"
+      ],
+      "dedupe_group": "electric"
+    },
+    {
+      "id": "poison",
+      "aliases": [
+        "독",
+        "중독",
+        "poison"
+      ],
+      "dedupe_group": "poison"
+    },
+    {
+      "id": "smoke",
+      "aliases": [
+        "연기",
+        "먹구름",
+        "안개",
+        "증기",
+        "smoke",
+        "cloud",
+        "fog"
+      ],
+      "dedupe_group": "smoke"
+    },
+    {
+      "id": "wind",
+      "aliases": [
+        "바람",
+        "낙엽",
+        "회오리",
+        "나선",
+        "wind"
+      ],
+      "dedupe_group": "wind"
+    },
+    {
+      "id": "shadow",
+      "aliases": [
+        "그림자",
+        "어둠",
+        "암흑",
+        "저주",
+        "shadow",
+        "dark"
+      ],
+      "dedupe_group": "shadow"
+    },
+    {
+      "id": "heal",
+      "aliases": [
+        "치유",
+        "회복",
+        "힐",
+        "heal"
+      ],
+      "dedupe_group": "heal"
+    },
+    {
+      "id": "light",
+      "aliases": [
+        "빛",
+        "광휘",
+        "정화",
+        "light"
+      ],
+      "dedupe_group": "light"
+    },
+    {
+      "id": "shield",
+      "aliases": [
+        "보호",
+        "실드",
+        "방패",
+        "무장",
+        "shield",
+        "protection"
+      ],
+      "dedupe_group": "shield"
+    },
+    {
+      "id": "magic",
+      "aliases": [
+        "마력",
+        "마법",
+        "마나",
+        "정신",
+        "에너지",
+        "magic",
+        "mana"
+      ],
+      "dedupe_group": "magic"
+    },
+    {
+      "id": "blood",
+      "aliases": [
+        "출혈",
+        "살1",
+        "살2",
+        "살3",
+        "살4",
+        "혈액",
+        "blood",
+        "flesh"
+      ],
+      "dedupe_group": "blood"
+    },
+    {
+      "id": "metal",
+      "aliases": [
+        "철",
+        "금속",
+        "metal"
+      ],
+      "dedupe_group": "metal"
+    },
+    {
+      "id": "projectile",
+      "aliases": [
+        "탄체",
+        "투척",
+        "화살",
+        "칼",
+        "구체",
+        "첨탄",
+        "화염구",
+        "전기볼",
+        "빙창",
+        "projectile"
+      ],
+      "dedupe_group": "projectile"
+    },
+    {
+      "id": "ground",
+      "aliases": [
+        "지면",
+        "지진",
+        "가시",
+        "균열",
+        "바닥",
+        "ground"
+      ],
+      "dedupe_group": "ground"
+    },
+    {
+      "id": "burst",
+      "aliases": [
+        "폭발",
+        "파쇄",
+        "파손",
+        "분열",
+        "explosion",
+        "shatter"
+      ],
+      "dedupe_group": "burst"
+    },
+    {
+      "id": "continuous",
+      "aliases": [
+        "연속",
+        "지속",
+        "분출",
+        "기둥",
+        "분사",
+        "회오리",
+        "빗",
+        "continuous"
+      ],
+      "dedupe_group": "continuous"
+    },
+    {
+      "id": "rain",
+      "aliases": [
+        "빗",
+        "rain"
+      ],
+      "dedupe_group": "rain"
+    },
+    {
+      "id": "sequence",
+      "aliases": [
+        "연타",
+        "연속 2발",
+        "연속 사격",
+        "시간차",
+        "sequence"
+      ],
+      "dedupe_group": "sequence"
+    },
+    {
+      "id": "buff",
+      "aliases": [
+        "회복",
+        "치유",
+        "보호",
+        "명상",
+        "충전",
+        "집중",
+        "기도",
+        "buff"
+      ],
+      "dedupe_group": "buff"
+    },
+    {
+      "id": "debuff",
+      "aliases": [
+        "중독",
+        "동상",
+        "취약",
+        "저주",
+        "속박",
+        "혼란",
+        "기절",
+        "둔화",
+        "감전 표식",
+        "debuff"
+      ],
+      "dedupe_group": "debuff"
+    }
+  ],
+  "rule": "Canonical concepts count once; Korean 물리→physical and 돌격→charge before substring matching."
+}

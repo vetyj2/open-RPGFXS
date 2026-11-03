@@ -1,0 +1,189 @@
+{
+  "schema": "open-rpgfxs.audio/1",
+  "code": "ORFXS-04-0029",
+  "name_ko": "작은 얼음 ICE01-V1 · 강도1 검수",
+  "file": "audio/04/ORFXS-04-0029.wav",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit little endian",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 25040
+  },
+  "sha256": "6f845071f54d99751d45b2016a2fad6dd8a368ed97bc1baca7ea7ad4a83046b4",
+  "pcm_sha256": "452b0a57c6bfc4f2b4c225bf5bff016a237816090c5e5cbc32c2b4294cc9b157",
+  "metrics": {
+    "duration_ms": 521.666667,
+    "sample_peak_dbfs": -18.5324,
+    "sample_peak_ms": 69.145833,
+    "active_rms_dbfs": -37.8613,
+    "first_activity_ms": 0,
+    "last_activity_ms": 490,
+    "main_onset_candidate_ms": 45,
+    "transient_candidates_ms": [
+      67.5
+    ],
+    "analysis_note": "5ms max-channel RMS; dominant-rise and separated maxima are signal hypotheses, not semantic impact counts or perceived strength"
+  },
+  "fade_baked": true,
+  "normalization": "none; gain is in pairing routes",
+  "source_ids": [
+    "ICE01-V1"
+  ],
+  "sources": [
+    {
+      "source_id": "ICE01-V1",
+      "source_sha256": "7252edda92157c9ad577ff7ed2ab8868c22ecfdd2be85ae8774bcc5b4a315925",
+      "start_sample": 4240,
+      "end_sample_exclusive": 29280,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 182.583326,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    },
+    {
+      "source_id": "ICE01-V1",
+      "source_sha256": "7252edda92157c9ad577ff7ed2ab8868c22ecfdd2be85ae8774bcc5b4a315925",
+      "start_sample": 4240,
+      "end_sample_exclusive": 29280,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 182.583349,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    },
+    {
+      "source_id": "ICE01-V1",
+      "source_sha256": "7252edda92157c9ad577ff7ed2ab8868c22ecfdd2be85ae8774bcc5b4a315925",
+      "start_sample": 4240,
+      "end_sample_exclusive": 29280,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 182.583319,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    },
+    {
+      "source_id": "ICE01-V1",
+      "source_sha256": "7252edda92157c9ad577ff7ed2ab8868c22ecfdd2be85ae8774bcc5b4a315925",
+      "start_sample": 4240,
+      "end_sample_exclusive": 29280,
+      "fade_in_ms": 5.0,
+      "fade_out_ms": 182.583374,
+      "envelope": "33-point sin-in / cos-out, linearly interpolated; gain excluded",
+      "origin": "Grok-generated audio or recorded studio mix thereof; not a claimed live recording"
+    }
+  ],
+  "pairings": [
+    "ORFX-05-001-01-P01",
+    "ORFX-05-001-02-P01",
+    "ORFX-05-001-03-P01",
+    "ORFX-05-001-04-P01",
+    "ORFX-05-002-01-P01"
+  ],
+  "usage_levels": [
+    1,
+    25,
+    50,
+    75
+  ],
+  "concepts": [
+    "ground",
+    "ice"
+  ],
+  "concept_basis": "label-derived descriptors plus reviewed contexts; not acoustic classification",
+  "prompt_records": [],
+  "reuse_restrictions": [
+    {
+      "reuse_policy": "approved_in_recorded_context",
+      "reuse_blocked": false,
+      "reuse_rejected_contexts": [],
+      "source_id": "ICE01-V1"
+    }
+  ],
+  "reviewed_uses": [
+    {
+      "pairing": "ORFX-05-001-01-P01",
+      "source_id": "rpg-32-l01",
+      "name_ko": "얼음가시 · 완전 복귀 후 다음 · native 재질",
+      "level": 1
+    },
+    {
+      "pairing": "ORFX-05-001-02-P01",
+      "source_id": "rpg-32-l25",
+      "name_ko": "얼음가시 · 완전 복귀 후 다음 · native 재질",
+      "level": 25
+    },
+    {
+      "pairing": "ORFX-05-001-03-P01",
+      "source_id": "rpg-32-l50",
+      "name_ko": "얼음가시 · 완전 복귀 후 다음 · native 재질",
+      "level": 50
+    },
+    {
+      "pairing": "ORFX-05-001-04-P01",
+      "source_id": "rpg-32-l75",
+      "name_ko": "얼음가시 · 완전 복귀 후 다음 · native 재질",
+      "level": 75
+    },
+    {
+      "pairing": "ORFX-05-002-01-P01",
+      "source_id": "rpg-33-l01",
+      "name_ko": "얼음가시 · 모두 솟아 유지 후 복귀 · native 재질",
+      "level": 1
+    }
+  ],
+  "best_use": [
+    "얼음가시 · 완전 복귀 후 다음 · native 재질",
+    "얼음가시 · 모두 솟아 유지 후 복귀 · native 재질"
+  ],
+  "usage_patterns": [
+    "one-shot",
+    "sequence"
+  ],
+  "alternate_use": [
+    "Use as a layer with the reviewed route gain and start anchor.",
+    "For a new target, re-anchor the main onset and audition material/scale; matching peak dBFS alone is insufficient."
+  ],
+  "avoid_when": [
+    "A crop carrying several audible events must not be repeated once per hit.",
+    "Source-specific rejected contexts are not automatically reusable."
+  ],
+  "prompt_evidence": "actual prompt not unambiguously linked; concepts below are reviewed-use descriptors, not a reconstructed actual prompt",
+  "slot_patterns": [
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "candidate"
+    },
+    {
+      "pattern": "one-shot",
+      "event_count": 1,
+      "intervals_ms": [],
+      "confidence": "route-level hypothesis; listen for intrinsic secondary events"
+    }
+  ],
+  "intensity_profile": {
+    "reviewed_usage_levels": [
+      1,
+      25,
+      50,
+      75
+    ],
+    "sample_peak_dbfs": -18.5324,
+    "active_rms_dbfs": -37.8613,
+    "note": "Generation order does not determine intensity. These are reviewed usage levels and separate signal measurements, not a universal perceptual ranking."
+  },
+  "prompt_factors": {
+    "action_material_element": [
+      "ground",
+      "ice"
+    ],
+    "temporal_patterns": [
+      "one-shot",
+      "one-shot"
+    ],
+    "duration_ms": 521.666667,
+    "main_onset_candidate_ms": 45,
+    "source": "descriptors from reviewed uses; actual prompt text only in prompt_records when traced"
+  }
+}
